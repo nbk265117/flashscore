@@ -1,0 +1,31 @@
+{
+  "name": "zbet-matches-fetcher",
+  "version": "1.0.0",
+  "description": "Node.js application to fetch and process matches from response.json",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "server": "node server.js",
+    "server:dev": "nodemon server.js",
+    "view": "node index.js && node server.js",
+    "view:dev": "nodemon --exec 'node index.js && node server.js'",
+    "build": "node src/app.js",
+    "serve": "node src/server.js",
+    "serve:dev": "nodemon src/server.js",
+    "app:dev": "nodemon src/app.js",
+    "dev:full": "node scripts/dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["matches", "football", "api", "nodejs"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "type": "commonjs"
+} 

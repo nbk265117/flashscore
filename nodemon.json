@@ -1,0 +1,29 @@
+{
+  "watch": [
+    "src/",
+    "public/",
+    "config/",
+    "index.js",
+    "server.js"
+  ],
+  "ext": "js,json,html,css",
+  "ignore": [
+    "node_modules/",
+    "data/",
+    "docs/",
+    "*.log",
+    "*.md"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "delay": "1000",
+  "verbose": true,
+  "restartable": "rs",
+  "colours": true,
+  "events": {
+    "restart": "echo '🔄 Server restarted due to changes'",
+    "crash": "echo '💥 Server crashed'",
+    "exit": "echo '👋 Server stopped'"
+  }
+} 
