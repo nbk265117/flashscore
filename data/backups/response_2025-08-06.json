@@ -4,7 +4,7 @@
     "date": "2025-08-06"
   },
   "errors": [],
-  "results": 339,
+  "results": 317,
   "paging": {
     "current": 1,
     "total": 1
@@ -18,8 +18,8 @@
         "date": "2025-08-06T00:00:00+00:00",
         "timestamp": 1754438400,
         "periods": {
-          "first": 1754438400,
-          "second": 1754442000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 310,
@@ -27,10 +27,10 @@
           "city": "Montreal, Quebec"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 8
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -48,27 +48,27 @@
           "id": 1614,
           "name": "CF Montreal",
           "logo": "https://media.api-sports.io/football/teams/1614.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 2291,
           "name": "Puebla",
           "logo": "https://media.api-sports.io/football/teams/2291.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -88,8 +88,8 @@
         "date": "2025-08-06T00:00:00+00:00",
         "timestamp": 1754438400,
         "periods": {
-          "first": 1754438400,
-          "second": 1754442000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -97,10 +97,10 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -118,27 +118,27 @@
           "id": 5475,
           "name": "Verdes",
           "logo": "https://media.api-sports.io/football/teams/5475.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 816,
           "name": "Deportivo Saprissa",
           "logo": "https://media.api-sports.io/football/teams/816.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -158,8 +158,8 @@
         "date": "2025-08-06T00:10:00+00:00",
         "timestamp": 1754439000,
         "periods": {
-          "first": 1754439000,
-          "second": 1754442600
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 20215,
@@ -167,10 +167,10 @@
           "city": "Quilmes, Provincia de Buenos Aires"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 9
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -188,27 +188,27 @@
           "id": 480,
           "name": "Quilmes",
           "logo": "https://media.api-sports.io/football/teams/480.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 1948,
           "name": "Atlanta",
           "logo": "https://media.api-sports.io/football/teams/1948.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 2,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -228,8 +228,8 @@
         "date": "2025-08-06T00:30:00+00:00",
         "timestamp": 1754440200,
         "periods": {
-          "first": 1754440200,
-          "second": 1754443800
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 19418,
@@ -237,10 +237,10 @@
           "city": "Houston, Texas"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -258,27 +258,27 @@
           "id": 1600,
           "name": "Houston Dynamo",
           "logo": "https://media.api-sports.io/football/teams/1600.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 2292,
           "name": "Pachuca",
           "logo": "https://media.api-sports.io/football/teams/2292.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -298,8 +298,8 @@
         "date": "2025-08-06T00:30:00+00:00",
         "timestamp": 1754440200,
         "periods": {
-          "first": 1754440200,
-          "second": 1754443800
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 10494,
@@ -307,10 +307,10 @@
           "city": "Santos, São Paulo"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 5
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -328,27 +328,97 @@
           "id": 24486,
           "name": "Santos U17",
           "logo": "https://media.api-sports.io/football/teams/24486.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 24475,
           "name": "Corinthians U17",
           "logo": "https://media.api-sports.io/football/teams/24475.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
-        "away": 3
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 0,
-          "away": 3
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1377535,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T00:30:00+00:00",
+        "timestamp": 1754440200,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 19377,
+          "name": "Estádio São Januário",
+          "city": "Rio de Janeiro, Rio de Janeiro"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 73,
+        "name": "Copa Do Brasil",
+        "country": "Brazil",
+        "logo": "https://media.api-sports.io/football/leagues/73.png",
+        "flag": "https://media.api-sports.io/flags/br.svg",
+        "season": 2025,
+        "round": "Round of 16",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 133,
+          "name": "Vasco DA Gama",
+          "logo": "https://media.api-sports.io/football/teams/133.png",
+          "winner": null
+        },
+        "away": {
+          "id": 150,
+          "name": "CSA",
+          "logo": "https://media.api-sports.io/football/teams/150.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -363,13 +433,13 @@
     {
       "fixture": {
         "id": 1402660,
-        "referee": "Augusto Mendez, Peru",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T01:00:00+00:00",
         "timestamp": 1754442000,
         "periods": {
-          "first": 1754442000,
-          "second": 1754445600
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 1230,
@@ -377,10 +447,10 @@
           "city": "Lima"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -408,17 +478,17 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -433,13 +503,13 @@
     {
       "fixture": {
         "id": 1412884,
-        "referee": "Mauricio Manuel Mercado Palencia",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T01:00:00+00:00",
         "timestamp": 1754442000,
         "periods": {
-          "first": 1754442000,
-          "second": 1754445600
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 1867,
@@ -447,10 +517,10 @@
           "city": "Palmira"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 5
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -478,17 +548,17 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -508,8 +578,8 @@
         "date": "2025-08-06T02:00:00+00:00",
         "timestamp": 1754445600,
         "periods": {
-          "first": 1754445600,
-          "second": 1754449200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -517,10 +587,10 @@
           "city": "San Diego, California"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -538,27 +608,27 @@
           "id": 14002,
           "name": "Mazatlán",
           "logo": "https://media.api-sports.io/football/teams/14002.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 25484,
           "name": "San Diego",
           "logo": "https://media.api-sports.io/football/teams/25484.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 0,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -578,8 +648,8 @@
         "date": "2025-08-06T02:00:00+00:00",
         "timestamp": 1754445600,
         "periods": {
-          "first": 1754445600,
-          "second": 1754449200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 2456,
@@ -587,10 +657,10 @@
           "city": "Antigua"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -618,17 +688,17 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -657,9 +727,9 @@
           "city": "Tegucigalpa"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -678,27 +748,27 @@
           "id": 1055,
           "name": "CD Motagua",
           "logo": "https://media.api-sports.io/football/teams/1055.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 2890,
           "name": "Independiente de La Chorrera",
           "logo": "https://media.api-sports.io/football/teams/2890.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 2,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -718,8 +788,8 @@
         "date": "2025-08-06T02:30:00+00:00",
         "timestamp": 1754447400,
         "periods": {
-          "first": 1754447400,
-          "second": 1754451000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 19419,
@@ -727,9 +797,9 @@
           "city": "Los Angeles, California"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -748,27 +818,27 @@
           "id": 2279,
           "name": "Tigres UANL",
           "logo": "https://media.api-sports.io/football/teams/2279.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 1616,
           "name": "Los Angeles FC",
           "logo": "https://media.api-sports.io/football/teams/1616.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -797,9 +867,9 @@
           "city": "Waitakere City"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -818,97 +888,27 @@
           "id": 21124,
           "name": "West Coast Rangers",
           "logo": "https://media.api-sports.io/football/teams/21124.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 20649,
           "name": "Auckland United",
           "logo": "https://media.api-sports.io/football/teams/20649.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 5
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 3
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 5
-        },
-        "extratime": {
           "home": null,
           "away": null
         },
-        "penalty": {
+        "fulltime": {
           "home": null,
           "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424259,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T07:30:00+00:00",
-        "timestamp": 1754465400,
-        "periods": {
-          "first": 1754465400,
-          "second": 1754469000
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 16935,
-          "name": "Lebanon W",
-          "logo": "https://media.api-sports.io/football/teams/16935.png",
-          "winner": true
-        },
-        "away": {
-          "id": 26046,
-          "name": "Cambodia W",
-          "logo": "https://media.api-sports.io/football/teams/26046.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 0
         },
         "extratime": {
           "home": null,
@@ -928,8 +928,8 @@
         "date": "2025-08-06T08:00:00+00:00",
         "timestamp": 1754467200,
         "periods": {
-          "first": 1754467200,
-          "second": 1754470800
+          "first": 1753869600,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -937,10 +937,10 @@
           "city": "New Lambton"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -958,18 +958,18 @@
           "id": 20789,
           "name": "New Lambton",
           "logo": "https://media.api-sports.io/football/teams/20789.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 10201,
           "name": "Adamstown Rosebuds",
           "logo": "https://media.api-sports.io/football/teams/10201.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
-        "away": 3
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
@@ -977,8 +977,8 @@
           "away": 1
         },
         "fulltime": {
-          "home": 0,
-          "away": 3
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -998,8 +998,8 @@
         "date": "2025-08-06T08:00:00+00:00",
         "timestamp": 1754467200,
         "periods": {
-          "first": 1754467200,
-          "second": 1754470800
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 0,
@@ -1007,10 +1007,10 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 4
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1038,157 +1038,17 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 0,
-          "away": 0
-        },
-        "extratime": {
           "home": null,
           "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424260,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T08:00:00+00:00",
-        "timestamp": 1754467200,
-        "periods": {
-          "first": 1754467200,
-          "second": 1754470800
-        },
-        "venue": {
-          "id": 21632,
-          "name": "Changlimithang Stadium",
-          "city": "Thimphu"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 3",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 23206,
-          "name": "Korea DPR U20",
-          "logo": "https://media.api-sports.io/football/teams/23206.png",
-          "winner": true
-        },
-        "away": {
-          "id": 20453,
-          "name": "Saudi Arabia W",
-          "logo": "https://media.api-sports.io/football/teams/20453.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 15,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 9,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 15,
-          "away": 0
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424288,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T08:45:00+00:00",
-        "timestamp": 1754469900,
-        "periods": {
-          "first": 1754469900,
-          "second": 1754473500
-        },
-        "venue": {
-          "id": 20723,
-          "name": "Kuala Lumpur Football Stadium",
-          "city": "Kuala Lumpur"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 5
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 19086,
-          "name": "Japan U20 W",
-          "logo": "https://media.api-sports.io/football/teams/19086.png",
-          "winner": true
-        },
-        "away": {
-          "id": 26268,
-          "name": "Guam U20 W",
-          "logo": "https://media.api-sports.io/football/teams/26268.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 5,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 3,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 5,
-          "away": 0
         },
         "extratime": {
           "home": null,
@@ -1208,8 +1068,8 @@
         "date": "2025-08-06T09:00:00+00:00",
         "timestamp": 1754470800,
         "periods": {
-          "first": 1754470800,
-          "second": 1754474400
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -1217,10 +1077,10 @@
           "city": "Budapest"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1238,97 +1098,27 @@
           "id": 11860,
           "name": "Újpest II",
           "logo": "https://media.api-sports.io/football/teams/11860.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 2401,
           "name": "Dorogi FC",
           "logo": "https://media.api-sports.io/football/teams/2401.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 2
-        },
-        "extratime": {
           "home": null,
           "away": null
         },
-        "penalty": {
+        "fulltime": {
           "home": null,
           "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424289,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T09:00:00+00:00",
-        "timestamp": 1754470800,
-        "periods": {
-          "first": 1754470800,
-          "second": 1754474400
-        },
-        "venue": {
-          "id": null,
-          "name": "Yanmar Field",
-          "city": "Hà Nội (Hanoi)"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 26270,
-          "name": "Kyrgyzstan W",
-          "logo": "https://media.api-sports.io/football/teams/26270.png",
-          "winner": false
-        },
-        "away": {
-          "id": 17896,
-          "name": "Hong Kong W",
-          "logo": "https://media.api-sports.io/football/teams/17896.png",
-          "winner": true
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 2
-      },
-      "score": {
-        "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 2
         },
         "extratime": {
           "home": null,
@@ -1348,8 +1138,8 @@
         "date": "2025-08-06T09:30:00+00:00",
         "timestamp": 1754472600,
         "periods": {
-          "first": 1754472600,
-          "second": 1754476200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 20680,
@@ -1357,10 +1147,10 @@
           "city": "Canberra"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1378,18 +1168,18 @@
           "id": 23515,
           "name": "ANU",
           "logo": "https://media.api-sports.io/football/teams/23515.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 1450,
           "name": "Canberra Olympic",
           "logo": "https://media.api-sports.io/football/teams/1450.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
@@ -1397,8 +1187,8 @@
           "away": 0
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -1418,8 +1208,8 @@
         "date": "2025-08-06T09:30:00+00:00",
         "timestamp": 1754472600,
         "periods": {
-          "first": 1754472600,
-          "second": 1754476200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -1427,10 +1217,10 @@
           "city": "Ōsaka (Osaka)"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 8
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1448,27 +1238,27 @@
           "id": 292,
           "name": "FC Tokyo",
           "logo": "https://media.api-sports.io/football/teams/292.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 291,
           "name": "Cerezo Osaka",
           "logo": "https://media.api-sports.io/football/teams/291.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 2,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -1488,8 +1278,8 @@
         "date": "2025-08-06T09:30:00+00:00",
         "timestamp": 1754472600,
         "periods": {
-          "first": 1754472600,
-          "second": 1754476200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 20557,
@@ -1497,10 +1287,10 @@
           "city": "Hiroshima"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1518,27 +1308,27 @@
           "id": 282,
           "name": "Sanfrecce Hiroshima",
           "logo": "https://media.api-sports.io/football/teams/282.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 283,
           "name": "Shimizu S-pulse",
           "logo": "https://media.api-sports.io/football/teams/283.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 3,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -1558,8 +1348,8 @@
         "date": "2025-08-06T09:30:00+00:00",
         "timestamp": 1754472600,
         "periods": {
-          "first": 1754472600,
-          "second": 1754476200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 968,
@@ -1567,10 +1357,10 @@
           "city": "Tokyo"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 8
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1588,97 +1378,27 @@
           "id": 303,
           "name": "Machida Zelvia",
           "logo": "https://media.api-sports.io/football/teams/303.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 302,
           "name": "Kyoto Sanga",
           "logo": "https://media.api-sports.io/football/teams/302.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 0
-        },
-        "extratime": {
           "home": null,
           "away": null
         },
-        "penalty": {
+        "fulltime": {
           "home": null,
           "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1421489,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T09:30:00+00:00",
-        "timestamp": 1754472600,
-        "periods": {
-          "first": 1754472600,
-          "second": 1754476200
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 1
-        }
-      },
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "flag": null,
-        "season": 2025,
-        "round": "Club Friendlies 5",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 731,
-          "name": "Sporting Gijon",
-          "logo": "https://media.api-sports.io/football/teams/731.png",
-          "winner": true
-        },
-        "away": {
-          "id": 725,
-          "name": "Cultural Leonesa",
-          "logo": "https://media.api-sports.io/football/teams/725.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 3,
-        "away": 2
-      },
-      "score": {
-        "halftime": {
-          "home": 2,
-          "away": 2
-        },
-        "fulltime": {
-          "home": 3,
-          "away": 2
         },
         "extratime": {
           "home": null,
@@ -1707,9 +1427,9 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -1738,17 +1458,17 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -1768,8 +1488,8 @@
         "date": "2025-08-06T09:30:00+00:00",
         "timestamp": 1754472600,
         "periods": {
-          "first": 1754472600,
-          "second": 1754476200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -1777,9 +1497,9 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -1798,27 +1518,27 @@
           "id": 21612,
           "name": "Wari",
           "logo": "https://media.api-sports.io/football/teams/21612.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 22001,
           "name": "Aryan",
           "logo": "https://media.api-sports.io/football/teams/22001.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 3,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -1838,8 +1558,8 @@
         "date": "2025-08-06T09:30:00+00:00",
         "timestamp": 1754472600,
         "periods": {
-          "first": 1754472600,
-          "second": 1754476200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -1847,10 +1567,10 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 8
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -1868,97 +1588,27 @@
           "id": 21215,
           "name": "Rainbow",
           "logo": "https://media.api-sports.io/football/teams/21215.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 8241,
           "name": "United",
           "logo": "https://media.api-sports.io/football/teams/8241.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 2
-        },
-        "extratime": {
           "home": null,
           "away": null
         },
-        "penalty": {
+        "fulltime": {
           "home": null,
           "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424261,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T09:30:00+00:00",
-        "timestamp": 1754472600,
-        "periods": {
-          "first": 1754472600,
-          "second": 1754476200
-        },
-        "venue": {
-          "id": 19697,
-          "name": "Thuwunna Stadium",
-          "city": "Yangon"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 5
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 14462,
-          "name": "Myanmar W",
-          "logo": "https://media.api-sports.io/football/teams/14462.png",
-          "winner": true
-        },
-        "away": {
-          "id": 21023,
-          "name": "Turkmenistan W",
-          "logo": "https://media.api-sports.io/football/teams/21023.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 6,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 4,
-          "away": 1
-        },
-        "fulltime": {
-          "home": 6,
-          "away": 1
         },
         "extratime": {
           "home": null,
@@ -1978,8 +1628,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 7159,
@@ -1987,10 +1637,10 @@
           "city": "East Maitland"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 4
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -2008,27 +1658,27 @@
           "id": 10208,
           "name": "Maitland",
           "logo": "https://media.api-sports.io/football/teams/10208.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 18313,
           "name": "Cooks Hill United",
           "logo": "https://media.api-sports.io/football/teams/18313.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 2,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 3,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -2048,8 +1698,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 7161,
@@ -2057,10 +1707,10 @@
           "city": "Newcastle"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 4
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -2078,27 +1728,27 @@
           "id": 10210,
           "name": "Weston Bears",
           "logo": "https://media.api-sports.io/football/teams/10210.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 10205,
           "name": "Hamilton Olympic",
           "logo": "https://media.api-sports.io/football/teams/10205.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 5,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 3,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 5,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -2118,8 +1768,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 2565,
@@ -2127,10 +1777,10 @@
           "city": "Adelaide"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 1
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -2148,27 +1798,27 @@
           "id": 3793,
           "name": "MetroStars",
           "logo": "https://media.api-sports.io/football/teams/3793.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 3792,
           "name": "Croydon Kings",
           "logo": "https://media.api-sports.io/football/teams/3792.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 4,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 4,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -2188,8 +1838,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 984,
@@ -2197,9 +1847,9 @@
           "city": "Kobe"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "AET",
-          "elapsed": 120,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -2218,31 +1868,31 @@
           "id": 289,
           "name": "Vissel Kobe",
           "logo": "https://media.api-sports.io/football/teams/289.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 26061,
           "name": "Toyo University",
           "logo": "https://media.api-sports.io/football/teams/26061.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "penalty": {
           "home": null,
@@ -2258,8 +1908,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 964,
@@ -2267,9 +1917,9 @@
           "city": "Kashima"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "AET",
-          "elapsed": 120,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -2288,31 +1938,31 @@
           "id": 290,
           "name": "Kashima",
           "logo": "https://media.api-sports.io/football/teams/290.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 316,
           "name": "Avispa Fukuoka",
           "logo": "https://media.api-sports.io/football/teams/316.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 2,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "extratime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "penalty": {
           "home": null,
@@ -2328,8 +1978,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": 21809,
@@ -2337,9 +1987,9 @@
           "city": "Hiratsuka"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "AET",
-          "elapsed": 120,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -2358,31 +2008,31 @@
           "id": 4324,
           "name": "Sagamihara",
           "logo": "https://media.api-sports.io/football/teams/4324.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 4315,
           "name": "Blaublitz Akita",
           "logo": "https://media.api-sports.io/football/teams/4315.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "penalty": {
           "home": null,
@@ -2398,8 +2048,8 @@
         "date": "2025-08-06T10:00:00+00:00",
         "timestamp": 1754474400,
         "periods": {
-          "first": 1754474400,
-          "second": 1754478000
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -2407,10 +2057,10 @@
           "city": "Tendō (Tendo)"
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -2428,27 +2078,97 @@
           "id": 312,
           "name": "Montedio Yamagata",
           "logo": "https://media.api-sports.io/football/teams/312.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 287,
           "name": "Urawa",
           "logo": "https://media.api-sports.io/football/teams/287.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1421489,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T10:00:00+00:00",
+        "timestamp": 1754474400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2025,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 731,
+          "name": "Sporting Gijon",
+          "logo": "https://media.api-sports.io/football/teams/731.png",
+          "winner": null
+        },
+        "away": {
+          "id": 725,
+          "name": "Cultural Leonesa",
+          "logo": "https://media.api-sports.io/football/teams/725.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -2608,8 +2328,8 @@
         "date": "2025-08-06T11:00:00+00:00",
         "timestamp": 1754478000,
         "periods": {
-          "first": 1754478000,
-          "second": 1754481600
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -2617,9 +2337,9 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -2638,27 +2358,27 @@
           "id": 7962,
           "name": "Molde U19",
           "logo": "https://media.api-sports.io/football/teams/7962.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 16565,
           "name": "Strømsgodset U19",
           "logo": "https://media.api-sports.io/football/teams/16565.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 4,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 4,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -2748,8 +2468,8 @@
         "date": "2025-08-06T11:30:00+00:00",
         "timestamp": 1754479800,
         "periods": {
-          "first": 1754479800,
-          "second": 1754483400
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
@@ -2757,10 +2477,10 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -2778,27 +2498,97 @@
           "id": 20812,
           "name": "HamKam U19",
           "logo": "https://media.api-sports.io/football/teams/20812.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 16567,
           "name": "Viking U19",
           "logo": "https://media.api-sports.io/football/teams/16567.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 1,
-          "away": 2
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1421491,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T12:00:00+00:00",
+        "timestamp": 1754481600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2025,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 507,
+          "name": "Ascoli",
+          "logo": "https://media.api-sports.io/football/teams/507.png",
+          "winner": null
+        },
+        "away": {
+          "id": 900,
+          "name": "Maceratese",
+          "logo": "https://media.api-sports.io/football/teams/900.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -2882,413 +2672,63 @@
     },
     {
       "fixture": {
-        "id": 1424263,
+        "id": 1421494,
         "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T12:00:00+00:00",
         "timestamp": 1754481600,
         "periods": {
-          "first": 1754481600,
-          "second": 1754485200
-        },
-        "venue": {
-          "id": 21632,
-          "name": "Changlimithang Stadium",
-          "city": "Thimphu"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 17890,
-          "name": "Nepal W",
-          "logo": "https://media.api-sports.io/football/teams/17890.png",
-          "winner": null
-        },
-        "away": {
-          "id": 20452,
-          "name": "Bhutan W",
-          "logo": "https://media.api-sports.io/football/teams/20452.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 1
-        },
-        "fulltime": {
-          "home": 1,
-          "away": 1
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424290,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T12:00:00+00:00",
-        "timestamp": 1754481600,
-        "periods": {
-          "first": 1754481600,
-          "second": 1754485200
+          "first": null,
+          "second": null
         },
         "venue": {
           "id": null,
-          "name": "Yanmar Field",
-          "city": "Hà Nội (Hanoi)"
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 23208,
-          "name": "Vietnam U20 W",
-          "logo": "https://media.api-sports.io/football/teams/23208.png",
-          "winner": true
-        },
-        "away": {
-          "id": 26272,
-          "name": "Singapore U20 W",
-          "logo": "https://media.api-sports.io/football/teams/26272.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 5,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 5,
-          "away": 0
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424264,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T12:30:00+00:00",
-        "timestamp": 1754483400,
-        "periods": {
-          "first": 1754483400,
-          "second": 1754487000
-        },
-        "venue": {
-          "id": 21438,
-          "name": "Lao National Stadium KM16",
-          "city": "Vientiane"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 4
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 17885,
-          "name": "Bangladesh W",
-          "logo": "https://media.api-sports.io/football/teams/17885.png",
-          "winner": true
-        },
-        "away": {
-          "id": 18267,
-          "name": "Laos W",
-          "logo": "https://media.api-sports.io/football/teams/18267.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 3,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 3,
-          "away": 1
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424291,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T12:30:00+00:00",
-        "timestamp": 1754483400,
-        "periods": {
-          "first": 1754483400,
-          "second": 1754487000
-        },
-        "venue": {
-          "id": 19697,
-          "name": "Thuwunna Stadium",
-          "city": "Yangon"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 26269,
-          "name": "India U20 W",
-          "logo": "https://media.api-sports.io/football/teams/26269.png",
-          "winner": null
-        },
-        "away": {
-          "id": 17887,
-          "name": "Indonesia W",
-          "logo": "https://media.api-sports.io/football/teams/17887.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": 0,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 0,
-          "away": 0
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424292,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T12:30:00+00:00",
-        "timestamp": 1754483400,
-        "periods": {
-          "first": 1754483400,
-          "second": 1754487000
-        },
-        "venue": {
-          "id": 20636,
-          "name": "Do’stlik Stadion",
-          "city": "Tashkent"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 6
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 16933,
-          "name": "Jordan W",
-          "logo": "https://media.api-sports.io/football/teams/16933.png",
-          "winner": true
-        },
-        "away": {
-          "id": 26271,
-          "name": "N. Mariana W",
-          "logo": "https://media.api-sports.io/football/teams/26271.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 6,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 2,
-          "away": 0
-        },
-        "fulltime": {
-          "home": 6,
-          "away": 1
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424265,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T12:45:00+00:00",
-        "timestamp": 1754484300,
-        "periods": {
-          "first": 1754484300,
-          "second": 1754487900
-        },
-        "venue": {
-          "id": 20723,
-          "name": "Kuala Lumpur Football Stadium",
-          "city": "Kuala Lumpur"
-        },
-        "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
       "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
+        "id": 667,
+        "name": "Friendlies Clubs",
         "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
         "flag": null,
         "season": 2025,
-        "round": "1st Round - 1",
+        "round": "Club Friendlies 5",
         "standings": false
       },
       "teams": {
         "home": {
-          "id": 16932,
-          "name": "Iran W",
-          "logo": "https://media.api-sports.io/football/teams/16932.png",
-          "winner": true
+          "id": 9643,
+          "name": "Racing Santander II",
+          "logo": "https://media.api-sports.io/football/teams/9643.png",
+          "winner": null
         },
         "away": {
-          "id": 18268,
-          "name": "Malaysia W",
-          "logo": "https://media.api-sports.io/football/teams/18268.png",
-          "winner": false
+          "id": 9648,
+          "name": "Sámano",
+          "logo": "https://media.api-sports.io/football/teams/9648.png",
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 2,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 3,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -3308,19 +2748,19 @@
         "date": "2025-08-06T13:00:00+00:00",
         "timestamp": 1754485200,
         "periods": {
-          "first": 1754485200,
-          "second": 1754488800
+          "first": null,
+          "second": null
         },
         "venue": {
-          "id": 11634,
-          "name": "Stadion Znamya",
-          "city": "Noginsk"
+          "id": null,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
-          "extra": 7
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -3338,27 +2778,27 @@
           "id": 14121,
           "name": "Znamya Noginsk",
           "logo": "https://media.api-sports.io/football/teams/14121.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 6804,
           "name": "Kolomna",
           "logo": "https://media.api-sports.io/football/teams/6804.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 3,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -3378,19 +2818,19 @@
         "date": "2025-08-06T13:00:00+00:00",
         "timestamp": 1754485200,
         "periods": {
-          "first": 1754485200,
-          "second": 1754488800
+          "first": null,
+          "second": null
         },
         "venue": {
-          "id": 2840,
-          "name": "Stadion Zvezda",
-          "city": "Perm'"
+          "id": null,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 90,
-          "extra": 11
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -3408,23 +2848,23 @@
           "id": 16872,
           "name": "Ilpar",
           "logo": "https://media.api-sports.io/football/teams/16872.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 6818,
           "name": "Nosta",
           "logo": "https://media.api-sports.io/football/teams/6818.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 3,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 2,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -3582,19 +3022,19 @@
     },
     {
       "fixture": {
-        "id": 1420183,
+        "id": 1392311,
         "referee": null,
         "timezone": "UTC",
-        "date": "2025-08-06T13:00:00+00:00",
-        "timestamp": 1754485200,
+        "date": "2025-08-06T14:00:00+00:00",
+        "timestamp": 1754488800,
         "periods": {
           "first": null,
           "second": null
         },
         "venue": {
-          "id": 0,
-          "name": null,
-          "city": null
+          "id": 3216,
+          "name": "Markaziy Stadion",
+          "city": "Namangan"
         },
         "status": {
           "long": "Not Started",
@@ -3604,26 +3044,26 @@
         }
       },
       "league": {
-        "id": 636,
-        "name": "Ýokary Liga",
-        "country": "Turkmenistan",
-        "logo": "https://media.api-sports.io/football/leagues/636.png",
-        "flag": "https://media.api-sports.io/flags/tm.svg",
+        "id": 369,
+        "name": "Super League",
+        "country": "Uzbekistan",
+        "logo": "https://media.api-sports.io/football/leagues/369.png",
+        "flag": "https://media.api-sports.io/flags/uz.svg",
         "season": 2025,
-        "round": "Regular Season - 15",
+        "round": "Regular Season - 17",
         "standings": true
       },
       "teams": {
         "home": {
-          "id": 8020,
-          "name": "Ahal",
-          "logo": "https://media.api-sports.io/football/teams/8020.png",
+          "id": 4216,
+          "name": "Navbahor",
+          "logo": "https://media.api-sports.io/football/teams/4216.png",
           "winner": null
         },
         "away": {
-          "id": 8039,
-          "name": "Balkan",
-          "logo": "https://media.api-sports.io/football/teams/8039.png",
+          "id": 4223,
+          "name": "Sogdiana",
+          "logo": "https://media.api-sports.io/football/teams/4223.png",
           "winner": null
         }
       },
@@ -3652,83 +3092,13 @@
     },
     {
       "fixture": {
-        "id": 1392311,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T14:00:00+00:00",
-        "timestamp": 1754488800,
-        "periods": {
-          "first": 1754488800,
-          "second": null
-        },
-        "venue": {
-          "id": 3216,
-          "name": "Markaziy Stadion",
-          "city": "Namangan"
-        },
-        "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45,
-          "extra": 3
-        }
-      },
-      "league": {
-        "id": 369,
-        "name": "Super League",
-        "country": "Uzbekistan",
-        "logo": "https://media.api-sports.io/football/leagues/369.png",
-        "flag": "https://media.api-sports.io/flags/uz.svg",
-        "season": 2025,
-        "round": "Regular Season - 17",
-        "standings": true
-      },
-      "teams": {
-        "home": {
-          "id": 4216,
-          "name": "Navbahor",
-          "logo": "https://media.api-sports.io/football/teams/4216.png",
-          "winner": true
-        },
-        "away": {
-          "id": 4223,
-          "name": "Sogdiana",
-          "logo": "https://media.api-sports.io/football/teams/4223.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1395046,
         "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T14:00:00+00:00",
         "timestamp": 1754488800,
         "periods": {
-          "first": 1754488800,
+          "first": null,
           "second": null
         },
         "venue": {
@@ -3737,10 +3107,10 @@
           "city": "Sosnowiec"
         },
         "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45,
-          "extra": 2
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -3768,83 +3138,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
-        },
-        "fulltime": {
           "home": null,
           "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1397048,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T14:00:00+00:00",
-        "timestamp": 1754488800,
-        "periods": {
-          "first": 1754488800,
-          "second": null
-        },
-        "venue": {
-          "id": 4986,
-          "name": "Stadion Kuban",
-          "city": "Krasnodar"
-        },
-        "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45,
-          "extra": 2
-        }
-      },
-      "league": {
-        "id": 237,
-        "name": "Cup",
-        "country": "Russia",
-        "logo": "https://media.api-sports.io/football/leagues/237.png",
-        "flag": "https://media.api-sports.io/flags/ru.svg",
-        "season": 2025,
-        "round": "Regions Path - 1st Round",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 26146,
-          "name": "PSK Dinskaya",
-          "logo": "https://media.api-sports.io/football/teams/26146.png",
-          "winner": null
-        },
-        "away": {
-          "id": 6798,
-          "name": "Druzhba",
-          "logo": "https://media.api-sports.io/football/teams/6798.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 1
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 1
         },
         "fulltime": {
           "home": null,
@@ -3868,7 +3168,7 @@
         "date": "2025-08-06T14:00:00+00:00",
         "timestamp": 1754488800,
         "periods": {
-          "first": 1754488800,
+          "first": null,
           "second": null
         },
         "venue": {
@@ -3877,10 +3177,10 @@
           "city": "Dar-es-Salaam"
         },
         "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45,
-          "extra": 6
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
         }
       },
       "league": {
@@ -3908,83 +3208,13 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
-        },
-        "fulltime": {
           "home": null,
           "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424266,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T14:00:00+00:00",
-        "timestamp": 1754488800,
-        "periods": {
-          "first": 1754488800,
-          "second": null
-        },
-        "venue": {
-          "id": 21416,
-          "name": "Republican Central Stadium",
-          "city": "Dushanbe"
-        },
-        "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45,
-          "extra": 5
-        }
-      },
-      "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
-        "flag": null,
-        "season": 2025,
-        "round": "1st Round - 1",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 23205,
-          "name": "Chinese Taipei U20 W",
-          "logo": "https://media.api-sports.io/football/teams/23205.png",
-          "winner": true
-        },
-        "away": {
-          "id": 17891,
-          "name": "Palestine W",
-          "logo": "https://media.api-sports.io/football/teams/17891.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
         },
         "fulltime": {
           "home": null,
@@ -4008,7 +3238,7 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
@@ -4017,9 +3247,9 @@
           "city": "Środa Wielkopolska"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 29,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4048,13 +3278,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4078,18 +3308,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 21951,
-          "name": "Stadionul Comunal",
-          "city": "Fărcăşeşti"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 31,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4118,13 +3348,13 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 1
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 1
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4152,9 +3382,9 @@
           "second": null
         },
         "venue": {
-          "id": 5009,
-          "name": "Stadionul Flacăra",
-          "city": "Moreni"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -4222,9 +3452,9 @@
           "second": null
         },
         "venue": {
-          "id": 19744,
-          "name": "Stadionul Carani",
-          "city": "Carani"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -4288,18 +3518,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 21962,
-          "name": "Stadionul Timi?ul ?ag",
-          "city": "Șag"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 31,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4318,23 +3548,23 @@
           "id": 24842,
           "name": "Timişul Şag",
           "logo": "https://media.api-sports.io/football/teams/24842.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 7469,
           "name": "Dumbrăviţa",
           "logo": "https://media.api-sports.io/football/teams/7469.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4358,18 +3588,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": null,
-          "name": "Stadionul Comunal",
-          "city": "Blejoi"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 27,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4388,23 +3618,23 @@
           "id": 7461,
           "name": "Blejoi",
           "logo": "https://media.api-sports.io/football/teams/7461.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 19170,
           "name": "CS Dinamo București",
           "logo": "https://media.api-sports.io/football/teams/19170.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 0,
-        "away": 2
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4498,18 +3728,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 11392,
-          "name": "Stadionul Comunal 2",
-          "city": "Clinceni"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 29,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4538,13 +3768,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4568,18 +3798,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 21939,
-          "name": "Stadionul Dumitru Tică Popescu",
-          "city": "Pucioasa"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 24,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4608,13 +3838,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4638,18 +3868,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": null,
-          "name": "Baza Sportiva Pielarul",
-          "city": "Sebeș"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 28,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4678,13 +3908,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4712,9 +3942,9 @@
           "second": null
         },
         "venue": {
-          "id": 10486,
-          "name": "Stadionul Municipal Solovan",
-          "city": "Sighetu Marmaţiei"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -4778,18 +4008,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 21937,
-          "name": "Stadionul Comunal",
-          "city": "Borcea"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 29,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4818,13 +4048,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4848,18 +4078,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 4999,
-          "name": "Stadionul Municipal",
-          "city": "Reghin"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 6,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4888,13 +4118,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -4918,18 +4148,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 19004,
-          "name": "Baza Sportivă Dan Anca",
-          "city": "Cluj-Napoca"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 29,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -4958,13 +4188,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5058,18 +4288,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": null,
-          "name": "Stadionul Comunal",
-          "city": "Cernica"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 33,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5098,13 +4328,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5128,18 +4358,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 21947,
-          "name": "Stadionul Tineretului",
-          "city": "Curtișoara"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 29,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5158,23 +4388,23 @@
           "id": 19179,
           "name": "Oltul Curtişoara",
           "logo": "https://media.api-sports.io/football/teams/19179.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 7493,
           "name": "Vediţa Coloneşti",
           "logo": "https://media.api-sports.io/football/teams/7493.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 2,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5198,18 +4428,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 11378,
-          "name": "Stadionul Municipal",
-          "city": "Vaslui"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 28,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5228,23 +4458,23 @@
           "id": 7467,
           "name": "CSM FC Vaslui",
           "logo": "https://media.api-sports.io/football/teams/7467.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 22000,
           "name": "FC Bacau",
           "logo": "https://media.api-sports.io/football/teams/22000.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5272,9 +4502,9 @@
           "second": null
         },
         "venue": {
-          "id": null,
-          "name": "Stadionul Ora?enesc",
-          "city": "Fundulea"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -5338,7 +4568,7 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
@@ -5347,9 +4577,9 @@
           "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 28,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5368,23 +4598,23 @@
           "id": 10163,
           "name": "Braila",
           "logo": "https://media.api-sports.io/football/teams/10163.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 6897,
           "name": "Râmnicu Sărat",
           "logo": "https://media.api-sports.io/football/teams/6897.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 1,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5408,18 +4638,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 19434,
-          "name": "Stadionul Muscelul",
-          "city": "Câmpulung Muscel"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 29,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5448,13 +4678,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5478,18 +4708,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 5027,
-          "name": "Stadionul CFR",
-          "city": "Paşcani"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 7,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5518,13 +4748,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5552,9 +4782,9 @@
           "second": null
         },
         "venue": {
-          "id": 11399,
-          "name": "Stadionul Sânicolau Mic",
-          "city": "Arad"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -5618,18 +4848,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 11395,
-          "name": "Stadionul Petre Libardi",
-          "city": "Petroşani"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 28,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5658,13 +4888,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5692,9 +4922,9 @@
           "second": null
         },
         "venue": {
-          "id": 5033,
-          "name": "Stadionul Comunal",
-          "city": "Lieşti"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -5828,18 +5058,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 2825,
-          "name": "Stadionul Areni",
-          "city": "Suceava"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 32,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5858,23 +5088,23 @@
           "id": 24840,
           "name": "Soimii Gura Humorului",
           "logo": "https://media.api-sports.io/football/teams/24840.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 6850,
           "name": "Bucovina Rădăuţi",
           "logo": "https://media.api-sports.io/football/teams/6850.png",
-          "winner": false
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 2,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5898,18 +5128,18 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
-          "id": 11389,
-          "name": "Stadionul Gheorghe Șilaev",
-          "city": "Plopeni"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 26,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -5938,13 +5168,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -5972,9 +5202,9 @@
           "second": null
         },
         "venue": {
-          "id": 20209,
-          "name": "Baza Filipești",
-          "city": "Filipești"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -6038,7 +5268,7 @@
         "date": "2025-08-06T14:30:00+00:00",
         "timestamp": 1754490600,
         "periods": {
-          "first": 1754490600,
+          "first": null,
           "second": null
         },
         "venue": {
@@ -6047,9 +5277,9 @@
           "city": null
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 28,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -6068,152 +5298,12 @@
           "id": 7494,
           "name": "Victoria Cumpăna",
           "logo": "https://media.api-sports.io/football/teams/7494.png",
-          "winner": true
+          "winner": null
         },
         "away": {
           "id": 21430,
           "name": "Gloria Băneasa",
           "logo": "https://media.api-sports.io/football/teams/21430.png",
-          "winner": false
-        }
-      },
-      "goals": {
-        "home": 1,
-        "away": 0
-      },
-      "score": {
-        "halftime": {
-          "home": 1,
-          "away": 0
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424356,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T14:30:00+00:00",
-        "timestamp": 1754490600,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 285,
-        "name": "Cupa României",
-        "country": "Romania",
-        "logo": "https://media.api-sports.io/football/leagues/285.png",
-        "flag": "https://media.api-sports.io/flags/ro.svg",
-        "season": 2025,
-        "round": "2nd Round",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 26201,
-          "name": "Păușești",
-          "logo": "https://media.api-sports.io/football/teams/26201.png",
-          "winner": null
-        },
-        "away": {
-          "id": 2616,
-          "name": "CSM Ramnicu Valcea",
-          "logo": "https://media.api-sports.io/football/teams/2616.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424357,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T14:30:00+00:00",
-        "timestamp": 1754490600,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 285,
-        "name": "Cupa României",
-        "country": "Romania",
-        "logo": "https://media.api-sports.io/football/leagues/285.png",
-        "flag": "https://media.api-sports.io/flags/ro.svg",
-        "season": 2025,
-        "round": "2nd Round",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 6905,
-          "name": "Săcele",
-          "logo": "https://media.api-sports.io/football/teams/6905.png",
-          "winner": null
-        },
-        "away": {
-          "id": 22208,
-          "name": "ACS Mediaş 2022",
-          "logo": "https://media.api-sports.io/football/teams/22208.png",
           "winner": null
         }
       },
@@ -6253,7 +5343,7 @@
         },
         "venue": {
           "id": null,
-          "name": "RFS Jana Skredela sporta komplekss Dabigais segum",
+          "name": "RFS Jāņa Skredeļa sporta komplekss Dabīgais segum",
           "city": "Rīga (Riga)"
         },
         "status": {
@@ -6392,9 +5482,9 @@
           "second": null
         },
         "venue": {
-          "id": 4991,
-          "name": "Sportkompleks Znamja Truda",
-          "city": "Orekhovo-Zuyevo"
+          "id": null,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -6463,8 +5553,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Roshchino Arena",
-          "city": "Roshchino"
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -6743,7 +5833,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Futbalové Ihrisko Bystricka",
+          "name": "Futbalové Ihrisko Bystrička",
           "city": "Bystrička"
         },
         "status": {
@@ -6813,7 +5903,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Futbalové ihrisko TJ Vinohrad Cebovce",
+          "name": "Futbalové ihrisko TJ Vinohrad Čebovce",
           "city": "Čebovce"
         },
         "status": {
@@ -6878,7 +5968,7 @@
         "date": "2025-08-06T15:00:00+00:00",
         "timestamp": 1754492400,
         "periods": {
-          "first": 1754492400,
+          "first": null,
           "second": null
         },
         "venue": {
@@ -6887,9 +5977,9 @@
           "city": "Bratislava"
         },
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 2,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -6918,13 +6008,13 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 0,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "fulltime": {
           "home": null,
@@ -6953,7 +6043,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Stadion MIS",
+          "name": null,
           "city": null
         },
         "status": {
@@ -7153,7 +6243,7 @@
     {
       "fixture": {
         "id": 1419568,
-        "referee": "Serdar Gozubuyuk, Netherlands",
+        "referee": "Serdar Gözübüyük",
         "timezone": "UTC",
         "date": "2025-08-06T15:00:00+00:00",
         "timestamp": 1754492400,
@@ -7163,8 +6253,8 @@
         },
         "venue": {
           "id": null,
-          "name": "Ortalyq stadion",
-          "city": "Almaty"
+          "name": "Ortalyq stadıon",
+          "city": "Almatı (Almaty)"
         },
         "status": {
           "long": "Not Started",
@@ -7222,7 +6312,7 @@
     },
     {
       "fixture": {
-        "id": 1423456,
+        "id": 1421495,
         "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T15:00:00+00:00",
@@ -7244,306 +6334,26 @@
         }
       },
       "league": {
-        "id": 930,
-        "name": "Copa Uruguay",
-        "country": "Uruguay",
-        "logo": "https://media.api-sports.io/football/leagues/930.png",
-        "flag": "https://media.api-sports.io/flags/uy.svg",
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
         "season": 2025,
-        "round": "Round of 32",
+        "round": "Club Friendlies 5",
         "standings": false
       },
       "teams": {
         "home": {
-          "id": 2996,
-          "name": "Bella Vista",
-          "logo": "https://media.api-sports.io/football/teams/2996.png",
+          "id": 114,
+          "name": "Paris FC",
+          "logo": "https://media.api-sports.io/football/teams/114.png",
           "winner": null
         },
         "away": {
-          "id": 2353,
-          "name": "Juventud",
-          "logo": "https://media.api-sports.io/football/teams/2353.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1423457,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T15:00:00+00:00",
-        "timestamp": 1754492400,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 930,
-        "name": "Copa Uruguay",
-        "country": "Uruguay",
-        "logo": "https://media.api-sports.io/football/leagues/930.png",
-        "flag": "https://media.api-sports.io/flags/uy.svg",
-        "season": 2025,
-        "round": "Round of 32",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 19344,
-          "name": "Paso de la Arena",
-          "logo": "https://media.api-sports.io/football/teams/19344.png",
-          "winner": null
-        },
-        "away": {
-          "id": 2361,
-          "name": "Boston River",
-          "logo": "https://media.api-sports.io/football/teams/2361.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1423458,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T15:00:00+00:00",
-        "timestamp": 1754492400,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 930,
-        "name": "Copa Uruguay",
-        "country": "Uruguay",
-        "logo": "https://media.api-sports.io/football/leagues/930.png",
-        "flag": "https://media.api-sports.io/flags/uy.svg",
-        "season": 2025,
-        "round": "Round of 32",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 19349,
-          "name": "Río Negro",
-          "logo": "https://media.api-sports.io/football/teams/19349.png",
-          "winner": null
-        },
-        "away": {
-          "id": 2348,
-          "name": "Penarol",
-          "logo": "https://media.api-sports.io/football/teams/2348.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1423459,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T15:00:00+00:00",
-        "timestamp": 1754492400,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 930,
-        "name": "Copa Uruguay",
-        "country": "Uruguay",
-        "logo": "https://media.api-sports.io/football/leagues/930.png",
-        "flag": "https://media.api-sports.io/flags/uy.svg",
-        "season": 2025,
-        "round": "Round of 32",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 823,
-          "name": "San Carlos",
-          "logo": "https://media.api-sports.io/football/teams/823.png",
-          "winner": null
-        },
-        "away": {
-          "id": 2374,
-          "name": "Tacuarembo",
-          "logo": "https://media.api-sports.io/football/teams/2374.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1423460,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T15:00:00+00:00",
-        "timestamp": 1754492400,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 930,
-        "name": "Copa Uruguay",
-        "country": "Uruguay",
-        "logo": "https://media.api-sports.io/football/leagues/930.png",
-        "flag": "https://media.api-sports.io/flags/uy.svg",
-        "season": 2025,
-        "round": "Round of 32",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 19354,
-          "name": "Universitario de Salto",
-          "logo": "https://media.api-sports.io/football/teams/19354.png",
-          "winner": null
-        },
-        "away": {
-          "id": 2360,
-          "name": "Wanderers",
-          "logo": "https://media.api-sports.io/football/teams/2360.png",
+          "id": 17103,
+          "name": "UNFP",
+          "logo": "https://media.api-sports.io/football/teams/17103.png",
           "winner": null
         }
       },
@@ -9648,8 +8458,8 @@
         }
       },
       "goals": {
-        "home": 0,
-        "away": 0
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
@@ -9657,8 +8467,8 @@
           "away": null
         },
         "fulltime": {
-          "home": 3,
-          "away": 0
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -12052,76 +10862,6 @@
     },
     {
       "fixture": {
-        "id": 1421498,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T15:30:00+00:00",
-        "timestamp": 1754494200,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "flag": null,
-        "season": 2025,
-        "round": "Club Friendlies 5",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 9499,
-          "name": "Grosseto",
-          "logo": "https://media.api-sports.io/football/teams/9499.png",
-          "winner": null
-        },
-        "away": {
-          "id": 9502,
-          "name": "San Donato Tavarnelle",
-          "logo": "https://media.api-sports.io/football/teams/9502.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1421745,
         "referee": null,
         "timezone": "UTC",
@@ -12892,7 +11632,7 @@
     },
     {
       "fixture": {
-        "id": 1421495,
+        "id": 1421498,
         "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T16:00:00+00:00",
@@ -12925,15 +11665,15 @@
       },
       "teams": {
         "home": {
-          "id": 114,
-          "name": "Paris FC",
-          "logo": "https://media.api-sports.io/football/teams/114.png",
+          "id": 9499,
+          "name": "Grosseto",
+          "logo": "https://media.api-sports.io/football/teams/9499.png",
           "winner": null
         },
         "away": {
-          "id": 17103,
-          "name": "UNFP",
-          "logo": "https://media.api-sports.io/football/teams/17103.png",
+          "id": 9502,
+          "name": "San Donato Tavarnelle",
+          "logo": "https://media.api-sports.io/football/teams/9502.png",
           "winner": null
         }
       },
@@ -13354,216 +12094,6 @@
           "id": 16076,
           "name": "Union Neumünster",
           "logo": "https://media.api-sports.io/football/teams/16076.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1410114,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T16:30:00+00:00",
-        "timestamp": 1754497800,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 584,
-        "name": "Premier League",
-        "country": "Libya",
-        "logo": "https://media.api-sports.io/football/leagues/584.png",
-        "flag": "https://media.api-sports.io/flags/ly.svg",
-        "season": 2024,
-        "round": "Final Round - 4",
-        "standings": true
-      },
-      "teams": {
-        "home": {
-          "id": 12424,
-          "name": "Al Ahli Tripoli",
-          "logo": "https://media.api-sports.io/football/teams/12424.png",
-          "winner": null
-        },
-        "away": {
-          "id": 12436,
-          "name": "Asswehly",
-          "logo": "https://media.api-sports.io/football/teams/12436.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1410115,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T16:30:00+00:00",
-        "timestamp": 1754497800,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 584,
-        "name": "Premier League",
-        "country": "Libya",
-        "logo": "https://media.api-sports.io/football/leagues/584.png",
-        "flag": "https://media.api-sports.io/flags/ly.svg",
-        "season": 2024,
-        "round": "Final Round - 4",
-        "standings": true
-      },
-      "teams": {
-        "home": {
-          "id": 12427,
-          "name": "Al-Akhdar",
-          "logo": "https://media.api-sports.io/football/teams/12427.png",
-          "winner": null
-        },
-        "away": {
-          "id": 12423,
-          "name": "Al Ahli Benghazi",
-          "logo": "https://media.api-sports.io/football/teams/12423.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1410116,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T16:30:00+00:00",
-        "timestamp": 1754497800,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 584,
-        "name": "Premier League",
-        "country": "Libya",
-        "logo": "https://media.api-sports.io/football/leagues/584.png",
-        "flag": "https://media.api-sports.io/flags/ly.svg",
-        "season": 2024,
-        "round": "Final Round - 4",
-        "standings": true
-      },
-      "teams": {
-        "home": {
-          "id": 8053,
-          "name": "Al-Ittihad",
-          "logo": "https://media.api-sports.io/football/teams/8053.png",
-          "winner": null
-        },
-        "away": {
-          "id": 8097,
-          "name": "Al Hilal",
-          "logo": "https://media.api-sports.io/football/teams/8097.png",
           "winner": null
         }
       },
@@ -15132,6 +13662,216 @@
     },
     {
       "fixture": {
+        "id": 1410114,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T17:00:00+00:00",
+        "timestamp": 1754499600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 584,
+        "name": "Premier League",
+        "country": "Libya",
+        "logo": "https://media.api-sports.io/football/leagues/584.png",
+        "flag": "https://media.api-sports.io/flags/ly.svg",
+        "season": 2024,
+        "round": "Final Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 12424,
+          "name": "Al Ahli Tripoli",
+          "logo": "https://media.api-sports.io/football/teams/12424.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12436,
+          "name": "Asswehly",
+          "logo": "https://media.api-sports.io/football/teams/12436.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1410115,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T17:00:00+00:00",
+        "timestamp": 1754499600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 584,
+        "name": "Premier League",
+        "country": "Libya",
+        "logo": "https://media.api-sports.io/football/leagues/584.png",
+        "flag": "https://media.api-sports.io/flags/ly.svg",
+        "season": 2024,
+        "round": "Final Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 12427,
+          "name": "Al-Akhdar",
+          "logo": "https://media.api-sports.io/football/teams/12427.png",
+          "winner": null
+        },
+        "away": {
+          "id": 12423,
+          "name": "Al Ahli Benghazi",
+          "logo": "https://media.api-sports.io/football/teams/12423.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1410116,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T17:00:00+00:00",
+        "timestamp": 1754499600,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 584,
+        "name": "Premier League",
+        "country": "Libya",
+        "logo": "https://media.api-sports.io/football/leagues/584.png",
+        "flag": "https://media.api-sports.io/flags/ly.svg",
+        "season": 2024,
+        "round": "Final Round - 4",
+        "standings": true
+      },
+      "teams": {
+        "home": {
+          "id": 8053,
+          "name": "Al-Ittihad",
+          "logo": "https://media.api-sports.io/football/teams/8053.png",
+          "winner": null
+        },
+        "away": {
+          "id": 8097,
+          "name": "Al Hilal",
+          "logo": "https://media.api-sports.io/football/teams/8097.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
         "id": 1415224,
         "referee": null,
         "timezone": "UTC",
@@ -15412,76 +14152,6 @@
     },
     {
       "fixture": {
-        "id": 1421491,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T17:00:00+00:00",
-        "timestamp": 1754499600,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "flag": null,
-        "season": 2025,
-        "round": "Club Friendlies 5",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 507,
-          "name": "Ascoli",
-          "logo": "https://media.api-sports.io/football/teams/507.png",
-          "winner": null
-        },
-        "away": {
-          "id": 900,
-          "name": "Maceratese",
-          "logo": "https://media.api-sports.io/football/teams/900.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1421492,
         "referee": null,
         "timezone": "UTC",
@@ -15524,76 +14194,6 @@
           "id": 5251,
           "name": "Barakaldo",
           "logo": "https://media.api-sports.io/football/teams/5251.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1421494,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T17:00:00+00:00",
-        "timestamp": 1754499600,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "flag": null,
-        "season": 2025,
-        "round": "Club Friendlies 5",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 9643,
-          "name": "Racing Santander II",
-          "logo": "https://media.api-sports.io/football/teams/9643.png",
-          "winner": null
-        },
-        "away": {
-          "id": 9648,
-          "name": "Sámano",
-          "logo": "https://media.api-sports.io/football/teams/9648.png",
           "winner": null
         }
       },
@@ -15832,7 +14432,7 @@
     },
     {
       "fixture": {
-        "id": 1424267,
+        "id": 1421505,
         "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T17:00:00+00:00",
@@ -15842,9 +14442,9 @@
           "second": null
         },
         "venue": {
-          "id": 21416,
-          "name": "Republican Central Stadium",
-          "city": "Dushanbe"
+          "id": null,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -15854,26 +14454,26 @@
         }
       },
       "league": {
-        "id": 1070,
-        "name": "AFC U20 Asian Cup - Women",
+        "id": 667,
+        "name": "Friendlies Clubs",
         "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/1070.png",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
         "flag": null,
         "season": 2025,
-        "round": "1st Round - 1",
+        "round": "Club Friendlies 5",
         "standings": false
       },
       "teams": {
         "home": {
-          "id": 19076,
-          "name": "Australia U20 W",
-          "logo": "https://media.api-sports.io/football/teams/19076.png",
+          "id": 6001,
+          "name": "Zelzate",
+          "logo": "https://media.api-sports.io/football/teams/6001.png",
           "winner": null
         },
         "away": {
-          "id": 17894,
-          "name": "Tajikistan W",
-          "logo": "https://media.api-sports.io/football/teams/17894.png",
+          "id": 24550,
+          "name": "Evergem 2020",
+          "logo": "https://media.api-sports.io/football/teams/24550.png",
           "winner": null
         }
       },
@@ -15982,9 +14582,9 @@
           "second": null
         },
         "venue": {
-          "id": 21844,
-          "name": "Stadion Moskvich",
-          "city": "Moskva"
+          "id": null,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -16532,6 +15132,76 @@
     },
     {
       "fixture": {
+        "id": 1421510,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T17:30:00+00:00",
+        "timestamp": 1754501400,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": null,
+          "name": null,
+          "city": null
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 667,
+        "name": "Friendlies Clubs",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/667.png",
+        "flag": null,
+        "season": 2025,
+        "round": "Club Friendlies 5",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 9412,
+          "name": "SS Reyes",
+          "logo": "https://media.api-sports.io/football/teams/9412.png",
+          "winner": null
+        },
+        "away": {
+          "id": 1110,
+          "name": "Andorra",
+          "logo": "https://media.api-sports.io/football/teams/1110.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
         "id": 1421511,
         "referee": null,
         "timezone": "UTC",
@@ -16752,9 +15422,9 @@
           "second": null
         },
         "venue": {
-          "id": 5635,
-          "name": "Estádio Jânio de Moraes",
-          "city": "Nova Iguaçu, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -16822,9 +15492,9 @@
           "second": null
         },
         "venue": {
-          "id": 8281,
-          "name": "Estádio Giulite Coutinho",
-          "city": "Mesquita, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -16962,9 +15632,9 @@
           "second": null
         },
         "venue": {
-          "id": 5679,
-          "name": "Estádio Proletário Guilherme da Silveira Filho",
-          "city": "Rio de Janeiro, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -17032,9 +15702,9 @@
           "second": null
         },
         "venue": {
-          "id": 20721,
-          "name": "Centro de Treinamento João Saldanha",
-          "city": "Rio de Janeiro, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -17102,9 +15772,9 @@
           "second": null
         },
         "venue": {
-          "id": 5633,
-          "name": "Estádio Aniceto Moscoso",
-          "city": "Rio de Janeiro, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -17172,9 +15842,9 @@
           "second": null
         },
         "venue": {
-          "id": 8290,
-          "name": "Estádio Lourival Gomes de Almeida",
-          "city": "Saquarema, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -17201,9 +15871,9 @@
           "winner": null
         },
         "away": {
-          "id": 13109,
-          "name": "Bonsucesso",
-          "logo": "https://media.api-sports.io/football/teams/13109.png",
+          "id": 20006,
+          "name": "CEAC / Araruama",
+          "logo": "https://media.api-sports.io/football/teams/20006.png",
           "winner": null
         }
       },
@@ -17457,8 +16127,8 @@
           "city": null
         },
         "status": {
-          "long": "Not Started",
-          "short": "NS",
+          "long": "Time to be defined",
+          "short": "TBD",
           "elapsed": null,
           "extra": null
         }
@@ -19402,76 +18072,6 @@
     },
     {
       "fixture": {
-        "id": 1421505,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T18:00:00+00:00",
-        "timestamp": 1754503200,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "flag": null,
-        "season": 2025,
-        "round": "Club Friendlies 5",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 6001,
-          "name": "Zelzate",
-          "logo": "https://media.api-sports.io/football/teams/6001.png",
-          "winner": null
-        },
-        "away": {
-          "id": 24550,
-          "name": "Evergem 2020",
-          "logo": "https://media.api-sports.io/football/teams/24550.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1421513,
         "referee": null,
         "timezone": "UTC",
@@ -19613,7 +18213,7 @@
     {
       "fixture": {
         "id": 1382306,
-        "referee": "Luca Cibelli",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T18:30:00+00:00",
         "timestamp": 1754505000,
@@ -19822,76 +18422,6 @@
     },
     {
       "fixture": {
-        "id": 1421510,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T18:30:00+00:00",
-        "timestamp": 1754505000,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": null,
-          "name": null,
-          "city": null
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 667,
-        "name": "Friendlies Clubs",
-        "country": "World",
-        "logo": "https://media.api-sports.io/football/leagues/667.png",
-        "flag": null,
-        "season": 2025,
-        "round": "Club Friendlies 5",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 9412,
-          "name": "SS Reyes",
-          "logo": "https://media.api-sports.io/football/teams/9412.png",
-          "winner": null
-        },
-        "away": {
-          "id": 1110,
-          "name": "Andorra",
-          "logo": "https://media.api-sports.io/football/teams/1110.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1421515,
         "referee": null,
         "timezone": "UTC",
@@ -20032,76 +18562,6 @@
     },
     {
       "fixture": {
-        "id": 1423515,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T18:30:00+00:00",
-        "timestamp": 1754505000,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": 20347,
-          "name": "Everyone Active Stadium",
-          "city": "Clevedon, Somerset"
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 45,
-        "name": "FA Cup",
-        "country": "England",
-        "logo": "https://media.api-sports.io/football/leagues/45.png",
-        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-        "season": 2025,
-        "round": "Extra Preliminary Round Replays",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 8745,
-          "name": "Clevedon Town",
-          "logo": "https://media.api-sports.io/football/teams/8745.png",
-          "winner": null
-        },
-        "away": {
-          "id": 7650,
-          "name": "Kidlington",
-          "logo": "https://media.api-sports.io/football/teams/7650.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1335907,
         "referee": null,
         "timezone": "UTC",
@@ -20214,6 +18674,146 @@
           "id": 3854,
           "name": "Shelbourne",
           "logo": "https://media.api-sports.io/football/teams/3854.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1423500,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T18:45:00+00:00",
+        "timestamp": 1754505900,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 11688,
+          "name": "The Playing Fields",
+          "city": "Ardley, Oxfordshire"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2025,
+        "round": "Extra Preliminary Round Replays",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 8930,
+          "name": "Shepton Mallet",
+          "logo": "https://media.api-sports.io/football/teams/8930.png",
+          "winner": null
+        },
+        "away": {
+          "id": 26219,
+          "name": "Newquay",
+          "logo": "https://media.api-sports.io/football/teams/26219.png",
+          "winner": null
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "score": {
+        "halftime": {
+          "home": null,
+          "away": null
+        },
+        "fulltime": {
+          "home": null,
+          "away": null
+        },
+        "extratime": {
+          "home": null,
+          "away": null
+        },
+        "penalty": {
+          "home": null,
+          "away": null
+        }
+      }
+    },
+    {
+      "fixture": {
+        "id": 1423509,
+        "referee": null,
+        "timezone": "UTC",
+        "date": "2025-08-06T18:45:00+00:00",
+        "timestamp": 1754505900,
+        "periods": {
+          "first": null,
+          "second": null
+        },
+        "venue": {
+          "id": 21979,
+          "name": "The Northcourt",
+          "city": "Abingdon, Oxfordshire"
+        },
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
+          "extra": null
+        }
+      },
+      "league": {
+        "id": 45,
+        "name": "FA Cup",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/45.png",
+        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+        "season": 2025,
+        "round": "Extra Preliminary Round Replays",
+        "standings": false
+      },
+      "teams": {
+        "home": {
+          "id": 8676,
+          "name": "Abingdon United",
+          "logo": "https://media.api-sports.io/football/teams/8676.png",
+          "winner": null
+        },
+        "away": {
+          "id": 8691,
+          "name": "Aylesbury Vale Dynamos",
+          "logo": "https://media.api-sports.io/football/teams/8691.png",
           "winner": null
         }
       },
@@ -20592,76 +19192,6 @@
     },
     {
       "fixture": {
-        "id": 1424303,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T18:45:00+00:00",
-        "timestamp": 1754505900,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": 5579,
-          "name": "The SKYex Community Stadium",
-          "city": "London"
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 45,
-        "name": "FA Cup",
-        "country": "England",
-        "logo": "https://media.api-sports.io/football/leagues/45.png",
-        "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-        "season": 2025,
-        "round": "Extra Preliminary Round Replays",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 8941,
-          "name": "Southall",
-          "logo": "https://media.api-sports.io/football/teams/8941.png",
-          "winner": null
-        },
-        "away": {
-          "id": 8852,
-          "name": "Little Common",
-          "logo": "https://media.api-sports.io/football/teams/8852.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
         "id": 1373834,
         "referee": null,
         "timezone": "UTC",
@@ -20743,8 +19273,8 @@
         },
         "venue": {
           "id": 2438,
-          "name": "Estadio Dr. Carlos Villegas",
-          "city": "Entre Ríos"
+          "name": "Estadio Félix Capriles",
+          "city": "Cochabamba"
         },
         "status": {
           "long": "Not Started",
@@ -20957,9 +19487,9 @@
           "city": null
         },
         "status": {
-          "long": "Match Finished",
-          "short": "FT",
-          "elapsed": 90,
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null,
           "extra": null
         }
       },
@@ -20978,27 +19508,27 @@
           "id": 22940,
           "name": "Internacional Palmira",
           "logo": "https://media.api-sports.io/football/teams/22940.png",
-          "winner": false
+          "winner": null
         },
         "away": {
           "id": 15725,
           "name": "Independiente Medellín W",
           "logo": "https://media.api-sports.io/football/teams/15725.png",
-          "winner": true
+          "winner": null
         }
       },
       "goals": {
-        "home": 2,
-        "away": 3
+        "home": null,
+        "away": null
       },
       "score": {
         "halftime": {
-          "home": 2,
-          "away": 2
+          "home": null,
+          "away": null
         },
         "fulltime": {
-          "home": 2,
-          "away": 3
+          "home": null,
+          "away": null
         },
         "extratime": {
           "home": null,
@@ -21723,7 +20253,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Estadio Olímpico de la UCV",
+          "name": null,
           "city": null
         },
         "status": {
@@ -21793,7 +20323,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Estadio Polideportivo Misael Delgado",
+          "name": null,
           "city": null
         },
         "status": {
@@ -22273,7 +20803,7 @@
     {
       "fixture": {
         "id": 1412885,
-        "referee": "David Espinosa Lopera",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T22:00:00+00:00",
         "timestamp": 1754517600,
@@ -22282,9 +20812,9 @@
           "second": null
         },
         "venue": {
-          "id": 19614,
-          "name": "Estadio Raúl Miranda Yumbo",
-          "city": "Yumbo"
+          "id": 371,
+          "name": "Estadio Metropolitano de Techo",
+          "city": "Bogotá, D.C."
         },
         "status": {
           "long": "Not Started",
@@ -22353,7 +20883,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Estadio Olímpico General José Antonio Anzoátegui",
+          "name": null,
           "city": null
         },
         "status": {
@@ -22423,7 +20953,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Estadio General José Antonio Páez",
+          "name": null,
           "city": null
         },
         "status": {
@@ -22493,7 +21023,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Estadio La Bombonerita",
+          "name": null,
           "city": null
         },
         "status": {
@@ -22833,7 +21363,7 @@
     {
       "fixture": {
         "id": 1327178,
-        "referee": "Corbyn May",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T23:00:00+00:00",
         "timestamp": 1754521200,
@@ -22973,7 +21503,7 @@
     {
       "fixture": {
         "id": 1412886,
-        "referee": "Alejandro Moncada Sánchez",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T23:00:00+00:00",
         "timestamp": 1754521200,
@@ -23053,7 +21583,7 @@
         },
         "venue": {
           "id": null,
-          "name": "Estadio Polideportivo de Pueblo Nuevo",
+          "name": null,
           "city": null
         },
         "status": {
@@ -23122,9 +21652,9 @@
           "second": null
         },
         "venue": {
-          "id": 5665,
-          "name": "Estádio Luso-Brasileiro",
-          "city": "Rio de Janeiro, Rio de Janeiro"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -23183,7 +21713,7 @@
     {
       "fixture": {
         "id": 1327176,
-        "referee": "Thomas Snyder",
+        "referee": null,
         "timezone": "UTC",
         "date": "2025-08-06T23:30:00+00:00",
         "timestamp": 1754523000,
@@ -23402,9 +21932,9 @@
           "second": null
         },
         "venue": {
-          "id": 1633,
-          "name": "Estadio Domingo Burgueño Miguel",
-          "city": "Maldonado"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -23472,9 +22002,9 @@
           "second": null
         },
         "venue": {
-          "id": null,
-          "name": "Estadio Juan Antonio Lavalleja",
-          "city": "Trinidad"
+          "id": 0,
+          "name": null,
+          "city": null
         },
         "status": {
           "long": "Not Started",
@@ -23644,76 +22174,6 @@
           "id": 2368,
           "name": "Central Espanol",
           "logo": "https://media.api-sports.io/football/teams/2368.png",
-          "winner": null
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "score": {
-        "halftime": {
-          "home": null,
-          "away": null
-        },
-        "fulltime": {
-          "home": null,
-          "away": null
-        },
-        "extratime": {
-          "home": null,
-          "away": null
-        },
-        "penalty": {
-          "home": null,
-          "away": null
-        }
-      }
-    },
-    {
-      "fixture": {
-        "id": 1424326,
-        "referee": null,
-        "timezone": "UTC",
-        "date": "2025-08-06T23:30:00+00:00",
-        "timestamp": 1754523000,
-        "periods": {
-          "first": null,
-          "second": null
-        },
-        "venue": {
-          "id": 1625,
-          "name": "Estadio Campeones Olímpicos",
-          "city": "Ciudad de Florida"
-        },
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null,
-          "extra": null
-        }
-      },
-      "league": {
-        "id": 930,
-        "name": "Copa Uruguay",
-        "country": "Uruguay",
-        "logo": "https://media.api-sports.io/football/leagues/930.png",
-        "flag": "https://media.api-sports.io/flags/uy.svg",
-        "season": 2025,
-        "round": "Round of 32",
-        "standings": false
-      },
-      "teams": {
-        "home": {
-          "id": 24670,
-          "name": "Atlético Florida",
-          "logo": "https://media.api-sports.io/football/teams/24670.png",
-          "winner": null
-        },
-        "away": {
-          "id": 2364,
-          "name": "Atenas",
-          "logo": "https://media.api-sports.io/football/teams/2364.png",
           "winner": null
         }
       },

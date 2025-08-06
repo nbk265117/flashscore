@@ -1,0 +1,14 @@
+# Football Data Fetch - Run every 15 minutes (respects API rate limit)
+# Add this line to your crontab: crontab -e
+# */15 * * * * cd /Users/mac/Documents/flashscore/Zbet && node scripts/fetch-daily-data.js >> logs/daily-fetch.log 2>&1
+
+# Or use this command to add it automatically:
+# crontab -l | { cat; echo "*/15 * * * * cd /Users/mac/Documents/flashscore/Zbet && node scripts/fetch-daily-data.js >> logs/daily-fetch.log 2>&1"; } | crontab -
+
+# Manual execution:
+# npm run fetch-daily
+
+# Check logs:
+# tail -f logs/daily-fetch.log
+
+# Note: Script will only make API call once per day to respect rate limits

@@ -15,6 +15,10 @@
     "serve:dev": "nodemon src/server.js",
     "app:dev": "nodemon src/app.js",
     "dev:full": "node scripts/dev.js",
+    "fetch-daily": "node scripts/fetch-daily-data.js",
+    "setup-cron": "node scripts/setup-cron.js",
+    "build": "echo 'No build step needed for static files'",
+    "deploy": "bash scripts/deploy.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["matches", "football", "api", "nodejs"],
