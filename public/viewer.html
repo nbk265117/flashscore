@@ -1,0 +1,1475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Matches Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .live-clock {
+            font-size: 1.2em;
+            font-weight: 600;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            display: inline-block;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+        }
+
+        .controls {
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .filters-row {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-shrink: 0;
+            min-width: fit-content;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+
+        select, input {
+            padding: 6px 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 13px;
+            transition: border-color 0.3s;
+            min-width: 80px;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .stats {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            font-weight: 600;
+            padding: 10px 0;
+        }
+
+        .stat {
+            background: #667eea;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+        }
+
+        .results-counter {
+            background: #28a745 !important;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .matches-container {
+            max-height: 70vh;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .match-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .match-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .teams {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .score {
+            font-size: 1.5em;
+            font-weight: 800;
+            color: #667eea;
+            background: #f8f9fa;
+            padding: 8px 15px;
+            border-radius: 8px;
+        }
+
+        .match-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .detail {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #6c757d;
+            min-width: 80px;
+        }
+
+        .detail-value {
+            color: #495057;
+        }
+
+        .status {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status.finished {
+            background: #28a745;
+            color: white;
+        }
+
+        .status.live {
+            background: #dc3545;
+            color: white;
+        }
+
+        .status.upcoming {
+            background: #ffc107;
+            color: #212529;
+        }
+
+        .status.other {
+            background: #6c757d;
+            color: white;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+        }
+
+        .no-matches {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .results-summary {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .results-summary h3 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .results-summary p {
+            margin: 5px 0;
+            color: #6c757d;
+        }
+
+        .results-summary strong {
+            color: #28a745;
+            font-size: 1.1em;
+        }
+
+        .results-summary em {
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+
+        /* Sticky Button Styles */
+        .sticky-button-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .sticky-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            min-width: 120px;
+        }
+
+        .random-btn {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+        }
+
+        .random-btn:hover {
+            background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+        }
+
+        .grid-btn {
+            background: linear-gradient(135deg, #20bf6b 0%, #0fb9b1 100%);
+        }
+
+        .grid-btn:hover {
+            background: linear-gradient(135deg, #0fb9b1 0%, #20bf6b 100%);
+        }
+
+        .sticky-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .sticky-button:active {
+            transform: translateY(0);
+        }
+
+        /* Popup Modal Styles */
+        .popup-modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+            backdrop-filter: blur(5px);
+        }
+
+        .popup-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 0;
+            border-radius: 15px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            animation: slideIn 0.3s ease-out;
+        }
+
+        .grid-popup-content {
+            max-width: 90vw;
+            max-height: 90vh;
+            margin: 2% auto;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .popup-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px 15px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .popup-header h3 {
+            margin: 0;
+            font-size: 1.3em;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background-color 0.3s;
+        }
+
+        .close-btn:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+
+        .popup-body {
+            padding: 20px;
+        }
+
+        .popup-body textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        .popup-body textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .popup-footer {
+            padding: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .copy-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: #007bff;
+            color: white;
+        }
+
+        .copy-btn:hover {
+            background: #0056b3;
+        }
+
+        .copy-btn:active {
+            transform: scale(0.95);
+        }
+
+        .copy-success {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #28a745;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            font-weight: 600;
+            z-index: 3000;
+            animation: fadeInOut 2s ease-in-out;
+        }
+
+        @keyframes fadeInOut {
+            0% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+            20% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            80% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, -50%) scale(0.8); }
+        }
+
+        /* Grid Styles */
+        .grid-popup-content {
+            max-width: 90vw;
+            max-height: 90vh;
+        }
+
+        .grid-controls {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .grid-controls label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .grid-controls select {
+            padding: 5px 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .grid-container {
+            max-height: 60vh;
+            overflow-y: auto;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 15px;
+            background: #f8f9fa;
+        }
+
+        .grid-row {
+            display: grid;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .grid-row.cols-1 {
+            grid-template-columns: 1fr;
+        }
+
+        .grid-row.cols-2 {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .grid-row.cols-3 {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .grid-row.cols-4 {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        .grid-item {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .grid-item .teams {
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .grid-item .details {
+            color: #6c757d;
+            font-size: 11px;
+        }
+
+        .grid-item .time {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        /* Search Actions Styles */
+        .search-actions {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .search-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .search-btn:hover {
+            background: #0056b3;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+
+        .search-btn:active {
+            transform: translateY(0);
+        }
+
+        .search-icon-btn {
+            background: none;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-right: 8px;
+            transition: all 0.3s ease;
+            color: #667eea;
+        }
+
+        .search-icon-btn:hover {
+            background: rgba(102, 126, 234, 0.1);
+            transform: scale(1.1);
+        }
+
+        .search-icon-btn:active {
+            transform: scale(0.95);
+        }
+
+        /* Time Filter Container */
+        .time-filter-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .current-time-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .current-time-btn:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+
+        .current-time-btn:active {
+            transform: scale(0.95);
+        }
+
+
+
+        .time-highlight {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 4px;
+            padding: 2px 6px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+                flex-wrap: wrap;
+            }
+            
+            .stats {
+                margin-left: 0;
+                justify-content: center;
+            }
+            
+            .match-header {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .match-details {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>⚽ Flashinio Score</h1>
+            <p>Live scores, match times, and results</p>
+            <div id="liveClock" class="live-clock"></div>
+        </div>
+
+                <div class="controls">
+            <div class="filters-row">
+                <div class="filter-group">
+                    <label for="statusFilter">Status:</label>
+                    <select id="statusFilter">
+                        <option value="all">All Matches</option>
+                        <option value="FT">Finished</option>
+                        <option value="NS">Upcoming</option>
+                        <option value="1H">First Half</option>
+                        <option value="2H">Second Half</option>
+                        <option value="HT">Half Time</option>
+                    </select>
+                    <button id="showUpcomingBtn" class="current-time-btn" title="Show All Upcoming">
+                        🔄
+                    </button>
+                </div>
+
+                <div class="filter-group">
+                    <label for="leagueFilter">League:</label>
+                    <select id="leagueFilter">
+                        <option value="all">All Leagues</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="timeFilter">Time:</label>
+                    <div class="time-filter-container">
+                                            <select id="timeFilter">
+                        <option value="all">All Times</option>
+                        <option value="00:00">00:00</option>
+                        <option value="00:15">00:15</option>
+                        <option value="00:30">00:30</option>
+                        <option value="00:45">00:45</option>
+                        <option value="01:00">01:00</option>
+                        <option value="01:15">01:15</option>
+                        <option value="01:30">01:30</option>
+                        <option value="01:45">01:45</option>
+                        <option value="02:00">02:00</option>
+                        <option value="02:15">02:15</option>
+                        <option value="02:30">02:30</option>
+                        <option value="02:45">02:45</option>
+                        <option value="03:00">03:00</option>
+                        <option value="03:15">03:15</option>
+                        <option value="03:30">03:30</option>
+                        <option value="03:45">03:45</option>
+                        <option value="04:00">04:00</option>
+                        <option value="04:15">04:15</option>
+                        <option value="04:30">04:30</option>
+                        <option value="04:45">04:45</option>
+                        <option value="05:00">05:00</option>
+                        <option value="05:15">05:15</option>
+                        <option value="05:30">05:30</option>
+                        <option value="05:45">05:45</option>
+                        <option value="06:00">06:00</option>
+                        <option value="06:15">06:15</option>
+                        <option value="06:30">06:30</option>
+                        <option value="06:45">06:45</option>
+                        <option value="07:00">07:00</option>
+                        <option value="07:15">07:15</option>
+                        <option value="07:30">07:30</option>
+                        <option value="07:45">07:45</option>
+                        <option value="08:00">08:00</option>
+                        <option value="08:15">08:15</option>
+                        <option value="08:30">08:30</option>
+                        <option value="08:45">08:45</option>
+                        <option value="09:00">09:00</option>
+                        <option value="09:15">09:15</option>
+                        <option value="09:30">09:30</option>
+                        <option value="09:45">09:45</option>
+                        <option value="10:00">10:00</option>
+                        <option value="10:15">10:15</option>
+                        <option value="10:30">10:30</option>
+                        <option value="10:45">10:45</option>
+                        <option value="11:00">11:00</option>
+                        <option value="11:15">11:15</option>
+                        <option value="11:30">11:30</option>
+                        <option value="11:45">11:45</option>
+                        <option value="12:00">12:00</option>
+                        <option value="12:15">12:15</option>
+                        <option value="12:30">12:30</option>
+                        <option value="12:45">12:45</option>
+                        <option value="13:00">13:00</option>
+                        <option value="13:15">13:15</option>
+                        <option value="13:30">13:30</option>
+                        <option value="13:45">13:45</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:15">14:15</option>
+                        <option value="14:30">14:30</option>
+                        <option value="14:45">14:45</option>
+                        <option value="15:00">15:00</option>
+                        <option value="15:15">15:15</option>
+                        <option value="15:30">15:30</option>
+                        <option value="15:45">15:45</option>
+                        <option value="16:00">16:00</option>
+                        <option value="16:15">16:15</option>
+                        <option value="16:30">16:30</option>
+                        <option value="16:45">16:45</option>
+                        <option value="17:00">17:00</option>
+                        <option value="17:15">17:15</option>
+                        <option value="17:30">17:30</option>
+                        <option value="17:45">17:45</option>
+                        <option value="18:00">18:00</option>
+                        <option value="18:15">18:15</option>
+                        <option value="18:30">18:30</option>
+                        <option value="18:45">18:45</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:15">19:15</option>
+                        <option value="19:30">19:30</option>
+                        <option value="19:45">19:45</option>
+                        <option value="20:00">20:00</option>
+                        <option value="20:15">20:15</option>
+                        <option value="20:30">20:30</option>
+                        <option value="20:45">20:45</option>
+                        <option value="21:00">21:00</option>
+                        <option value="21:15">21:15</option>
+                        <option value="21:30">21:30</option>
+                        <option value="21:45">21:45</option>
+                        <option value="22:00">22:00</option>
+                        <option value="22:15">22:15</option>
+                        <option value="22:30">22:30</option>
+                        <option value="22:45">22:45</option>
+                        <option value="23:00">23:00</option>
+                        <option value="23:15">23:15</option>
+                        <option value="23:30">23:30</option>
+                        <option value="23:45">23:45</option>
+                    </select>
+                        <button id="currentTimeBtn" class="current-time-btn" title="Set to current hour">
+                            🕐
+                        </button>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label for="searchInput">Search:</label>
+                    <input type="text" id="searchInput" placeholder="Search teams...">
+                </div>
+
+
+            </div>
+
+            <div class="stats">
+                <div class="stat" id="totalMatches">Total: 0</div>
+                <div class="stat" id="finishedMatches">Finished: 0</div>
+                <div class="stat" id="upcomingMatches">Upcoming: 0</div>
+                <div class="stat results-counter" id="resultsCounter" style="display: none;">Results: 0</div>
+            </div>
+        </div>
+
+        <div class="matches-container" id="matchesContainer">
+            <div class="loading">Loading matches...</div>
+        </div>
+    </div>
+
+    <!-- Sticky Buttons -->
+    <div class="sticky-button-container">
+        <button id="popupBtn" class="sticky-button">
+            📊 Results
+        </button>
+        <button id="randomBtn" class="sticky-button random-btn">
+            🎲 Random
+        </button>
+        <button id="gridBtn" class="sticky-button grid-btn">
+            📋 Grid
+        </button>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="popupModal" class="popup-modal">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3>📊 Filter Results</h3>
+                <button id="closePopup" class="close-btn">&times;</button>
+            </div>
+            <div class="popup-body">
+                <textarea id="notesTextarea" placeholder="Filter results will appear here..."></textarea>
+            </div>
+            <div class="popup-footer">
+                <button id="copyResults" class="copy-btn">Copy Results</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Random Popup Modal -->
+    <div id="randomModal" class="popup-modal">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3>🎲 Random Matches</h3>
+                <button id="closeRandom" class="close-btn">&times;</button>
+            </div>
+            <div class="popup-body">
+                <textarea id="randomTextarea" placeholder="Random matches will appear here..."></textarea>
+            </div>
+            <div class="popup-footer">
+                <button id="copyRandom" class="copy-btn">Copy Results</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grid Popup Modal -->
+    <div id="gridModal" class="popup-modal">
+        <div class="popup-content grid-popup-content">
+            <div class="popup-header">
+                <h3>📋 Grid View</h3>
+                <button id="closeGrid" class="close-btn">&times;</button>
+            </div>
+            <div class="popup-body">
+                <div class="grid-controls">
+                    <label for="gridColumns">Columns:</label>
+                    <select id="gridColumns">
+                        <option value="1">1 Column</option>
+                        <option value="2">2 Columns</option>
+                        <option value="3" selected>3 Columns</option>
+                        <option value="4">4 Columns</option>
+                    </select>
+                </div>
+                <div id="gridContainer" class="grid-container"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        let allMatches = [];
+        let filteredMatches = [];
+
+        // Load and display matches
+        async function loadMatches() {
+            try {
+                const response = await fetch('data/processed_matches.json');
+                const data = await response.json();
+                allMatches = data;
+                filteredMatches = data;
+                
+                populateLeagueFilter();
+                updateStats();
+                displayMatches();
+            } catch (error) {
+                console.error('Error loading matches:', error);
+                document.getElementById('matchesContainer').innerHTML = 
+                    '<div class="no-matches">Error loading matches. Please ensure processed_matches.json exists.</div>';
+            }
+        }
+
+        function populateLeagueFilter() {
+            const leagues = [...new Set(allMatches.map(match => match.league))].sort();
+            const leagueFilter = document.getElementById('leagueFilter');
+            
+            leagues.forEach(league => {
+                const option = document.createElement('option');
+                option.value = league;
+                option.textContent = league;
+                leagueFilter.appendChild(option);
+            });
+        }
+
+        function updateStats() {
+            const total = allMatches.length;
+            const finished = allMatches.filter(m => ['FT', 'AET', 'PEN'].includes(m.status.short)).length;
+            const upcoming = allMatches.filter(m => m.status.short === 'NS').length;
+
+            document.getElementById('totalMatches').textContent = `Total: ${total}`;
+            document.getElementById('finishedMatches').textContent = `Finished: ${finished}`;
+            document.getElementById('upcomingMatches').textContent = `Upcoming: ${upcoming}`;
+        }
+
+        function displayMatches() {
+            const container = document.getElementById('matchesContainer');
+            const resultsCounter = document.getElementById('resultsCounter');
+            
+            // Show results counter if filters are applied
+            const statusFilter = document.getElementById('statusFilter').value;
+            const leagueFilter = document.getElementById('leagueFilter').value;
+            const timeFilter = document.getElementById('timeFilter').value;
+            const searchInput = document.getElementById('searchInput').value;
+            
+            const hasFilters = statusFilter !== 'all' || leagueFilter !== 'all' || 
+                             timeFilter !== 'all' || searchInput.trim() !== '';
+            
+            if (hasFilters) {
+                resultsCounter.style.display = 'inline-block';
+                resultsCounter.textContent = `Results: ${filteredMatches.length}`;
+                
+                // Add filter details to the results counter
+                const filterDetails = [];
+                if (statusFilter !== 'all') filterDetails.push(`Status: ${statusFilter}`);
+                if (leagueFilter !== 'all') filterDetails.push(`League: ${leagueFilter}`);
+                if (timeFilter !== 'all') filterDetails.push(`Time: ${timeFilter}+`);
+                if (searchInput.trim() !== '') filterDetails.push(`Search: "${searchInput}"`);
+                
+                if (filterDetails.length > 0) {
+                    resultsCounter.title = `Filters: ${filterDetails.join(', ')}`;
+                }
+            } else {
+                resultsCounter.style.display = 'none';
+            }
+            
+            if (filteredMatches.length === 0) {
+                container.innerHTML = '<div class="no-matches">No matches found matching your criteria.</div>';
+                return;
+            }
+
+            // Add results summary if filters are applied
+            let resultsHTML = '';
+            if (hasFilters) {
+                const filterDetails = [];
+                if (statusFilter !== 'all') filterDetails.push(`Status: ${statusFilter}`);
+                if (leagueFilter !== 'all') filterDetails.push(`League: ${leagueFilter}`);
+                if (timeFilter !== 'all') filterDetails.push(`Time: ${timeFilter}+`);
+                if (searchInput.trim() !== '') filterDetails.push(`Search: "${searchInput}"`);
+                
+                resultsHTML = `
+                    <div class="results-summary">
+                        <h3>📊 Filter Results</h3>
+                        <p><strong>${filteredMatches.length}</strong> matches found</p>
+                        <p><em>Filters: ${filterDetails.join(', ')}</em></p>
+                    </div>
+                `;
+            }
+
+            container.innerHTML = resultsHTML + filteredMatches.map(match => createMatchCard(match)).join('');
+        }
+
+        function createMatchCard(match) {
+            const matchTime = formatMatchTime(match.date, match.status);
+            const matchScore = formatScore(match.score, match.status);
+            const statusClass = getStatusClass(match.status.short);
+            const timeFilter = document.getElementById('timeFilter').value;
+            
+            // Highlight time if it matches the filter (from selected time onwards)
+            let timeDisplay = matchTime;
+            if (timeFilter !== 'all' && match.status.short === 'NS') {
+                const matchHour = extractHourFromTime(matchTime);
+                const filterMinutes = convertTimeToMinutes(timeFilter);
+                const matchMinutes = convertTimeToMinutes(matchHour);
+                
+                if (matchMinutes >= filterMinutes) {
+                    timeDisplay = matchTime.replace(matchHour, `<span class="time-highlight">${matchHour}</span>`);
+                }
+            }
+
+            return `
+                <div class="match-card">
+                    <div class="match-header">
+                        <div class="teams">
+                            <button onclick="searchMatch('${match.homeTeam}', '${match.awayTeam}', '${match.league}')" class="search-icon-btn" title="Find Odds">
+                                🔍
+                            </button>
+                            ${match.homeTeam} vs ${match.awayTeam}
+                        </div>
+                        <div class="score">${matchScore}</div>
+                    </div>
+                    
+                    <div class="match-details">
+                        <div class="detail">
+                            <span class="detail-label">League:</span>
+                            <span class="detail-value">${match.league} (${match.country})</span>
+                        </div>
+                        
+                        <div class="detail">
+                            <span class="detail-label">Time:</span>
+                            <span class="detail-value">${timeDisplay}</span>
+                        </div>
+                        
+                        <div class="detail">
+                            <span class="detail-label">Status:</span>
+                            <span class="status ${statusClass}">${match.status.long}</span>
+                        </div>
+                        
+                        ${match.venue && match.venue.name ? `
+                        <div class="detail">
+                            <span class="detail-label">Venue:</span>
+                            <span class="detail-value">${match.venue.name}${match.venue.city ? `, ${match.venue.city}` : ''}</span>
+                        </div>
+                        ` : ''}
+                        
+                        ${match.referee ? `
+                        <div class="detail">
+                            <span class="detail-label">Referee:</span>
+                            <span class="detail-value">${match.referee}</span>
+                        </div>
+                        ` : ''}
+                    </div>
+                    
+
+                </div>
+            `;
+        }
+
+        function extractHourFromTime(timeString) {
+            // Extract hour from time string like "05/08/2025 - 22:30 (NS)"
+            const match = timeString.match(/(\d{2}):(\d{2})/);
+            return match ? `${match[1]}:${match[2]}` : '';
+        }
+
+        function convertTimeToMinutes(timeString) {
+            // Convert time string like "19:00" to total minutes
+            const [hours, minutes] = timeString.split(':').map(Number);
+            return hours * 60 + minutes;
+        }
+
+        function formatMatchTime(dateString, status) {
+            try {
+                const date = new Date(dateString);
+                const day = date.getDate().toString().padStart(2, '0');
+                const month = (date.getMonth() + 1).toString().padStart(2, '0');
+                const year = date.getFullYear();
+                const hours = date.getHours().toString().padStart(2, '0');
+                const minutes = date.getMinutes().toString().padStart(2, '0');
+                
+                return `${day}/${month}/${year} - ${hours}:${minutes} (${status.short})`;
+            } catch (error) {
+                return `Invalid date: ${dateString}`;
+            }
+        }
+
+        function formatScore(score, status) {
+            if (status.short === 'FT' || status.short === 'AET' || status.short === 'PEN') {
+                const homeScore = (score.fulltime && score.fulltime.home !== null) ? score.fulltime.home : 
+                                 (score.halftime && score.halftime.home !== null) ? score.halftime.home : '?';
+                const awayScore = (score.fulltime && score.fulltime.away !== null) ? score.fulltime.away : 
+                                 (score.halftime && score.halftime.away !== null) ? score.halftime.away : '?';
+                return `${homeScore} - ${awayScore}`;
+            } else if (status.short === 'HT') {
+                const homeScore = (score.halftime && score.halftime.home !== null) ? score.halftime.home : '?';
+                const awayScore = (score.halftime && score.halftime.away !== null) ? score.halftime.away : '?';
+                return `${homeScore} - ${awayScore} (HT)`;
+            } else if (status.short === '1H' || status.short === '2H') {
+                const homeScore = (score.fulltime && score.fulltime.home !== null) ? score.fulltime.home : 
+                                 (score.halftime && score.halftime.home !== null) ? score.halftime.home : '?';
+                const awayScore = (score.fulltime && score.fulltime.away !== null) ? score.fulltime.away : 
+                                 (score.halftime && score.halftime.away !== null) ? score.halftime.away : '?';
+                return `${homeScore} - ${awayScore} (${status.short})`;
+            } else {
+                return 'TBD';
+            }
+        }
+
+        function getStatusClass(status) {
+            if (['FT', 'AET', 'PEN'].includes(status)) return 'finished';
+            if (['1H', '2H', 'HT'].includes(status)) return 'live';
+            if (status === 'NS') return 'upcoming';
+            return 'other';
+        }
+
+        function filterMatches() {
+            const statusFilter = document.getElementById('statusFilter').value;
+            const leagueFilter = document.getElementById('leagueFilter').value;
+            const timeFilter = document.getElementById('timeFilter').value;
+            const searchInput = document.getElementById('searchInput').value.toLowerCase();
+
+            filteredMatches = allMatches.filter(match => {
+                const statusMatch = statusFilter === 'all' || match.status.short === statusFilter;
+                const leagueMatch = leagueFilter === 'all' || match.league === leagueFilter;
+                const searchMatch = searchInput === '' || 
+                    match.homeTeam.toLowerCase().includes(searchInput) || 
+                    match.awayTeam.toLowerCase().includes(searchInput) ||
+                    match.league.toLowerCase().includes(searchInput);
+                
+                // Time filter logic - show matches from selected time onwards
+                let timeMatch = true;
+                if (timeFilter !== 'all' && match.status.short === 'NS') {
+                    const matchTime = formatMatchTime(match.date, match.status);
+                    const matchHour = extractHourFromTime(matchTime);
+                    
+                    // Convert times to minutes for comparison
+                    const filterMinutes = convertTimeToMinutes(timeFilter);
+                    const matchMinutes = convertTimeToMinutes(matchHour);
+                    
+                    // Show matches from selected time onwards
+                    timeMatch = matchMinutes >= filterMinutes;
+                }
+
+                return statusMatch && leagueMatch && searchMatch && timeMatch;
+            });
+
+            displayMatches();
+        }
+
+        // Current time button functionality
+        document.getElementById('currentTimeBtn').addEventListener('click', () => {
+            const now = new Date();
+            const currentHour = now.getHours().toString().padStart(2, '0');
+            const timeValue = `${currentHour}:00`;
+            
+            // Set the time filter to current hour
+            document.getElementById('timeFilter').value = timeValue;
+            
+            // Apply filters
+            filterMatches();
+            
+            // Show feedback
+            const btn = document.getElementById('currentTimeBtn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '✅';
+            btn.style.background = '#28a745';
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.style.background = '#28a745';
+            }, 1000);
+        });
+
+        // Event listeners
+        document.getElementById('statusFilter').addEventListener('change', filterMatches);
+        document.getElementById('leagueFilter').addEventListener('change', filterMatches);
+        document.getElementById('timeFilter').addEventListener('change', filterMatches);
+        document.getElementById('searchInput').addEventListener('input', filterMatches);
+        document.getElementById('showUpcomingBtn').addEventListener('click', showAllUpcoming);
+
+        function showAllUpcoming() {
+            // Set status filter to upcoming matches
+            document.getElementById('statusFilter').value = 'NS';
+            // Reset other filters
+            document.getElementById('leagueFilter').value = 'all';
+            document.getElementById('timeFilter').value = 'all';
+            document.getElementById('searchInput').value = '';
+            // Apply filters
+            filterMatches();
+        }
+
+        function updateClock() {
+            const now = new Date();
+            const dateStr = now.toLocaleDateString('en-US', {
+                weekday: 'long',
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            const timeStr = now.toLocaleTimeString('en-US', {
+                hour12: false,
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+            
+            document.getElementById('liveClock').innerHTML = 
+                `🕐 ${dateStr} | ${timeStr}`;
+        }
+
+        // Update clock every second
+        setInterval(updateClock, 1000);
+        updateClock(); // Initial call
+
+        // Popup functionality
+        const popupBtn = document.getElementById('popupBtn');
+        const popupModal = document.getElementById('popupModal');
+        const closePopup = document.getElementById('closePopup');
+        const notesTextarea = document.getElementById('notesTextarea');
+
+        // Open popup
+        popupBtn.addEventListener('click', () => {
+            popupModal.style.display = 'block';
+            updateNotesWithResults();
+            notesTextarea.focus();
+            notesTextarea.scrollTop = 0;
+        });
+
+        // Close popup
+        closePopup.addEventListener('click', () => {
+            popupModal.style.display = 'none';
+        });
+
+        // Close popup when clicking outside
+        popupModal.addEventListener('click', (e) => {
+            if (e.target === popupModal) {
+                popupModal.style.display = 'none';
+            }
+        });
+
+        // Close popup with Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && popupModal.style.display === 'block') {
+                popupModal.style.display = 'none';
+            }
+        });
+
+        // Copy results
+        const copyResults = document.getElementById('copyResults');
+        copyResults.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(notesTextarea.value);
+                showCopySuccess();
+            } catch (err) {
+                // Fallback for older browsers
+                notesTextarea.select();
+                document.execCommand('copy');
+                showCopySuccess();
+            }
+        });
+
+        function showCopySuccess() {
+            const successMessage = document.createElement('div');
+            successMessage.className = 'copy-success';
+            successMessage.textContent = '✅ Copied to clipboard!';
+            document.body.appendChild(successMessage);
+            
+            setTimeout(() => {
+                document.body.removeChild(successMessage);
+            }, 2000);
+        }
+
+
+
+        function updateNotesWithResults() {
+            const currentMatches = filteredMatches.length > 0 ? filteredMatches : allMatches;
+            let resultsText = '';
+            
+            if (currentMatches.length === 0) {
+                resultsText = 'No matches found with current filters.\n';
+            } else {
+                // Add header
+                resultsText += 'Hello,\n\n';
+                resultsText += 'Could you please estimate the likely first-half results for the following matches?\n';
+                resultsText += 'Thank you for basing your analysis on the teams\' historical performances, league statistics, and competition trends.\n\n';
+                resultsText += 'Here are the matches:\n\n';
+                
+                // Add matches in the requested format
+                currentMatches.forEach((match, index) => {
+                    const timeOnly = match.formattedTime.replace(' (NS)', '').split(' - ')[1];
+                    resultsText += `${match.homeTeam} vs ${match.awayTeam} (${match.league} – ${match.country}) – ${timeOnly}\n\n`;
+                });
+                
+                // Add footer
+                resultsText += 'Thanks in advance for your analysis!';
+            }
+            
+            notesTextarea.value = resultsText;
+        }
+
+        // Random matches functionality
+        const randomBtn = document.getElementById('randomBtn');
+        const randomModal = document.getElementById('randomModal');
+        const closeRandom = document.getElementById('closeRandom');
+        const randomTextarea = document.getElementById('randomTextarea');
+        const copyRandom = document.getElementById('copyRandom');
+
+        // Open random popup
+        randomBtn.addEventListener('click', () => {
+            randomModal.style.display = 'block';
+            updateRandomMatches();
+            randomTextarea.focus();
+            randomTextarea.scrollTop = 0;
+        });
+
+        // Close random popup
+        closeRandom.addEventListener('click', () => {
+            randomModal.style.display = 'none';
+        });
+
+        // Close random popup when clicking outside
+        randomModal.addEventListener('click', (e) => {
+            if (e.target === randomModal) {
+                randomModal.style.display = 'none';
+            }
+        });
+
+        // Copy random results
+        copyRandom.addEventListener('click', async () => {
+            try {
+                await navigator.clipboard.writeText(randomTextarea.value);
+                showCopySuccess();
+            } catch (err) {
+                // Fallback for older browsers
+                randomTextarea.select();
+                document.execCommand('copy');
+                showCopySuccess();
+            }
+        });
+
+        function updateRandomMatches() {
+            // Get current filter settings
+            const statusFilter = document.getElementById('statusFilter').value;
+            const timeFilter = document.getElementById('timeFilter').value;
+            
+            // Get upcoming matches only (respect current status filter)
+            let filteredMatches = allMatches.filter(match => {
+                const statusMatch = statusFilter === 'all' || match.status.short === statusFilter;
+                return statusMatch;
+            });
+            
+            if (filteredMatches.length === 0) {
+                randomTextarea.value = 'No matches found with current filters.';
+                return;
+            }
+
+            // Apply time filter if set
+            if (timeFilter !== 'all') {
+                filteredMatches = filteredMatches.filter(match => {
+                    const matchTime = match.formattedTime.replace(' (NS)', '').split(' - ')[1];
+                    const filterMinutes = convertTimeToMinutes(timeFilter);
+                    const matchMinutes = convertTimeToMinutes(matchTime);
+                    return matchMinutes >= filterMinutes;
+                });
+            }
+
+            if (filteredMatches.length === 0) {
+                randomTextarea.value = 'No matches found with current time filter.';
+                return;
+            }
+
+            // Shuffle and get 6 random matches
+            const shuffledMatches = [...filteredMatches].sort(() => 0.5 - Math.random());
+            const randomMatches = shuffledMatches.slice(0, 6);
+
+            // Format matches
+            let resultsText = '';
+            resultsText += 'Hello,\n\n';
+            resultsText += 'Could you please estimate the likely first-half results for the following matches?\n';
+            resultsText += 'Thank you for basing your analysis on the teams\' historical performances, league statistics, and competition trends.\n\n';
+            resultsText += 'Here are the matches:\n\n';
+            
+            randomMatches.forEach((match, index) => {
+                const timeOnly = match.formattedTime.replace(' (NS)', '').split(' - ')[1];
+                resultsText += `${match.homeTeam} vs ${match.awayTeam} (${match.league} – ${match.country}) – ${timeOnly}\n\n`;
+            });
+            
+            resultsText += 'Thanks in advance for your analysis!';
+            
+            randomTextarea.value = resultsText;
+        }
+
+        // Grid view functionality
+        const gridBtn = document.getElementById('gridBtn');
+        const gridModal = document.getElementById('gridModal');
+        const closeGrid = document.getElementById('closeGrid');
+        const gridContainer = document.getElementById('gridContainer');
+        const gridColumns = document.getElementById('gridColumns');
+
+        // Open grid popup
+        gridBtn.addEventListener('click', () => {
+            gridModal.style.display = 'block';
+            updateGridDisplay();
+        });
+
+        // Close grid popup
+        closeGrid.addEventListener('click', () => {
+            gridModal.style.display = 'none';
+        });
+
+        // Close grid popup when clicking outside
+        gridModal.addEventListener('click', (e) => {
+            if (e.target === gridModal) {
+                gridModal.style.display = 'none';
+            }
+        });
+
+        // Change grid columns
+        gridColumns.addEventListener('change', updateGridDisplay);
+
+
+
+        function updateGridDisplay() {
+            const currentMatches = filteredMatches.length > 0 ? filteredMatches : allMatches;
+            const columns = parseInt(gridColumns.value);
+            
+            if (currentMatches.length === 0) {
+                gridContainer.innerHTML = '<div style="text-align: center; color: #6c757d; padding: 20px;">No matches found with current filters.</div>';
+                return;
+            }
+
+            let gridHTML = '';
+            const itemsPerRow = columns;
+            
+            for (let i = 0; i < currentMatches.length; i += itemsPerRow) {
+                const rowMatches = currentMatches.slice(i, i + itemsPerRow);
+                gridHTML += `<div class="grid-row cols-${columns}">`;
+                
+                rowMatches.forEach(match => {
+                    const timeOnly = match.formattedTime.replace(' (NS)', '').split(' - ')[1];
+                    gridHTML += `
+                        <div class="grid-item">
+                            <div class="teams">
+                                <button onclick="searchMatch('${match.homeTeam}', '${match.awayTeam}', '${match.league}')" class="search-icon-btn" title="Find Odds">
+                                    🔍
+                                </button>
+                                ${match.homeTeam} vs ${match.awayTeam}
+                            </div>
+                            <div class="details">${match.league} (${match.country})</div>
+                            <div class="time">${timeOnly}</div>
+                        </div>
+                    `;
+                });
+                
+                gridHTML += '</div>';
+            }
+            
+            gridContainer.innerHTML = gridHTML;
+        }
+
+
+
+        // Search functionality
+        function searchMatch(homeTeam, awayTeam, league) {
+            const today = new Date();
+            const dateStr = today.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            const query = `${homeTeam} vs ${awayTeam} ${league} ${dateStr} 1xbet`;
+            const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+            window.open(searchUrl, '_blank');
+        }
+
+        // Load matches when page loads
+        loadMatches();
+    </script>
+</body>
+</html> 

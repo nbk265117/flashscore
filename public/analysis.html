@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Match Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #495057;
+            white-space: nowrap;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            font-size: 14px;
+            background: white;
+        }
+
+        .search-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .clear-search-btn {
+            position: absolute;
+            right: 8px;
+            background: none;
+            border: none;
+            color: #6c757d;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 50%;
+            font-size: 12px;
+        }
+
+        .clear-search-btn:hover {
+            background: #e9ecef;
+        }
+
+        .analyze-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.2s;
+        }
+
+        .analyze-btn:hover {
+            background: #218838;
+        }
+
+        .expand-controls {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        .expand-btn, .collapse-btn {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: background-color 0.2s;
+        }
+
+        .expand-btn:hover, .collapse-btn:hover {
+            background: #5a6268;
+        }
+
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 15px 20px;
+            background: #e9ecef;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .stat {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .analysis-grid {
+            padding: 20px;
+            display: grid;
+            gap: 20px;
+        }
+
+        .analysis-card {
+            background: white;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .match-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e9ecef;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .match-header:hover {
+            background: #f8f9fa;
+            border-radius: 8px;
+            transition: background 0.2s ease;
+        }
+
+        .toggle-icon {
+            font-size: 1.2em;
+            color: #667eea;
+            transition: transform 0.3s ease;
+        }
+
+        .card-content {
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            overflow: hidden;
+        }
+
+        .card-content.collapsed {
+            max-height: 0;
+            opacity: 0;
+        }
+
+        .card-content.expanded {
+            max-height: 2000px;
+            opacity: 1;
+        }
+
+        .teams {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .league {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .match-time {
+            color: #495057;
+            font-size: 0.9em;
+        }
+
+        .risk-level {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .risk-low {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .risk-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .risk-high {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .probabilities {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .probability-item {
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            background: #f8f9fa;
+        }
+
+        .probability-value {
+            font-size: 1.5em;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .probability-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .home-win .probability-value {
+            color: #28a745;
+        }
+
+        .draw .probability-value {
+            color: #ffc107;
+        }
+
+        .away-win .probability-value {
+            color: #dc3545;
+        }
+
+        .analysis-section {
+            margin-bottom: 15px;
+        }
+
+        .analysis-section h4 {
+            color: #495057;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .key-factors {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .factor-tag {
+            background: #e9ecef;
+            color: #495057;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+        }
+
+        .prediction-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            padding: 8px 0;
+            border-bottom: 1px solid #f8f9fa;
+        }
+
+        .prediction-label {
+            font-weight: 600;
+            color: #495057;
+        }
+
+        .prediction-value {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .prediction-summary {
+            margin-top: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            border-left: 4px solid #667eea;
+        }
+
+        .halftime-prediction {
+            border-left: 4px solid #ffc107;
+        }
+
+        .corner-predictions {
+            border-left: 4px solid #28a745;
+        }
+
+        .card-predictions {
+            border-left: 4px solid #dc3545;
+        }
+
+        .substitution-predictions {
+            border-left: 4px solid #6f42c1;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .error {
+            text-align: center;
+            padding: 40px;
+            color: #dc3545;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .filter-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .expand-controls {
+                margin-left: 0;
+                justify-content: center;
+            }
+            
+            .probabilities {
+                grid-template-columns: 1fr;
+            }
+            
+            .match-header {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 AI Match Analysis</h1>
+            <p>ChatGPT-powered football match predictions and insights</p>
+        </div>
+        
+        <div class="controls">
+            <div class="filter-group">
+                <label for="timeFilter">Time:</label>
+                <select id="timeFilter">
+                    <option value="all">All Times</option>
+                    <option value="upcoming">Upcoming Only</option>
+                    <option value="today">Today Only</option>
+                    <option value="next3hours">Next 3 Hours</option>
+                    <option value="next6hours">Next 6 Hours</option>
+                    <option value="next12hours">Next 12 Hours</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="riskFilter">Risk Level:</label>
+                <select id="riskFilter">
+                    <option value="all">All Levels</option>
+                    <option value="low">Low Risk</option>
+                    <option value="medium">Medium Risk</option>
+                    <option value="high">High Risk</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="leagueFilter">League:</label>
+                <select id="leagueFilter">
+                    <option value="all">All Leagues</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="searchInput">Search:</label>
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search teams or leagues..." />
+                    <button id="clearSearch" class="clear-search-btn" title="Clear search">✕</button>
+                </div>
+            </div>
+            <button id="analyzeBtn" class="analyze-btn">
+                🔄 Refresh Analysis
+            </button>
+            <div class="expand-controls">
+                <button id="expandAllBtn" class="expand-btn">📖 Expand All</button>
+                <button id="collapseAllBtn" class="collapse-btn">📕 Collapse All</button>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat" id="totalMatches">Total: 0</div>
+            <div class="stat" id="upcomingMatches">Upcoming: 0</div>
+            <div class="stat" id="todayMatches">Today: 0</div>
+            <div class="stat" id="next3hMatches">Next 3h: 0</div>
+            <div class="stat" id="next6hMatches">Next 6h: 0</div>
+            <div class="stat" id="lowRiskMatches">Low Risk: 0</div>
+            <div class="stat" id="mediumRiskMatches">Medium Risk: 0</div>
+            <div class="stat" id="highRiskMatches">High Risk: 0</div>
+        </div>
+        
+        <div class="analysis-grid" id="analysisGrid">
+            <div class="loading">Loading analysis data...</div>
+        </div>
+    </div>
+
+    <script>
+        let analysisData = [];
+        let filteredData = [];
+
+        // Load analysis data
+        async function loadAnalysis() {
+            try {
+                const response = await fetch('/data/analysis.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load analysis data');
+                }
+                analysisData = await response.json();
+                filteredData = [...analysisData];
+                displayAnalyses();
+                updateStats();
+                populateFilters();
+            } catch (error) {
+                console.error('Error loading analysis:', error);
+                document.getElementById('analysisGrid').innerHTML = 
+                    '<div class="error">Failed to load analysis data. Please try again later.</div>';
+            }
+        }
+
+        // Display analyses
+        function displayAnalyses() {
+            const grid = document.getElementById('analysisGrid');
+            if (filteredData.length === 0) {
+                grid.innerHTML = '<div class="loading">No matches found with current filters.</div>';
+                return;
+            }
+
+            grid.innerHTML = filteredData.map((analysis, index) => {
+                const riskClass = `risk-${analysis.analysis.riskLevel.toLowerCase()}`;
+                return `
+                    <div class="analysis-card">
+                        <div class="match-header" onclick="toggleCard(${index})">
+                            <div>
+                                <div class="teams">${analysis.homeTeam} vs ${analysis.awayTeam}</div>
+                                <div class="league">${analysis.league} (${analysis.country})</div>
+                                <div class="match-time">🕐 ${new Date(analysis.matchTime).toLocaleString()}</div>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 10px;">
+                                <span class="risk-level ${riskClass}">${analysis.analysis.riskLevel.toUpperCase()}</span>
+                                <span class="toggle-icon" id="toggle-${index}">📖</span>
+                            </div>
+                        </div>
+                        
+                        <div class="card-content collapsed" id="content-${index}">
+                        
+                        <div class="probabilities">
+                            <div class="probability-item home-win">
+                                <div class="probability-value">${analysis.analysis.homeWinProbability}%</div>
+                                <div class="probability-label">Home Win</div>
+                            </div>
+                            <div class="probability-item draw">
+                                <div class="probability-value">${analysis.analysis.drawProbability}%</div>
+                                <div class="probability-label">Draw</div>
+                            </div>
+                            <div class="probability-item away-win">
+                                <div class="probability-value">${analysis.analysis.awayWinProbability}%</div>
+                                <div class="probability-label">Away Win</div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>⏰ Halftime Prediction</h4>
+                            <div class="halftime-prediction">
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Home Win:</span>
+                                    <span class="prediction-value">${analysis.analysis.halftime?.homeWinProbability || 0}%</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Draw:</span>
+                                    <span class="prediction-value">${analysis.analysis.halftime?.drawProbability || 0}%</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Away Win:</span>
+                                    <span class="prediction-value">${analysis.analysis.halftime?.awayWinProbability || 0}%</span>
+                                </div>
+                                <div class="prediction-summary">
+                                    <strong>${analysis.analysis.halftime?.prediction || 'No halftime prediction available'}</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>⚽ Corner Predictions</h4>
+                            <div class="corner-predictions">
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Total Corners:</span>
+                                    <span class="prediction-value">${analysis.analysis.corners?.total || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Home Team:</span>
+                                    <span class="prediction-value">${analysis.analysis.corners?.homeTeam || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Away Team:</span>
+                                    <span class="prediction-value">${analysis.analysis.corners?.awayTeam || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-summary">
+                                    <strong>${analysis.analysis.corners?.prediction || 'No corner prediction available'}</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>🟨🟥 Card Predictions</h4>
+                            <div class="card-predictions">
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Yellow Cards:</span>
+                                    <span class="prediction-value">${analysis.analysis.cards?.yellowCards || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Red Cards:</span>
+                                    <span class="prediction-value">${analysis.analysis.cards?.redCards || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Home Team Cards:</span>
+                                    <span class="prediction-value">${analysis.analysis.cards?.homeTeamCards || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Away Team Cards:</span>
+                                    <span class="prediction-value">${analysis.analysis.cards?.awayTeamCards || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-summary">
+                                    <strong>${analysis.analysis.cards?.prediction || 'No card prediction available'}</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>🔄 Substitution Predictions</h4>
+                            <div class="substitution-predictions">
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Home Team Subs:</span>
+                                    <span class="prediction-value">${analysis.analysis.substitutions?.homeTeam || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Away Team Subs:</span>
+                                    <span class="prediction-value">${analysis.analysis.substitutions?.awayTeam || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-item">
+                                    <span class="prediction-label">Timing:</span>
+                                    <span class="prediction-value">${analysis.analysis.substitutions?.timing || 'N/A'}</span>
+                                </div>
+                                <div class="prediction-summary">
+                                    <strong>${analysis.analysis.substitutions?.prediction || 'No substitution prediction available'}</strong>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>🔑 Key Factors</h4>
+                            <div class="key-factors">
+                                ${analysis.analysis.keyFactors.map(factor => 
+                                    `<span class="factor-tag">${factor}</span>`
+                                ).join('')}
+                            </div>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>📊 Analysis</h4>
+                            <p>${analysis.analysis.analysis}</p>
+                        </div>
+                        
+                        <div class="analysis-section">
+                            <h4>💰 Betting Recommendation</h4>
+                            <p>${analysis.analysis.bettingRecommendation}</p>
+                        </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Update statistics
+        function updateStats() {
+            const now = new Date();
+            const total = filteredData.length;
+            const upcoming = filteredData.filter(a => new Date(a.matchTime) > now).length;
+            const today = filteredData.filter(a => {
+                const matchDate = new Date(a.matchTime);
+                return matchDate.toDateString() === now.toDateString();
+            }).length;
+            const next3h = filteredData.filter(a => {
+                const matchTime = new Date(a.matchTime);
+                const timeDiff = matchTime - now;
+                return timeDiff > 0 && timeDiff <= 3 * 60 * 60 * 1000;
+            }).length;
+            const next6h = filteredData.filter(a => {
+                const matchTime = new Date(a.matchTime);
+                const timeDiff = matchTime - now;
+                return timeDiff > 0 && timeDiff <= 6 * 60 * 60 * 1000;
+            }).length;
+            const lowRisk = filteredData.filter(a => a.analysis.riskLevel.toLowerCase() === 'low').length;
+            const mediumRisk = filteredData.filter(a => a.analysis.riskLevel.toLowerCase() === 'medium').length;
+            const highRisk = filteredData.filter(a => a.analysis.riskLevel.toLowerCase() === 'high').length;
+
+            document.getElementById('totalMatches').textContent = `Total: ${total}`;
+            document.getElementById('upcomingMatches').textContent = `Upcoming: ${upcoming}`;
+            document.getElementById('todayMatches').textContent = `Today: ${today}`;
+            document.getElementById('next3hMatches').textContent = `Next 3h: ${next3h}`;
+            document.getElementById('next6hMatches').textContent = `Next 6h: ${next6h}`;
+            document.getElementById('lowRiskMatches').textContent = `Low Risk: ${lowRisk}`;
+            document.getElementById('mediumRiskMatches').textContent = `Medium Risk: ${mediumRisk}`;
+            document.getElementById('highRiskMatches').textContent = `High Risk: ${highRisk}`;
+        }
+
+        // Populate filters
+        function populateFilters() {
+            const leagues = [...new Set(analysisData.map(a => a.league))];
+            const leagueFilter = document.getElementById('leagueFilter');
+            
+            leagues.forEach(league => {
+                const option = document.createElement('option');
+                option.value = league;
+                option.textContent = league;
+                leagueFilter.appendChild(option);
+            });
+        }
+
+        // Filter analyses
+        function filterAnalyses() {
+            const timeFilter = document.getElementById('timeFilter').value;
+            const riskFilter = document.getElementById('riskFilter').value;
+            const leagueFilter = document.getElementById('leagueFilter').value;
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+            const now = new Date();
+
+            filteredData = analysisData.filter(analysis => {
+                const matchTime = new Date(analysis.matchTime);
+                
+                // Time filter
+                if (timeFilter === 'upcoming' && matchTime <= now) return false;
+                if (timeFilter === 'today' && matchTime.toDateString() !== now.toDateString()) return false;
+                if (timeFilter === 'next3hours') {
+                    const timeDiff = matchTime - now;
+                    if (timeDiff <= 0 || timeDiff > 3 * 60 * 60 * 1000) return false;
+                }
+                if (timeFilter === 'next6hours') {
+                    const timeDiff = matchTime - now;
+                    if (timeDiff <= 0 || timeDiff > 6 * 60 * 60 * 1000) return false;
+                }
+                if (timeFilter === 'next12hours') {
+                    const timeDiff = matchTime - now;
+                    if (timeDiff <= 0 || timeDiff > 12 * 60 * 60 * 1000) return false;
+                }
+                
+                // Risk filter
+                if (riskFilter !== 'all' && analysis.analysis.riskLevel.toLowerCase() !== riskFilter) return false;
+                
+                // League filter
+                if (leagueFilter !== 'all' && analysis.league !== leagueFilter) return false;
+                
+                // Search filter
+                if (searchTerm && !(
+                    analysis.homeTeam.toLowerCase().includes(searchTerm) ||
+                    analysis.awayTeam.toLowerCase().includes(searchTerm) ||
+                    analysis.league.toLowerCase().includes(searchTerm) ||
+                    analysis.country.toLowerCase().includes(searchTerm)
+                )) return false;
+                
+                return true;
+            });
+
+            displayAnalyses();
+            updateStats();
+        }
+
+        // Toggle individual card
+        function toggleCard(index) {
+            const content = document.getElementById(`content-${index}`);
+            const toggleIcon = document.getElementById(`toggle-${index}`);
+            
+            if (content.classList.contains('collapsed')) {
+                content.classList.remove('collapsed');
+                content.classList.add('expanded');
+                toggleIcon.textContent = '📕';
+            } else {
+                content.classList.remove('expanded');
+                content.classList.add('collapsed');
+                toggleIcon.textContent = '📖';
+            }
+        }
+
+        // Expand all cards
+        function expandAllCards() {
+            const cards = document.querySelectorAll('.card-content');
+            const toggles = document.querySelectorAll('.toggle-icon');
+            
+            cards.forEach((card, index) => {
+                card.classList.remove('collapsed');
+                card.classList.add('expanded');
+                if (toggles[index]) {
+                    toggles[index].textContent = '📕';
+                }
+            });
+        }
+
+        // Collapse all cards
+        function collapseAllCards() {
+            const cards = document.querySelectorAll('.card-content');
+            const toggles = document.querySelectorAll('.toggle-icon');
+            
+            cards.forEach((card, index) => {
+                card.classList.remove('expanded');
+                card.classList.add('collapsed');
+                if (toggles[index]) {
+                    toggles[index].textContent = '📖';
+                }
+            });
+        }
+
+        // Event listeners
+        document.getElementById('timeFilter').addEventListener('change', filterAnalyses);
+        document.getElementById('riskFilter').addEventListener('change', filterAnalyses);
+        document.getElementById('leagueFilter').addEventListener('change', filterAnalyses);
+        document.getElementById('searchInput').addEventListener('input', filterAnalyses);
+        document.getElementById('clearSearch').addEventListener('click', () => {
+            document.getElementById('searchInput').value = '';
+            filterAnalyses();
+        });
+
+        // Expand/Collapse all buttons
+        document.getElementById('expandAllBtn').addEventListener('click', expandAllCards);
+        document.getElementById('collapseAllBtn').addEventListener('click', collapseAllCards);
+
+        // Refresh analysis
+        document.getElementById('analyzeBtn').addEventListener('click', async () => {
+            try {
+                document.getElementById('analyzeBtn').textContent = '🔄 Refreshing...';
+                document.getElementById('analyzeBtn').disabled = true;
+                
+                const response = await fetch('/api/analyze', { method: 'POST' });
+                const result = await response.json();
+                
+                if (result.success) {
+                    await loadAnalysis();
+                } else {
+                    throw new Error(result.error || 'Failed to refresh analysis');
+                }
+            } catch (error) {
+                console.error('Error refreshing analysis:', error);
+                alert('Failed to refresh analysis. Please try again.');
+            } finally {
+                document.getElementById('analyzeBtn').textContent = '🔄 Refresh Analysis';
+                document.getElementById('analyzeBtn').disabled = false;
+            }
+        });
+
+        // Set default filter to upcoming matches
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                document.getElementById('timeFilter').value = 'upcoming';
+                filterAnalyses();
+            }, 1000);
+        });
+
+        // Load analysis on page load
+        loadAnalysis();
+    </script>
+</body>
+</html> 

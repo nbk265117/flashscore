@@ -1,0 +1,5 @@
+# Netlify redirects
+/*    /viewer.html   200
+
+# API redirects (if needed)
+/api/*  https://your-api-domain.com/api/:splat  200 

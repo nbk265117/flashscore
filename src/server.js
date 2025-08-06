@@ -66,7 +66,12 @@ class HttpServer {
       pathname = '/viewer.html';
     }
 
-    this.serveFile(pathname, res);
+    // Handle API endpoints
+    if (pathname === '/api/analyze' && req.method === 'POST') {
+      this.handleAnalysisRequest(req, res);
+    } else {
+      this.serveFile(pathname, res);
+    }
   }
 
   /**
@@ -124,6 +129,52 @@ class HttpServer {
   sendResponse(res, contentType, content) {
     res.writeHead(200, { 'Content-Type': contentType });
     res.end(content, 'utf-8');
+  }
+
+  /**
+   * Handle analysis API request
+   * @param {http.IncomingMessage} req - Request object
+   * @param {http.ServerResponse} res - Response object
+   */
+  handleAnalysisRequest(req, res) {
+    try {
+      const { spawn } = require('child_process');
+      const analyzerPath = path.join(__dirname, '../scripts/chatgpt-analyzer.js');
+      
+      const child = spawn('node', [analyzerPath], {
+        stdio: ['pipe', 'pipe', 'pipe'],
+        env: { ...process.env, OPENAI_API_KEY: process.env.OPENAI_API_KEY }
+      });
+      
+      let output = '';
+      let errorOutput = '';
+      
+      child.stdout.on('data', (data) => {
+        output += data.toString();
+      });
+      
+      child.stderr.on('data', (data) => {
+        errorOutput += data.toString();
+      });
+      
+      child.on('close', (code) => {
+        if (code === 0) {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ success: true, message: 'Analysis completed successfully' }));
+        } else {
+          res.writeHead(500, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ success: false, error: errorOutput }));
+        }
+      });
+      
+      child.on('error', (error) => {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: false, error: error.message }));
+      });
+    } catch (error) {
+      res.writeHead(500, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ success: false, error: error.message }));
+    }
   }
 
   /**

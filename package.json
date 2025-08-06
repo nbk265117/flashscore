@@ -19,6 +19,10 @@
     "setup-cron": "node scripts/setup-cron.js",
     "build": "echo 'No build step needed for static files'",
     "deploy": "bash scripts/deploy.sh",
+    "analyze": "node scripts/chatgpt-analyzer.js",
+    "demo": "node scripts/demo-analyzer.js",
+    "analyze:gpt": "node scripts/chatgpt-analyzer.js",
+    "analyze:demo": "node scripts/demo-analyzer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["matches", "football", "api", "nodejs"],
