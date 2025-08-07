@@ -33,11 +33,11 @@ jobs:
       
     - name: Copy data files to public
       run: |
-        mkdir -p public
-        cp data/processed_matches.json public/ 2>/dev/null || echo "processed_matches.json not found"
-        cp data/analysis.json public/ 2>/dev/null || echo "analysis.json not found"
-        cp data/comparison.json public/ 2>/dev/null || echo "comparison.json not found"
-        echo "Data files copied to public directory"
+        mkdir -p public/data
+        cp data/processed_matches.json public/data/ 2>/dev/null || echo "processed_matches.json not found"
+        cp data/analysis.json public/data/ 2>/dev/null || echo "analysis.json not found"
+        cp data/comparison.json public/data/ 2>/dev/null || echo "comparison.json not found"
+        echo "Data files copied to public/data directory"
         
     - name: Build static files
       run: |
