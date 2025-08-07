@@ -35,8 +35,6 @@ jobs:
       run: |
         mkdir -p dist
         cp -r public/* dist/
-        cp package.json dist/
-        cp server.js dist/
         echo "Static files built successfully"
         
     - name: Setup Pages
