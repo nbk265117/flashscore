@@ -86,7 +86,10 @@ async function analyzeMatch(match) {
     const league = (match.league && match.league.name) || 'Unknown League';
     const country = (match.league && match.league.country) || 'Unknown Country';
     const matchTime = (match.fixture && match.fixture.date) || new Date().toISOString();
-    const venue = (match.fixture && match.fixture.venue && match.fixture.venue.name) || 'Unknown Venue';
+    const venue = (match.fixture && match.fixture.venue) || {};
+    const venueName = venue.name || 'Unknown Venue';
+    const venueCity = venue.city || 'Unknown City';
+    const venueCountry = venue.country || 'Unknown Country';
     const referee = (match.fixture && match.fixture.referee) || 'Unknown Referee';
 
     const prompt = `
@@ -97,16 +100,20 @@ Match Details:
 - Away Team: ${awayTeam}
 - League: ${league} (${country})
 - Match Time: ${matchTime}
-- Venue: ${venue}
+- Venue: ${venueName}
+- City: ${venueCity}
+- Country: ${venueCountry}
 - Referee: ${referee}
 
 Please provide:
 1. Win probability for each team (percentage)
 2. Draw probability (percentage)
-3. Key factors that could influence the result
-4. Historical context and team form analysis
-5. Betting recommendations (if applicable)
-6. Risk assessment
+3. Predicted halftime score (e.g., "1-0", "0-1", "1-1")
+4. Predicted final score (e.g., "2-1", "1-2", "2-2")
+5. Key factors that could influence the result
+6. Historical context and team form analysis
+7. Betting recommendations (if applicable)
+8. Risk assessment
 
 Format your response as JSON with this structure:
 {
@@ -117,7 +124,13 @@ Format your response as JSON with this structure:
     "homeWinProbability": 50,
     "awayWinProbability": 30,
     "drawProbability": 20,
-    "prediction": "Home team likely to lead at halftime"
+    "prediction": "Home team likely to lead at halftime",
+    "scorePrediction": "1-0"
+  },
+  "finalScore": {
+    "homeScore": "2",
+    "awayScore": "1",
+    "prediction": "2-1"
   },
   "corners": {
     "total": "9-11",
@@ -161,9 +174,16 @@ Format your response as JSON with this structure:
     return {
       homeTeam,
       awayTeam,
+      homeTeamLogo: (match.teams && match.teams.home && match.teams.home.logo) || null,
+      awayTeamLogo: (match.teams && match.teams.away && match.teams.away.logo) || null,
       league,
       country,
       matchTime,
+      venue: {
+        name: venueName,
+        city: venueCity,
+        country: venueCountry
+      },
       analysis
     };
 

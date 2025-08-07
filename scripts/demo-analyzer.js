@@ -12,7 +12,13 @@ const SAMPLE_ANALYSES = [
             homeWinProbability: 50,
             awayWinProbability: 30,
             drawProbability: 20,
-            prediction: "Home team likely to lead at halftime"
+            prediction: "Home team likely to lead at halftime",
+            scorePrediction: "1-0"
+        },
+        finalScore: {
+            homeScore: "2",
+            awayScore: "1",
+            prediction: "2-1"
         },
         corners: {
             total: "9-11",
@@ -51,7 +57,13 @@ const SAMPLE_ANALYSES = [
             homeWinProbability: 65,
             awayWinProbability: 25,
             drawProbability: 10,
-            prediction: "Strong home team dominance expected at halftime"
+            prediction: "Strong home team dominance expected at halftime",
+            scorePrediction: "2-0"
+        },
+        finalScore: {
+            homeScore: "3",
+            awayScore: "1",
+            prediction: "3-1"
         },
         corners: {
             total: "10-12",
@@ -90,7 +102,13 @@ const SAMPLE_ANALYSES = [
             homeWinProbability: 25,
             awayWinProbability: 60,
             drawProbability: 15,
-            prediction: "Away team likely to lead at halftime"
+            prediction: "Away team likely to lead at halftime",
+            scorePrediction: "0-1"
+        },
+        finalScore: {
+            homeScore: "1",
+            awayScore: "2",
+            prediction: "1-2"
         },
         corners: {
             total: "8-10",
@@ -135,12 +153,31 @@ function generateSampleAnalysis(match) {
     const halftimeAwayWin = template.halftime.awayWinProbability + (Math.random() - 0.5) * 20;
     const halftimeDraw = 100 - halftimeHomeWin - halftimeAwayWin;
     
+    // Generate venue information
+    const venue = (match.fixture && match.fixture.venue) || {};
+    const venueName = venue.name || 'Unknown Stadium';
+    const venueCity = venue.city || 'Unknown City';
+    const venueCountry = venue.country || 'Unknown Country';
+    
+    // Generate score predictions with some randomization
+    const homeScore = Math.floor(Math.random() * 4) + 1; // 1-4 goals
+    const awayScore = Math.floor(Math.random() * 3) + 0; // 0-3 goals
+    const halftimeHomeScore = Math.floor(homeScore * 0.6) + Math.floor(Math.random() * 2); // 60% of final + random
+    const halftimeAwayScore = Math.floor(awayScore * 0.5) + Math.floor(Math.random() * 1); // 50% of final + random
+    
     return {
         homeTeam: (match.teams && match.teams.home && match.teams.home.name) || 'Home Team',
         awayTeam: (match.teams && match.teams.away && match.teams.away.name) || 'Away Team',
+        homeTeamLogo: (match.teams && match.teams.home && match.teams.home.logo) || null,
+        awayTeamLogo: (match.teams && match.teams.away && match.teams.away.logo) || null,
         league: (match.league && match.league.name) || 'Unknown League',
         country: (match.league && match.league.country) || 'Unknown Country',
         matchTime: (match.fixture && match.fixture.date) || new Date().toISOString(),
+        venue: {
+            name: venueName,
+            city: venueCity,
+            country: venueCountry
+        },
         analysis: {
             homeWinProbability: Math.round(homeWin),
             awayWinProbability: Math.round(awayWin),
@@ -149,7 +186,13 @@ function generateSampleAnalysis(match) {
                 homeWinProbability: Math.round(halftimeHomeWin),
                 awayWinProbability: Math.round(halftimeAwayWin),
                 drawProbability: Math.round(halftimeDraw),
-                prediction: template.halftime.prediction
+                prediction: template.halftime.prediction,
+                scorePrediction: `${halftimeHomeScore}-${halftimeAwayScore}`
+            },
+            finalScore: {
+                homeScore: homeScore.toString(),
+                awayScore: awayScore.toString(),
+                prediction: `${homeScore}-${awayScore}`
             },
             corners: template.corners,
             cards: template.cards,

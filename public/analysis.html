@@ -184,9 +184,17 @@
         }
 
         .toggle-icon {
-            font-size: 1.2em;
+            font-size: 1.1em;
             color: #667eea;
             transition: transform 0.3s ease;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 4px;
+        }
+
+        .toggle-icon:hover {
+            background: #f8f9fa;
+            transform: scale(1.1);
         }
 
         .card-content {
@@ -205,10 +213,36 @@
         }
 
         .teams {
-            font-size: 1.3em;
-            font-weight: 700;
-            color: #2c3e50;
+            display: flex;
+            align-items: center;
+            gap: 15px;
             margin-bottom: 5px;
+        }
+
+        .team-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .team-logo {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid #e9ecef;
+        }
+
+        .team-name {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .vs {
+            font-size: 0.9em;
+            color: #6c757d;
+            font-weight: 500;
         }
 
         .league {
@@ -220,6 +254,54 @@
         .match-time {
             color: #495057;
             font-size: 0.9em;
+        }
+
+        .venue {
+            color: #6c757d;
+            font-size: 0.85em;
+            margin-top: 3px;
+        }
+
+        .score-predictions {
+            margin-bottom: 20px;
+        }
+
+        .score-section h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .score-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .score-item {
+            background: #f8f9fa;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .score-label {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .score-value {
+            font-size: 1.3em;
+            font-weight: 700;
+        }
+
+        .halftime-score {
+            color: #ffc107;
+        }
+
+        .final-score {
+            color: #28a745;
         }
 
         .risk-level {
@@ -384,6 +466,23 @@
                 flex-direction: column;
                 gap: 10px;
             }
+            
+            .teams {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .team-info {
+                justify-content: center;
+            }
+            
+            .vs {
+                font-size: 0.8em;
+            }
+            
+            .score-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -432,8 +531,8 @@
                 🔄 Refresh Analysis
             </button>
             <div class="expand-controls">
-                <button id="expandAllBtn" class="expand-btn">📖 Expand All</button>
-                <button id="collapseAllBtn" class="collapse-btn">📕 Collapse All</button>
+                <button id="expandAllBtn" class="expand-btn">⬆️ Expand All</button>
+                <button id="collapseAllBtn" class="collapse-btn">⬇️ Collapse All</button>
             </div>
         </div>
         
@@ -490,13 +589,24 @@
                     <div class="analysis-card">
                         <div class="match-header" onclick="toggleCard(${index})">
                             <div>
-                                <div class="teams">${analysis.homeTeam} vs ${analysis.awayTeam}</div>
+                                <div class="teams">
+                                    <div class="team-info">
+                                        <img src="${analysis.homeTeamLogo || '/images/default-team.png'}" alt="${analysis.homeTeam}" class="team-logo" onerror="this.style.display='none'">
+                                        <span class="team-name">${analysis.homeTeam}</span>
+                                    </div>
+                                    <span class="vs">vs</span>
+                                    <div class="team-info">
+                                        <img src="${analysis.awayTeamLogo || '/images/default-team.png'}" alt="${analysis.awayTeam}" class="team-logo" onerror="this.style.display='none'">
+                                        <span class="team-name">${analysis.awayTeam}</span>
+                                    </div>
+                                </div>
                                 <div class="league">${analysis.league} (${analysis.country})</div>
                                 <div class="match-time">🕐 ${new Date(analysis.matchTime).toLocaleString()}</div>
+                                <div class="venue">🏟️ ${analysis.venue?.name || 'Unknown Stadium'} - ${analysis.venue?.city || 'Unknown City'}, ${analysis.venue?.country || 'Unknown Country'}</div>
                             </div>
                             <div style="display: flex; align-items: center; gap: 10px;">
                                 <span class="risk-level ${riskClass}">${analysis.analysis.riskLevel.toUpperCase()}</span>
-                                <span class="toggle-icon" id="toggle-${index}">📖</span>
+                                <span class="toggle-icon" id="toggle-${index}">⬇️</span>
                             </div>
                         </div>
                         
@@ -514,6 +624,22 @@
                             <div class="probability-item away-win">
                                 <div class="probability-value">${analysis.analysis.awayWinProbability}%</div>
                                 <div class="probability-label">Away Win</div>
+                            </div>
+                        </div>
+                        
+                        <div class="score-predictions">
+                            <div class="score-section">
+                                <h4>⚽ Score Predictions</h4>
+                                <div class="score-grid">
+                                    <div class="score-item">
+                                        <div class="score-label">Halftime Score:</div>
+                                        <div class="score-value halftime-score">${analysis.analysis.halftime?.scorePrediction || 'N/A'}</div>
+                                    </div>
+                                    <div class="score-item">
+                                        <div class="score-label">Final Score:</div>
+                                        <div class="score-value final-score">${analysis.analysis.finalScore?.prediction || 'N/A'}</div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         
@@ -731,11 +857,11 @@
             if (content.classList.contains('collapsed')) {
                 content.classList.remove('collapsed');
                 content.classList.add('expanded');
-                toggleIcon.textContent = '📕';
+                toggleIcon.textContent = '⬆️';
             } else {
                 content.classList.remove('expanded');
                 content.classList.add('collapsed');
-                toggleIcon.textContent = '📖';
+                toggleIcon.textContent = '⬇️';
             }
         }
 
@@ -748,7 +874,7 @@
                 card.classList.remove('collapsed');
                 card.classList.add('expanded');
                 if (toggles[index]) {
-                    toggles[index].textContent = '📕';
+                    toggles[index].textContent = '⬆️';
                 }
             });
         }
@@ -762,7 +888,7 @@
                 card.classList.remove('expanded');
                 card.classList.add('collapsed');
                 if (toggles[index]) {
-                    toggles[index].textContent = '📖';
+                    toggles[index].textContent = '⬇️';
                 }
             });
         }
