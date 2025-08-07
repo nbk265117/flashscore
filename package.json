@@ -10,7 +10,12 @@
     "view": "node index.js && node server.js",
     "deploy:prepare": "bash scripts/deploy.sh",
     "deploy:netlify": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main",
-    "deploy:full": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main && echo '🚀 Deployment completed! Your site will be updated in 2-5 minutes.'"
+    "deploy:full": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main && echo '🚀 Deployment completed! Your site will be updated in 2-5 minutes.'",
+    "analyze:enhanced": "node scripts/enhanced-analyzer.js",
+    "analyze:enhanced-demo": "node scripts/enhanced-demo-analyzer.js",
+    "analyze:demo": "node scripts/demo-analyzer.js",
+    "analyze:gpt": "node scripts/chatgpt-analyzer.js",
+    "compare": "node scripts/comparison-analyzer.js"
   },
   "keywords": ["football", "matches", "viewer", "analysis"],
   "author": "Your Name",
