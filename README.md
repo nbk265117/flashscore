@@ -1,279 +1,129 @@
-# Football Matches Viewer
+# Flashinio Score - Football Match Analysis
 
-A Node.js application to fetch, process, and display football match data from JSON files. The application provides both a command-line interface and a web-based viewer for match times and scores.
+A modern web application for analyzing football matches with AI-powered insights.
 
-## Features
+## 🌟 Features
 
-- 📊 **Match Data Processing**: Parses football match data from JSON files
-- ⏰ **Time Display**: Shows match times in local timezone with status indicators
-- 🏆 **Score Tracking**: Displays scores for finished matches and live games
-- 🔍 **Filtering**: Filter matches by status, league, and search terms
-- 🌐 **Web Interface**: Beautiful, responsive web viewer with real-time filtering
-- 📱 **Mobile Friendly**: Responsive design that works on all devices
+- **Real-time Match Data** - Live football match information
+- **AI Analysis** - ChatGPT-powered match analysis
+- **Comparison Tools** - Compare predictions with actual results
+- **Authentication System** - Secure access with user/admin roles
+- **Responsive Design** - Works on all devices
+- **Modern UI** - Beautiful glassmorphism design
 
-## Quick Start
+## 🔐 Authentication
 
-### Prerequisites
+- **User Code**: `0000` (Regular user access)
+- **Admin Code**: `1991` (Full access including admin features)
 
-- Node.js (version 12 or higher)
-- npm or yarn
+## 🚀 Quick Start
 
-### Installation
+### Local Development
+```bash
+# Install dependencies
+npm install
 
-1. Clone or download the project files
-2. Install dependencies:
+# Start development server
+npm run server
+
+# Open in browser
+http://localhost:3000/viewer.html
+```
+
+### Deploy to GitHub Pages
+
+1. **Push to GitHub**:
    ```bash
-   npm install
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
    ```
 
-### Usage
+2. **Enable GitHub Pages**:
+   - Go to your repository on GitHub
+   - Settings → Pages
+   - Source: Deploy from a branch
+   - Branch: `gh-pages`
+   - Save
 
-#### Command Line Interface
+3. **Your site will be available at**:
+   `https://yourusername.github.io/your-repo-name/`
 
-Process and display matches from `response.json`:
-
-```bash
-npm start
-# or
-node index.js
-```
-
-This will:
-- Load match data from `response.json`
-- Process and display all matches with times and scores
-- Show finished matches with final scores
-- Show upcoming matches with scheduled times
-- Save processed data to `processed_matches.json`
-
-#### Web Interface
-
-Start the web server to view matches in a browser:
-
-```bash
-npm run server
-# or
-node server.js
-```
-
-Then open your browser and go to: `http://localhost:3000`
-
-#### Combined Usage
-
-Process the data and start the web server in one command:
-
-```bash
-npm run view
-```
-
-## Data Format
-
-The application expects a JSON file (`response.json`) with the following structure:
-
-```json
-{
-  "response": [
-    {
-      "fixture": {
-        "id": 123456,
-        "date": "2025-08-05T00:00:00+00:00",
-        "status": {
-          "long": "Match Finished",
-          "short": "FT"
-        },
-        "venue": {
-          "name": "Stadium Name",
-          "city": "City Name"
-        },
-        "referee": "Referee Name"
-      },
-      "league": {
-        "name": "League Name",
-        "country": "Country"
-      },
-      "teams": {
-        "home": {
-          "name": "Home Team"
-        },
-        "away": {
-          "name": "Away Team"
-        }
-      },
-      "score": {
-        "fulltime": {
-          "home": 2,
-          "away": 1
-        },
-        "halftime": {
-          "home": 1,
-          "away": 0
-        }
-      }
-    }
-  ]
-}
-```
-
-## Match Status Codes
-
-The application recognizes the following match status codes:
-
-- `NS` - Not Started
-- `1H` - First Half
-- `HT` - Half Time
-- `2H` - Second Half
-- `FT` - Full Time
-- `AET` - After Extra Time
-- `PEN` - Penalties
-- `BT` - Break Time
-- `SUSP` - Suspended
-- `INT` - Interrupted
-- `PST` - Postponed
-- `CANC` - Cancelled
-- `ABD` - Abandoned
-- `AWD` - Technical Loss
-- `WO` - Walkover
-- `LIVE` - Live
-
-## Web Interface Features
-
-### Filtering Options
-
-- **Status Filter**: Filter by match status (Finished, Upcoming, Live, etc.)
-- **League Filter**: Filter by specific leagues
-- **Search**: Search for teams or leagues by name
-
-### Display Features
-
-- **Match Cards**: Each match displayed in an attractive card format
-- **Score Display**: Clear score display for finished matches
-- **Time Information**: Localized time display with status indicators
-- **Venue Information**: Stadium and city information when available
-- **Referee Information**: Referee details when available
-
-### Statistics
-
-The web interface shows real-time statistics:
-- Total matches
-- Finished matches
-- Upcoming matches
-
-## File Structure
+## 📁 Project Structure
 
 ```
 Zbet/
-├── index.js              # Main application logic
-├── server.js             # HTTP server for web interface
-├── viewer.html           # Web interface
-├── response.json         # Input data file
-├── processed_matches.json # Output data file
-├── package.json          # Project configuration
-└── README.md            # This file
+├── public/           # Static files (HTML, CSS, JS)
+│   ├── viewer.html   # Main match viewer
+│   ├── analysis.html # AI analysis page
+│   ├── comparison.html # Comparison tools
+│   └── auth.html     # Authentication page
+├── src/              # Source code
+├── data/             # Match data and analysis
+├── scripts/          # Utility scripts
+└── .github/          # GitHub Actions workflow
 ```
 
-## API Reference
+## 🛠️ Technologies
 
-### MatchesFetcher Class
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Backend**: Node.js, Express
+- **Data**: JSON files
+- **AI**: ChatGPT API integration
+- **Deployment**: GitHub Pages, GitHub Actions
 
-The main class for processing match data.
+## 🎨 Design Features
 
-#### Methods
+- **Glassmorphism UI** - Modern glass-like effects
+- **Responsive Design** - Mobile-first approach
+- **Smooth Animations** - CSS transitions and transforms
+- **Gradient Backgrounds** - Beautiful color schemes
+- **Hover Effects** - Interactive elements
 
-- `loadResponseData()` - Loads data from response.json
-- `fetchMatches()` - Fetches and processes all matches
-- `processMatches(data)` - Processes raw data into match objects
-- `formatMatchTime(dateString, status)` - Formats match time display
-- `formatScore(score, status)` - Formats score display
-- `getMatchStatus(status)` - Converts status codes to readable text
-- `displayMatches(matches)` - Displays matches in console
-- `saveProcessedMatches(matches, filename)` - Saves processed data
-- `getFinishedMatches(matches)` - Filters finished matches
-- `getUpcomingMatches(matches)` - Filters upcoming matches
+## 📱 Mobile Responsive
 
-## Examples
+The application is fully responsive and works perfectly on:
+- 📱 Mobile phones
+- 📱 Tablets
+- 💻 Desktop computers
 
-### Basic Usage
+## 🔧 Configuration
 
-```javascript
-const MatchesFetcher = require('./index.js');
-
-async function main() {
-    const fetcher = new MatchesFetcher();
-    const matches = await fetcher.fetchMatches();
-    
-    // Get finished matches
-    const finished = fetcher.getFinishedMatches(matches);
-    console.log(`Found ${finished.length} finished matches`);
-    
-    // Get upcoming matches
-    const upcoming = fetcher.getUpcomingMatches(matches);
-    console.log(`Found ${upcoming.length} upcoming matches`);
-}
-
-main();
+### Environment Variables
+Create a `.env` file for local development:
+```env
+PORT=3000
+NODE_ENV=development
 ```
 
-### Custom Processing
+## 📊 Features by User Type
 
-```javascript
-const fetcher = new MatchesFetcher();
+### Regular User (Code: 0000)
+- ✅ View matches
+- ✅ Basic analysis
+- ✅ Responsive design
 
-// Process matches by specific status
-const liveMatches = fetcher.getMatchesByStatus(matches, '1H');
-console.log(`Live matches: ${liveMatches.length}`);
+### Admin User (Code: 1991)
+- ✅ All regular features
+- ✅ Refresh analysis
+- ✅ Run comparisons
+- ✅ Full access to all tools
 
-// Save custom processed data
-await fetcher.saveProcessedMatches(matches, 'my_matches.json');
-```
+## 🚀 Deployment Status
 
-## Troubleshooting
+[![Deploy to GitHub Pages](https://github.com/yourusername/your-repo-name/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://yourusername.github.io/your-repo-name/)
 
-### Common Issues
-
-1. **"Error reading response.json"**
-   - Ensure `response.json` exists in the project directory
-   - Check that the JSON file is valid
-
-2. **"SyntaxError: Unexpected token"**
-   - Make sure you're using Node.js version 12 or higher
-   - The application uses modern JavaScript features
-
-3. **Web interface not loading**
-   - Ensure the server is running on port 3000
-   - Check that `processed_matches.json` exists
-   - Try refreshing the browser page
-
-4. **No matches displayed**
-   - Verify the JSON structure matches the expected format
-   - Check that the `response` array contains match data
-
-## Development
-
-### Running in Development Mode
-
-```bash
-npm run dev
-```
-
-This uses nodemon to automatically restart the server when files change.
-
-### Adding New Features
-
-1. Modify `index.js` for backend logic
-2. Update `viewer.html` for frontend changes
-3. Test with `npm start` and `npm run server`
-
-## License
+## 📄 License
 
 MIT License - feel free to use this project for your own purposes.
 
-## Contributing
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+4. Submit a pull request
 
 ---
 
-**Enjoy watching football matches! ⚽** 
+**Made with ❤️ for football analysis** 
