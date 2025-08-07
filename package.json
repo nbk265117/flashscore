@@ -1,44 +1,26 @@
 {
   "name": "zbet-matches-fetcher",
   "version": "1.0.0",
-  "description": "Node.js application to fetch and process matches from response.json",
+  "description": "Football matches viewer and analyzer",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
     "server": "node server.js",
-    "server:dev": "nodemon server.js",
+    "dev": "nodemon server.js",
     "view": "node index.js && node server.js",
-    "view:dev": "nodemon --exec 'node index.js && node server.js'",
-    "build": "echo 'No build step needed for static files'",
-    "serve": "node src/server.js",
-    "serve:dev": "nodemon src/server.js",
-    "app:dev": "nodemon src/app.js",
-    "dev:full": "node scripts/dev.js",
-    "fetch-daily": "node scripts/fetch-daily-data.js",
-    "setup-cron": "node scripts/setup-cron.js",
-    "deploy": "bash scripts/deploy.sh",
-    "analyze": "node scripts/chatgpt-analyzer.js",
-    "demo": "node scripts/demo-analyzer.js",
-    "analyze:gpt": "node scripts/chatgpt-analyzer.js",
-    "analyze:demo": "node scripts/demo-analyzer.js",
-    "compare": "node scripts/comparison-analyzer.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy:prepare": "bash scripts/deploy.sh",
+    "deploy:netlify": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main",
+    "deploy:full": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main && echo '🚀 Deployment completed! Your site will be updated in 2-5 minutes.'"
   },
-  "keywords": [
-    "matches",
-    "football",
-    "api",
-    "nodejs"
-  ],
-  "author": "",
+  "keywords": ["football", "matches", "viewer", "analysis"],
+  "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.6.0",
-    "node-fetch": "^3.3.2"
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "type": "commonjs"
+    "nodemon": "^2.0.22"
+  }
 }

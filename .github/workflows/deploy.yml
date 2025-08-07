@@ -31,10 +31,16 @@ jobs:
     - name: Install dependencies
       run: npm ci
       
+    - name: Copy data files to public
+      run: |
+        mkdir -p public
+        cp data/processed_matches.json public/ 2>/dev/null || echo "processed_matches.json not found"
+        cp data/analysis.json public/ 2>/dev/null || echo "analysis.json not found"
+        cp data/comparison.json public/ 2>/dev/null || echo "comparison.json not found"
+        echo "Data files copied to public directory"
+        
     - name: Build static files
       run: |
-        mkdir -p dist
-        cp -r public/* dist/
         echo "Static files built successfully"
         
     - name: Setup Pages
@@ -43,7 +49,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: './dist'
+        path: './public'
         
   deploy:
     environment:
