@@ -14,6 +14,9 @@
     "analyze:enhanced": "node scripts/enhanced-analyzer.js",
     "analyze:enhanced-demo": "node scripts/enhanced-demo-analyzer.js",
     "analyze:real": "node scripts/api-sports-analyzer.js",
+    "analyze:enhanced-api": "node scripts/enhanced-api-analyzer.js",
+    "analyze:ml": "node scripts/ml-predictor.js",
+    "validate": "node scripts/prediction-validator.js",
     "analyze:demo": "node scripts/demo-analyzer.js",
     "analyze:gpt": "node scripts/chatgpt-analyzer.js",
     "compare": "node scripts/comparison-analyzer.js"
