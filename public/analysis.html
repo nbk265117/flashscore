@@ -314,21 +314,7 @@
                 padding: 10px 15px;
             }
 
-            .random-controls {
-                margin-left: 0;
-                margin-top: 10px;
-                justify-content: center;
-            }
 
-            .random-input-group {
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 6px;
-            }
-
-            .random-input-group input {
-                width: 50px;
-            }
 
             .nav-left {
                 order: 1;
@@ -509,68 +495,7 @@
             margin-left: auto;
         }
 
-        .random-controls {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            margin-left: 15px;
-        }
 
-        .random-input-group {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            background: #f8f9fa;
-            padding: 8px 12px;
-            border-radius: 8px;
-            border: 1px solid #e9ecef;
-        }
-
-        .random-input-group label {
-            font-weight: 600;
-            color: #495057;
-            font-size: 0.9em;
-        }
-
-        .random-input-group input {
-            width: 60px;
-            padding: 6px 8px;
-            border: 1px solid #ced4da;
-            border-radius: 4px;
-            text-align: center;
-            font-size: 0.9em;
-        }
-
-        .random-input-group input:focus {
-            outline: none;
-            border-color: #667eea;
-            box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
-        }
-
-        .random-btn, .reset-btn {
-            background: #ff6b6b;
-            color: white;
-            border: none;
-            padding: 8px 12px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 12px;
-            transition: all 0.2s;
-        }
-
-        .random-btn:hover {
-            background: #ee5a24;
-            transform: translateY(-1px);
-        }
-
-        .reset-btn {
-            background: #6c757d;
-        }
-
-        .reset-btn:hover {
-            background: #5a6268;
-            transform: translateY(-1px);
-        }
 
         .expand-btn, .collapse-btn {
             background: #6c757d;
@@ -1023,14 +948,7 @@
                 <button id="expandAllBtn" class="expand-btn">⬆️ Expand All</button>
                 <button id="collapseAllBtn" class="collapse-btn">⬇️ Collapse All</button>
             </div>
-            <div class="random-controls">
-                <div class="random-input-group">
-                    <label for="randomCount">🎲 Random:</label>
-                    <input type="number" id="randomCount" min="1" max="50" value="6" placeholder="6">
-                    <button id="randomBtn" class="random-btn">🎲 Get Random</button>
-                    <button id="resetRandomBtn" class="reset-btn">🔄 Reset</button>
-                </div>
-            </div>
+
         </div>
         
         <div class="stats">
@@ -1447,67 +1365,7 @@
             });
         }
 
-        // Random functionality
-        let originalData = [];
-        let isRandomMode = false;
 
-        function getRandomMatches() {
-            const count = parseInt(document.getElementById('randomCount').value) || 6;
-            const maxCount = Math.min(count, filteredData.length);
-            
-            if (maxCount === 0) {
-                alert('No matches available for random selection.');
-                return;
-            }
-
-            // Store original data if not already stored
-            if (!isRandomMode) {
-                originalData = [...filteredData];
-            }
-
-            // Shuffle and select random matches
-            const shuffled = [...filteredData].sort(() => 0.5 - Math.random());
-            const randomMatches = shuffled.slice(0, maxCount);
-
-            // Update filtered data with random matches
-            filteredData = randomMatches;
-            isRandomMode = true;
-
-            // Update display
-            displayAnalyses();
-            updateStats();
-
-            // Show feedback
-            const randomBtn = document.getElementById('randomBtn');
-            const originalText = randomBtn.textContent;
-            randomBtn.textContent = `🎲 ${maxCount} Random`;
-            randomBtn.style.background = '#28a745';
-            
-            setTimeout(() => {
-                randomBtn.textContent = originalText;
-                randomBtn.style.background = '#ff6b6b';
-            }, 2000);
-        }
-
-        function resetRandom() {
-            if (isRandomMode && originalData.length > 0) {
-                filteredData = [...originalData];
-                isRandomMode = false;
-                displayAnalyses();
-                updateStats();
-
-                // Show feedback
-                const resetBtn = document.getElementById('resetRandomBtn');
-                const originalText = resetBtn.textContent;
-                resetBtn.textContent = '✅ Reset';
-                resetBtn.style.background = '#28a745';
-                
-                setTimeout(() => {
-                    resetBtn.textContent = originalText;
-                    resetBtn.style.background = '#6c757d';
-                }, 2000);
-            }
-        }
 
         // Event listeners
         document.getElementById('timeFilter').addEventListener('change', filterAnalyses);
@@ -1523,9 +1381,7 @@
         document.getElementById('expandAllBtn').addEventListener('click', expandAllCards);
         document.getElementById('collapseAllBtn').addEventListener('click', collapseAllCards);
 
-        // Random functionality buttons
-        document.getElementById('randomBtn').addEventListener('click', getRandomMatches);
-        document.getElementById('resetRandomBtn').addEventListener('click', resetRandom);
+
 
         // Refresh analysis
         document.getElementById('analyzeBtn').addEventListener('click', async () => {
