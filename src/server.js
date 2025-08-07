@@ -61,17 +61,21 @@ class HttpServer {
     const parsedUrl = url.parse(req.url);
     let pathname = parsedUrl.pathname;
 
-    // Default to viewer.html if root is requested
+    // Redirect to authentication page if root is requested
     if (pathname === '/') {
-      pathname = '/viewer.html';
+      res.writeHead(302, { 'Location': '/auth.html' });
+      res.end();
+      return;
     }
 
-    // Handle API endpoints
-    if (pathname === '/api/analyze' && req.method === 'POST') {
-      this.handleAnalysisRequest(req, res);
-    } else {
-      this.serveFile(pathname, res);
-    }
+            // Handle API endpoints
+        if (pathname === '/api/analyze' && req.method === 'POST') {
+            this.handleAnalysisRequest(req, res);
+        } else if (pathname === '/api/compare' && req.method === 'POST') {
+            this.handleComparisonRequest(req, res);
+        } else {
+            this.serveFile(pathname, res);
+        }
   }
 
   /**
@@ -139,11 +143,12 @@ class HttpServer {
   handleAnalysisRequest(req, res) {
     try {
       const { spawn } = require('child_process');
-      const analyzerPath = path.join(__dirname, '../scripts/chatgpt-analyzer.js');
+      // Use demo analyzer instead of ChatGPT analyzer to avoid API quota issues
+      const analyzerPath = path.join(__dirname, '../scripts/demo-analyzer.js');
       
       const child = spawn('node', [analyzerPath], {
         stdio: ['pipe', 'pipe', 'pipe'],
-        env: { ...process.env, OPENAI_API_KEY: process.env.OPENAI_API_KEY }
+        env: { ...process.env }
       });
       
       let output = '';
@@ -161,6 +166,52 @@ class HttpServer {
         if (code === 0) {
           res.writeHead(200, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({ success: true, message: 'Analysis completed successfully' }));
+        } else {
+          res.writeHead(500, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ success: false, error: errorOutput }));
+        }
+      });
+      
+      child.on('error', (error) => {
+        res.writeHead(500, { 'Content-Type': 'application/json' });
+        res.end(JSON.stringify({ success: false, error: error.message }));
+      });
+    } catch (error) {
+      res.writeHead(500, { 'Content-Type': 'application/json' });
+      res.end(JSON.stringify({ success: false, error: error.message }));
+    }
+  }
+
+  /**
+   * Handle comparison API request
+   * @param {http.IncomingMessage} req - Request object
+   * @param {http.ServerResponse} res - Response object
+   */
+  handleComparisonRequest(req, res) {
+    try {
+      const { spawn } = require('child_process');
+      const comparisonPath = path.join(__dirname, '../scripts/comparison-analyzer.js');
+      
+      const child = spawn('node', [comparisonPath], {
+        stdio: ['pipe', 'pipe', 'pipe'],
+        env: { ...process.env }
+      });
+      
+      let output = '';
+      let errorOutput = '';
+      
+      child.stdout.on('data', (data) => {
+        output += data.toString();
+      });
+      
+      child.stderr.on('data', (data) => {
+        errorOutput += data.toString();
+      });
+      
+      child.on('close', (code) => {
+        if (code === 0) {
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(JSON.stringify({ success: true, message: 'Comparison completed successfully' }));
         } else {
           res.writeHead(500, { 'Content-Type': 'application/json' });
           res.end(JSON.stringify({ success: false, error: errorOutput }));

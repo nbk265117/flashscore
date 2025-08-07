@@ -108,12 +108,14 @@ Match Details:
 Please provide:
 1. Win probability for each team (percentage)
 2. Draw probability (percentage)
-3. Predicted halftime score (e.g., "1-0", "0-1", "1-1")
-4. Predicted final score (e.g., "2-1", "1-2", "2-2")
+3. Predicted halftime score that matches the most likely outcome (e.g., if away win is predicted, halftime should show away leading)
+4. Predicted final score that matches the most likely outcome (e.g., if away win is predicted, final score should show away winning)
 5. Key factors that could influence the result
 6. Historical context and team form analysis
 7. Betting recommendations (if applicable)
 8. Risk assessment
+
+IMPORTANT: The score predictions must be consistent with the win probabilities. If you predict an away win, the final score should show the away team winning.
 
 Format your response as JSON with this structure:
 {

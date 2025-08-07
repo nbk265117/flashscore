@@ -144,14 +144,36 @@ const SAMPLE_ANALYSES = [
 function generateSampleAnalysis(match) {
     const template = SAMPLE_ANALYSES[Math.floor(Math.random() * SAMPLE_ANALYSES.length)];
     
-    // Add some randomization to make each analysis unique
-    const homeWin = template.homeWinProbability + (Math.random() - 0.5) * 20;
-    const awayWin = template.awayWinProbability + (Math.random() - 0.5) * 20;
-    const draw = 100 - homeWin - awayWin;
+                // Add some randomization to make each analysis unique
+            const homeWin = template.homeWinProbability + (Math.random() - 0.5) * 20;
+            const awayWin = template.awayWinProbability + (Math.random() - 0.5) * 20;
+            const draw = 100 - homeWin - awayWin;
+            
+            // Ensure probabilities are valid (between 0 and 100)
+            const adjustedHomeWin = Math.max(0, Math.min(100, homeWin));
+            const adjustedAwayWin = Math.max(0, Math.min(100, awayWin));
+            const adjustedDraw = Math.max(0, Math.min(100, draw));
+            
+            // Normalize to ensure they sum to 100
+            const total = adjustedHomeWin + adjustedAwayWin + adjustedDraw;
+            const normalizedHomeWin = Math.round((adjustedHomeWin / total) * 100);
+            const normalizedAwayWin = Math.round((adjustedAwayWin / total) * 100);
+            const normalizedDraw = Math.max(0, 100 - normalizedHomeWin - normalizedAwayWin);
     
-    const halftimeHomeWin = template.halftime.homeWinProbability + (Math.random() - 0.5) * 20;
-    const halftimeAwayWin = template.halftime.awayWinProbability + (Math.random() - 0.5) * 20;
-    const halftimeDraw = 100 - halftimeHomeWin - halftimeAwayWin;
+                const halftimeHomeWin = template.halftime.homeWinProbability + (Math.random() - 0.5) * 20;
+            const halftimeAwayWin = template.halftime.awayWinProbability + (Math.random() - 0.5) * 20;
+            const halftimeDraw = 100 - halftimeHomeWin - halftimeAwayWin;
+            
+            // Ensure halftime probabilities are valid
+            const adjustedHalftimeHomeWin = Math.max(0, Math.min(100, halftimeHomeWin));
+            const adjustedHalftimeAwayWin = Math.max(0, Math.min(100, halftimeAwayWin));
+            const adjustedHalftimeDraw = Math.max(0, Math.min(100, halftimeDraw));
+            
+            // Normalize halftime probabilities
+            const halftimeTotal = adjustedHalftimeHomeWin + adjustedHalftimeAwayWin + adjustedHalftimeDraw;
+            const normalizedHalftimeHomeWin = Math.round((adjustedHalftimeHomeWin / halftimeTotal) * 100);
+            const normalizedHalftimeAwayWin = Math.round((adjustedHalftimeAwayWin / halftimeTotal) * 100);
+            const normalizedHalftimeDraw = Math.max(0, 100 - normalizedHalftimeHomeWin - normalizedHalftimeAwayWin);
     
     // Generate venue information
     const venue = (match.fixture && match.fixture.venue) || {};
@@ -159,11 +181,29 @@ function generateSampleAnalysis(match) {
     const venueCity = venue.city || 'Unknown City';
     const venueCountry = venue.country || 'Unknown Country';
     
-    // Generate score predictions with some randomization
-    const homeScore = Math.floor(Math.random() * 4) + 1; // 1-4 goals
-    const awayScore = Math.floor(Math.random() * 3) + 0; // 0-3 goals
-    const halftimeHomeScore = Math.floor(homeScore * 0.6) + Math.floor(Math.random() * 2); // 60% of final + random
-    const halftimeAwayScore = Math.floor(awayScore * 0.5) + Math.floor(Math.random() * 1); // 50% of final + random
+    // Generate score predictions based on win probabilities
+    let homeScore, awayScore;
+    
+    // Determine the most likely outcome based on probabilities
+    const maxProb = Math.max(homeWin, awayWin, draw);
+    
+    if (maxProb === homeWin) {
+        // Home win scenario
+        homeScore = Math.floor(Math.random() * 2) + 2; // 2-3 goals
+        awayScore = Math.floor(Math.random() * 2); // 0-1 goals
+    } else if (maxProb === awayWin) {
+        // Away win scenario
+        homeScore = Math.floor(Math.random() * 2); // 0-1 goals
+        awayScore = Math.floor(Math.random() * 2) + 1; // 1-2 goals
+    } else {
+        // Draw scenario
+        homeScore = Math.floor(Math.random() * 2) + 1; // 1-2 goals
+        awayScore = homeScore; // Same score for draw
+    }
+    
+    // Generate halftime scores (typically 60-70% of final score)
+    const halftimeHomeScore = Math.floor(homeScore * 0.6) + Math.floor(Math.random() * 1);
+    const halftimeAwayScore = Math.floor(awayScore * 0.6) + Math.floor(Math.random() * 1);
     
     return {
         homeTeam: (match.teams && match.teams.home && match.teams.home.name) || 'Home Team',
@@ -179,13 +219,13 @@ function generateSampleAnalysis(match) {
             country: venueCountry
         },
         analysis: {
-            homeWinProbability: Math.round(homeWin),
-            awayWinProbability: Math.round(awayWin),
-            drawProbability: Math.round(draw),
+                                homeWinProbability: normalizedHomeWin,
+                    awayWinProbability: normalizedAwayWin,
+                    drawProbability: normalizedDraw,
             halftime: {
-                homeWinProbability: Math.round(halftimeHomeWin),
-                awayWinProbability: Math.round(halftimeAwayWin),
-                drawProbability: Math.round(halftimeDraw),
+                homeWinProbability: normalizedHalftimeHomeWin,
+                awayWinProbability: normalizedHalftimeAwayWin,
+                drawProbability: normalizedHalftimeDraw,
                 prediction: template.halftime.prediction,
                 scorePrediction: `${halftimeHomeScore}-${halftimeAwayScore}`
             },

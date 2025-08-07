@@ -15,12 +15,279 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
-            padding: 20px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-nav {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+        }
+
+        .nav-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .app-title {
+            font-size: 1.5em;
+            font-weight: 700;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .nav-center {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 8px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 8px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-link {
+            color: #667eea;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            background: transparent;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 600;
+            font-size: 0.9em;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            border-radius: 25px;
+            z-index: 0;
+        }
+
+        .nav-link:hover::before {
+            opacity: 1;
+        }
+
+        .nav-link:hover {
+            color: white !important;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .nav-link:hover span {
+            color: white !important;
+        }
+
+        .nav-link.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+            transform: translateY(-1px);
+        }
+
+        .nav-link span {
+            position: relative;
+            z-index: 1;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-badge {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 30px;
+            font-size: 0.9em;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .user-badge::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .user-badge:hover::before {
+            left: 100%;
+        }
+
+        .user-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(40, 167, 69, 0.4);
+        }
+
+        .user-badge.admin {
+            background: linear-gradient(135deg, #ffc107, #ff8c00);
+            box-shadow: 0 4px 15px rgba(255, 193, 7, 0.3);
+        }
+
+        .user-badge.admin:hover {
+            box-shadow: 0 8px 25px rgba(255, 193, 7, 0.4);
+        }
+
+        .logout-btn {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9em;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 4px 15px rgba(231, 76, 60, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logout-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s ease;
+        }
+
+        .logout-btn:hover::before {
+            left: 100%;
+        }
+
+        .logout-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(231, 76, 60, 0.4);
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-content {
+                flex-direction: column;
+                gap: 15px;
+                padding: 10px 15px;
+            }
+
+            .nav-left {
+                order: 1;
+            }
+
+            .nav-center {
+                order: 2;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .nav-right {
+                order: 3;
+                width: 100%;
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .nav-links {
+                gap: 5px;
+                padding: 6px;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .nav-link {
+                padding: 10px 15px;
+                font-size: 0.8em;
+                flex: 1;
+                text-align: center;
+                min-width: 0;
+            }
+
+            .app-title {
+                font-size: 1.3em;
+            }
+
+            .user-badge, .logout-btn {
+                padding: 10px 15px;
+                font-size: 0.8em;
+            }
+
+            .top-nav {
+                position: relative;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 5px;
+                padding: 8px;
+            }
+
+            .nav-link {
+                width: 100%;
+                padding: 12px 15px;
+            }
+
+            .nav-right {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .user-badge, .logout-btn {
+                width: 100%;
+                text-align: center;
+            }
         }
 
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 20px auto;
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -28,7 +295,7 @@
         }
 
         .header {
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             padding: 30px;
             text-align: center;
@@ -43,6 +310,10 @@
             font-size: 1.1em;
             opacity: 0.9;
         }
+
+
+
+
 
         .live-clock {
             font-size: 1.2em;
@@ -657,9 +928,34 @@
     </style>
 </head>
 <body>
+    <!-- Top Navigation Bar -->
+    <div class="top-nav">
+        <div class="nav-content">
+            <div class="nav-left">
+                <div class="app-title">⚽ Flashinio Score</div>
+            </div>
+            <div class="nav-center">
+                <div class="nav-links">
+                    <a href="viewer.html" class="nav-link active">📊 Matches</a>
+                    <a href="analysis.html" class="nav-link">🤖 Analysis</a>
+                    <a href="comparison.html" class="nav-link">🔍 Comparison</a>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="user-info" id="userInfo">
+                    <div class="user-badge" id="userBadge">
+                        👤 User
+                    </div>
+                </div>
+                <button id="logoutBtn" class="logout-btn">🚪 Logout</button>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="header">
-            <h1>⚽ Flashinio Score</h1>
+            <h1>⚽ Flashinio Score - Today</h1>
+
             <p>Live scores, match times, and results</p>
             <div id="liveClock" class="live-clock"></div>
         </div>
@@ -886,6 +1182,48 @@
     </div>
 
     <script>
+        // Authentication check
+        function checkAuthentication() {
+            const isAuthenticated = sessionStorage.getItem('isAuthenticated');
+            const userType = sessionStorage.getItem('userType');
+            
+            if (!isAuthenticated) {
+                window.location.href = '/auth.html';
+                return false;
+            }
+            
+            // Update user badge in top navigation
+            const userBadge = document.getElementById('userBadge');
+            if (userBadge) {
+                userBadge.textContent = `👤 ${userType.charAt(0).toUpperCase() + userType.slice(1)}`;
+                if (userType === 'admin') {
+                    userBadge.classList.add('admin');
+                }
+            }
+            
+            return true;
+        }
+
+        // Logout functionality
+        function logout() {
+            sessionStorage.removeItem('isAuthenticated');
+            sessionStorage.removeItem('userType');
+            window.location.href = '/auth.html';
+        }
+
+        // Check authentication on page load
+        if (!checkAuthentication()) {
+            // Page will redirect to auth.html
+        }
+
+        // Add logout button event listener
+        document.addEventListener('DOMContentLoaded', () => {
+            const logoutBtn = document.getElementById('logoutBtn');
+            if (logoutBtn) {
+                logoutBtn.addEventListener('click', logout);
+            }
+        });
+
         let allMatches = [];
         let filteredMatches = [];
 

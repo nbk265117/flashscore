@@ -10,22 +10,27 @@
     "server:dev": "nodemon server.js",
     "view": "node index.js && node server.js",
     "view:dev": "nodemon --exec 'node index.js && node server.js'",
-    "build": "node src/app.js",
+    "build": "echo 'No build step needed for static files'",
     "serve": "node src/server.js",
     "serve:dev": "nodemon src/server.js",
     "app:dev": "nodemon src/app.js",
     "dev:full": "node scripts/dev.js",
     "fetch-daily": "node scripts/fetch-daily-data.js",
     "setup-cron": "node scripts/setup-cron.js",
-    "build": "echo 'No build step needed for static files'",
     "deploy": "bash scripts/deploy.sh",
     "analyze": "node scripts/chatgpt-analyzer.js",
     "demo": "node scripts/demo-analyzer.js",
     "analyze:gpt": "node scripts/chatgpt-analyzer.js",
     "analyze:demo": "node scripts/demo-analyzer.js",
+    "compare": "node scripts/comparison-analyzer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["matches", "football", "api", "nodejs"],
+  "keywords": [
+    "matches",
+    "football",
+    "api",
+    "nodejs"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
@@ -36,4 +41,4 @@
     "nodemon": "^3.0.1"
   },
   "type": "commonjs"
-} 
+}

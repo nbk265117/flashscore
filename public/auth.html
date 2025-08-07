@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔐 Authentication - Flashinio Score</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .auth-container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .logo {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .title {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1em;
+        }
+
+        .otp-container {
+            margin-bottom: 30px;
+        }
+
+        .otp-inputs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .otp-input {
+            width: 50px;
+            height: 50px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .otp-input:focus {
+            border-color: #667eea;
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .otp-input.filled {
+            border-color: #667eea;
+            background: #f8f9ff;
+        }
+
+        .otp-input.error {
+            border-color: #e74c3c;
+            background: #fff5f5;
+        }
+
+        .auth-button {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .auth-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .auth-button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .error-message {
+            color: #e74c3c;
+            background: #fff5f5;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        .success-message {
+            color: #27ae60;
+            background: #f0fff4;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: none;
+        }
+
+        .loading {
+            display: none;
+            margin: 20px 0;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+
+
+
+
+        @media (max-width: 480px) {
+            .auth-container {
+                padding: 30px 20px;
+            }
+            
+            .otp-input {
+                width: 45px;
+                height: 45px;
+                font-size: 1.3em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="logo">⚽</div>
+        <h1 class="title">Flashinio Score</h1>
+        <p class="subtitle">Enter your 4-digit code to continue</p>
+
+
+
+        <div class="otp-container">
+            <div class="otp-inputs">
+                <input type="text" class="otp-input" maxlength="1" data-index="0">
+                <input type="text" class="otp-input" maxlength="1" data-index="1">
+                <input type="text" class="otp-input" maxlength="1" data-index="2">
+                <input type="text" class="otp-input" maxlength="1" data-index="3">
+            </div>
+        </div>
+
+        <div class="error-message" id="errorMessage"></div>
+        <div class="success-message" id="successMessage"></div>
+
+        <button class="auth-button" id="verifyButton" disabled>
+            🔐 Verify OTP
+        </button>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Verifying...</p>
+        </div>
+
+
+    </div>
+
+    <script>
+        class AuthManager {
+            constructor() {
+                this.otpInputs = document.querySelectorAll('.otp-input');
+                this.verifyButton = document.getElementById('verifyButton');
+                this.errorMessage = document.getElementById('errorMessage');
+                this.successMessage = document.getElementById('successMessage');
+                this.loading = document.getElementById('loading');
+
+                
+                this.userOTP = '0000'; // User OTP
+                this.adminOTP = '1991'; // Admin OTP
+                this.attempts = 0;
+                this.maxAttempts = 3;
+                
+                this.init();
+            }
+
+            init() {
+                this.setupOTPInputs();
+                this.setupVerifyButton();
+    
+                this.focusFirstInput();
+            }
+
+            setupOTPInputs() {
+                this.otpInputs.forEach((input, index) => {
+                    input.addEventListener('input', (e) => {
+                        this.handleOTPInput(e, index);
+                    });
+
+                    input.addEventListener('keydown', (e) => {
+                        this.handleKeydown(e, index);
+                    });
+
+                    input.addEventListener('paste', (e) => {
+                        this.handlePaste(e);
+                    });
+                });
+            }
+
+            handleOTPInput(e, index) {
+                const input = e.target;
+                const value = input.value;
+
+                // Only allow numbers
+                if (!/^\d*$/.test(value)) {
+                    input.value = '';
+                    return;
+                }
+
+                if (value) {
+                    input.classList.add('filled');
+                    input.classList.remove('error');
+                    
+                    // Move to next input
+                    if (index < this.otpInputs.length - 1) {
+                        this.otpInputs[index + 1].focus();
+                    } else {
+                        // If this is the last input and we have 4 digits, auto-verify
+                        const otp = this.getOTP();
+                        if (otp.length === 4) {
+                            // Small delay to ensure the last digit is properly set
+                            setTimeout(() => {
+                                this.verifyOTP();
+                            }, 100);
+                        }
+                    }
+                } else {
+                    input.classList.remove('filled');
+                }
+
+                this.updateVerifyButton();
+            }
+
+            handleKeydown(e, index) {
+                if (e.key === 'Backspace' && !e.target.value && index > 0) {
+                    // Move to previous input on backspace
+                    this.otpInputs[index - 1].focus();
+                } else if (e.key === 'Enter') {
+                    // Auto-verify when Enter is pressed and all 4 digits are entered
+                    const otp = this.getOTP();
+                    if (otp.length === 4) {
+                        this.verifyOTP();
+                    }
+                }
+            }
+
+            handlePaste(e) {
+                e.preventDefault();
+                const pastedData = e.clipboardData.getData('text');
+                const numbers = pastedData.replace(/\D/g, '').slice(0, 4);
+                
+                this.otpInputs.forEach((input, index) => {
+                    input.value = numbers[index] || '';
+                    if (numbers[index]) {
+                        input.classList.add('filled');
+                    } else {
+                        input.classList.remove('filled');
+                    }
+                });
+
+                this.updateVerifyButton();
+                this.focusNextEmptyInput();
+            }
+
+            focusNextEmptyInput() {
+                for (let input of this.otpInputs) {
+                    if (!input.value) {
+                        input.focus();
+                        break;
+                    }
+                }
+            }
+
+            focusFirstInput() {
+                this.otpInputs[0].focus();
+            }
+
+            updateVerifyButton() {
+                const otp = this.getOTP();
+                this.verifyButton.disabled = otp.length !== 4;
+            }
+
+            getOTP() {
+                return Array.from(this.otpInputs)
+                    .map(input => input.value)
+                    .join('');
+            }
+
+            setupVerifyButton() {
+                this.verifyButton.addEventListener('click', () => {
+                    this.verifyOTP();
+                });
+            }
+
+
+
+            async verifyOTP() {
+                const otp = this.getOTP();
+                
+                if (otp.length !== 4) {
+                    this.showError('Please enter a 4-digit code');
+                    return;
+                }
+
+                this.showLoading(true);
+                this.hideMessages();
+
+                // Simulate API call
+                await this.simulateVerification(otp);
+            }
+
+            async simulateVerification(otp) {
+                // Simulate network delay
+                await new Promise(resolve => setTimeout(resolve, 1500));
+
+                if (otp === this.userOTP || otp === this.adminOTP) {
+                    const userType = otp === this.adminOTP ? 'admin' : 'user';
+                    this.attempts = 0;
+                    
+                    // Store user type in sessionStorage
+                    sessionStorage.setItem('userType', userType);
+                    sessionStorage.setItem('isAuthenticated', 'true');
+                    
+                    // Hide verify button immediately
+                    this.verifyButton.style.display = 'none';
+                    
+                    // Redirect to main page immediately
+                    window.location.href = '/viewer.html';
+                } else {
+                    this.attempts++;
+                    this.showError(`❌ Invalid code. Attempts remaining: ${this.maxAttempts - this.attempts}`);
+                    this.clearOTP();
+                    
+                    if (this.attempts >= this.maxAttempts) {
+                        this.lockAccount();
+                    }
+                }
+
+                this.showLoading(false);
+            }
+
+            showLoading(show) {
+                this.loading.style.display = show ? 'block' : 'none';
+                this.verifyButton.style.display = show ? 'none' : 'block';
+            }
+
+            showError(message) {
+                this.errorMessage.textContent = message;
+                this.errorMessage.style.display = 'block';
+                this.successMessage.style.display = 'none';
+                
+                // Add error styling to inputs
+                this.otpInputs.forEach(input => {
+                    input.classList.add('error');
+                });
+            }
+
+            showSuccess(message) {
+                this.successMessage.textContent = message;
+                this.successMessage.style.display = 'block';
+                this.errorMessage.style.display = 'none';
+                
+                // Remove error styling
+                this.otpInputs.forEach(input => {
+                    input.classList.remove('error');
+                });
+            }
+
+            hideMessages() {
+                this.errorMessage.style.display = 'none';
+                this.successMessage.style.display = 'none';
+            }
+
+            clearOTP() {
+                this.otpInputs.forEach(input => {
+                    input.value = '';
+                    input.classList.remove('filled', 'error');
+                });
+                this.focusFirstInput();
+                this.updateVerifyButton();
+            }
+
+            lockAccount() {
+                this.showError('🔒 Account temporarily locked. Please try again later.');
+                this.verifyButton.disabled = true;
+                
+                // Unlock after 5 minutes
+                setTimeout(() => {
+                    this.attempts = 0;
+                    this.verifyButton.disabled = false;
+                    this.hideMessages();
+                }, 300000); // 5 minutes
+            }
+
+
+        }
+
+        // Initialize authentication
+        document.addEventListener('DOMContentLoaded', () => {
+            new AuthManager();
+        });
+    </script>
+</body>
+</html> 
