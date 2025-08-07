@@ -1,54 +1,56 @@
 #!/usr/bin/env node
 
+require('dotenv').config();
+
+/**
+ * Enhanced Demo Analyzer (Fixed Version)
+ * 
+ * This script generates enhanced analysis for football matches using simulated data
+ * but with proper date handling from processed matches.
+ */
+
 const fs = require('fs').promises;
 const path = require('path');
 
 /**
- * Generate enhanced team data with realistic statistics
- * @param {string} teamName - Team name
- * @param {boolean} isHome - Whether it's the home team
- * @returns {Object} - Enhanced team data
+ * Generate enhanced team data based on team name
  */
 function generateEnhancedTeamData(teamName, isHome = false) {
-  // Generate realistic form based on team name
   const teamHash = teamName.split('').reduce((a, b) => a + b.charCodeAt(0), 0);
   const formResults = [];
   const formOptions = ['W', 'D', 'L'];
-  
+
   for (let i = 0; i < 5; i++) {
     const random = (teamHash + i) % 100;
     if (random < 40) formResults.push('W');
     else if (random < 70) formResults.push('D');
     else formResults.push('L');
   }
-  
-  // Generate injuries based on team
+
   const injuryTypes = ['Knee', 'Hamstring', 'Ankle', 'Groin', 'Calf', 'Shoulder'];
   const injuries = [];
   const injuryCount = Math.floor(Math.random() * 3);
-  
+
   for (let i = 0; i < injuryCount; i++) {
     const playerName = `Player ${String.fromCharCode(65 + i)}`;
     const injuryType = injuryTypes[Math.floor(Math.random() * injuryTypes.length)];
     injuries.push(`${playerName} (${injuryType})`);
   }
-  
-  // Generate key players
+
   const positions = ['Striker', 'Midfielder', 'Defender', 'Goalkeeper'];
   const keyPlayers = [];
   const playerCount = 3 + Math.floor(Math.random() * 2);
-  
+
   for (let i = 0; i < playerCount; i++) {
     const position = positions[Math.floor(Math.random() * positions.length)];
     const playerName = `${position} ${String.fromCharCode(88 + i)}`;
     keyPlayers.push(playerName);
   }
-  
-  // Generate realistic stats
+
   const recentGoals = Math.floor(Math.random() * 8) + 3;
   const recentConceded = Math.floor(Math.random() * 6) + 2;
   const homeAdvantage = isHome && Math.random() > 0.3;
-  
+
   return {
     last5: formResults,
     injuries: injuries,
@@ -61,9 +63,7 @@ function generateEnhancedTeamData(teamName, isHome = false) {
 }
 
 /**
- * Analyze a single match using enhanced data
- * @param {Object} match - The match data
- * @returns {Object} - The analysis result
+ * Analyze a single match
  */
 function analyzeMatch(match) {
   const homeTeam = match.homeTeam || 'Home Team';
@@ -82,21 +82,51 @@ function analyzeMatch(match) {
   // Calculate win probabilities based on form and home advantage
   const homeForm = homeTeamData.form;
   const awayForm = awayTeamData.form;
-  const homeAdvantage = homeTeamData.homeAdvantage ? 0.15 : 0;
+  const homeAdvantage = homeTeamData.homeAdvantage ? 0.12 : 0;
   
-  let homeWinProbability = Math.round((homeForm + homeAdvantage) * 100);
-  let awayWinProbability = Math.round(awayForm * 100);
-  let drawProbability = 100 - homeWinProbability - awayWinProbability;
+  // Base probabilities (more realistic)
+  let homeBase = homeForm * 0.4; // Max 40% from form
+  let awayBase = awayForm * 0.35; // Max 35% from form
+  let drawBase = 0.25; // Base 25% for draw
   
-  // Ensure probabilities add up to 100
-  if (drawProbability < 0) {
-    homeWinProbability += drawProbability;
-    drawProbability = 0;
+  // Add home advantage
+  homeBase += homeAdvantage;
+  
+  // Normalize to ensure realistic ranges
+  const total = homeBase + awayBase + drawBase;
+  
+  let homeWinProbability = Math.round((homeBase / total) * 100);
+  let awayWinProbability = Math.round((awayBase / total) * 100);
+  let drawProbability = Math.round((drawBase / total) * 100);
+  
+  // Ensure minimum realistic values
+  homeWinProbability = Math.max(15, Math.min(65, homeWinProbability));
+  awayWinProbability = Math.max(10, Math.min(55, awayWinProbability));
+  drawProbability = Math.max(20, Math.min(40, drawProbability));
+  
+  // Normalize to 100%
+  const totalProb = homeWinProbability + awayWinProbability + drawProbability;
+  homeWinProbability = Math.round((homeWinProbability / totalProb) * 100);
+  awayWinProbability = Math.round((awayWinProbability / totalProb) * 100);
+  drawProbability = 100 - homeWinProbability - awayWinProbability;
+  
+  // Generate score predictions based on win probabilities
+  let homeGoals, awayGoals;
+  
+  if (homeWinProbability > awayWinProbability) {
+    // Home team is more likely to win
+    homeGoals = Math.floor(Math.random() * 3) + 2; // 2-4 goals
+    awayGoals = Math.floor(Math.random() * 2); // 0-1 goals
+  } else if (awayWinProbability > homeWinProbability) {
+    // Away team is more likely to win
+    homeGoals = Math.floor(Math.random() * 2); // 0-1 goals
+    awayGoals = Math.floor(Math.random() * 3) + 1; // 1-3 goals
+  } else {
+    // Close match or draw
+    homeGoals = Math.floor(Math.random() * 2) + 1; // 1-2 goals
+    awayGoals = Math.floor(Math.random() * 2) + 1; // 1-2 goals
   }
   
-  // Generate score predictions
-  const homeGoals = Math.floor(Math.random() * 3) + 1;
-  const awayGoals = Math.floor(Math.random() * 3);
   const halftimeHomeGoals = Math.floor(homeGoals * 0.6);
   const halftimeAwayGoals = Math.floor(awayGoals * 0.6);
   
@@ -173,7 +203,9 @@ function analyzeMatch(match) {
         homeWinProbability: Math.round(homeWinProbability * 0.9),
         awayWinProbability: Math.round(awayWinProbability * 0.9),
         drawProbability: Math.round(drawProbability * 1.2),
-        prediction: halftimeHomeGoals > halftimeAwayGoals ? "Home team likely to lead at halftime" : "Close first half expected",
+        prediction: halftimeHomeGoals > halftimeAwayGoals ? "Home team likely to lead at halftime" : 
+                   halftimeAwayGoals > halftimeHomeGoals ? "Away team likely to lead at halftime" : 
+                   "Close first half expected",
         scorePrediction: `${halftimeHomeGoals}-${halftimeAwayGoals}`
       },
       finalScore: {
@@ -239,6 +271,7 @@ async function generateEnhancedAnalysis() {
     console.log(`✅ Successfully analyzed: ${analyses.length} matches`);
     console.log(`📁 Enhanced analysis saved to: ${path.resolve(outputPath)}`);
     
+    // Display sample analysis
     if (analyses.length > 0) {
       const sample = analyses[0];
       console.log(`\n📋 Sample enhanced analysis:`);
@@ -255,12 +288,12 @@ async function generateEnhancedAnalysis() {
   }
 }
 
-// Run the enhanced analysis
+// Run if called directly
 if (require.main === module) {
   generateEnhancedAnalysis();
 }
 
 module.exports = {
-  analyzeMatch,
-  generateEnhancedAnalysis
+  generateEnhancedAnalysis,
+  analyzeMatch
 }; 
