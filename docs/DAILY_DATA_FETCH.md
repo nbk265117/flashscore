@@ -38,10 +38,12 @@ npm run setup-cron
 ```javascript
 const API_CONFIG = {
     host: 'v3.football.api-sports.io',
-    key: 'de648a1cb23cfb5ccf9df22231faa1d6',
+    key: process.env.API_SPORTS_KEY || '',
     endpoint: '/fixtures'
 };
 ```
+
+**Note**: The API key is now loaded from the `.env` file. Make sure to set `API_SPORTS_KEY` in your `.env` file.
 
 ### File Paths
 - **Data**: `data/response.json`
@@ -199,9 +201,9 @@ sudo tail -f /var/log/cron
 
 ### API Issues
 ```bash
-# Test API manually
+# Test API manually (replace YOUR_API_KEY with your actual key)
 curl -H "x-rapidapi-host: v3.football.api-sports.io" \
-     -H "x-apisports-key: de648a1cb23cfb5ccf9df22231faa1d6" \
+     -H "x-apisports-key: YOUR_API_KEY" \
      "https://v3.football.api-sports.io/fixtures?date=2025-08-06"
 ```
 

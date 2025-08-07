@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+require('dotenv').config();
+
 /**
  * Daily Football Data Fetcher
  * 
@@ -15,7 +17,7 @@ const https = require('https');
 // Configuration
 const API_CONFIG = {
     host: 'v3.football.api-sports.io',
-    key: 'de648a1cb23cfb5ccf9df22231faa1d6',
+    key: process.env.API_SPORTS_KEY || '',
     endpoint: '/fixtures'
 };
 
