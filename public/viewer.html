@@ -17,6 +17,13 @@
             min-height: 100vh;
             margin: 0;
             padding: 0;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
         }
 
         .top-nav {
@@ -258,7 +265,24 @@
             }
 
             .top-nav {
-                position: relative;
+                position: sticky;
+                top: 0;
+            }
+
+            /* Tablet scroll improvements */
+            body {
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .container {
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            .matches-container {
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
             }
         }
 
@@ -283,6 +307,38 @@
                 width: 100%;
                 text-align: center;
             }
+
+            /* Mobile scroll improvements */
+            body {
+                overflow-x: hidden;
+                -webkit-overflow-scrolling: touch;
+                position: relative;
+            }
+
+            .container {
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                height: calc(100vh - 120px);
+                padding-bottom: 20px;
+            }
+
+            .matches-container {
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                max-height: calc(100vh - 200px);
+            }
+
+            .top-nav {
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                z-index: 1000;
+            }
+
+            .header {
+                margin-top: 80px;
+            }
         }
 
         .container {
@@ -291,7 +347,7 @@
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            overflow: hidden;
+            overflow: visible;
         }
 
         .header {
@@ -400,6 +456,7 @@
         .matches-container {
             max-height: 70vh;
             overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
             padding: 20px;
         }
 
