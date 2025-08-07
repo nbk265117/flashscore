@@ -1,4 +1,5 @@
 # Netlify redirects
+/    /viewer.html   200
 /*    /viewer.html   200
 
 # API redirects (if needed)
