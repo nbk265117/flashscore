@@ -1,0 +1,4603 @@
+[
+  {
+    "id": 1326874,
+    "homeTeam": "Naples",
+    "awayTeam": "Tormenta",
+    "league": "USL League One",
+    "country": "USA",
+    "date": "2025-08-07T00:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21623,
+      "name": "Paradise Coast Sports Complex",
+      "city": "Naples, Florida"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1326875,
+    "homeTeam": "Union Omaha",
+    "awayTeam": "Westchester SC",
+    "league": "USL League One",
+    "country": "USA",
+    "date": "2025-08-07T00:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 7177,
+      "name": "Werner Park",
+      "city": "Papillion, Nebraska"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1403889,
+    "homeTeam": "Imbabura",
+    "awayTeam": "Independiente del Valle",
+    "league": "Copa Ecuador",
+    "country": "Ecuador",
+    "date": "2025-08-07T00:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2683,
+      "name": "Estadio Olímpico de Ibarra",
+      "city": "Ibarra"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1411889,
+    "homeTeam": "Diriangén",
+    "awayTeam": "CS Herediano",
+    "league": "Concacaf Central American Cup",
+    "country": "World",
+    "date": "2025-08-07T00:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 3498,
+      "name": "Estadio Cacique Diriangén",
+      "city": "Diriamba"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1413144,
+    "homeTeam": "UCV",
+    "awayTeam": "Fundación Lara Deportiva",
+    "league": "Copa Venezuela",
+    "country": "Venezuela",
+    "date": "2025-08-07T00:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351468,
+    "homeTeam": "Minnesota United FC",
+    "awayTeam": "Atletico San Luis",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T00:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1617,
+      "name": "Allianz Field",
+      "city": "Saint Paul, Minnesota"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1377531,
+    "homeTeam": "Fluminense",
+    "awayTeam": "Internacional",
+    "league": "Copa Do Brasil",
+    "country": "Brazil",
+    "date": "2025-08-07T00:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Estadio Jornalista Mário Filho",
+      "city": "Rio de Janeiro, Rio de Janeiro"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1377537,
+    "homeTeam": "Palmeiras",
+    "awayTeam": "Corinthians",
+    "league": "Copa Do Brasil",
+    "country": "Brazil",
+    "date": "2025-08-07T00:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 258,
+      "name": "Allianz Parque",
+      "city": "São Paulo, São Paulo"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 01:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1412887,
+    "homeTeam": "Huila",
+    "awayTeam": "Junior",
+    "league": "Copa Colombia",
+    "country": "Colombia",
+    "date": "2025-08-07T00:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 370,
+      "name": "Estadio Guillermo Plazas Alcid",
+      "city": "Neiva"
+    },
+    "referee": "Steven Alejandro Camargo Abril",
+    "formattedTime": "07/08/2025 - 01:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1345563,
+    "homeTeam": "Whitecaps II",
+    "awayTeam": "St. Louis City II",
+    "league": "MLS Next Pro",
+    "country": "USA",
+    "date": "2025-08-07T01:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 3128,
+      "name": "Swangard Stadium",
+      "city": "Burnaby, British Columbia"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 02:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351469,
+    "homeTeam": "Club America",
+    "awayTeam": "Portland Timbers",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T01:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 11535,
+      "name": "Q2 Stadium",
+      "city": "Austin, Texas"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 02:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351470,
+    "homeTeam": "Real Salt Lake",
+    "awayTeam": "Club Queretaro",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T01:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 19223,
+      "name": "America First Field",
+      "city": "Sandy, Utah"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 02:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1327177,
+    "homeTeam": "Monterey Bay",
+    "awayTeam": "FC Tulsa",
+    "league": "USL Championship",
+    "country": "USA",
+    "date": "2025-08-07T02:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 18522,
+      "name": "Cardinale Stadium",
+      "city": "Seaside, California"
+    },
+    "referee": "Muhammad Hassan",
+    "formattedTime": "07/08/2025 - 03:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1411890,
+    "homeTeam": "Hércules",
+    "awayTeam": "CD Olimpia",
+    "league": "Concacaf Central American Cup",
+    "country": "World",
+    "date": "2025-08-07T02:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 3292,
+      "name": "Estadio Las Delicias",
+      "city": "Santa Tecla"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 03:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1411891,
+    "homeTeam": "Xelajú",
+    "awayTeam": "Águila",
+    "league": "Concacaf Central American Cup",
+    "country": "World",
+    "date": "2025-08-07T02:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2441,
+      "name": "Estadio Cementos Progreso",
+      "city": "Ciudad de Guatemala"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 03:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351471,
+    "homeTeam": "Seattle Sounders",
+    "awayTeam": "Club Tijuana",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T03:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 11534,
+      "name": "Lumen Field",
+      "city": "Seattle, Washington"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 04:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1416277,
+    "homeTeam": "Rukh Vynnyky U19",
+    "awayTeam": "Dynamo Kyiv U19",
+    "league": "U19 League",
+    "country": "Ukraine",
+    "date": "2025-08-07T09:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 0,
+      "name": "Stadion im. Bohdan Markevycha",
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 10:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1418960,
+    "homeTeam": "Anri Vladivostok",
+    "awayTeam": "KDV",
+    "league": "Cup",
+    "country": "Russia",
+    "date": "2025-08-07T09:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1345,
+      "name": "Stadion Dinamo",
+      "city": "Vladivostok"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 10:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421791,
+    "homeTeam": "Kidderpore",
+    "awayTeam": "Calcutta Police",
+    "league": "Calcutta Premier Division",
+    "country": "India",
+    "date": "2025-08-07T09:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 10:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421792,
+    "homeTeam": "Southern Samity",
+    "awayTeam": "Mohammedan",
+    "league": "Calcutta Premier Division",
+    "country": "India",
+    "date": "2025-08-07T09:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 10:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421793,
+    "homeTeam": "Sribhumi",
+    "awayTeam": "United Kolkata",
+    "league": "Calcutta Premier Division",
+    "country": "India",
+    "date": "2025-08-07T09:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 10:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1423754,
+    "homeTeam": "Haugesund U19",
+    "awayTeam": "Aalesunds U19",
+    "league": "Nasjonal U19 Champions League",
+    "country": "Norway",
+    "date": "2025-08-07T11:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 12:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1368084,
+    "homeTeam": "Altay",
+    "awayTeam": "Kaspiy",
+    "league": "1. Division",
+    "country": "Kazakhstan",
+    "date": "2025-08-07T12:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stadion Vostok",
+      "city": "Öskemen (Ust-Kamenogorsk)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 13:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1368086,
+    "homeTeam": "Akademiya Ontustik",
+    "awayTeam": "SD Family",
+    "league": "1. Division",
+    "country": "Kazakhstan",
+    "date": "2025-08-07T12:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21858,
+      "name": "Stadion Namys",
+      "city": "Şımkent (Shymkent)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 13:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1368090,
+    "homeTeam": "Sport Academy Kairat",
+    "awayTeam": "Aktobe Jas",
+    "league": "1. Division",
+    "country": "Kazakhstan",
+    "date": "2025-08-07T12:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stadïon Akademïï T.S.Segïzbaeva",
+      "city": "Almatı (Almaty)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 13:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1397046,
+    "homeTeam": "Temp Barnaul",
+    "awayTeam": "Uralets Nizhnyi Tagil",
+    "league": "Cup",
+    "country": "Russia",
+    "date": "2025-08-07T12:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 4960,
+      "name": "Stadion Dinamo",
+      "city": "Barnaul"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 13:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1419211,
+    "homeTeam": "Congo DR",
+    "awayTeam": "Zambia",
+    "league": "African Nations Championship",
+    "country": "World",
+    "date": "2025-08-07T13:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 992,
+      "name": "Nyayo National Stadium",
+      "city": "Nairobi"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 14:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1392312,
+    "homeTeam": "Kokand-1912",
+    "awayTeam": "Neftchi",
+    "league": "Super League",
+    "country": "Uzbekistan",
+    "date": "2025-08-07T14:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Markaziy Stadion",
+      "city": "Qo'qon (Kokand)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 15:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1397043,
+    "homeTeam": "Kristall",
+    "awayTeam": "Luki-Energiya",
+    "league": "Cup",
+    "country": "Russia",
+    "date": "2025-08-07T14:15:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21850,
+      "name": "Stadion Nova Arena",
+      "city": "Sankt-Peterburg (St. Petersburg)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 15:15 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1423692,
+    "homeTeam": "Gheorgheni",
+    "awayTeam": "Odorheiu Secuiesc",
+    "league": "Cupa României",
+    "country": "Romania",
+    "date": "2025-08-07T14:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21940,
+      "name": "Stadionul Viitorul",
+      "city": "Gheorgheni"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 15:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1392313,
+    "homeTeam": "Nasaf",
+    "awayTeam": "Andijan",
+    "league": "Super League",
+    "country": "Uzbekistan",
+    "date": "2025-08-07T15:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 3215,
+      "name": "Markaziy Stadion",
+      "city": "Qarshi"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 16:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1418964,
+    "homeTeam": "Marstal / Rise",
+    "awayTeam": "Tved",
+    "league": "DBU Pokalen",
+    "country": "Denmark",
+    "date": "2025-08-07T15:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 0,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 16:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1420182,
+    "homeTeam": "Arkadag",
+    "awayTeam": "Köpetdag Aşgabat",
+    "league": "Ýokary Liga",
+    "country": "Turkmenistan",
+    "date": "2025-08-07T15:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 0,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 16:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1420184,
+    "homeTeam": "Şagadam",
+    "awayTeam": "Merw",
+    "league": "Ýokary Liga",
+    "country": "Turkmenistan",
+    "date": "2025-08-07T15:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 0,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 16:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421660,
+    "homeTeam": "SK Poltava U19",
+    "awayTeam": "Veres Rivne U19",
+    "league": "U19 League",
+    "country": "Ukraine",
+    "date": "2025-08-07T15:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 16:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1354788,
+    "homeTeam": "Vaajakoski",
+    "awayTeam": "JPS",
+    "league": "Kakkonen - Lohko A",
+    "country": "Finland",
+    "date": "2025-08-07T15:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 6370,
+      "name": "Vaajakosken urheilukenttä",
+      "city": "Vaajakoski"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 16:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1329581,
+    "homeTeam": "Sola",
+    "awayTeam": "Vidar",
+    "league": "3. Division - Girone 5",
+    "country": "Norway",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 5138,
+      "name": "Sola Stadion",
+      "city": "Sola"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1381445,
+    "homeTeam": "FK Zalgiris Vilnius",
+    "awayTeam": "Suduva Marijampole",
+    "league": "A Lyga",
+    "country": "Lithuania",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21778,
+      "name": "FK Žalgiris namų stadionas",
+      "city": "Vilnius"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1418965,
+    "homeTeam": "FC Kalundborg",
+    "awayTeam": "Stenløse",
+    "league": "DBU Pokalen",
+    "country": "Denmark",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 22122,
+      "name": "Munkesø Stadion Kunst",
+      "city": "Kalundborg"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1419212,
+    "homeTeam": "Angola",
+    "awayTeam": "Kenya",
+    "league": "African Nations Championship",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 996,
+      "name": "Moi International Sports Centre",
+      "city": "Nairobi"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421160,
+    "homeTeam": "Milsami Orhei",
+    "awayTeam": "Virtus",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2615,
+      "name": "Stadionul Zimbru",
+      "city": "Chişinău"
+    },
+    "referee": "Edgars Maļcevs",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421167,
+    "homeTeam": "Kauno Žalgiris",
+    "awayTeam": "Arda Kardzhali",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2612,
+      "name": "S. Dariaus ir S. Girėno stadionas",
+      "city": "Kaunas"
+    },
+    "referee": "Jérémy Muller",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421172,
+    "homeTeam": "Aris",
+    "awayTeam": "AEK Athens FC",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Tsirion Athlítiko Kentro",
+      "city": "Limassol (Lemesós)"
+    },
+    "referee": "Goga Kikacheishvili",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421175,
+    "homeTeam": "Araz",
+    "awayTeam": "Omonia Nicosia",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Liv Bona Dea Arena",
+      "city": "Bakı (Baku)"
+    },
+    "referee": "Ondřej Berka",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421210,
+    "homeTeam": "Fredrikstad",
+    "awayTeam": "FC Midtjylland",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2792,
+      "name": "Nye Fredrikstad Stadion",
+      "city": "Fredrikstad"
+    },
+    "referee": "Igor Pajač",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421219,
+    "homeTeam": "Lincoln Red Imps FC",
+    "awayTeam": "FC Noah",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Europa Point Stadium",
+      "city": "Gibraltar"
+    },
+    "referee": "Filip Glova",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1423750,
+    "homeTeam": "Rosenborg",
+    "awayTeam": "Hammarby FF",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1190,
+      "name": "Lerkendal Stadion",
+      "city": "Trondheim"
+    },
+    "referee": "Zorbay Küçük",
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1423950,
+    "homeTeam": "Stabæk U19",
+    "awayTeam": "Odd U19",
+    "league": "Nasjonal U19 Champions League",
+    "country": "Norway",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1424319,
+    "homeTeam": "BSI",
+    "awayTeam": "Nerashté Ballerup",
+    "league": "DBU Pokalen",
+    "country": "Denmark",
+    "date": "2025-08-07T16:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1402827,
+    "homeTeam": "Bayern München",
+    "awayTeam": "Tottenham",
+    "league": "Friendlies Clubs",
+    "country": "World",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 700,
+      "name": "Allianz Arena",
+      "city": "München"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1414206,
+    "homeTeam": "Al Ahli",
+    "awayTeam": "Al Buqa'a",
+    "league": "League",
+    "country": "Jordan",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Petra Field",
+      "city": "ʿAmmān (Amman)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1418998,
+    "homeTeam": "Sozopol",
+    "awayTeam": "Rodopa Smolyan",
+    "league": "Third League - Southeast",
+    "country": "Bulgaria",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2666,
+      "name": "Gradski stadion",
+      "city": "Sozopol"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1419971,
+    "homeTeam": "Hegelmann Litauen",
+    "awayTeam": "Šiauliai",
+    "league": "Cup",
+    "country": "Lithuania",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Raudondvario stadionas",
+      "city": "Raudondvaris"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421169,
+    "homeTeam": "Baník Ostrava",
+    "awayTeam": "Austria Vienna",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2495,
+      "name": "Městský stadion - Vítkovice Aréna",
+      "city": "Ostrava"
+    },
+    "referee": "Mohammed Al Hakim",
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421209,
+    "homeTeam": "CFR 1907 Cluj",
+    "awayTeam": "SC Braga",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1311,
+      "name": "Stadionul Dr. Constantin Rădulescu",
+      "city": "Cluj-Napoca"
+    },
+    "referee": "Elçin Məsiyev",
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421214,
+    "homeTeam": "AEK Larnaca",
+    "awayTeam": "Legia Warszawa",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T16:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "AEK Arena - George Karapatakis",
+      "city": "Lárnaka (Larnaca)"
+    },
+    "referee": "Horațiu Mircea Feșnic",
+    "formattedTime": "07/08/2025 - 17:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1418966,
+    "homeTeam": "Vallensbæk",
+    "awayTeam": "FC Nakskov",
+    "league": "DBU Pokalen",
+    "country": "Denmark",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Vallensbæk Idrætscenter",
+      "city": "Vallensbæk"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421155,
+    "homeTeam": "AIK Stockholm",
+    "awayTeam": "Gyori ETO FC",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21411,
+      "name": "Strawberry Arena",
+      "city": "Solna"
+    },
+    "referee": "Daniel Schlager",
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421156,
+    "homeTeam": "Riga",
+    "awayTeam": "Beitar Jerusalem",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stadions Skonto",
+      "city": "Rīga (Riga)"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421162,
+    "homeTeam": "Silkeborg",
+    "awayTeam": "Jagiellonia",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 459,
+      "name": "JYSK Park",
+      "city": "Silkeborg"
+    },
+    "referee": "Jamie Robinson",
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421163,
+    "homeTeam": "Viking",
+    "awayTeam": "Istanbul Basaksehir",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21732,
+      "name": "Lyse Arena",
+      "city": "Stavanger"
+    },
+    "referee": "Miguel Bertolo Nogueira",
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421211,
+    "homeTeam": "BK Hacken",
+    "awayTeam": "Brann",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1511,
+      "name": "Bravida Arena",
+      "city": "Göteborg"
+    },
+    "referee": "Georgi Kabakov",
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1424320,
+    "homeTeam": "BiH Odense",
+    "awayTeam": "FC Horsens",
+    "league": "DBU Pokalen",
+    "country": "Denmark",
+    "date": "2025-08-07T17:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Ejbyskolen",
+      "city": "Odense Sø"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 18:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1413127,
+    "homeTeam": "PAOK",
+    "awayTeam": "Wolfsberger AC",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T17:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 780,
+      "name": "Stadio Toumbas",
+      "city": "Thessaloníki"
+    },
+    "referee": "Morten Krogh",
+    "formattedTime": "07/08/2025 - 18:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1332886,
+    "homeTeam": "Stjarnan W",
+    "awayTeam": "Tindastóll W",
+    "league": "Úrvalsdeild Women",
+    "country": "Iceland",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 829,
+      "name": "Samsung völlurinn",
+      "city": "Garðabær"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1332887,
+    "homeTeam": "Thór / KA W",
+    "awayTeam": "Valur W",
+    "league": "Úrvalsdeild Women",
+    "country": "Iceland",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 20542,
+      "name": "VÍS völlurinn",
+      "city": "Akureyri"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1332925,
+    "homeTeam": "Fram W",
+    "awayTeam": "Breidablik W",
+    "league": "Úrvalsdeild Women",
+    "country": "Iceland",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Lambhagavöllurinn",
+      "city": "Reykjavík"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1353781,
+    "homeTeam": "Barracas Central Res.",
+    "awayTeam": "Aldosivi Res.",
+    "league": "Reserve League",
+    "country": "Argentina",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1353786,
+    "homeTeam": "Argentinos Juniors Res.",
+    "awayTeam": "Unión Santa Fe Res.",
+    "league": "Reserve League",
+    "country": "Argentina",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1353789,
+    "homeTeam": "Lanús Res.",
+    "awayTeam": "Talleres Córdoba Res.",
+    "league": "Reserve League",
+    "country": "Argentina",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1353794,
+    "homeTeam": "Deportivo Riestra Res.",
+    "awayTeam": "Ferro 2",
+    "league": "Reserve League",
+    "country": "Argentina",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": null,
+      "city": null
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1371142,
+    "homeTeam": "EC São Bernardo U20",
+    "awayTeam": "São Caetano U20",
+    "league": "Paulista - U20",
+    "country": "Brazil",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 7045,
+      "name": "Estádio Bruno José Daniel",
+      "city": "Santo André, São Paulo"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1373841,
+    "homeTeam": "Fluminense U17",
+    "awayTeam": "Juventude U17",
+    "league": "Brasileiro U17",
+    "country": "Brazil",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21504,
+      "name": "Estádio Marcelo Vieira",
+      "city": "Duque de Caxias, Rio de Janeiro"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1419570,
+    "homeTeam": "FC Differdange 03",
+    "awayTeam": "FC Levadia Tallinn",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stade Parc des Sports",
+      "city": "Déifferdeng (Differdange)"
+    },
+    "referee": "Alessandro Dudic",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421153,
+    "homeTeam": "Polessya",
+    "awayTeam": "Paks",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Futbal Tatran Arena",
+      "city": "Prešov"
+    },
+    "referee": "Joakim Östling",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421158,
+    "homeTeam": "AZ Alkmaar",
+    "awayTeam": "FC Vaduz",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1119,
+      "name": "AFAS Stadion",
+      "city": "Alkmaar"
+    },
+    "referee": "Bastien Dechepy",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421168,
+    "homeTeam": "Sparta Praha",
+    "awayTeam": "Ararat-Armenia",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 19513,
+      "name": "epet ARENA",
+      "city": "Praha"
+    },
+    "referee": "Matthew McDermid",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421170,
+    "homeTeam": "Vikingur Gota",
+    "awayTeam": "Linfield",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2609,
+      "name": "Tórsvøllur",
+      "city": "Tórshavn, Streymoy"
+    },
+    "referee": "Luka Bilbija",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421173,
+    "homeTeam": "Levski Sofia",
+    "awayTeam": "Sabah FA",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stadion Georgi Asparuhov",
+      "city": "Sofia"
+    },
+    "referee": "Duje Strukan",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421178,
+    "homeTeam": "Anderlecht",
+    "awayTeam": "Sheriff Tiraspol",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Lotto Park",
+      "city": "Bruxelles (Brussel)"
+    },
+    "referee": "Nenad Minaković",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421179,
+    "homeTeam": "Olimpija Ljubljana",
+    "awayTeam": "Egnatia Rrogozhinë",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1442,
+      "name": "Stadion Stožice",
+      "city": "Ljubljana"
+    },
+    "referee": "John Beaton",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421218,
+    "homeTeam": "Panathinaikos",
+    "awayTeam": "Shakhtar Donetsk",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Olympiako Stadio Spyros Louis",
+      "city": "Athína (Athens)"
+    },
+    "referee": "Erik Lambrechts",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421220,
+    "homeTeam": "Zrinjski",
+    "awayTeam": "Breidablik",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 202,
+      "name": "Stadion Bijeli Brijeg",
+      "city": "Mostar"
+    },
+    "referee": "Enea Jorgji",
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1423743,
+    "homeTeam": "Durazno",
+    "awayTeam": "Liverpool Montevideo",
+    "league": "Copa Uruguay",
+    "country": "Uruguay",
+    "date": "2025-08-07T18:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Estadio Contador José Pedro Damiani",
+      "city": "Montevideo"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 19:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421159,
+    "homeTeam": "Lausanne",
+    "awayTeam": "FC Astana",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:15:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 11917,
+      "name": "Stade de la Tuilière",
+      "city": "Lausanne"
+    },
+    "referee": "Łukasz Kuźma",
+    "formattedTime": "07/08/2025 - 19:15 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421154,
+    "homeTeam": "Universitatea Craiova",
+    "awayTeam": "Spartak Trnava",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 12282,
+      "name": "Complex Sportiv Craiova",
+      "city": "Craiova"
+    },
+    "referee": "Joonas Jaanovits",
+    "formattedTime": "07/08/2025 - 19:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421157,
+    "homeTeam": "FC Lugano",
+    "awayTeam": "Celje",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1544,
+      "name": "Stockhorn Arena",
+      "city": "Thun"
+    },
+    "referee": "Sander van der Eijk",
+    "formattedTime": "07/08/2025 - 19:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421161,
+    "homeTeam": "Ballkani",
+    "awayTeam": "Shamrock Rovers",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stadiumi Fadil Vokrri",
+      "city": "Prishtinë (Pristina)"
+    },
+    "referee": "Dmytro Panchyshyn",
+    "formattedTime": "07/08/2025 - 19:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421216,
+    "homeTeam": "Servette FC",
+    "awayTeam": "Utrecht",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T18:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Stade de Genève",
+      "city": "Lancy"
+    },
+    "referee": "Harm Osmers",
+    "formattedTime": "07/08/2025 - 19:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421217,
+    "homeTeam": "FCSB",
+    "awayTeam": "Drita",
+    "league": "UEFA Europa League",
+    "country": "World",
+    "date": "2025-08-07T18:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1326,
+      "name": "Arena Nationala",
+      "city": "Bucureşti"
+    },
+    "referee": "Damian Sylwestrzak",
+    "formattedTime": "07/08/2025 - 19:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421164,
+    "homeTeam": "Vikingur Reykjavik",
+    "awayTeam": "Brondby",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:45:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 831,
+      "name": "Víkingsvöllur",
+      "city": "Reykjavík"
+    },
+    "referee": "Atilla Karaoğlan",
+    "formattedTime": "07/08/2025 - 19:45 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421176,
+    "homeTeam": "St Patrick's Athl.",
+    "awayTeam": "Besiktas",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T18:45:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 865,
+      "name": "Tallaght Stadium",
+      "city": "Dublin"
+    },
+    "referee": "David Šmajc",
+    "formattedTime": "07/08/2025 - 19:45 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1387126,
+    "homeTeam": "Port Vale",
+    "awayTeam": "Cardiff",
+    "league": "League One",
+    "country": "England",
+    "date": "2025-08-07T19:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 572,
+      "name": "Vale Park",
+      "city": "Stoke-on-Trent, Staffordshire"
+    },
+    "referee": "Tom Reeves",
+    "formattedTime": "07/08/2025 - 20:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421165,
+    "homeTeam": "Larne",
+    "awayTeam": "Santa Clara",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T19:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 2933,
+      "name": "The Showgrounds",
+      "city": "Ballymena"
+    },
+    "referee": "Adam Ladebäck",
+    "formattedTime": "07/08/2025 - 20:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421166,
+    "homeTeam": "Raków Częstochowa",
+    "awayTeam": "Maccabi Haifa",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T19:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "zondacrypto Arena",
+      "city": "Częstochowa"
+    },
+    "referee": "Robert Harvey",
+    "formattedTime": "07/08/2025 - 20:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421171,
+    "homeTeam": "FK Partizan",
+    "awayTeam": "Hibernian",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T19:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1424,
+      "name": "Stadion Partizana",
+      "city": "Beograd"
+    },
+    "referee": "Philip Farrugia",
+    "formattedTime": "07/08/2025 - 20:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421177,
+    "homeTeam": "Rapid Vienna",
+    "awayTeam": "Dundee Utd",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T19:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 145,
+      "name": "Allianz Stadion",
+      "city": "Wien"
+    },
+    "referee": "Luís Miguel Branco Godinho",
+    "formattedTime": "07/08/2025 - 20:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1421180,
+    "homeTeam": "HNK Hajduk Split",
+    "awayTeam": "Dinamo Tirana",
+    "league": "UEFA Europa Conference League",
+    "country": "World",
+    "date": "2025-08-07T19:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 413,
+      "name": "Stadion Poljud",
+      "city": "Split"
+    },
+    "referee": "Sayat Karabayev",
+    "formattedTime": "07/08/2025 - 20:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1374118,
+    "homeTeam": "Godoy Cruz",
+    "awayTeam": "Gimnasia L.P.",
+    "league": "Liga Profesional Argentina",
+    "country": "Argentina",
+    "date": "2025-08-07T20:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": null,
+      "name": "Estadio Feliciano Gambarte",
+      "city": "Godoy Cruz, Provincia de Mendoza"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 21:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1374120,
+    "homeTeam": "San Lorenzo",
+    "awayTeam": "Velez Sarsfield",
+    "league": "Liga Profesional Argentina",
+    "country": "Argentina",
+    "date": "2025-08-07T22:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 103,
+      "name": "Estadio Pedro Bidegaín",
+      "city": "Capital Federal, Ciudad de Buenos Aires"
+    },
+    "referee": null,
+    "formattedTime": "07/08/2025 - 23:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1412888,
+    "homeTeam": "Jaguares",
+    "awayTeam": "Independiente Medellin",
+    "league": "Copa Colombia",
+    "country": "Colombia",
+    "date": "2025-08-07T22:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 1779,
+      "name": "Estadio de Fútbol Jaraguay de Montería",
+      "city": "Montería"
+    },
+    "referee": "Diego Ulloa Angulo",
+    "formattedTime": "07/08/2025 - 23:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351472,
+    "homeTeam": "FC Cincinnati",
+    "awayTeam": "Guadalajara Chivas",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T23:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 19229,
+      "name": "TQL Stadium",
+      "city": "Cincinnati, Ohio"
+    },
+    "referee": null,
+    "formattedTime": "08/08/2025 - 00:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1377535,
+    "homeTeam": "Vasco DA Gama",
+    "awayTeam": "CSA",
+    "league": "Copa Do Brasil",
+    "country": "Brazil",
+    "date": "2025-08-07T23:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 19377,
+      "name": "Estádio São Januário",
+      "city": "Rio de Janeiro, Rio de Janeiro"
+    },
+    "referee": null,
+    "formattedTime": "08/08/2025 - 00:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1392394,
+    "homeTeam": "Union Magdalena",
+    "awayTeam": "Deportivo Pasto",
+    "league": "Primera A",
+    "country": "Colombia",
+    "date": "2025-08-07T23:00:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 387,
+      "name": "Estadio Sierra Nevada",
+      "city": "Santa Marta"
+    },
+    "referee": null,
+    "formattedTime": "08/08/2025 - 00:00 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351473,
+    "homeTeam": "Monterrey",
+    "awayTeam": "Charlotte",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T23:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 18659,
+      "name": "Bank of America Stadium",
+      "city": "Charlotte, North Carolina"
+    },
+    "referee": null,
+    "formattedTime": "08/08/2025 - 00:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1351474,
+    "homeTeam": "New York Red Bulls",
+    "awayTeam": "FC Juarez",
+    "league": "Leagues Cup",
+    "country": "World",
+    "date": "2025-08-07T23:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 21544,
+      "name": "Sports Illustrated Stadium",
+      "city": "Harrison, New Jersey"
+    },
+    "referee": null,
+    "formattedTime": "08/08/2025 - 00:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  },
+  {
+    "id": 1423949,
+    "homeTeam": "Wanderers Durazno",
+    "awayTeam": "Plaza Colonia",
+    "league": "Copa Uruguay",
+    "country": "Uruguay",
+    "date": "2025-08-07T23:30:00+00:00",
+    "status": {
+      "long": "Not Started",
+      "short": "NS",
+      "elapsed": null,
+      "extra": null
+    },
+    "score": {
+      "halftime": {
+        "home": null,
+        "away": null
+      },
+      "fulltime": {
+        "home": null,
+        "away": null
+      },
+      "extratime": {
+        "home": null,
+        "away": null
+      },
+      "penalty": {
+        "home": null,
+        "away": null
+      }
+    },
+    "venue": {
+      "id": 18749,
+      "name": "Estadio Municipal Silvestre Octavio Landoni",
+      "city": "Durazno"
+    },
+    "referee": null,
+    "formattedTime": "08/08/2025 - 00:30 (NS)",
+    "formattedScore": "TBD",
+    "isFinished": false,
+    "isUpcoming": true,
+    "isLive": false
+  }
+]
