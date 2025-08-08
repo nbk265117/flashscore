@@ -3,8 +3,8 @@
   command = "npm install"
 
 [build.environment]
-  GROK_API_KEY = "xai-8uD3K3360S3o2aKY0mYlwsunnO2iYZURTBccCQSsvC5imjktP2daPCQr0mVErkabqc2kxrMPUMYoSIq7"
-  OPENAI_API_KEY = "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"
+  GROK_API_KEY = "your-grok-api-key-here"
+  OPENAI_API_KEY = "your-openai-api-key-here"
 
 [[redirects]]
   from = "/*"
