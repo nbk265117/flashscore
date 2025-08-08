@@ -42,37 +42,57 @@ exports.handler = async (event, context) => {
       };
     }
 
-    // Simplified prompt for faster response
-    const prompt = `Analyze this football match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league}. Provide predictions in JSON format:
+    // Comprehensive prompt for detailed analysis
+    const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
+
+Here is the match data for analysis:
+Match: ${match.homeTeam} vs ${match.awayTeam}
+Date: ${match.matchTime || match.date}
+League: ${match.league}
+Country: ${match.country}
+Venue: ${match.venue?.name || match.venue}
+City: ${match.venue?.city || match.city}
+
+Please provide a comprehensive analysis and prediction for this match. Consider:
+* Team form and recent performance
+* Head-to-head history
+* Home/away advantage
+* League context and importance
+* Weather conditions (if relevant)
+* Key players and injuries
+* Tactical matchups
+* Historical data patterns
+
+Provide detailed predictions in JSON format with your own analysis (do not use example values, provide real predictions based on the match data):
 {
-  "homeWinProbability": [number],
-  "drawProbability": [number],
-  "awayWinProbability": [number],
-  "likelyScore": "[home]-[away]",
-  "halftimeResult": "[home]-[away]",
-  "overUnder": "Over/Under [number] goals",
-  "corners": "Over/Under [number]",
-  "winner": "[team name]",
-  "reason": "[brief analysis]",
-  "halftimeHomeWin": [number],
-  "halftimeDraw": [number],
-  "halftimeAwayWin": [number],
-  "totalCorners": [number],
-  "homeCorners": [number],
-  "awayCorners": [number],
-  "yellowCards": [number],
-  "redCards": [number],
-  "homeYellowCards": [number],
-  "awayYellowCards": [number],
-  "homeRedCards": [number],
-  "awayRedCards": [number],
-  "homeSubs": [number],
-  "awaySubs": [number],
-  "subTiming": "[description]",
-  "keyFactors": ["factor1", "factor2"],
-  "analysis": "[detailed analysis]",
-  "bettingRecommendation": "[recommendation]",
-  "riskLevel": "Low/Medium/High"
+  "homeWinProbability": [your prediction],
+  "drawProbability": [your prediction],
+  "awayWinProbability": [your prediction],
+  "likelyScore": [your prediction],
+  "halftimeResult": [your prediction],
+  "overUnder": [your prediction],
+  "corners": [your prediction],
+  "winner": [your prediction],
+  "reason": [your detailed analysis],
+  "halftimeHomeWin": [your prediction],
+  "halftimeDraw": [your prediction],
+  "halftimeAwayWin": [your prediction],
+  "totalCorners": [your prediction],
+  "homeCorners": [your prediction],
+  "awayCorners": [your prediction],
+  "yellowCards": [your prediction],
+  "redCards": [your prediction],
+  "homeYellowCards": [your prediction],
+  "awayYellowCards": [your prediction],
+  "homeRedCards": [your prediction],
+  "awayRedCards": [your prediction],
+  "homeSubs": [your prediction],
+  "awaySubs": [your prediction],
+  "subTiming": [your prediction],
+  "keyFactors": [your analysis factors],
+  "analysis": [your detailed match analysis],
+  "bettingRecommendation": [your recommendation],
+  "riskLevel": [your assessment]
 }`;
 
     console.log('Making Grok API request...');
