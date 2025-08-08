@@ -19,12 +19,59 @@ exports.handler = async (event, context) => {
       body: ''
     };
   }
+  
+  // Handle GET requests for testing
+  if (event.httpMethod === 'GET') {
+    return {
+      statusCode: 200,
+      headers,
+      body: JSON.stringify({
+        message: 'Grok prediction function is working',
+        timestamp: new Date().toISOString(),
+        environment: process.env.NODE_ENV || 'production',
+        grokKeyExists: !!process.env.GROK_API_KEY,
+        grokKeyLength: process.env.GROK_API_KEY ? process.env.GROK_API_KEY.length : 0
+      })
+    };
+  }
 
   try {
+    console.log('Function called with method:', event.httpMethod);
+    console.log('Request body length:', event.body ? event.body.length : 0);
+    console.log('Request body preview:', event.body ? event.body.substring(0, 200) + '...' : 'No body');
+    
+    // Check if body exists
+    if (!event.body) {
+      console.error('No request body provided');
+      return {
+        statusCode: 400,
+        headers,
+        body: JSON.stringify({ error: 'No request body provided' })
+      };
+    }
+    
     // Parse the request body
-    const { match } = JSON.parse(event.body);
+    let parsedBody;
+    try {
+      parsedBody = JSON.parse(event.body);
+    } catch (parseError) {
+      console.error('JSON parse error:', parseError.message);
+      console.error('Raw body:', event.body);
+      return {
+        statusCode: 400,
+        headers,
+        body: JSON.stringify({ 
+          error: 'Invalid JSON in request body',
+          details: parseError.message,
+          bodyPreview: event.body.substring(0, 200)
+        })
+      };
+    }
+    
+    const { match } = parsedBody;
 
     if (!match) {
+      console.error('No match data in request');
       return {
         statusCode: 400,
         headers,
