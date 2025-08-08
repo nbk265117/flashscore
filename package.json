@@ -26,7 +26,14 @@
     "analyze:gpt": "node scripts/chatgpt-analyzer.js",
     "compare": "node scripts/comparison-analyzer.js",
     "fetch:matches": "node scripts/fetch-matches-by-date.js",
-    "analyze:matches": "node scripts/analyze-matches.js"
+    "analyze:matches": "node scripts/analyze-matches.js",
+    "real:data": "node scripts/real-data-analyzer.js",
+    "chatgpt:data": "node scripts/chatgpt-data-analyzer.js",
+    "real:data:main": "node scripts/real-data-analyzer-main.js",
+    "simple:chatgpt": "node scripts/simple-chatgpt-analyzer.js",
+    "simple:local": "node scripts/simple-local-analyzer.js",
+    "data:integrity": "node scripts/data-integrity-checker.js",
+    "quick:validation": "node scripts/quick-validation.js"
   },
   "keywords": [
     "football",
