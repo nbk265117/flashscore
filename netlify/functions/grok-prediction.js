@@ -183,7 +183,7 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
           }
         ],
         temperature: 0.3,
-        max_tokens: 800,
+        max_tokens: 2000,
         stream: false
       })
     });
@@ -230,6 +230,12 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
         jsonContent = codeMatch[1];
       }
       
+      // Try to fix truncated JSON by finding the last complete object
+      let lastBraceIndex = jsonContent.lastIndexOf('}');
+      if (lastBraceIndex > 0) {
+        jsonContent = jsonContent.substring(0, lastBraceIndex + 1);
+      }
+      
       const prediction = JSON.parse(jsonContent);
       console.log('Successfully parsed prediction');
       
@@ -241,6 +247,47 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
     } catch (error) {
       console.error('Error parsing AI response:', error.message);
       console.error('Raw content:', content);
+      
+      // Try to extract what we can from the partial response
+      console.log('Attempting to extract partial data...');
+      
+      // Look for key-value pairs in the truncated content
+      const partialData = {};
+      const keyValueRegex = /"([^"]+)":\s*([^,}\n]+)/g;
+      let match;
+      
+      while ((match = keyValueRegex.exec(content)) !== null) {
+        const key = match[1];
+        let value = match[2].trim();
+        
+        // Try to parse the value
+        try {
+          if (value.startsWith('"') && value.endsWith('"')) {
+            value = value.slice(1, -1);
+          } else if (value === 'true' || value === 'false') {
+            value = value === 'true';
+          } else if (!isNaN(value)) {
+            value = Number(value);
+          }
+          partialData[key] = value;
+        } catch (e) {
+          // Skip this value if we can't parse it
+        }
+      }
+      
+      if (Object.keys(partialData).length > 0) {
+        console.log('Extracted partial data:', partialData);
+        return {
+          statusCode: 200,
+          headers,
+          body: JSON.stringify({
+            ...partialData,
+            error: 'Partial response due to truncation',
+            details: error.message,
+            timestamp: new Date().toISOString()
+          })
+        };
+      }
       
       // Return detailed error information for debugging
       return {
