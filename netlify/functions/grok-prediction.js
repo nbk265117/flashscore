@@ -43,7 +43,7 @@ exports.handler = async (event, context) => {
         body: JSON.stringify({ error: 'GROK_API_KEY not configured' })
       };
     }
-    console.log('GROK_API_KEY found');
+    console.log('GROK_API_KEY found, length:', GROK_API_KEY.length);
 
     // Comprehensive prompt for detailed analysis
     const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
@@ -99,6 +99,7 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
 }`;
 
     console.log('Making Grok API request...');
+    console.log('API Key starts with:', GROK_API_KEY.substring(0, 10) + '...');
     console.log('Request payload:', JSON.stringify({
       model: 'grok-4-latest',
       messages: [
