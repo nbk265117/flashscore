@@ -194,12 +194,16 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
       const errorText = await response.text();
       console.error('Grok API Error:', response.status, errorText);
       console.error('Full error response:', errorText);
+      
+      // Return detailed error for debugging
       return {
-        statusCode: response.status,
+        statusCode: 200, // Return 200 to avoid client errors
         headers,
         body: JSON.stringify({ 
           error: `Grok API error: ${response.status}`,
           details: errorText,
+          apiKeyLength: GROK_API_KEY.length,
+          apiKeyPrefix: GROK_API_KEY.substring(0, 10),
           fallback: true
         })
       };
