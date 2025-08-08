@@ -1334,115 +1334,15 @@
                             </div>
                         </div>
                         
-                        <div class="analysis-section">
-                            <h4>⏰ Halftime Result Prediction</h4>
-                            <div class="halftime-prediction">
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Home Leading:</span>
-                                    <span class="prediction-value">${displayPercentage(analysis.predictions?.halftimeHomeWin)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Draw at Half:</span>
-                                    <span class="prediction-value">${displayPercentage(analysis.predictions?.halftimeDraw)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Away Leading:</span>
-                                    <span class="prediction-value">${displayPercentage(analysis.predictions?.halftimeAwayWin)}</span>
-                                </div>
-                                <div class="prediction-summary">
-                                    <strong>Halftime score predictions (who will be leading at half-time)</strong>
-                                </div>
-                            </div>
-                        </div>
+
                         
-                        <div class="analysis-section">
-                            <h4>⚽ Corner Predictions</h4>
-                            <div class="corner-predictions">
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Total Corners:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.totalCorners)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Home Team:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.homeCorners)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Away Team:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.awayCorners)}</span>
-                                </div>
-                                <div class="prediction-summary">
-                                    <strong>Corner predictions based on attacking play</strong>
-                                </div>
-                            </div>
-                        </div>
+
                         
-                        <div class="analysis-section">
-                            <h4>🟨🟥 Card Predictions</h4>
-                            <div class="card-predictions">
-                                <div class="prediction-item">
-                                    <span class="prediction-label">🟨 Yellow Cards:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.yellowCards)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">🟥 Red Cards:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.redCards)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Home Team Cards:</span>
-                                    <span class="prediction-value">🟨 ${displayValue(analysis.predictions?.homeYellowCards)} | 🟥 ${displayValue(analysis.predictions?.homeRedCards)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Away Team Cards:</span>
-                                    <span class="prediction-value">🟨 ${displayValue(analysis.predictions?.awayYellowCards)} | 🟥 ${displayValue(analysis.predictions?.awayRedCards)}</span>
-                                </div>
-                                <div class="prediction-summary">
-                                    <strong>Card predictions based on team form and match intensity</strong>
-                                </div>
-                            </div>
-                        </div>
+
                         
-                        <div class="analysis-section">
-                            <h4>🔄 Substitution Predictions</h4>
-                            <div class="substitution-predictions">
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Home Team Subs:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.homeSubs)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Away Team Subs:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.awaySubs)}</span>
-                                </div>
-                                <div class="prediction-item">
-                                    <span class="prediction-label">Timing:</span>
-                                    <span class="prediction-value">${analysis.predictions?.subTiming || 'N/A'}</span>
-                                </div>
-                                <div class="prediction-summary">
-                                    <strong>Substitution predictions based on team strategy</strong>
-                                </div>
-                            </div>
-                        </div>
+
                         
-                        <div class="analysis-section">
-                            <h4>🔑 Key Factors</h4>
-                            <div class="key-factors">
-                                ${Array.isArray(analysis.analysis?.keyFactors) ? 
-                                    analysis.analysis.keyFactors.map(factor => 
-                                        `<span class="factor-tag">${factor}</span>`
-                                    ).join('') : 
-                                    '<span class="factor-tag">No key factors available</span>'
-                                }
-                            </div>
-                        </div>
-                        
-                        <div class="analysis-section">
-                            <h4>📊 Analysis</h4>
-                            <p>${analysis.analysis?.analysis || 'No analysis available'}</p>
-                        </div>
-                        
-                        <div class="analysis-section">
-                            <h4>💰 Betting Recommendation</h4>
-                            <p>${analysis.analysis?.bettingRecommendation || 'No betting recommendation available'}</p>
-                        </div>
+
                         </div>
                     </div>
                 `;
@@ -1647,30 +1547,6 @@
                 match.predictions.likelyScore = prediction.likelyScore;
                 match.predictions.halftimeResult = prediction.halftimeResult;
                 match.predictions.overUnder = prediction.overUnder;
-                match.predictions.corners = prediction.corners;
-                match.predictions.winner = prediction.winner;
-                match.predictions.reason = prediction.reason;
-                match.predictions.totalCorners = prediction.totalCorners;
-                match.predictions.homeCorners = prediction.homeCorners;
-                match.predictions.awayCorners = prediction.awayCorners;
-                
-                // Add halftime predictions from Grok
-                match.predictions.halftimeHomeWin = prediction.halftimeHomeWin;
-                match.predictions.halftimeDraw = prediction.halftimeDraw;
-                match.predictions.halftimeAwayWin = prediction.halftimeAwayWin;
-                
-                // Add card predictions from Grok
-                match.predictions.yellowCards = prediction.yellowCards;
-                match.predictions.redCards = prediction.redCards;
-                match.predictions.homeYellowCards = prediction.homeYellowCards;
-                match.predictions.awayYellowCards = prediction.awayYellowCards;
-                match.predictions.homeRedCards = prediction.homeRedCards;
-                match.predictions.awayRedCards = prediction.awayRedCards;
-                
-                // Add substitution predictions from Grok
-                match.predictions.homeSubs = prediction.homeSubs;
-                match.predictions.awaySubs = prediction.awaySubs;
-                match.predictions.subTiming = prediction.subTiming;
                 
                 // Update probabilities with Grok's predictions (only update probabilities, not analysis)
                 match.probabilities.homeWin = prediction.homeWinProbability;
@@ -1682,27 +1558,10 @@
                     match.analysis = {};
                 }
                 
-                // Update analysis with Grok's comprehensive data
+                // Update analysis with Grok's data
                 match.analysis.homeWinProbability = prediction.homeWinProbability;
                 match.analysis.drawProbability = prediction.drawProbability;
                 match.analysis.awayWinProbability = prediction.awayWinProbability;
-                match.analysis.riskLevel = riskLevel;
-                match.analysis.keyFactors = Array.isArray(prediction.keyFactors) ? prediction.keyFactors : [];
-                match.analysis.analysis = prediction.analysis || 'No analysis available';
-                match.analysis.bettingRecommendation = prediction.bettingRecommendation || 'No recommendation available';
-                
-                // Determine correct probability for betting recommendation
-                let bettingProbability;
-                if (prediction.winner === match.homeTeam) {
-                    bettingProbability = prediction.homeWinProbability;
-                } else if (prediction.winner === match.awayTeam) {
-                    bettingProbability = prediction.awayWinProbability;
-                } else {
-                    bettingProbability = prediction.drawProbability;
-                }
-                
-                match.analysis.analysis = `${prediction.winner} is likely to win. ${prediction.reason}`;
-                match.analysis.bettingRecommendation = `${prediction.winner} win recommended with ${bettingProbability}% probability.`;
                 
                 // Update risk level display
                 const riskClass = `risk-${riskLevel.toLowerCase()}`;
