@@ -1,55 +1,32 @@
 {
-  "name": "zbet-matches-fetcher",
+  "name": "zbet",
   "version": "1.0.0",
-  "description": "Football matches viewer and analyzer",
+  "description": "Football match analysis and prediction system",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "node server.js",
+    "start": "node server.js",
     "dev": "nodemon server.js",
-    "view": "node index.js && node server.js",
-    "deploy:prepare": "bash scripts/deploy.sh",
-    "deploy:netlify": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main",
-    "deploy:full": "npm run deploy:prepare && git add . && git commit -m 'Auto-deploy: Update data files' && git push origin main && echo '🚀 Deployment completed! Your site will be updated in 2-5 minutes.'",
-    "analyze:enhanced": "node scripts/enhanced-analyzer.js",
-    "analyze:enhanced-demo": "node scripts/enhanced-demo-analyzer.js",
-    "analyze:enhanced-fixed": "node scripts/enhanced-demo-analyzer-fixed.js",
-    "analyze:real": "node scripts/api-sports-analyzer.js",
-    "analyze:enhanced-api": "node scripts/enhanced-api-analyzer.js",
-    "analyze:ml": "node scripts/ml-predictor.js",
-    "validate": "node scripts/prediction-validator.js",
-    "fetch:tomorrow": "node scripts/fetch-tomorrow-data.js",
-    "analyze:tomorrow": "node scripts/analyze-tomorrow.js",
-    "fetch:date": "node scripts/fetch-specific-date.js",
-    "process:data": "node scripts/process-response-data.js",
-    "analyze:demo": "node scripts/demo-analyzer.js",
-    "analyze:gpt": "node scripts/chatgpt-analyzer.js",
-    "compare": "node scripts/comparison-analyzer.js",
     "fetch:matches": "node scripts/fetch-matches-by-date.js",
-    "analyze:matches": "node scripts/analyze-matches.js",
-    "real:data": "node scripts/real-data-analyzer.js",
-    "chatgpt:data": "node scripts/chatgpt-data-analyzer.js",
-    "real:data:main": "node scripts/real-data-analyzer-main.js",
-    "simple:chatgpt": "node scripts/simple-chatgpt-analyzer.js",
-    "simple:local": "node scripts/simple-local-analyzer.js",
-    "data:integrity": "node scripts/data-integrity-checker.js",
-    "quick:validation": "node scripts/quick-validation.js"
+    "fetch:only": "node scripts/fetch-only.js",
+    "predict:match": "node scripts/predict-match.js",
+    "deploy": "npm run build && netlify deploy --prod",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   },
   "keywords": [
     "football",
     "matches",
-    "viewer",
-    "analysis"
+    "analysis",
+    "predictions"
   ],
   "author": "Your Name",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.1",
-    "express": "^4.18.2",
-    "node-fetch": "^3.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.22"
-  }
+  "license": "MIT"
 }
