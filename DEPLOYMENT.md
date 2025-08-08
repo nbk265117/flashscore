@@ -6,8 +6,8 @@
 
 Set these in your Netlify dashboard at: https://app.netlify.com/projects/flashinio/configuration/env#environment-variables
 
-- `GROK_API_KEY` - Your Grok API key for AI predictions
-- `OPENAI_API_KEY` - Your OpenAI API key (if using OpenAI for predictions)
+- `GROK_API_KEY` - Your Grok API key for AI predictions (set in Netlify dashboard)
+- `OPENAI_API_KEY` - Your OpenAI API key (if using OpenAI for predictions, set in Netlify dashboard)
 
 ### Netlify Functions
 

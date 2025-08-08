@@ -4,8 +4,8 @@
   functions = "netlify/functions"
 
 [build.environment]
-  GROK_API_KEY = "your-grok-api-key-here"
-  OPENAI_API_KEY = "your-openai-api-key-here"
+  GROK_API_KEY = "placeholder-key"
+  OPENAI_API_KEY = "placeholder-key"
 
 [[redirects]]
   from = "/*"
