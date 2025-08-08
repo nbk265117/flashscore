@@ -242,42 +242,19 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
       console.error('Error parsing AI response:', error.message);
       console.error('Raw content:', content);
       
-      // Return a fallback response instead of an error
-      const fallbackPrediction = {
-        homeWinProbability: 35,
-        drawProbability: 30,
-        awayWinProbability: 35,
-        likelyScore: "1-1",
-        halftimeResult: "0-0",
-        overUnder: "Over 2.5 goals",
-        corners: "Over 10.5",
-        winner: "Draw",
-        reason: "Analysis temporarily unavailable",
-        halftimeHomeWin: 30,
-        halftimeDraw: 45,
-        halftimeAwayWin: 25,
-        totalCorners: 11,
-        homeCorners: 5,
-        awayCorners: 6,
-        yellowCards: 5,
-        redCards: 0,
-        homeYellowCards: 3,
-        awayYellowCards: 2,
-        homeRedCards: 0,
-        awayRedCards: 0,
-        homeSubs: 3,
-        awaySubs: 3,
-        subTiming: "Around 60-75 minutes",
-        keyFactors: ["Home advantage", "Recent form"],
-        analysis: "Analysis temporarily unavailable",
-        bettingRecommendation: "Wait for better data",
-        riskLevel: "Medium"
-      };
-      
+      // Return detailed error information for debugging
       return {
         statusCode: 200,
         headers,
-        body: JSON.stringify(fallbackPrediction)
+        body: JSON.stringify({
+          error: 'Failed to parse AI response',
+          details: error.message,
+          rawContent: content,
+          apiKeyLength: GROK_API_KEY.length,
+          apiKeyPrefix: GROK_API_KEY.substring(0, 10),
+          timestamp: new Date().toISOString(),
+          fallback: true
+        })
       };
     }
 
@@ -287,16 +264,25 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
     // Handle timeout errors specifically
     if (error.code === 'ECONNABORTED' || error.message.includes('timeout')) {
       return {
-        statusCode: 408,
+        statusCode: 200,
         headers,
-        body: JSON.stringify({ error: 'Request timeout - please try again' })
+        body: JSON.stringify({ 
+          error: 'Request timeout - please try again',
+          details: error.message,
+          timestamp: new Date().toISOString()
+        })
       };
     }
     
     return {
-      statusCode: 500,
+      statusCode: 200,
       headers,
-      body: JSON.stringify({ error: error.message })
+      body: JSON.stringify({ 
+        error: 'Function error',
+        details: error.message,
+        stack: error.stack,
+        timestamp: new Date().toISOString()
+      })
     };
   }
 };
