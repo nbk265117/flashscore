@@ -615,11 +615,13 @@
         }
 
         .team-logo {
-            width: 24px;
-            height: 24px;
+            width: 35px;
+            height: 35px;
             border-radius: 50%;
             object-fit: cover;
-            border: 1px solid #e9ecef;
+            border: 2px solid #e0e0e0;
+            background: #f5f5f5;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
 
         .team-name {
@@ -1025,6 +1027,11 @@
 
         let analysisData = [];
         let filteredData = [];
+        
+        // Helper function to handle numeric values that might be 0
+        function displayValue(value) {
+            return value !== undefined && value !== null ? value : 'N/A';
+        }
 
         // Load analysis data
         async function loadAnalysis() {
@@ -1035,7 +1042,17 @@
                 if (!response.ok) {
                     throw new Error('Failed to load analysis data');
                 }
-                analysisData = await response.json();
+                const data = await response.json();
+                
+                // Handle both old format (array) and new format (object with analyses property)
+                if (Array.isArray(data)) {
+                    analysisData = data;
+                } else if (data.analyses && Array.isArray(data.analyses)) {
+                    analysisData = data.analyses;
+                } else {
+                    throw new Error('Invalid data format');
+                }
+                
                 filteredData = [...analysisData];
                 displayAnalyses();
                 updateStats();
@@ -1063,12 +1080,12 @@
                             <div>
                                 <div class="teams">
                                     <div class="team-info">
-                                        <img src="${analysis.homeTeamLogo || '/images/default-team.png'}" alt="${analysis.homeTeam}" class="team-logo" onerror="this.style.display='none'">
+                                        <img src="${analysis.homeTeamLogo || '/images/default-team.svg'}" alt="${analysis.homeTeam}" class="team-logo" onerror="this.src='/images/default-team.svg'">
                                         <span class="team-name">${analysis.homeTeam}</span>
                                     </div>
                                     <span class="vs">vs</span>
                                     <div class="team-info">
-                                        <img src="${analysis.awayTeamLogo || '/images/default-team.png'}" alt="${analysis.awayTeam}" class="team-logo" onerror="this.style.display='none'">
+                                        <img src="${analysis.awayTeamLogo || '/images/default-team.svg'}" alt="${analysis.awayTeam}" class="team-logo" onerror="this.src='/images/default-team.svg'">
                                         <span class="team-name">${analysis.awayTeam}</span>
                                     </div>
                                 </div>
@@ -1086,15 +1103,15 @@
                         
                         <div class="probabilities">
                             <div class="probability-item home-win">
-                                <div class="probability-value">${analysis.analysis.homeWinProbability}%</div>
+                                <div class="probability-value">${displayValue(analysis.probabilities?.homeWin)}%</div>
                                 <div class="probability-label">Home Win</div>
                             </div>
                             <div class="probability-item draw">
-                                <div class="probability-value">${analysis.analysis.drawProbability}%</div>
+                                <div class="probability-value">${displayValue(analysis.probabilities?.draw)}%</div>
                                 <div class="probability-label">Draw</div>
                             </div>
                             <div class="probability-item away-win">
-                                <div class="probability-value">${analysis.analysis.awayWinProbability}%</div>
+                                <div class="probability-value">${displayValue(analysis.probabilities?.awayWin)}%</div>
                                 <div class="probability-label">Away Win</div>
                             </div>
                         </div>
@@ -1105,11 +1122,11 @@
                                 <div class="score-grid">
                                     <div class="score-item">
                                         <div class="score-label">Halftime Score:</div>
-                                        <div class="score-value halftime-score">${analysis.analysis.halftime?.scorePrediction || 'N/A'}</div>
+                                        <div class="score-value halftime-score">${analysis.predictions?.halftimeResult || 'N/A'}</div>
                                     </div>
                                     <div class="score-item">
                                         <div class="score-label">Final Score:</div>
-                                        <div class="score-value final-score">${analysis.analysis.finalScore?.prediction || 'N/A'}</div>
+                                        <div class="score-value final-score">${analysis.predictions?.likelyScore || 'N/A'}</div>
                                     </div>
                                 </div>
                             </div>
@@ -1120,18 +1137,18 @@
                             <div class="halftime-prediction">
                                 <div class="prediction-item">
                                     <span class="prediction-label">Home Win:</span>
-                                    <span class="prediction-value">${analysis.analysis.halftime?.homeWinProbability || 0}%</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.halftimeHomeWin)}%</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Draw:</span>
-                                    <span class="prediction-value">${analysis.analysis.halftime?.drawProbability || 0}%</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.halftimeDraw)}%</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Away Win:</span>
-                                    <span class="prediction-value">${analysis.analysis.halftime?.awayWinProbability || 0}%</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.halftimeAwayWin)}%</span>
                                 </div>
                                 <div class="prediction-summary">
-                                    <strong>${analysis.analysis.halftime?.prediction || 'No halftime prediction available'}</strong>
+                                    <strong>Halftime predictions based on first half performance</strong>
                                 </div>
                             </div>
                         </div>
@@ -1141,18 +1158,18 @@
                             <div class="corner-predictions">
                                 <div class="prediction-item">
                                     <span class="prediction-label">Total Corners:</span>
-                                    <span class="prediction-value">${analysis.analysis.corners?.total || 'N/A'}</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.totalCorners)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Home Team:</span>
-                                    <span class="prediction-value">${analysis.analysis.corners?.homeTeam || 'N/A'}</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.homeCorners)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Away Team:</span>
-                                    <span class="prediction-value">${analysis.analysis.corners?.awayTeam || 'N/A'}</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.awayCorners)}</span>
                                 </div>
                                 <div class="prediction-summary">
-                                    <strong>${analysis.analysis.corners?.prediction || 'No corner prediction available'}</strong>
+                                    <strong>Corner predictions based on attacking play</strong>
                                 </div>
                             </div>
                         </div>
@@ -1161,23 +1178,23 @@
                             <h4>🟨🟥 Card Predictions</h4>
                             <div class="card-predictions">
                                 <div class="prediction-item">
-                                    <span class="prediction-label">Yellow Cards:</span>
-                                    <span class="prediction-value">${analysis.analysis.cards?.yellowCards || 'N/A'}</span>
+                                    <span class="prediction-label">🟨 Yellow Cards:</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.yellowCards)}</span>
                                 </div>
                                 <div class="prediction-item">
-                                    <span class="prediction-label">Red Cards:</span>
-                                    <span class="prediction-value">${analysis.analysis.cards?.redCards || 'N/A'}</span>
+                                    <span class="prediction-label">🟥 Red Cards:</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.redCards)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Home Team Cards:</span>
-                                    <span class="prediction-value">${analysis.analysis.cards?.homeTeamCards || 'N/A'}</span>
+                                    <span class="prediction-value">🟨 ${displayValue(analysis.predictions?.homeYellowCards)} | 🟥 ${displayValue(analysis.predictions?.homeRedCards)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Away Team Cards:</span>
-                                    <span class="prediction-value">${analysis.analysis.cards?.awayTeamCards || 'N/A'}</span>
+                                    <span class="prediction-value">🟨 ${displayValue(analysis.predictions?.awayYellowCards)} | 🟥 ${displayValue(analysis.predictions?.awayRedCards)}</span>
                                 </div>
                                 <div class="prediction-summary">
-                                    <strong>${analysis.analysis.cards?.prediction || 'No card prediction available'}</strong>
+                                    <strong>Card predictions based on team form and match intensity</strong>
                                 </div>
                             </div>
                         </div>
@@ -1187,18 +1204,18 @@
                             <div class="substitution-predictions">
                                 <div class="prediction-item">
                                     <span class="prediction-label">Home Team Subs:</span>
-                                    <span class="prediction-value">${analysis.analysis.substitutions?.homeTeam || 'N/A'}</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.homeTeamSubs)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Away Team Subs:</span>
-                                    <span class="prediction-value">${analysis.analysis.substitutions?.awayTeam || 'N/A'}</span>
+                                    <span class="prediction-value">${displayValue(analysis.predictions?.awayTeamSubs)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Timing:</span>
-                                    <span class="prediction-value">${analysis.analysis.substitutions?.timing || 'N/A'}</span>
+                                    <span class="prediction-value">${analysis.predictions?.substitutionTiming || 'N/A'}</span>
                                 </div>
                                 <div class="prediction-summary">
-                                    <strong>${analysis.analysis.substitutions?.prediction || 'No substitution prediction available'}</strong>
+                                    <strong>Substitution predictions based on team strategy</strong>
                                 </div>
                             </div>
                         </div>
@@ -1229,6 +1246,11 @@
 
         // Update statistics
         function updateStats() {
+            if (!filteredData || !Array.isArray(filteredData)) {
+                console.error('filteredData is not an array in updateStats');
+                return;
+            }
+            
             const now = new Date();
             const total = filteredData.length;
             const upcoming = filteredData.filter(a => new Date(a.matchTime) > now).length;
@@ -1262,6 +1284,11 @@
 
         // Populate filters
         function populateFilters() {
+            if (!analysisData || !Array.isArray(analysisData)) {
+                console.error('analysisData is not an array in populateFilters');
+                return;
+            }
+            
             const leagues = [...new Set(analysisData.map(a => a.league))];
             const leagueFilter = document.getElementById('leagueFilter');
             
@@ -1275,6 +1302,11 @@
 
         // Filter analyses
         function filterAnalyses() {
+            if (!analysisData || !Array.isArray(analysisData)) {
+                console.error('analysisData is not an array');
+                return;
+            }
+            
             const timeFilter = document.getElementById('timeFilter').value;
             const riskFilter = document.getElementById('riskFilter').value;
             const leagueFilter = document.getElementById('leagueFilter').value;

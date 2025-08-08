@@ -24,7 +24,9 @@
     "process:data": "node scripts/process-response-data.js",
     "analyze:demo": "node scripts/demo-analyzer.js",
     "analyze:gpt": "node scripts/chatgpt-analyzer.js",
-    "compare": "node scripts/comparison-analyzer.js"
+    "compare": "node scripts/comparison-analyzer.js",
+    "fetch:matches": "node scripts/fetch-matches-by-date.js",
+    "analyze:matches": "node scripts/analyze-matches.js"
   },
   "keywords": [
     "football",
