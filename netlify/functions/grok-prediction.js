@@ -92,28 +92,8 @@ exports.handler = async (event, context) => {
     }
     console.log('GROK_API_KEY found, length:', GROK_API_KEY.length);
 
-    // Comprehensive prompt for detailed analysis
-    const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
-
-Here is the match data for analysis:
-Match: ${match.homeTeam} vs ${match.awayTeam}
-Date: ${match.matchTime || match.date}
-League: ${match.league}
-Country: ${match.country}
-Venue: ${match.venue?.name || match.venue}
-City: ${match.venue?.city || match.city}
-
-Please provide a comprehensive analysis and prediction for this match. Consider:
-* Team form and recent performance
-* Head-to-head history
-* Home/away advantage
-* League context and importance
-* Weather conditions (if relevant)
-* Key players and injuries
-* Tactical matchups
-* Historical data patterns
-
-Provide detailed predictions in JSON format with your own analysis (do not use example values, provide real predictions based on the match data):
+    // Fast prompt for quick response
+    const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}). Provide predictions in JSON:
 {
   "homeWinProbability": [your prediction],
   "drawProbability": [your prediction],
@@ -183,7 +163,7 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
           }
         ],
         temperature: 0.3,
-        max_tokens: 2000,
+        max_tokens: 800,
         stream: false
       })
     });
