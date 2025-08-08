@@ -141,7 +141,7 @@ function analyzeMatch(match) {
   let bettingRecommendation = '';
   let riskLevel = 'medium';
   
-  if (homeWinProbability > 60) {
+  if (homeWinProbability > 55) {
     bettingRecommendation = `Home win recommended with ${homeWinProbability}% probability. Consider home win with moderate confidence.`;
     riskLevel = 'low';
   } else if (awayWinProbability > 50) {

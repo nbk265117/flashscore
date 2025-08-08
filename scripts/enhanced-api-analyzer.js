@@ -514,9 +514,9 @@ function generateKeyFactors(homeData, awayData, h2hData) {
 function calculateRiskLevel(probabilities) {
   const maxProbability = Math.max(probabilities.home, probabilities.away, probabilities.draw);
   
-  if (maxProbability > 70) {
+  if (maxProbability > 65) {
     return 'low';
-  } else if (maxProbability > 50) {
+  } else if (maxProbability > 45) {
     return 'medium';
   } else {
     return 'high';

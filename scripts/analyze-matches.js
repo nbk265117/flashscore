@@ -278,7 +278,7 @@ function analyzeMatch(match) {
             homeWinProbability: homeWinProb,
             drawProbability: drawProb,
             awayWinProbability: awayWinProb,
-            riskLevel: homeWinProb > 60 ? 'LOW' : homeWinProb > 40 ? 'MEDIUM' : 'HIGH',
+            riskLevel: homeWinProb > 55 ? 'LOW' : homeWinProb > 35 ? 'MEDIUM' : 'HIGH',
             keyFactors: keyFactors,
             analysis: analysisText,
             bettingRecommendation: bettingRecommendation

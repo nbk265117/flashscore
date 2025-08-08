@@ -2,20 +2,20 @@
   {
     "id": 1374111,
     "date": "2025-08-08T00:00:00+00:00",
-    "venue": "Estadio Ciudad de La Plata",
-    "city": "La Plata",
+    "venue": "Estadio Jorge Luis Hirschi",
+    "city": "La Plata, Provincia de Buenos Aires",
     "country": "Argentina",
     "homeTeam": "Estudiantes L.P.",
     "awayTeam": "Independ. Rivadavia",
     "homeTeamLogo": "https://media.api-sports.io/football/teams/450.png",
     "awayTeamLogo": "https://media.api-sports.io/football/teams/473.png",
     "league": "Liga Profesional Argentina",
-    "homeGoals": null,
-    "awayGoals": null,
-    "homeScore": null,
-    "awayScore": null,
-    "status": "NS",
-    "elapsed": null
+    "homeGoals": 1,
+    "awayGoals": 0,
+    "homeScore": 1,
+    "awayScore": 0,
+    "status": "1H",
+    "elapsed": 17
   },
   {
     "id": 1377533,
@@ -28,12 +28,12 @@
     "homeTeamLogo": "https://media.api-sports.io/football/teams/146.png",
     "awayTeamLogo": "https://media.api-sports.io/football/teams/135.png",
     "league": "Copa Do Brasil",
-    "homeGoals": null,
-    "awayGoals": null,
-    "homeScore": null,
-    "awayScore": null,
-    "status": "NS",
-    "elapsed": null
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "1H",
+    "elapsed": 13
   },
   {
     "id": 1403890,
@@ -46,12 +46,12 @@
     "homeTeamLogo": "https://media.api-sports.io/football/teams/24063.png",
     "awayTeamLogo": "https://media.api-sports.io/football/teams/1154.png",
     "league": "Copa Ecuador",
-    "homeGoals": null,
-    "awayGoals": null,
-    "homeScore": null,
-    "awayScore": null,
-    "status": "NS",
-    "elapsed": null
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "homeScore": 0,
+    "awayScore": 0,
+    "status": "1H",
+    "elapsed": 17
   },
   {
     "id": 1351475,
@@ -86,7 +86,7 @@
     "awayGoals": null,
     "homeScore": null,
     "awayScore": null,
-    "status": "NS",
+    "status": "PST",
     "elapsed": null
   },
   {
@@ -236,7 +236,7 @@
   {
     "id": 1421661,
     "date": "2025-08-08T09:00:00+00:00",
-    "venue": null,
+    "venue": "Stadion Geronimivka",
     "city": null,
     "country": "Ukraine",
     "homeTeam": "LNZ Cherkasy U19",
@@ -578,7 +578,7 @@
   {
     "id": 1358365,
     "date": "2025-08-08T12:00:00+00:00",
-    "venue": "Stadion Rubin' zapasnoe pole",
+    "venue": "Stadion Rubin&amp;apos; zapasnoe pole",
     "city": "Kazan'",
     "country": "Russia",
     "homeTeam": "Rubin Kazan U20",
@@ -920,8 +920,8 @@
   {
     "id": 1420185,
     "date": "2025-08-08T13:15:00+00:00",
-    "venue": null,
-    "city": null,
+    "venue": "Sport toplumy stadiony Büzmeýin",
+    "city": "Aşgabat (Ashgabat)",
     "country": "Turkmenistan",
     "homeTeam": "Altyn Asyr",
     "awayTeam": "Aşgabat",
@@ -974,7 +974,7 @@
   {
     "id": 1358367,
     "date": "2025-08-08T14:00:00+00:00",
-    "venue": "Stadion Oktyabr' 2",
+    "venue": "Stadion Oktyabr&amp;apos; 2",
     "city": "Moskva",
     "country": "Russia",
     "homeTeam": "CSKA Moskva U19",
@@ -1406,7 +1406,7 @@
   {
     "id": 1414207,
     "date": "2025-08-08T15:00:00+00:00",
-    "venue": "King Abdullah International Stadium",
+    "venue": "King Abdullah International Stadium (?Amman",
     "city": "ʿAmmān (Amman)",
     "country": "Jordan",
     "homeTeam": "Shabab Al Ordon",
@@ -1676,7 +1676,7 @@
   {
     "id": 1358362,
     "date": "2025-08-08T16:00:00+00:00",
-    "venue": "Akademiya FK Sochi pole №6",
+    "venue": "Akademiya FK Sochi pole ?6",
     "city": "Sochi",
     "country": "Russia",
     "homeTeam": "Sochi U20",
@@ -1809,24 +1809,6 @@
     "awayTeam": "Vysočina Jihlava",
     "homeTeamLogo": "https://media.api-sports.io/football/teams/3722.png",
     "awayTeamLogo": "https://media.api-sports.io/football/teams/3731.png",
-    "league": "FNL",
-    "homeGoals": null,
-    "awayGoals": null,
-    "homeScore": null,
-    "awayScore": null,
-    "status": "NS",
-    "elapsed": null
-  },
-  {
-    "id": 1384448,
-    "date": "2025-08-08T16:00:00+00:00",
-    "venue": "Stadion 1. SK Prostějov",
-    "city": "Prostějov",
-    "country": "Czech-Republic",
-    "homeTeam": "Prostějov",
-    "awayTeam": "Slavia Praha II",
-    "homeTeamLogo": "https://media.api-sports.io/football/teams/3725.png",
-    "awayTeamLogo": "https://media.api-sports.io/football/teams/8618.png",
     "league": "FNL",
     "homeGoals": null,
     "awayGoals": null,
@@ -2080,24 +2062,6 @@
     "homeTeamLogo": "https://media.api-sports.io/football/teams/21619.png",
     "awayTeamLogo": "https://media.api-sports.io/football/teams/16875.png",
     "league": "4. liga - Divizie F",
-    "homeGoals": null,
-    "awayGoals": null,
-    "homeScore": null,
-    "awayScore": null,
-    "status": "NS",
-    "elapsed": null
-  },
-  {
-    "id": 1417735,
-    "date": "2025-08-08T16:00:00+00:00",
-    "venue": "Stadion TJ Unie Hlubina",
-    "city": "Ostrava",
-    "country": "Czech-Republic",
-    "homeTeam": "Unie Hlubina",
-    "awayTeam": "Hodonín",
-    "homeTeamLogo": "https://media.api-sports.io/football/teams/7368.png",
-    "awayTeamLogo": "https://media.api-sports.io/football/teams/7297.png",
-    "league": "3. liga - MSFL",
     "homeGoals": null,
     "awayGoals": null,
     "homeScore": null,
@@ -2552,7 +2516,7 @@
     "awayGoals": null,
     "homeScore": null,
     "awayScore": null,
-    "status": "TBD",
+    "status": "NS",
     "elapsed": null
   },
   {
@@ -2570,7 +2534,7 @@
     "awayGoals": null,
     "homeScore": null,
     "awayScore": null,
-    "status": "TBD",
+    "status": "NS",
     "elapsed": null
   },
   {
@@ -3890,7 +3854,7 @@
   {
     "id": 1414208,
     "date": "2025-08-08T17:45:00+00:00",
-    "venue": "Amman International Stadium",
+    "venue": "Amman International Stadium (?Amman",
     "city": "ʿAmmān (Amman)",
     "country": "Jordan",
     "homeTeam": "Al Faisaly",
@@ -4196,7 +4160,7 @@
   {
     "id": 1388072,
     "date": "2025-08-08T18:00:00+00:00",
-    "venue": "Lendava Sports Park",
+    "venue": "Športni park Lendava",
     "city": "Lendava",
     "country": "Slovenia",
     "homeTeam": "Nafta",
@@ -4808,7 +4772,7 @@
   {
     "id": 1395349,
     "date": "2025-08-08T18:45:00+00:00",
-    "venue": "M & P Group 3G",
+    "venue": "M &amp;amp; P Group 3G",
     "city": "Blaen Clydach",
     "country": "Wales",
     "homeTeam": "Cambrian & Clydach",
@@ -5042,7 +5006,7 @@
   {
     "id": 1386551,
     "date": "2025-08-08T19:00:00+00:00",
-    "venue": "St. Andrew's @ Knighthead Park",
+    "venue": "St. Andrew&amp;apos;s @ Knighthead Park",
     "city": "Birmingham",
     "country": "England",
     "homeTeam": "Birmingham",

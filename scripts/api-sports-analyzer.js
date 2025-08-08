@@ -265,7 +265,7 @@ async function analyzeMatch(match) {
     let bettingRecommendation = '';
     let riskLevel = 'medium';
     
-    if (homeWinProbability > 60) {
+    if (homeWinProbability > 55) {
       bettingRecommendation = `Home win recommended with ${homeWinProbability}% probability based on real form and statistics.`;
       riskLevel = 'low';
     } else if (awayWinProbability > 50) {
