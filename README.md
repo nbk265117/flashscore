@@ -1,129 +1,80 @@
-# Flashinio Score - Football Match Analysis
+# 🚀 Flashinio - Football Match Analysis & Predictions
 
-A modern web application for analyzing football matches with AI-powered insights.
+AI-powered football match analysis and prediction system using Grok API.
 
-## 🌟 Features
-
-- **Real-time Match Data** - Live football match information
-- **AI Analysis** - ChatGPT-powered match analysis
-- **Comparison Tools** - Compare predictions with actual results
-- **Authentication System** - Secure access with user/admin roles
-- **Responsive Design** - Works on all devices
-- **Modern UI** - Beautiful glassmorphism design
-
-## 🔐 Authentication
-
-- **User Code**: `0000` (Regular user access)
-- **Admin Code**: `1991` (Full access including admin features)
-
-## 🚀 Quick Start
+## 🏃‍♂️ Quick Start
 
 ### Local Development
-```bash
-# Install dependencies
-npm install
 
-# Start development server
-npm run server
-
-# Open in browser
-http://localhost:3000/viewer.html
-```
-
-### Deploy to GitHub Pages
-
-1. **Push to GitHub**:
+1. **Install dependencies:**
    ```bash
-   git add .
-   git commit -m "Deploy to GitHub Pages"
-   git push origin main
+   npm install
    ```
 
-2. **Enable GitHub Pages**:
-   - Go to your repository on GitHub
-   - Settings → Pages
-   - Source: Deploy from a branch
-   - Branch: `gh-pages`
-   - Save
+2. **Set up environment variables:**
+   Create a `.env` file in the root directory:
+   ```bash
+   # .env file
+   GROK_API_KEY=your-actual-grok-api-key-here
+   OPENAI_API_KEY=your-actual-openai-api-key-here
+   ```
 
-3. **Your site will be available at**:
-   `https://yourusername.github.io/your-repo-name/`
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
+
+4. **Access the application:**
+   - Main app: http://localhost:3000
+   - Analysis page: http://localhost:3000/analysis.html
+
+### Production Deployment
+
+The app is deployed on Netlify at: https://flashinio.netlify.app
+
+Environment variables are configured in the Netlify dashboard.
+
+## 🔧 Features
+
+- ✅ AI-powered match predictions using Grok API
+- ✅ Real-time match analysis
+- ✅ Risk level assessment
+- ✅ Comprehensive betting recommendations
+- ✅ Modern, responsive UI
+- ✅ Secure API handling via Netlify Functions
+
+## 🛠️ Architecture
+
+- **Frontend**: HTML/CSS/JavaScript
+- **Backend**: Node.js with Express
+- **AI**: Grok API for predictions
+- **Deployment**: Netlify with serverless functions
+- **Security**: API keys handled server-side only
 
 ## 📁 Project Structure
 
 ```
-Zbet/
-├── public/           # Static files (HTML, CSS, JS)
-│   ├── viewer.html   # Main match viewer
-│   ├── analysis.html # AI analysis page
-│   ├── comparison.html # Comparison tools
-│   └── auth.html     # Authentication page
-├── src/              # Source code
-├── data/             # Match data and analysis
-├── scripts/          # Utility scripts
-└── .github/          # GitHub Actions workflow
+├── public/                 # Static files
+│   ├── analysis.html      # Main analysis interface
+│   ├── css/              # Stylesheets
+│   └── js/               # Client-side JavaScript
+├── netlify/
+│   └── functions/        # Netlify serverless functions
+├── data/                 # Match data and analysis
+├── server.js            # Express server for local development
+└── package.json         # Dependencies and scripts
 ```
 
-## 🛠️ Technologies
+## 🔒 Security
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Backend**: Node.js, Express
-- **Data**: JSON files
-- **AI**: ChatGPT API integration
-- **Deployment**: GitHub Pages, GitHub Actions
+- API keys are stored securely in environment variables
+- All API calls go through server-side functions
+- No sensitive data exposed in client-side code
 
-## 🎨 Design Features
+## 🚀 Deployment
 
-- **Glassmorphism UI** - Modern glass-like effects
-- **Responsive Design** - Mobile-first approach
-- **Smooth Animations** - CSS transitions and transforms
-- **Gradient Backgrounds** - Beautiful color schemes
-- **Hover Effects** - Interactive elements
+See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed deployment instructions.
 
-## 📱 Mobile Responsive
+## 📝 License
 
-The application is fully responsive and works perfectly on:
-- 📱 Mobile phones
-- 📱 Tablets
-- 💻 Desktop computers
-
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env` file for local development:
-```env
-PORT=3000
-NODE_ENV=development
-```
-
-## 📊 Features by User Type
-
-### Regular User (Code: 0000)
-- ✅ View matches
-- ✅ Basic analysis
-- ✅ Responsive design
-
-### Admin User (Code: 1991)
-- ✅ All regular features
-- ✅ Refresh analysis
-- ✅ Run comparisons
-- ✅ Full access to all tools
-
-## 🚀 Deployment Status
-
-[![Deploy to GitHub Pages](https://github.com/yourusername/your-repo-name/workflows/Deploy%20to%20GitHub%20Pages/badge.svg)](https://yourusername.github.io/your-repo-name/)
-
-## 📄 License
-
-MIT License - feel free to use this project for your own purposes.
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
----
-
-**Made with ❤️ for football analysis** 
+MIT License 
