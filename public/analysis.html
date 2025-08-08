@@ -1276,6 +1276,7 @@
                         <div class="card-content collapsed" id="content-${index}">
                         
                         <div class="probabilities">
+                            <h4>🏆 Overall Match Prediction</h4>
                             <div class="probability-item home-win">
                                 <div class="probability-value">${displayValue(analysis.probabilities?.homeWin)}%</div>
                                 <div class="probability-label">Home Win</div>
@@ -1307,22 +1308,22 @@
                         </div>
                         
                         <div class="analysis-section">
-                            <h4>⏰ Halftime Prediction</h4>
+                            <h4>⏰ Halftime Result Prediction</h4>
                             <div class="halftime-prediction">
                                 <div class="prediction-item">
-                                    <span class="prediction-label">Home Win:</span>
+                                    <span class="prediction-label">Home Leading:</span>
                                     <span class="prediction-value">${displayValue(analysis.predictions?.halftimeHomeWin)}%</span>
                                 </div>
                                 <div class="prediction-item">
-                                    <span class="prediction-label">Draw:</span>
+                                    <span class="prediction-label">Draw at Half:</span>
                                     <span class="prediction-value">${displayValue(analysis.predictions?.halftimeDraw)}%</span>
                                 </div>
                                 <div class="prediction-item">
-                                    <span class="prediction-label">Away Win:</span>
+                                    <span class="prediction-label">Away Leading:</span>
                                     <span class="prediction-value">${displayValue(analysis.predictions?.halftimeAwayWin)}%</span>
                                 </div>
                                 <div class="prediction-summary">
-                                    <strong>Halftime predictions based on first half performance</strong>
+                                    <strong>Halftime score predictions (who will be leading at half-time)</strong>
                                 </div>
                             </div>
                         </div>
@@ -1612,11 +1613,6 @@
                 // Use Grok's comprehensive predictions directly
                 const riskLevel = prediction.riskLevel || 'MEDIUM';
                 
-                // Update the analysis data with Grok's predictions
-                match.probabilities.homeWin = prediction.homeWinProbability;
-                match.probabilities.draw = prediction.drawProbability;
-                match.probabilities.awayWin = prediction.awayWinProbability;
-                
                 // Update predictions with Grok's data
                 match.predictions.likelyScore = prediction.likelyScore;
                 match.predictions.halftimeResult = prediction.halftimeResult;
@@ -1645,6 +1641,11 @@
                 match.predictions.homeSubs = prediction.homeSubs;
                 match.predictions.awaySubs = prediction.awaySubs;
                 match.predictions.subTiming = prediction.subTiming;
+                
+                // Update probabilities with Grok's predictions (only update probabilities, not analysis)
+                match.probabilities.homeWin = prediction.homeWinProbability;
+                match.probabilities.draw = prediction.drawProbability;
+                match.probabilities.awayWin = prediction.awayWinProbability;
                 
                 // Update analysis with Grok's comprehensive data
                 match.analysis.homeWinProbability = prediction.homeWinProbability;
