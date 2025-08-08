@@ -1,9 +1,9 @@
 const fetch = require('node-fetch');
 
-// Set function timeout to 30 seconds
 exports.handler = async (event, context) => {
-  // Set function timeout
+  // Set function timeout and disable callback wait
   context.callbackWaitsForEmptyEventLoop = false;
+  
   // Enable CORS
   const headers = {
     'Access-Control-Allow-Origin': '*',
@@ -42,93 +42,86 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
-
-Here is the match data for analysis:
-
-Match: ${match.homeTeam} vs ${match.awayTeam}  
-Date: ${match.matchTime}  
-League: ${match.league}  
-Country: ${match.country}  
-Venue: ${match.venue && match.venue.name ? match.venue.name : 'Unknown Stadium'}  
-City: ${match.venue && match.venue.city ? match.venue.city : 'Unknown City'}  
-
-Please provide a comprehensive analysis and prediction for this match. Consider:
-- Team form and recent performance
-- Head-to-head history
-- Home/away advantage
-- League context and importance
-- Weather conditions (if relevant)
-- Key players and injuries
-- Tactical matchups
-- Historical data patterns
-
-Provide detailed predictions in JSON format with your own analysis (do not use example values, provide real predictions based on the match data):
+    // Simplified prompt for faster response
+    const prompt = `Analyze this football match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league}. Provide predictions in JSON format:
 {
-  "homeWinProbability": [your prediction],
-  "drawProbability": [your prediction],
-  "awayWinProbability": [your prediction],
-  "likelyScore": [your prediction],
-  "halftimeResult": [your prediction],
-  "overUnder": [your prediction],
-  "corners": [your prediction],
-  "winner": [your prediction],
-  "reason": [your detailed analysis],
-  "halftimeHomeWin": [your prediction],
-  "halftimeDraw": [your prediction],
-  "halftimeAwayWin": [your prediction],
-  "totalCorners": [your prediction],
-  "homeCorners": [your prediction],
-  "awayCorners": [your prediction],
-  "yellowCards": [your prediction],
-  "redCards": [your prediction],
-  "homeYellowCards": [your prediction],
-  "awayYellowCards": [your prediction],
-  "homeRedCards": [your prediction],
-  "awayRedCards": [your prediction],
-  "homeSubs": [your prediction],
-  "awaySubs": [your prediction],
-  "subTiming": [your prediction],
-  "keyFactors": [your analysis factors],
-  "analysis": [your detailed match analysis],
-  "bettingRecommendation": [your recommendation],
-  "riskLevel": [your assessment]
+  "homeWinProbability": [number],
+  "drawProbability": [number],
+  "awayWinProbability": [number],
+  "likelyScore": "[home]-[away]",
+  "halftimeResult": "[home]-[away]",
+  "overUnder": "Over/Under [number] goals",
+  "corners": "Over/Under [number]",
+  "winner": "[team name]",
+  "reason": "[brief analysis]",
+  "halftimeHomeWin": [number],
+  "halftimeDraw": [number],
+  "halftimeAwayWin": [number],
+  "totalCorners": [number],
+  "homeCorners": [number],
+  "awayCorners": [number],
+  "yellowCards": [number],
+  "redCards": [number],
+  "homeYellowCards": [number],
+  "awayYellowCards": [number],
+  "homeRedCards": [number],
+  "awayRedCards": [number],
+  "homeSubs": [number],
+  "awaySubs": [number],
+  "subTiming": "[description]",
+  "keyFactors": ["factor1", "factor2"],
+  "analysis": "[detailed analysis]",
+  "bettingRecommendation": "[recommendation]",
+  "riskLevel": "Low/Medium/High"
 }`;
 
-            const response = await fetch('https://api.x.ai/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${GROK_API_KEY}`
-            },
-            body: JSON.stringify({
-                model: 'grok-4-latest',
-                messages: [
-                    {
-                        role: 'system',
-                        content: 'You are a football analyst. Provide simple, clear predictions. Always respond with valid JSON.'
-                    },
-                    {
-                        role: 'user',
-                        content: prompt
-                    }
-                ],
-                temperature: 0.3,
-                stream: false,
-                max_tokens: 1000
-            }),
-            timeout: 25000 // 25 second timeout
-        });
+    console.log('Making Grok API request...');
+    
+    const response = await fetch('https://api.x.ai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${GROK_API_KEY}`
+      },
+      body: JSON.stringify({
+        model: 'grok-4-latest',
+        messages: [
+          {
+            role: 'system',
+            content: 'You are a football analyst. Provide predictions in valid JSON format only.'
+          },
+          {
+            role: 'user',
+            content: prompt
+          }
+        ],
+        temperature: 0.3,
+        max_tokens: 800,
+        stream: false
+      })
+    });
+
+    console.log('Grok API response status:', response.status);
 
     if (!response.ok) {
-      throw new Error(`Grok API request failed: ${response.status}`);
+      const errorText = await response.text();
+      console.error('Grok API Error:', response.status, errorText);
+      return {
+        statusCode: response.status,
+        headers,
+        body: JSON.stringify({ error: `Grok API error: ${response.status}` })
+      };
     }
 
     const data = await response.json();
     const content = data.choices[0].message.content;
     
+    console.log('Parsing AI response...');
+    
     try {
       const prediction = JSON.parse(content);
+      console.log('Successfully parsed prediction');
+      
       return {
         statusCode: 200,
         headers,
@@ -136,6 +129,8 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
       };
     } catch (error) {
       console.error('Error parsing AI response:', error.message);
+      console.error('Raw content:', content);
+      
       return {
         statusCode: 500,
         headers,
