@@ -1398,9 +1398,12 @@
                         <div class="analysis-section">
                             <h4>🔑 Key Factors</h4>
                             <div class="key-factors">
-                                ${(analysis.analysis?.keyFactors || []).map(factor => 
-                                    `<span class="factor-tag">${factor}</span>`
-                                ).join('')}
+                                ${Array.isArray(analysis.analysis?.keyFactors) ? 
+                                    analysis.analysis.keyFactors.map(factor => 
+                                        `<span class="factor-tag">${factor}</span>`
+                                    ).join('') : 
+                                    '<span class="factor-tag">No key factors available</span>'
+                                }
                             </div>
                         </div>
                         
@@ -1647,12 +1650,17 @@
                 match.probabilities.draw = prediction.drawProbability;
                 match.probabilities.awayWin = prediction.awayWinProbability;
                 
+                // Ensure analysis object exists
+                if (!match.analysis) {
+                    match.analysis = {};
+                }
+                
                 // Update analysis with Grok's comprehensive data
                 match.analysis.homeWinProbability = prediction.homeWinProbability;
                 match.analysis.drawProbability = prediction.drawProbability;
                 match.analysis.awayWinProbability = prediction.awayWinProbability;
                 match.analysis.riskLevel = riskLevel;
-                match.analysis.keyFactors = prediction.keyFactors || [];
+                match.analysis.keyFactors = Array.isArray(prediction.keyFactors) ? prediction.keyFactors : [];
                 match.analysis.analysis = prediction.analysis || 'No analysis available';
                 match.analysis.bettingRecommendation = prediction.bettingRecommendation || 'No recommendation available';
                 
