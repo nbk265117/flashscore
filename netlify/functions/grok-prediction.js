@@ -34,13 +34,16 @@ exports.handler = async (event, context) => {
 
     const GROK_API_KEY = process.env.GROK_API_KEY;
     
+    console.log('Checking GROK_API_KEY...');
     if (!GROK_API_KEY) {
+      console.error('GROK_API_KEY not configured');
       return {
         statusCode: 500,
         headers,
         body: JSON.stringify({ error: 'GROK_API_KEY not configured' })
       };
     }
+    console.log('GROK_API_KEY found');
 
     // Comprehensive prompt for detailed analysis
     const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
@@ -96,6 +99,22 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
 }`;
 
     console.log('Making Grok API request...');
+    console.log('Request payload:', JSON.stringify({
+      model: 'grok-4-latest',
+      messages: [
+        {
+          role: 'system',
+          content: 'You are a football analyst. Provide predictions in valid JSON format only.'
+        },
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      temperature: 0.3,
+      max_tokens: 800,
+      stream: false
+    }, null, 2));
     
     const response = await fetch('https://api.x.ai/v1/chat/completions', {
       method: 'POST',
@@ -126,10 +145,15 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
     if (!response.ok) {
       const errorText = await response.text();
       console.error('Grok API Error:', response.status, errorText);
+      console.error('Full error response:', errorText);
       return {
         statusCode: response.status,
         headers,
-        body: JSON.stringify({ error: `Grok API error: ${response.status}` })
+        body: JSON.stringify({ 
+          error: `Grok API error: ${response.status}`,
+          details: errorText,
+          fallback: true
+        })
       };
     }
 
