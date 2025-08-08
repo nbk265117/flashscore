@@ -1549,104 +1549,29 @@
             }
         }
 
-        // Grok API Key
-        const GROK_API_KEY = process.env.GROK_API_KEY || 'your-grok-api-key-here';
-
-        // Use browser's built-in fetch function
-        // No need to define fetch - it's already available in the browser
-
-        // Ask Grok for prediction
+        // Ask Grok for prediction using Netlify Function
         async function askGrokForPrediction(match) {
-            const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
-
-Here is the match data for analysis:
-
-Match: ${match.homeTeam} vs ${match.awayTeam}  
-Date: ${match.matchTime}  
-League: ${match.league}  
-Country: ${match.country}  
-Venue: ${match.venue?.name || 'Unknown Stadium'}  
-City: ${match.venue?.city || 'Unknown City'}  
-
-Please provide a comprehensive analysis and prediction for this match. Consider:
-- Team form and recent performance
-- Head-to-head history
-- Home/away advantage
-- League context and importance
-- Weather conditions (if relevant)
-- Key players and injuries
-- Tactical matchups
-- Historical data patterns
-
-Provide detailed predictions in JSON format with your own analysis (do not use example values, provide real predictions based on the match data):
-{
-  "homeWinProbability": [your prediction],
-  "drawProbability": [your prediction],
-  "awayWinProbability": [your prediction],
-  "likelyScore": [your prediction],
-  "halftimeResult": [your prediction],
-  "overUnder": [your prediction],
-  "corners": [your prediction],
-  "winner": [your prediction],
-  "reason": [your detailed analysis],
-  "halftimeHomeWin": [your prediction],
-  "halftimeDraw": [your prediction],
-  "halftimeAwayWin": [your prediction],
-  "totalCorners": [your prediction],
-  "homeCorners": [your prediction],
-  "awayCorners": [your prediction],
-  "yellowCards": [your prediction],
-  "redCards": [your prediction],
-  "homeYellowCards": [your prediction],
-  "awayYellowCards": [your prediction],
-  "homeRedCards": [your prediction],
-  "awayRedCards": [your prediction],
-  "homeSubs": [your prediction],
-  "awaySubs": [your prediction],
-  "subTiming": [your prediction],
-  "keyFactors": [your analysis factors],
-  "analysis": [your detailed match analysis],
-  "bettingRecommendation": [your recommendation],
-  "riskLevel": [your assessment]
-}`;
-
             try {
-                const response = await fetch('https://api.x.ai/v1/chat/completions', {
+                const response = await fetch('/.netlify/functions/grok-prediction', {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': `Bearer ${GROK_API_KEY}`
+                        'Content-Type': 'application/json'
                     },
-                    body: JSON.stringify({
-                        model: 'grok-4-latest',
-                        messages: [
-                            {
-                                role: 'system',
-                                content: 'You are a football analyst. Provide simple, clear predictions. Always respond with valid JSON.'
-                            },
-                            {
-                                role: 'user',
-                                content: prompt
-                            }
-                        ],
-                        temperature: 0.3,
-                        stream: false
-                    })
+                    body: JSON.stringify({ match })
                 });
 
                 if (!response.ok) {
-                    throw new Error(`OpenAI API request failed: ${response.status}`);
+                    throw new Error(`Function request failed: ${response.status}`);
                 }
 
                 const data = await response.json();
-                const content = data.choices[0].message.content;
                 
-                try {
-                    return JSON.parse(content);
-                } catch (error) {
-                    console.error('Error parsing AI response:', error.message);
+                if (data.error) {
+                    console.error('Function error:', data.error);
                     return null;
                 }
+                
+                return data;
             } catch (error) {
                 console.error('Error making Grok request:', error.message);
                 return null;

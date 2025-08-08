@@ -7,7 +7,7 @@ const fsPromises = require('fs').promises;
 const path = require('path');
 
 // ChatGPT API Key
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'your-openai-api-key-here';
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'placeholder-key';
 
 // Simple fetch implementation
 function fetch(url, options = {}) {

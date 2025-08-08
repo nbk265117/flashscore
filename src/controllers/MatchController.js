@@ -2,7 +2,7 @@ const MatchService = require('../services/MatchService');
 const Logger = require('../utils/Logger');
 
 // ChatGPT API Key
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'your-openai-api-key-here';
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY || 'placeholder-key';
 
 // Simple fetch implementation
 function fetch(url, options = {}) {
