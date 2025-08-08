@@ -1187,7 +1187,19 @@
         
         // Helper function to handle numeric values that might be 0
         function displayValue(value) {
-            return value !== undefined && value !== null ? value : 'N/A';
+            if (value === undefined || value === null) return 'N/A';
+            // If the value already contains a percentage sign, return it as is
+            if (typeof value === 'string' && value.includes('%')) return value;
+            // Otherwise, return the numeric value
+            return value;
+        }
+        
+        // Helper function to display percentage values
+        function displayPercentage(value) {
+            const displayVal = displayValue(value);
+            if (displayVal === 'N/A') return 'N/A';
+            if (typeof displayVal === 'string' && displayVal.includes('%')) return displayVal;
+            return displayVal + '%';
         }
 
         // Load analysis data
@@ -1278,15 +1290,15 @@
                         <div class="probabilities">
                             <h4>🏆 Overall Match Prediction</h4>
                             <div class="probability-item home-win">
-                                <div class="probability-value">${displayValue(analysis.probabilities?.homeWin)}%</div>
+                                <div class="probability-value">${displayPercentage(analysis.probabilities?.homeWin)}</div>
                                 <div class="probability-label">Home Win</div>
                             </div>
                             <div class="probability-item draw">
-                                <div class="probability-value">${displayValue(analysis.probabilities?.draw)}%</div>
+                                <div class="probability-value">${displayPercentage(analysis.probabilities?.draw)}</div>
                                 <div class="probability-label">Draw</div>
                             </div>
                             <div class="probability-item away-win">
-                                <div class="probability-value">${displayValue(analysis.probabilities?.awayWin)}%</div>
+                                <div class="probability-value">${displayPercentage(analysis.probabilities?.awayWin)}</div>
                                 <div class="probability-label">Away Win</div>
                             </div>
                         </div>
@@ -1312,15 +1324,15 @@
                             <div class="halftime-prediction">
                                 <div class="prediction-item">
                                     <span class="prediction-label">Home Leading:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.halftimeHomeWin)}%</span>
+                                    <span class="prediction-value">${displayPercentage(analysis.predictions?.halftimeHomeWin)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Draw at Half:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.halftimeDraw)}%</span>
+                                    <span class="prediction-value">${displayPercentage(analysis.predictions?.halftimeDraw)}</span>
                                 </div>
                                 <div class="prediction-item">
                                     <span class="prediction-label">Away Leading:</span>
-                                    <span class="prediction-value">${displayValue(analysis.predictions?.halftimeAwayWin)}%</span>
+                                    <span class="prediction-value">${displayPercentage(analysis.predictions?.halftimeAwayWin)}</span>
                                 </div>
                                 <div class="prediction-summary">
                                     <strong>Halftime score predictions (who will be leading at half-time)</strong>
