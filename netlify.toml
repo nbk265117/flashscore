@@ -3,6 +3,10 @@
   command = "npm install"
   functions = "netlify/functions"
 
+[functions]
+  [functions.grok-prediction]
+    timeout = 30
+
 [build.environment]
   # API keys are set in Netlify dashboard, not in build config
 

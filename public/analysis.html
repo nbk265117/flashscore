@@ -1561,6 +1561,9 @@
                 });
 
                 if (!response.ok) {
+                    if (response.status === 408) {
+                        throw new Error('Request timeout - please try again');
+                    }
                     throw new Error(`Function request failed: ${response.status}`);
                 }
 

@@ -1,6 +1,9 @@
 const fetch = require('node-fetch');
 
+// Set function timeout to 30 seconds
 exports.handler = async (event, context) => {
+  // Set function timeout
+  context.callbackWaitsForEmptyEventLoop = false;
   // Enable CORS
   const headers = {
     'Access-Control-Allow-Origin': '*',
@@ -47,8 +50,8 @@ Match: ${match.homeTeam} vs ${match.awayTeam}
 Date: ${match.matchTime}  
 League: ${match.league}  
 Country: ${match.country}  
-Venue: ${match.venue?.name || 'Unknown Stadium'}  
-City: ${match.venue?.city || 'Unknown City'}  
+Venue: ${match.venue && match.venue.name ? match.venue.name : 'Unknown Stadium'}  
+City: ${match.venue && match.venue.city ? match.venue.city : 'Unknown City'}  
 
 Please provide a comprehensive analysis and prediction for this match. Consider:
 - Team form and recent performance
@@ -92,28 +95,30 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
   "riskLevel": [your assessment]
 }`;
 
-    const response = await fetch('https://api.x.ai/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${GROK_API_KEY}`
-      },
-      body: JSON.stringify({
-        model: 'grok-4-latest',
-        messages: [
-          {
-            role: 'system',
-            content: 'You are a football analyst. Provide simple, clear predictions. Always respond with valid JSON.'
-          },
-          {
-            role: 'user',
-            content: prompt
-          }
-        ],
-        temperature: 0.3,
-        stream: false
-      })
-    });
+            const response = await fetch('https://api.x.ai/v1/chat/completions', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${GROK_API_KEY}`
+            },
+            body: JSON.stringify({
+                model: 'grok-4-latest',
+                messages: [
+                    {
+                        role: 'system',
+                        content: 'You are a football analyst. Provide simple, clear predictions. Always respond with valid JSON.'
+                    },
+                    {
+                        role: 'user',
+                        content: prompt
+                    }
+                ],
+                temperature: 0.3,
+                stream: false,
+                max_tokens: 1000
+            }),
+            timeout: 25000 // 25 second timeout
+        });
 
     if (!response.ok) {
       throw new Error(`Grok API request failed: ${response.status}`);
@@ -140,6 +145,16 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
 
   } catch (error) {
     console.error('Function error:', error);
+    
+    // Handle timeout errors specifically
+    if (error.code === 'ECONNABORTED' || error.message.includes('timeout')) {
+      return {
+        statusCode: 408,
+        headers,
+        body: JSON.stringify({ error: 'Request timeout - please try again' })
+      };
+    }
+    
     return {
       statusCode: 500,
       headers,
