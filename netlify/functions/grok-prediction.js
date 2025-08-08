@@ -92,37 +92,24 @@ exports.handler = async (event, context) => {
     }
     console.log('GROK_API_KEY found, length:', GROK_API_KEY.length);
 
-    // Fast prompt for quick response
-    const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}). Provide predictions in JSON:
+    // Comprehensive prompt with specific requirements
+    const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}).
+
+Please analyze both teams and predict:  
+1. Likely score  
+2. Half-time result  
+3. Over/under 2.5 goals  
+4. Who is more likely to win and why?  
+5. Last 5 matches or Current injuries or key players
+
+Provide predictions in JSON format:
 {
-  "homeWinProbability": [your prediction],
-  "drawProbability": [your prediction],
-  "awayWinProbability": [your prediction],
-  "likelyScore": [your prediction],
-  "halftimeResult": [your prediction],
-  "overUnder": [your prediction],
-  "corners": [your prediction],
-  "winner": [your prediction],
-  "reason": [your detailed analysis],
-  "halftimeHomeWin": [your prediction],
-  "halftimeDraw": [your prediction],
-  "halftimeAwayWin": [your prediction],
-  "totalCorners": [your prediction],
-  "homeCorners": [your prediction],
-  "awayCorners": [your prediction],
-  "yellowCards": [your prediction],
-  "redCards": [your prediction],
-  "homeYellowCards": [your prediction],
-  "awayYellowCards": [your prediction],
-  "homeRedCards": [your prediction],
-  "awayRedCards": [your prediction],
-  "homeSubs": [your prediction],
-  "awaySubs": [your prediction],
-  "subTiming": [your prediction],
-  "keyFactors": [your analysis factors],
-  "analysis": [your detailed match analysis],
-  "bettingRecommendation": [your recommendation],
-  "riskLevel": [your assessment]
+  "homeWinProbability": [number],
+  "drawProbability": [number],
+  "awayWinProbability": [number],
+  "likelyScore": "[home]-[away]",
+  "halftimeResult": "[home]-[away]",
+  "overUnder": "Over/Under [number] goals"
 }`;
 
     console.log('Making Grok API request...');
@@ -276,29 +263,7 @@ exports.handler = async (event, context) => {
           awayWinProbability: partialData.awayWinProbability || 35,
           likelyScore: partialData.likelyScore || "1-1",
           halftimeResult: partialData.halftimeResult || "0-0",
-          overUnder: partialData.overUnder || "Over 2.5 goals",
-          corners: partialData.corners || "5-5",
-          winner: partialData.winner || "Draw",
-          reason: partialData.reason || "Analysis completed with partial data",
-          halftimeHomeWin: partialData.halftimeHomeWin || 30,
-          halftimeDraw: partialData.halftimeDraw || 45,
-          halftimeAwayWin: partialData.halftimeAwayWin || 25,
-          totalCorners: partialData.totalCorners || 10,
-          homeCorners: partialData.homeCorners || 5,
-          awayCorners: partialData.awayCorners || 5,
-          yellowCards: partialData.yellowCards || 4,
-          redCards: partialData.redCards || 0,
-          homeYellowCards: partialData.homeYellowCards || 2,
-          awayYellowCards: partialData.awayYellowCards || 2,
-          homeRedCards: partialData.homeRedCards || 0,
-          awayRedCards: partialData.awayRedCards || 0,
-          homeSubs: partialData.homeSubs || 3,
-          awaySubs: partialData.awaySubs || 3,
-          subTiming: partialData.subTiming || "Around 60-75 minutes",
-          keyFactors: partialData.keyFactors || ["Home advantage", "Recent form"],
-          analysis: partialData.analysis || "Analysis completed with partial data due to response truncation",
-          bettingRecommendation: partialData.bettingRecommendation || "Consider with caution due to partial data",
-          riskLevel: partialData.riskLevel || "Medium"
+          overUnder: partialData.overUnder || "Over 2.5 goals"
         };
         
         return {
