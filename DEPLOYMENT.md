@@ -1,25 +1,50 @@
-# 🚀 Netlify Deployment Guide
+# Deployment Guide
 
-## Environment Variables Setup
+## Environment Variables
 
-To make the application work on Netlify, you need to set up environment variables:
+### Required Environment Variables
 
-### 1. Go to Netlify Dashboard
-- Navigate to your site settings
-- Go to **Environment variables**
+Set these in your Netlify dashboard at: https://app.netlify.com/projects/flashinio/configuration/env#environment-variables
 
-### 2. Add These Variables:
+- `GROK_API_KEY` - Your Grok API key for AI predictions
+- `OPENAI_API_KEY` - Your OpenAI API key (if using OpenAI for predictions)
+
+### Netlify Functions
+
+The application uses Netlify Functions to securely handle API calls server-side. This prevents API keys from being exposed in client-side code.
+
+#### Functions Structure
 ```
-GROK_API_KEY = your-grok-api-key-here
-OPENAI_API_KEY = your-openai-api-key-here
+netlify/
+  functions/
+    grok-prediction.js  # Handles Grok API calls
 ```
 
-### 3. Redeploy
-After adding the environment variables, redeploy your site.
+#### Function Endpoints
+- `/.netlify/functions/grok-prediction` - POST endpoint for match predictions
 
-## Features Available:
-- ✅ Fixed "upcoming" filter
-- ✅ Enhanced Grok integration
-- ✅ X.com-style loader
-- ✅ Modern football icons
-- ✅ Pure Grok predictions
+### Deployment Steps
+
+1. **Set Environment Variables** in Netlify dashboard
+2. **Deploy** using your preferred method:
+   - Git push to connected repository
+   - Netlify CLI: `netlify deploy --prod`
+   - Manual upload
+
+### Local Development
+
+1. Install dependencies: `npm install`
+2. Set up environment variables in `.env` file
+3. Run locally: `npm run dev`
+
+### Troubleshooting
+
+- **"process is not defined" error**: This was fixed by moving API calls to Netlify Functions
+- **Function errors**: Check Netlify function logs in the dashboard
+- **CORS issues**: Functions include proper CORS headers
+
+## Security Notes
+
+- API keys are now handled server-side via Netlify Functions
+- No sensitive data is exposed in client-side code
+- All API calls go through secure serverless functions
