@@ -1324,11 +1324,15 @@
                                 <div class="score-grid">
                                     <div class="score-item">
                                         <div class="score-label">Halftime Score:</div>
-                                        <div class="score-value halftime-score">${analysis.predictions?.halftimeResult || 'N/A'}</div>
+                                        <div class="score-value halftime-score">${analysis.predictions?.halftimeResult === 'N/A' || !analysis.predictions?.halftimeResult ? 'Click Predict to analyze' : analysis.predictions.halftimeResult}</div>
                                     </div>
                                     <div class="score-item">
                                         <div class="score-label">Final Score:</div>
-                                        <div class="score-value final-score">${analysis.predictions?.likelyScore || 'N/A'}</div>
+                                        <div class="score-value final-score">${analysis.predictions?.likelyScore === 'N/A' || !analysis.predictions?.likelyScore ? 'Click Predict to analyze' : analysis.predictions.likelyScore}</div>
+                                    </div>
+                                    <div class="score-item">
+                                        <div class="score-label">Over/Under:</div>
+                                        <div class="score-value over-under">${analysis.predictions?.overUnder === 'N/A' || !analysis.predictions?.overUnder ? 'Click Predict to analyze' : analysis.predictions.overUnder}</div>
                                     </div>
                                 </div>
                             </div>

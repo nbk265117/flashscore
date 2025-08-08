@@ -224,27 +224,9 @@ function createSimpleAnalysis(match) {
       awayWin: 0
     },
     predictions: {
-      likelyScore: '0-0',
-      halftimeResult: '0-0',
-      overUnder: 'Under 2.5',
-      corners: '0-0',
-      totalCorners: 0,
-      yellowCards: 0,
-      redCards: 0,
-      homeTeamSubs: 0,
-      awayTeamSubs: 0,
-      substitutionTiming: 'N/A',
-      halftimeHomeWin: 0,
-      halftimeDraw: 0,
-      halftimeAwayWin: 0,
-      homeYellowCards: 0,
-      awayYellowCards: 0,
-      homeRedCards: 0,
-      awayRedCards: 0,
-      homeCorners: 0,
-      awayCorners: 0,
-      winner: 'N/A',
-      reason: 'No analysis performed'
+      likelyScore: 'N/A',
+      halftimeResult: 'N/A',
+      overUnder: 'N/A'
     },
     analysis: {
       homeWinProbability: 0,
