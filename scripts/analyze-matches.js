@@ -153,8 +153,25 @@ function analyzeMatch(match) {
     const homeWinRate = Math.round((homeTeam.last5.filter(r => r === 'W').length / 5) * 100);
     const awayWinRate = Math.round((awayTeam.last5.filter(r => r === 'W').length / 5) * 100);
     
-    // Generate analysis text
-    const analysisText = `Based on recent form, ${match.homeTeam} (${homeWinRate}% win rate) faces ${match.awayTeam} (${awayWinRate}% win rate). ${match.homeTeam} has scored ${homeGoals} goals in their last 5 matches while conceding ${awayGoals}. ${match.awayTeam} has scored ${awayGoals} goals and conceded ${homeGoals}. Both teams are evenly matched.`;
+    // Generate analysis text based on predicted score
+    let analysisText;
+    if (winner === match.homeTeam) {
+        const winMargin = homeGoals - awayGoals;
+        if (winMargin >= 2) {
+            analysisText = `Based on recent form, ${match.homeTeam} (${homeWinRate}% win rate) is expected to dominate ${match.awayTeam} (${awayWinRate}% win rate). ${match.homeTeam} has been scoring well with ${homeGoals} goals in recent matches while ${match.awayTeam} has struggled defensively.`;
+        } else {
+            analysisText = `Based on recent form, ${match.homeTeam} (${homeWinRate}% win rate) has a slight edge over ${match.awayTeam} (${awayWinRate}% win rate). ${match.homeTeam} has scored ${homeGoals} goals recently while ${match.awayTeam} has scored ${awayGoals}.`;
+        }
+    } else if (winner === match.awayTeam) {
+        const winMargin = awayGoals - homeGoals;
+        if (winMargin >= 2) {
+            analysisText = `Based on recent form, ${match.awayTeam} (${awayWinRate}% win rate) is expected to dominate ${match.homeTeam} (${homeWinRate}% win rate). ${match.awayTeam} has been scoring well with ${awayGoals} goals in recent matches while ${match.homeTeam} has struggled defensively.`;
+        } else {
+            analysisText = `Based on recent form, ${match.awayTeam} (${awayWinRate}% win rate) has a slight edge over ${match.homeTeam} (${homeWinRate}% win rate). ${match.awayTeam} has scored ${awayGoals} goals recently while ${match.homeTeam} has scored ${homeGoals}.`;
+        }
+    } else {
+        analysisText = `Based on recent form, ${match.homeTeam} (${homeWinRate}% win rate) and ${match.awayTeam} (${awayWinRate}% win rate) are evenly matched. Both teams have similar scoring records with ${homeGoals} and ${awayGoals} goals respectively.`;
+    }
     
     // Generate key factors
     const keyFactors = [
@@ -275,10 +292,10 @@ function analyzeMatch(match) {
             reason: `${winner} has better form and key players available`
         },
         analysis: {
-            homeWinProbability: homeWinProb,
-            drawProbability: drawProb,
-            awayWinProbability: awayWinProb,
-            riskLevel: homeWinProb > 55 ? 'LOW' : homeWinProb > 35 ? 'MEDIUM' : 'HIGH',
+            homeWinProbability: adjustedHomeWinProb,
+            drawProbability: adjustedDrawProb,
+            awayWinProbability: adjustedAwayWinProb,
+            riskLevel: adjustedHomeWinProb > 55 ? 'LOW' : adjustedHomeWinProb > 35 ? 'MEDIUM' : 'HIGH',
             keyFactors: keyFactors,
             analysis: analysisText,
             bettingRecommendation: bettingRecommendation
