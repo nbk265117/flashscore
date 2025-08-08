@@ -876,10 +876,23 @@
         }
 
         .probabilities {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .probabilities h4 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #495057;
+            font-size: 1.2em;
+        }
+        
+        .probability-items-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 15px;
-            margin-bottom: 20px;
         }
 
         .probability-item {
@@ -1289,17 +1302,19 @@
                         
                         <div class="probabilities">
                             <h4>🏆 Overall Match Prediction</h4>
-                            <div class="probability-item home-win">
-                                <div class="probability-value">${displayPercentage(analysis.probabilities?.homeWin)}</div>
-                                <div class="probability-label">Home Win</div>
-                            </div>
-                            <div class="probability-item draw">
-                                <div class="probability-value">${displayPercentage(analysis.probabilities?.draw)}</div>
-                                <div class="probability-label">Draw</div>
-                            </div>
-                            <div class="probability-item away-win">
-                                <div class="probability-value">${displayPercentage(analysis.probabilities?.awayWin)}</div>
-                                <div class="probability-label">Away Win</div>
+                            <div class="probability-items-container">
+                                <div class="probability-item home-win">
+                                    <div class="probability-value">${displayPercentage(analysis.probabilities?.homeWin)}</div>
+                                    <div class="probability-label">Home Win</div>
+                                </div>
+                                <div class="probability-item draw">
+                                    <div class="probability-value">${displayPercentage(analysis.probabilities?.draw)}</div>
+                                    <div class="probability-label">Draw</div>
+                                </div>
+                                <div class="probability-item away-win">
+                                    <div class="probability-value">${displayPercentage(analysis.probabilities?.awayWin)}</div>
+                                    <div class="probability-label">Away Win</div>
+                                </div>
                             </div>
                         </div>
                         
