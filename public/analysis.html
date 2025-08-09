@@ -2622,29 +2622,38 @@ In short, first-half result please.`;
                 return;
             }
 
-            if (!filteredData || filteredData.length === 0) {
-                alert('No matches available to randomize');
-                return;
-            }
-
-            // Store original data if not already stored
-            if (!isRandomMode) {
+            // Get the source data to randomize from
+            let sourceData;
+            if (isRandomMode && originalFilteredData) {
+                // If we're in random mode, use the original data
+                sourceData = originalFilteredData;
+            } else {
+                // First time randomizing, store original data
+                if (!filteredData || filteredData.length === 0) {
+                    alert('No matches available to randomize');
+                    return;
+                }
                 originalFilteredData = [...filteredData];
+                sourceData = filteredData;
                 isRandomMode = true;
             }
 
-            // Generate random indices
+            // Generate random indices from the source data
             const randomIndices = [];
-            const availableIndices = Array.from({ length: filteredData.length }, (_, i) => i);
+            const availableIndices = Array.from({ length: sourceData.length }, (_, i) => i);
+            
+            // Add some entropy to ensure different results each time
+            const timestamp = Date.now();
             
             for (let i = 0; i < Math.min(count, availableIndices.length); i++) {
-                const randomIndex = Math.floor(Math.random() * availableIndices.length);
+                // Use timestamp to add more randomness
+                const randomIndex = Math.floor((Math.random() + timestamp % 1000 / 10000) * availableIndices.length) % availableIndices.length;
                 randomIndices.push(availableIndices[randomIndex]);
                 availableIndices.splice(randomIndex, 1);
             }
 
             // Create new filtered data with random matches
-            const randomMatches = randomIndices.map(index => filteredData[index]);
+            const randomMatches = randomIndices.map(index => sourceData[index]);
             filteredData = randomMatches;
 
             // Update display
