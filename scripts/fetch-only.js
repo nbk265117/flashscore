@@ -169,6 +169,10 @@ async function fetchMatchesByDate(date) {
     const goals = match.goals;
     const score = match.score;
     
+    // Ensure logos are properly formatted
+    const homeTeamLogo = teams.home.logo || `https://media.api-sports.io/football/teams/${teams.home.id}.png`;
+    const awayTeamLogo = teams.away.logo || `https://media.api-sports.io/football/teams/${teams.away.id}.png`;
+    
     return {
       id: fixture.id,
       date: fixture.date,
@@ -177,8 +181,10 @@ async function fetchMatchesByDate(date) {
       country: fixture.venue ? fixture.venue.country : 'Unknown',
       homeTeam: teams.home.name,
       awayTeam: teams.away.name,
-      homeTeamLogo: teams.home.logo,
-      awayTeamLogo: teams.away.logo,
+      homeTeamLogo: homeTeamLogo,
+      awayTeamLogo: awayTeamLogo,
+      homeTeamId: teams.home.id,
+      awayTeamId: teams.away.id,
       league: match.league.name,
       country: match.league.country,
       homeGoals: goals.home,

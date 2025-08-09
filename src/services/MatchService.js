@@ -183,6 +183,38 @@ class MatchService {
       throw new Error(`Failed to load processed matches: ${error.message}`);
     }
   }
+
+  /**
+   * Get all matches - tries processed_matches.json first, then falls back to analysis.json
+   * @returns {Promise<Array<object>>} Array of match objects
+   */
+  async getAllMatches() {
+    try {
+      // First try to load from processed_matches.json
+      try {
+        const processedData = await this.loadProcessedMatches('processed_matches.json');
+        if (processedData && processedData.matches && Array.isArray(processedData.matches)) {
+          console.log(`Loaded ${processedData.matches.length} matches from processed_matches.json`);
+          return processedData.matches;
+        }
+      } catch (error) {
+        console.log('processed_matches.json not found, trying analysis.json...');
+      }
+
+      // Fallback to analysis.json
+      const analysisPath = path.join(this.dataPath, 'analysis.json');
+      const analysisData = JSON.parse(await fs.readFile(analysisPath, 'utf8'));
+      
+      if (analysisData && analysisData.analyses && Array.isArray(analysisData.analyses)) {
+        console.log(`Loaded ${analysisData.analyses.length} matches from analysis.json`);
+        return analysisData.analyses;
+      }
+      
+      throw new Error('No valid match data found in either processed_matches.json or analysis.json');
+    } catch (error) {
+      throw new Error(`Failed to load matches: ${error.message}`);
+    }
+  }
 }
 
 module.exports = MatchService; 

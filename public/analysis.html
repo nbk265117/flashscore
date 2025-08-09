@@ -353,6 +353,304 @@
             box-shadow: 0 2px 8px rgba(40, 167, 69, 0.4);
         }
 
+        /* 1xbet button styles */
+        .xbet-btn {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(255, 107, 107, 0.3);
+        }
+
+        .xbet-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(255, 107, 107, 0.5);
+            background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+        }
+
+        .xbet-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+        }
+
+        /* Confidence indicators */
+        .confidence-indicator {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-top: 5px;
+        }
+
+        .confidence-indicator.high {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            box-shadow: 0 2px 4px rgba(40, 167, 69, 0.3);
+        }
+
+        .confidence-indicator.medium {
+            background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+            color: white;
+            box-shadow: 0 2px 4px rgba(255, 193, 7, 0.3);
+        }
+
+        .confidence-indicator.low {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
+            box-shadow: 0 2px 4px rgba(220, 53, 69, 0.3);
+        }
+
+        /* Prediction analysis sections */
+        .prediction-analysis {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+        }
+
+        .confidence-section {
+            margin-bottom: 15px;
+        }
+
+        .confidence-section h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .confidence-level {
+            display: inline-block;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        .confidence-level.high {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
+        }
+
+        .confidence-level.medium {
+            background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+            color: white;
+            box-shadow: 0 2px 8px rgba(255, 193, 7, 0.3);
+        }
+
+        .confidence-level.low {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
+            box-shadow: 0 2px 8px rgba(220, 53, 69, 0.3);
+        }
+
+        .key-factors-section {
+            margin-bottom: 15px;
+        }
+
+        .key-factors-section h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .key-factors-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .key-factors-list li {
+            background: white;
+            padding: 8px 12px;
+            margin-bottom: 5px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .analysis-summary {
+            margin-bottom: 15px;
+        }
+
+        .analysis-summary h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .analysis-summary p {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 0;
+            line-height: 1.5;
+            color: #2c3e50;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        /* Match day factors styles */
+        .match-day-factors-section {
+            margin-bottom: 15px;
+        }
+
+        .match-day-factors-section h4 {
+            color: #495057;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .match-day-factors {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .factor-item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .factor-label {
+            font-weight: 600;
+            color: #495057;
+            min-width: 120px;
+        }
+
+        .factor-value {
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        /* Predictions comparison styles */
+        .predictions-comparison {
+            margin-bottom: 20px;
+        }
+
+        .predictions-comparison h4 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .predictions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .prediction-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 15px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .prediction-card.safe-prediction {
+            border-left: 4px solid #28a745;
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+        }
+
+        .prediction-card.value-prediction {
+            border-left: 4px solid #ffc107;
+            background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+        }
+
+        .prediction-card h5 {
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+            font-weight: 700;
+            text-align: center;
+            color: #2c3e50;
+        }
+
+        .prediction-content {
+            text-align: center;
+        }
+
+        .prediction-score {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .prediction-details {
+            margin-bottom: 10px;
+        }
+
+        .prediction-details div {
+            font-size: 0.9em;
+            color: #495057;
+            margin-bottom: 4px;
+        }
+
+        .confidence-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .confidence-badge.high {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+        }
+
+        .confidence-badge.medium {
+            background: linear-gradient(135deg, #ffc107 0%, #fd7e14 100%);
+            color: white;
+        }
+
+        .confidence-badge.low {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
+        }
+
+        /* Responsive design for predictions grid */
+        @media (max-width: 768px) {
+            .predictions-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .prediction-card {
+                padding: 12px;
+            }
+
+            .prediction-score {
+                font-size: 1.5em;
+            }
+
+            .factor-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+
+            .factor-label {
+                min-width: auto;
+            }
+        }
+
         @keyframes pulse {
             0% { opacity: 1; }
             50% { opacity: 0.7; }
@@ -872,6 +1170,17 @@
             border: 2px solid #e0e0e0;
             background: #f5f5f5;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .team-logo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .team-logo[src*="football-icon.svg"] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 5px;
         }
 
         .team-name {
@@ -884,6 +1193,236 @@
             font-size: 0.9em;
             color: #6c757d;
             font-weight: 500;
+        }
+
+        /* Grid-style team display for analysis.html */
+        .teams-grid-style {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .team-grid-style {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            flex: 1;
+        }
+
+        .team-logo-grid-style {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #e0e0e0;
+            background: #f5f5f5;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .team-logo-grid-style:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .team-logo-grid-style[src*="football-icon.svg"] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 3px;
+        }
+
+        .team-name-grid-style {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2c3e50;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .vs-grid-style {
+            font-size: 12px;
+            color: #6c757d;
+            font-weight: 500;
+            margin: 0 4px;
+        }
+
+        /* Responsive styles for grid-style team display */
+        @media (max-width: 768px) {
+            .teams-grid-style {
+                flex-direction: column;
+                gap: 6px;
+            }
+
+            .team-grid-style {
+                flex-direction: row;
+                gap: 8px;
+            }
+
+            .team-logo-grid-style {
+                width: 32px;
+                height: 32px;
+            }
+
+            .team-name-grid-style {
+                font-size: 10px;
+            }
+
+            .vs-grid-style {
+                font-size: 10px;
+                margin: 4px 0;
+            }
+        }
+
+        /* Expanded team details styles */
+        .team-details-expanded {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 1px solid #dee2e6;
+        }
+
+        .team-details-expanded h4 {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            text-align: center;
+        }
+
+        .teams-expanded {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .team-expanded {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            text-align: center;
+        }
+
+        .team-logo-expanded {
+            display: flex;
+            justify-content: center;
+        }
+
+        .team-logo-large {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #e0e0e0;
+            background: #f5f5f5;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .team-logo-large:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+
+        .team-logo-large[src*="football-icon.svg"] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 10px;
+        }
+
+        .team-info-expanded {
+            text-align: center;
+        }
+
+        .team-name-expanded {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .team-league {
+            font-size: 0.9em;
+            color: #6c757d;
+            font-weight: 500;
+        }
+
+        .vs-expanded {
+            font-size: 1.5em;
+            color: #6c757d;
+            font-weight: 700;
+            margin: 0 20px;
+        }
+
+        .match-info-expanded {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+        }
+
+        .match-info-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #495057;
+            min-width: 80px;
+        }
+
+        .info-value {
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        /* Responsive styles for expanded team details */
+        @media (max-width: 768px) {
+            .teams-expanded {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .team-logo-large {
+                width: 60px;
+                height: 60px;
+            }
+
+            .team-name-expanded {
+                font-size: 1.1em;
+            }
+
+            .vs-expanded {
+                font-size: 1.2em;
+                margin: 10px 0;
+            }
+
+            .match-info-expanded {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+
+            .match-info-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 5px;
+            }
+
+            .info-label {
+                min-width: auto;
+            }
         }
 
         .league {
@@ -1352,7 +1891,7 @@
             }
         }
 
-        // Display analyses
+        // Display enhanced analysis with confidence and key factors
         function displayAnalyses() {
             const grid = document.getElementById('analysisGrid');
             console.log('DisplayAnalyses called with filteredData length:', filteredData.length);
@@ -1365,6 +1904,10 @@
             grid.innerHTML = filteredData.map((analysis, index) => {
                 const riskClass = `risk-${(analysis.analysis?.riskLevel || 'unknown').toLowerCase()}`;
                 const predictedClass = analysis.isPredicted ? 'predicted' : '';
+                const confidence = analysis.analysis?.confidence || 'MEDIUM';
+                const keyFactors = analysis.analysis?.keyFactors || [];
+                const analysisText = analysis.analysis?.analysis || '';
+                
                 return `
                     <div class="analysis-card ${predictedClass}" data-match-index="${index}">
                         <div class="loader-overlay" id="loader-${index}">
@@ -1378,20 +1921,22 @@
                         </div>
                         <div class="match-header" onclick="toggleCard(${index})">
                             <div>
-                                <div class="teams">
-                                    <div class="team-info">
-                                        <img src="${analysis.homeTeamLogo || '/images/football-icon.svg'}" alt="${analysis.homeTeam}" class="team-logo" onerror="this.src='/images/football-icon.svg'">
-                                        <span class="team-name">${analysis.homeTeam}</span>
+                                <div class="teams-grid-style">
+                                    <div class="team-grid-style">
+                                        <img src="${analysis.homeTeamLogo || '/images/football-icon.svg'}" alt="${analysis.homeTeam}" class="team-logo-grid-style" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                        <span class="team-name-grid-style">${analysis.homeTeam}</span>
                                     </div>
-                                    <span class="vs">vs</span>
-                                    <div class="team-info">
-                                        <img src="${analysis.awayTeamLogo || '/images/football-icon.svg'}" alt="${analysis.awayTeam}" class="team-logo" onerror="this.src='/images/football-icon.svg'">
-                                        <span class="team-name">${analysis.awayTeam}</span>
+                                    <div class="vs-grid-style">vs</div>
+                                    <div class="team-grid-style">
+                                        <img src="${analysis.awayTeamLogo || '/images/football-icon.svg'}" alt="${analysis.awayTeam}" class="team-logo-grid-style" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                        <span class="team-name-grid-style">${analysis.awayTeam}</span>
                                     </div>
                                 </div>
                                 <div class="league">${analysis.league} (${analysis.country})</div>
                                 <div class="match-time">🕐 ${new Date(analysis.matchTime).toLocaleString()}</div>
                                 <div class="venue">🏟️ ${analysis.venue?.name || 'Unknown Stadium'} - ${analysis.venue?.city || 'Unknown City'}, ${analysis.venue?.country || 'Unknown Country'}</div>
+                                
+                                ${confidence !== 'MEDIUM' ? `<div class="confidence-indicator ${confidence.toLowerCase()}">🎯 Confidence: ${confidence}</div>` : ''}
                             </div>
                             <div style="display: flex; align-items: center; justify-content: flex-end; gap: 15px; margin-top: 10px;">
                                 <button class="copy-prompt-btn" onclick="event.stopPropagation(); copyPrompt(${index})" id="copy-prompt-btn-${index}" title="Copy Grok prompt for this match">
@@ -1400,12 +1945,137 @@
                                 <button class="predict-btn" onclick="event.stopPropagation(); predictMatch(${index})" id="predict-btn-${index}">
                                     🤖 Predict
                                 </button>
+                                <button class="xbet-btn" onclick="event.stopPropagation(); open1xbet('${analysis.homeTeam}', '${analysis.awayTeam}', '${analysis.league}')" id="xbet-btn-${index}" title="Open 1xbet for this match">
+                                    🎲 1xbet
+                                </button>
                                 <span class="risk-level ${riskClass}" id="risk-level-${index}" style="display: none;"></span>
                                 <span class="toggle-icon" onclick="event.stopPropagation(); toggleCard(${index})" id="toggle-${index}">⬇️</span>
                             </div>
                         </div>
                         
                         <div class="card-content collapsed" id="content-${index}">
+                        
+                        <div class="team-details-expanded">
+                            <h4>🏟️ Match Details</h4>
+                            <div class="teams-expanded">
+                                <div class="team-expanded home-team">
+                                    <div class="team-logo-expanded">
+                                        <img src="${analysis.homeTeamLogo || '/images/football-icon.svg'}" alt="${analysis.homeTeam}" class="team-logo-large" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                    </div>
+                                    <div class="team-info-expanded">
+                                        <div class="team-name-expanded">${analysis.homeTeam}</div>
+                                        <div class="team-league">${analysis.league}</div>
+                                    </div>
+                                </div>
+                                <div class="vs-expanded">vs</div>
+                                <div class="team-expanded away-team">
+                                    <div class="team-logo-expanded">
+                                        <img src="${analysis.awayTeamLogo || '/images/football-icon.svg'}" alt="${analysis.awayTeam}" class="team-logo-large" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                    </div>
+                                    <div class="team-info-expanded">
+                                        <div class="team-name-expanded">${analysis.awayTeam}</div>
+                                        <div class="team-league">${analysis.league}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="match-info-expanded">
+                                <div class="match-info-item">
+                                    <span class="info-label">🏟️ Venue:</span>
+                                    <span class="info-value">${analysis.venue?.name || 'Unknown Stadium'}</span>
+                                </div>
+                                <div class="match-info-item">
+                                    <span class="info-label">📍 Location:</span>
+                                    <span class="info-value">${analysis.venue?.city || 'Unknown City'}, ${analysis.venue?.country || analysis.country || 'Unknown Country'}</span>
+                                </div>
+                                <div class="match-info-item">
+                                    <span class="info-label">🕐 Time:</span>
+                                    <span class="info-value">${new Date(analysis.matchTime).toLocaleString()}</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        ${confidence !== 'MEDIUM' || keyFactors.length > 0 || analysisText ? `
+                        <div class="prediction-analysis">
+                            ${confidence !== 'MEDIUM' ? `<div class="confidence-section">
+                                <h4>🎯 Prediction Confidence</h4>
+                                <div class="confidence-level ${confidence.toLowerCase()}">${confidence}</div>
+                            </div>` : ''}
+                            
+                            ${keyFactors.length > 0 ? `<div class="key-factors-section">
+                                <h4>🔑 Key Factors</h4>
+                                <ul class="key-factors-list">
+                                    ${keyFactors.map(factor => `<li>${factor}</li>`).join('')}
+                                </ul>
+                            </div>` : ''}
+                            
+                            ${analysis.matchDayFactors ? `<div class="match-day-factors-section">
+                                <h4>📅 Match Day Factors</h4>
+                                <div class="match-day-factors">
+                                    ${analysis.matchDayFactors.keyAbsences && analysis.matchDayFactors.keyAbsences.length > 0 ? 
+                                        `<div class="factor-item">
+                                            <span class="factor-label">🚑 Key Absences:</span>
+                                            <span class="factor-value">${analysis.matchDayFactors.keyAbsences.join(', ')}</span>
+                                        </div>` : ''}
+                                    ${analysis.matchDayFactors.motivation ? 
+                                        `<div class="factor-item">
+                                            <span class="factor-label">🎯 Motivation:</span>
+                                            <span class="factor-value">${analysis.matchDayFactors.motivation}</span>
+                                        </div>` : ''}
+                                    ${analysis.matchDayFactors.weatherImpact && analysis.matchDayFactors.weatherImpact !== 'none' ? 
+                                        `<div class="factor-item">
+                                            <span class="factor-label">🌤️ Weather Impact:</span>
+                                            <span class="factor-value">${analysis.matchDayFactors.weatherImpact}</span>
+                                        </div>` : ''}
+                                    ${analysis.matchDayFactors.travelDistance ? 
+                                        `<div class="factor-item">
+                                            <span class="factor-label">✈️ Travel:</span>
+                                            <span class="factor-value">${analysis.matchDayFactors.travelDistance}</span>
+                                        </div>` : ''}
+                                </div>
+                            </div>` : ''}
+                            
+                            ${analysisText ? `<div class="analysis-summary">
+                                <h4>📊 Analysis Summary</h4>
+                                <p>${analysisText}</p>
+                            </div>` : ''}
+                        </div>
+                        ` : ''}
+                        
+                        ${analysis.predictions && analysis.predictions.valuePrediction ? `
+                        <div class="predictions-comparison">
+                            <h4>🎯 Predictions Comparison</h4>
+                            <div class="predictions-grid">
+                                <div class="prediction-card safe-prediction">
+                                    <h5>🛡️ Safe Pick</h5>
+                                    <div class="prediction-content">
+                                        <div class="prediction-score">${analysis.predictions.safePrediction.likelyScore || 'N/A'}</div>
+                                        <div class="prediction-details">
+                                            <div>HT: ${analysis.predictions.safePrediction.halfTimeResult || analysis.predictions.safePrediction.halftimeResult || 'N/A'}</div>
+                                            <div>O/U: ${analysis.predictions.safePrediction.overUnder2_5 || analysis.predictions.safePrediction.overUnder || 'N/A'}</div>
+                                            <div>Winner: ${analysis.predictions.safePrediction.winner || 'N/A'}</div>
+                                        </div>
+                                        <div class="confidence-badge ${(analysis.predictions.safePrediction.confidence || 'MEDIUM').toLowerCase()}">
+                                            ${analysis.predictions.safePrediction.confidence || 'MEDIUM'}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="prediction-card value-prediction">
+                                    <h5>💰 Value Pick</h5>
+                                    <div class="prediction-content">
+                                        <div class="prediction-score">${analysis.predictions.valuePrediction.likelyScore || 'N/A'}</div>
+                                        <div class="prediction-details">
+                                            <div>HT: ${analysis.predictions.valuePrediction.halfTimeResult || analysis.predictions.valuePrediction.halftimeResult || 'N/A'}</div>
+                                            <div>O/U: ${analysis.predictions.valuePrediction.overUnder2_5 || analysis.predictions.valuePrediction.overUnder || 'N/A'}</div>
+                                            <div>Winner: ${analysis.predictions.valuePrediction.winner || 'N/A'}</div>
+                                        </div>
+                                        <div class="confidence-badge ${(analysis.predictions.valuePrediction.confidence || 'MEDIUM').toLowerCase()}">
+                                            ${analysis.predictions.valuePrediction.confidence || 'MEDIUM'}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        ` : ''}
                         
                         <div class="probabilities">
                             <h4>🏆 Overall Match Prediction</h4>
@@ -1623,7 +2293,7 @@
             }
         }
 
-        // Predict match using ChatGPT
+        // Enhanced prediction system with better accuracy
         async function predictMatch(index) {
             const predictBtn = document.getElementById(`predict-btn-${index}`);
             const riskLevelSpan = document.getElementById(`risk-level-${index}`);
@@ -1644,55 +2314,97 @@
                 // Get match data
                 const match = filteredData[index];
                 
-                // Get prediction from Grok
-                const prediction = await askGrokForPrediction(match);
+                // Enhanced prediction with multiple sources
+                const prediction = await getEnhancedPrediction(match);
                 
                 if (!prediction) {
-                    throw new Error('Failed to get prediction from Grok');
+                    throw new Error('Failed to get prediction');
                 }
                 
-                // Use Grok's comprehensive predictions directly
-                const riskLevel = prediction.riskLevel || 'MEDIUM';
-                
-                // Update predictions with Grok's data
-                match.predictions.likelyScore = prediction.likelyScore;
-                match.predictions.halftimeResult = prediction.halftimeResult;
-                match.predictions.overUnder = prediction.overUnder;
-                
-                // Update probabilities with Grok's predictions (only update probabilities, not analysis)
-                match.probabilities.homeWin = prediction.homeWinProbability;
-                match.probabilities.draw = prediction.drawProbability;
-                match.probabilities.awayWin = prediction.awayWinProbability;
-                
-                // Ensure analysis object exists
-                if (!match.analysis) {
-                    match.analysis = {};
+                // Handle new prediction format with safe and value predictions
+                if (prediction.safePrediction && prediction.valuePrediction) {
+                    // New format - use safe prediction as primary, value as secondary
+                    const safePred = prediction.safePrediction;
+                    const valuePred = prediction.valuePrediction;
+                    
+                    // Update predictions with safe prediction data (primary)
+                    match.predictions = {
+                        ...match.predictions,
+                        likelyScore: safePred.likelyScore,
+                        halftimeResult: safePred.halfTimeResult || safePred.halftimeResult,
+                        overUnder: safePred.overUnder2_5 || safePred.overUnder
+                    };
+                    
+                    // Store both predictions for display
+                    match.predictions.safePrediction = safePred;
+                    match.predictions.valuePrediction = valuePred;
+                    
+                    // Update probabilities with safe prediction data
+                    match.probabilities = {
+                        homeWin: safePred.homeWinProbability,
+                        draw: safePred.drawProbability,
+                        awayWin: safePred.awayWinProbability
+                    };
+                    
+                    // Update analysis with enhanced data
+                    if (!match.analysis) {
+                        match.analysis = {};
+                    }
+                    match.analysis = {
+                        ...match.analysis,
+                        homeWinProbability: safePred.homeWinProbability,
+                        drawProbability: safePred.drawProbability,
+                        awayWinProbability: safePred.awayWinProbability,
+                        confidence: safePred.confidence || 'MEDIUM',
+                        keyFactors: prediction.keyFactors || [],
+                        reasoning: prediction.reasoning || '',
+                        riskLevel: prediction.riskLevel || 'MEDIUM',
+                        matchDayFactors: prediction.matchDayFactors || {}
+                    };
+                    
+                } else {
+                    // Legacy format - backward compatibility
+                    match.predictions = {
+                        ...match.predictions,
+                        likelyScore: prediction.likelyScore,
+                        halftimeResult: prediction.halftimeResult || prediction.halfTimeResult,
+                        overUnder: prediction.overUnder || prediction.overUnder2_5
+                    };
+                    
+                    match.probabilities = {
+                        homeWin: prediction.homeWinProbability,
+                        draw: prediction.drawProbability,
+                        awayWin: prediction.awayWinProbability
+                    };
+                    
+                    if (!match.analysis) {
+                        match.analysis = {};
+                    }
+                    match.analysis = {
+                        ...match.analysis,
+                        homeWinProbability: prediction.homeWinProbability,
+                        drawProbability: prediction.drawProbability,
+                        awayWinProbability: prediction.awayWinProbability,
+                        confidence: prediction.confidence || 'MEDIUM',
+                        keyFactors: prediction.keyFactors || [],
+                        reasoning: prediction.reasoning || prediction.analysis || '',
+                        riskLevel: prediction.riskLevel || 'MEDIUM'
+                    };
                 }
                 
-                // Update analysis with Grok's data
-                match.analysis.homeWinProbability = prediction.homeWinProbability;
-                match.analysis.drawProbability = prediction.drawProbability;
-                match.analysis.awayWinProbability = prediction.awayWinProbability;
+                // Update risk level based on confidence
+                const confidence = match.analysis.confidence || 'MEDIUM';
+                let riskLevel = 'MEDIUM';
+                if (confidence === 'HIGH') riskLevel = 'LOW';
+                else if (confidence === 'LOW') riskLevel = 'HIGH';
                 
-                // Update risk level display
-                const riskClass = `risk-${riskLevel.toLowerCase()}`;
-                riskLevelSpan.className = `risk-level ${riskClass}`;
-                riskLevelSpan.textContent = riskLevel.toUpperCase();
-                riskLevelSpan.style.display = 'inline-block';
+                match.analysis.riskLevel = riskLevel;
                 
-                // Mark as predicted
-                match.isPredicted = true;
-                
-                // Hide loader overlay
-                if (analysisCard && loader) {
-                    analysisCard.classList.remove('loading');
-                }
-                
-                // Update the display
+                // Update display
                 displayAnalyses();
                 
                 // Show success message
-                predictBtn.textContent = '✅ Predicted';
+                predictBtn.textContent = '✅ Predicted!';
                 setTimeout(() => {
                     predictBtn.textContent = '🤖 Predict';
                     predictBtn.disabled = false;
@@ -1719,6 +2431,52 @@
             }
         }
 
+        // Enhanced prediction with multiple data sources
+        async function getEnhancedPrediction(match) {
+            try {
+                // Try Grok first (primary source)
+                const grokPrediction = await askGrokForPrediction(match);
+                if (grokPrediction) {
+                    return grokPrediction;
+                }
+                
+                // Fallback to ChatGPT if Grok fails
+                const chatgptPrediction = await askChatGPTForPrediction(match);
+                if (chatgptPrediction) {
+                    return chatgptPrediction;
+                }
+                
+                throw new Error('No prediction sources available');
+                
+            } catch (error) {
+                console.error('Enhanced prediction error:', error);
+                throw error;
+            }
+        }
+
+        // Ask ChatGPT for prediction (fallback)
+        async function askChatGPTForPrediction(match) {
+            try {
+                const response = await fetch('/api/chatgpt-prediction', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ match })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`ChatGPT request failed: ${response.status}`);
+                }
+
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('ChatGPT prediction error:', error);
+                return null;
+            }
+        }
+
         // Copy prompt for a specific match
         async function copyPrompt(index) {
             const copyBtn = document.getElementById(`copy-prompt-btn-${index}`);
@@ -1727,15 +2485,54 @@
                 // Get match data
                 const match = filteredData[index];
                 
-                // Create the Grok prompt
-                const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}).
+                // Create the enhanced Grok prompt
+                const prompt = `You are an expert football betting analyst with a focus on real match-day accuracy.
 
-Please analyze both teams and predict:  
-1. Likely score  
-2. Half-time result  
-3. Over/under 2.5 goals  
-4. Who is more likely to win and why?  
-5. Last 5 matches or Current injuries or key players`;
+ANALYZE THIS MATCH: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}) — Match date: ${new Date(match.matchTime).toLocaleDateString()}.
+
+USE THE FOLLOWING APPROACH:
+
+1. **BASE ANALYSIS**: 
+   - Compare current season form, last 5 matches performance
+   - Head-to-head history (last 3 years only)
+   - League table position and recent momentum
+   - Home/away form patterns for both teams
+
+2. **MATCH-DAY CONTEXT**:
+   - Official confirmed line-ups if available
+   - Key injuries/suspensions and their impact
+   - Rest days between matches
+   - Travel distance and fatigue factors
+   - Weather conditions (if relevant)
+   - Motivation factors (title race, relegation battle, cup preparation)
+
+3. **ODDS & MARKET TRENDS**:
+   - Consider betting odds movement if available
+   - Market signals and public sentiment
+   - Bookmaker confidence levels
+
+4. **STATISTICAL INDICATORS**:
+   - Goals scored/conceded averages (home/away)
+   - Both Teams To Score (BTTS) percentage
+   - Over/Under 2.5 goals percentage
+   - First-half goal frequency for both teams
+   - Clean sheet records and defensive strength
+   - Set-piece efficiency and conversion rates
+
+5. **PREDICTION OUTPUT**: Provide two predictions:
+   - **SAFE PICK**: Most likely outcome based on stats & current form (lower risk)
+   - **VALUE PICK**: Riskier but with potential high return (higher risk)
+
+ANALYSIS GUIDELINES:
+- Base predictions on statistical evidence and match-day context, not gut feeling
+- Consider current form more heavily than historical data
+- Factor in home advantage and team motivation
+- Account for official line-ups and key absences
+- Be conservative with high-scoring predictions unless strong evidence suggests otherwise
+- Consider defensive records and playing styles
+- Distinguish between "safe" and "value" betting opportunities
+
+In short, first-half result please.`;
 
                 // Copy to clipboard
                 await navigator.clipboard.writeText(prompt);
@@ -1762,6 +2559,24 @@ Please analyze both teams and predict:
                     copyBtn.textContent = originalText;
                     copyBtn.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
                 }, 2000);
+            }
+        }
+
+        // Open 1xbet for a specific match
+        function open1xbet(homeTeam, awayTeam, league) {
+            try {
+                const today = new Date();
+                const dateStr = today.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                const query = `${homeTeam} vs ${awayTeam} ${league} ${dateStr} 1xbet`;
+                const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+                window.open(searchUrl, '_blank');
+            } catch (error) {
+                console.error('Error opening 1xbet:', error);
+                alert('Failed to open 1xbet. Please try again.');
             }
         }
 
@@ -1927,6 +2742,22 @@ Please analyze both teams and predict:
 
         // Load analysis on page load
         loadAnalysis();
+
+        // Function to validate and preload team logos
+        function validateLogo(url) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => resolve(true);
+                img.onerror = () => resolve(false);
+                img.src = url;
+            });
+        }
+
+        // Function to get the best available logo URL
+        function getTeamLogoUrl(teamId, teamName) {
+            const baseUrl = `https://media.api-sports.io/football/teams/${teamId}.png`;
+            return baseUrl;
+        }
 
         // Scroll to top functionality
         const scrollToTopBtn = document.getElementById('scrollToTop');

@@ -92,24 +92,85 @@ exports.handler = async (event, context) => {
     }
     console.log('GROK_API_KEY found, length:', GROK_API_KEY.length);
 
-    // Comprehensive prompt with specific requirements
-    const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}).
+    // Enhanced comprehensive prompt with match-day accuracy focus
+    const prompt = `You are an expert football betting analyst with a focus on real match-day accuracy.
 
-Please analyze both teams and predict:  
-1. Likely score  
-2. Half-time result  
-3. Over/under 2.5 goals  
-4. Who is more likely to win and why?  
-5. Last 5 matches or Current injuries or key players
+ANALYZE THIS MATCH: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}) — Match date: ${new Date(match.matchTime).toLocaleDateString()}.
 
-Provide predictions in JSON format:
+USE THE FOLLOWING APPROACH:
+
+1. **BASE ANALYSIS**: 
+   - Compare current season form, last 5 matches performance
+   - Head-to-head history (last 3 years only)
+   - League table position and recent momentum
+   - Home/away form patterns for both teams
+
+2. **MATCH-DAY CONTEXT**:
+   - Official confirmed line-ups if available
+   - Key injuries/suspensions and their impact
+   - Rest days between matches
+   - Travel distance and fatigue factors
+   - Weather conditions (if relevant)
+   - Motivation factors (title race, relegation battle, cup preparation)
+
+3. **ODDS & MARKET TRENDS**:
+   - Consider betting odds movement if available
+   - Market signals and public sentiment
+   - Bookmaker confidence levels
+
+4. **STATISTICAL INDICATORS**:
+   - Goals scored/conceded averages (home/away)
+   - Both Teams To Score (BTTS) percentage
+   - Over/Under 2.5 goals percentage
+   - First-half goal frequency for both teams
+   - Clean sheet records and defensive strength
+   - Set-piece efficiency and conversion rates
+
+5. **PREDICTION OUTPUT**: Provide two predictions:
+   - **SAFE PICK**: Most likely outcome based on stats & current form (lower risk)
+   - **VALUE PICK**: Riskier but with potential high return (higher risk)
+
+ANALYSIS GUIDELINES:
+- Base predictions on statistical evidence and match-day context, not gut feeling
+- Consider current form more heavily than historical data
+- Factor in home advantage and team motivation
+- Account for official line-ups and key absences
+- Be conservative with high-scoring predictions unless strong evidence suggests otherwise
+- Consider defensive records and playing styles
+- Distinguish between "safe" and "value" betting opportunities
+
+Provide predictions in JSON format ONLY:
 {
-  "homeWinProbability": [number],
-  "drawProbability": [number],
-  "awayWinProbability": [number],
-  "likelyScore": "[home]-[away]",
-  "halftimeResult": "[home]-[away]",
-  "overUnder": "Over/Under [number] goals"
+  "safePrediction": {
+    "homeWinProbability": [number 1-100],
+    "drawProbability": [number 1-100],
+    "awayWinProbability": [number 1-100],
+    "likelyScore": "[home]-[away]",
+    "halfTimeResult": "[home]-[away]",
+    "overUnder2_5": "Over/Under 2.5 goals",
+    "winner": "[team name or draw]",
+    "confidence": "[HIGH/MEDIUM/LOW]"
+  },
+  "valuePrediction": {
+    "homeWinProbability": [number 1-100],
+    "drawProbability": [number 1-100],
+    "awayWinProbability": [number 1-100],
+    "likelyScore": "[home]-[away]",
+    "halfTimeResult": "[home]-[away]",
+    "overUnder2_5": "Over/Under 2.5 goals",
+    "winner": "[team name or draw]",
+    "confidence": "[HIGH/MEDIUM/LOW]"
+  },
+  "matchDayFactors": {
+    "keyAbsences": ["player1", "player2"],
+    "motivation": "title race/relegation battle/cup prep/etc",
+    "weatherImpact": "none/minor/major",
+    "restDays": [homeTeamDays, awayTeamDays],
+    "travelDistance": "[home]/[away] team travel impact"
+  },
+  "keyFactors": ["factor1", "factor2", "factor3"],
+  "reasoning": "Concise reasoning mixing form, line-ups, stats, and market trends",
+  "riskLevel": "[LOW/MEDIUM/HIGH]"
 }`;
 
     console.log('Making Grok API request...');

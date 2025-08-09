@@ -581,9 +581,51 @@
         }
 
         .teams {
+            display: flex;
+            align-items: center;
+            gap: 15px;
             font-size: 1.3em;
             font-weight: 700;
             color: #2c3e50;
+        }
+
+        .team-info {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .team-logo {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #e0e0e0;
+            background: #f5f5f5;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .team-logo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .team-logo[src*="football-icon.svg"] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 5px;
+        }
+
+        .team-name {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .vs {
+            font-size: 0.9em;
+            color: #6c757d;
+            font-weight: 500;
         }
 
         .score {
@@ -945,15 +987,96 @@
             background: white;
             border: 1px solid #dee2e6;
             border-radius: 8px;
-            padding: 12px;
+            padding: 15px;
             font-size: 12px;
             line-height: 1.4;
+            min-height: 120px;
         }
 
         .grid-item .teams {
             font-weight: 700;
             color: #2c3e50;
             margin-bottom: 5px;
+        }
+
+        /* Grid team logos styles */
+        .teams-grid {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .team-grid {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            flex: 1;
+        }
+
+        .team-logo-grid {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #e0e0e0;
+            background: #f5f5f5;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .team-logo-grid:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .team-logo-grid[src*="football-icon.svg"] {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 3px;
+        }
+
+        .team-name-grid {
+            font-size: 10px;
+            font-weight: 600;
+            color: #2c3e50;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .vs-grid {
+            font-size: 10px;
+            color: #6c757d;
+            font-weight: 500;
+            margin: 0 4px;
+        }
+
+        /* Responsive styles for grid team logos */
+        @media (max-width: 768px) {
+            .teams-grid {
+                flex-direction: column;
+                gap: 6px;
+            }
+
+            .team-grid {
+                flex-direction: row;
+                gap: 8px;
+            }
+
+            .team-logo-grid {
+                width: 25px;
+                height: 25px;
+            }
+
+            .team-name-grid {
+                font-size: 9px;
+            }
+
+            .vs-grid {
+                font-size: 9px;
+                margin: 4px 0;
+            }
         }
 
         .grid-item .details {
@@ -1390,10 +1513,45 @@
         // Load and display matches
         async function loadMatches() {
             try {
-                const response = await fetch('data/processed_matches.json');
+                const response = await fetch('data/analysis.json');
                 const data = await response.json();
-                allMatches = data;
-                filteredMatches = data;
+                
+                // Handle the new analysis.json structure
+                if (data.analyses && Array.isArray(data.analyses)) {
+                    // Convert analyses to matches format
+                    allMatches = data.analyses.map(analysis => ({
+                        id: analysis.match.id,
+                        homeTeam: analysis.homeTeam,
+                        awayTeam: analysis.awayTeam,
+                        date: analysis.matchTime,
+                        venue: {
+                            name: analysis.venue?.name || 'Unknown Stadium',
+                            city: analysis.venue?.city || 'Unknown City'
+                        },
+                        city: analysis.venue?.city || 'Unknown City',
+                        country: analysis.venue?.country || analysis.country || 'Unknown Country',
+                        league: analysis.league,
+                        homeTeamLogo: analysis.homeTeamLogo,
+                        awayTeamLogo: analysis.awayTeamLogo,
+                        status: { 
+                            short: 'NS',
+                            long: 'Not Started'
+                        },
+                        score: { 
+                            home: null, 
+                            away: null,
+                            fulltime: { home: null, away: null },
+                            halftime: { home: null, away: null }
+                        },
+                        homeGoals: null,
+                        awayGoals: null
+                    }));
+                } else {
+                    // Fallback to old format if needed
+                    allMatches = data;
+                }
+                
+                filteredMatches = allMatches;
                 
                 populateLeagueFilter();
                 updateStats();
@@ -1401,7 +1559,7 @@
             } catch (error) {
                 console.error('Error loading matches:', error);
                 document.getElementById('matchesContainer').innerHTML = 
-                    '<div class="no-matches">Error loading matches. Please ensure processed_matches.json exists.</div>';
+                    '<div class="no-matches">Error loading matches. Please ensure analysis.json exists and contains valid data.</div>';
             }
         }
 
@@ -1430,6 +1588,13 @@
         function displayMatches() {
             const container = document.getElementById('matchesContainer');
             const resultsCounter = document.getElementById('resultsCounter');
+            
+            // Add formattedTime to matches if not already present
+            filteredMatches.forEach(match => {
+                if (!match.formattedTime) {
+                    match.formattedTime = formatMatchTime(match.date, match.status);
+                }
+            });
             
             // Show results counter if filters are applied
             const statusFilter = document.getElementById('statusFilter').value;
@@ -1506,10 +1671,18 @@
                 <div class="match-card">
                     <div class="match-header">
                         <div class="teams">
+                            <div class="team-info">
+                                <img src="${match.homeTeamLogo || '/images/football-icon.svg'}" alt="${match.homeTeam}" class="team-logo" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                <span class="team-name">${match.homeTeam}</span>
+                            </div>
+                            <span class="vs">vs</span>
+                            <div class="team-info">
+                                <img src="${match.awayTeamLogo || '/images/football-icon.svg'}" alt="${match.awayTeam}" class="team-logo" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                <span class="team-name">${match.awayTeam}</span>
+                            </div>
                             <button onclick="searchMatch('${match.homeTeam}', '${match.awayTeam}', '${match.league}')" class="search-icon-btn" title="Find Odds">
                                 🔍
                             </button>
-                            ${match.homeTeam} vs ${match.awayTeam}
                         </div>
                         <div class="score">${matchScore}</div>
                     </div>
@@ -1933,11 +2106,19 @@
                     const timeOnly = match.formattedTime.replace(' (NS)', '').split(' - ')[1];
                     gridHTML += `
                         <div class="grid-item">
-                            <div class="teams">
+                            <div class="teams-grid">
+                                <div class="team-grid">
+                                    <img src="${match.homeTeamLogo || '/images/football-icon.svg'}" alt="${match.homeTeam}" class="team-logo-grid" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                    <span class="team-name-grid">${match.homeTeam}</span>
+                                </div>
+                                <div class="vs-grid">vs</div>
+                                <div class="team-grid">
+                                    <img src="${match.awayTeamLogo || '/images/football-icon.svg'}" alt="${match.awayTeam}" class="team-logo-grid" onerror="this.src='/images/football-icon.svg'" loading="lazy">
+                                    <span class="team-name-grid">${match.awayTeam}</span>
+                                </div>
                                 <button onclick="searchMatch('${match.homeTeam}', '${match.awayTeam}', '${match.league}')" class="search-icon-btn" title="Find Odds">
                                     🔍
                                 </button>
-                                ${match.homeTeam} vs ${match.awayTeam}
                             </div>
                             <div class="details">${match.league} (${match.country})</div>
                             <div class="time">${timeOnly}</div>
