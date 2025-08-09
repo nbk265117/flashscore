@@ -49,57 +49,23 @@ app.post('/.netlify/functions/grok-prediction', async (req, res) => {
             return res.status(500).json({ error: 'GROK_API_KEY not configured' });
         }
 
-        const prompt = `You are an expert football analyst with deep knowledge of football tactics, team dynamics, and match prediction.
+        const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}).
 
-Here is the match data for analysis:
+Please analyze both teams and predict:  
+1. Likely score  
+2. Half-time result  
+3. Over/under 2.5 goals  
+4. Who is more likely to win and why?  
+5. Last 5 matches or Current injuries or key players
 
-Match: ${match.homeTeam} vs ${match.awayTeam}  
-Date: ${match.matchTime}  
-League: ${match.league}  
-Country: ${match.country}  
-Venue: ${match.venue && match.venue.name ? match.venue.name : 'Unknown Stadium'}  
-City: ${match.venue && match.venue.city ? match.venue.city : 'Unknown City'}  
-
-Please provide a comprehensive analysis and prediction for this match. Consider:
-- Team form and recent performance
-- Head-to-head history
-- Home/away advantage
-- League context and importance
-- Weather conditions (if relevant)
-- Key players and injuries
-- Tactical matchups
-- Historical data patterns
-
-Provide detailed predictions in JSON format with your own analysis (do not use example values, provide real predictions based on the match data):
+Provide predictions in JSON format:
 {
-  "homeWinProbability": [your prediction],
-  "drawProbability": [your prediction],
-  "awayWinProbability": [your prediction],
-  "likelyScore": [your prediction],
-  "halftimeResult": [your prediction],
-  "overUnder": [your prediction],
-  "corners": [your prediction],
-  "winner": [your prediction],
-  "reason": [your detailed analysis],
-  "halftimeHomeWin": [your prediction],
-  "halftimeDraw": [your prediction],
-  "halftimeAwayWin": [your prediction],
-  "totalCorners": [your prediction],
-  "homeCorners": [your prediction],
-  "awayCorners": [your prediction],
-  "yellowCards": [your prediction],
-  "redCards": [your prediction],
-  "homeYellowCards": [your prediction],
-  "awayYellowCards": [your prediction],
-  "homeRedCards": [your prediction],
-  "awayRedCards": [your prediction],
-  "homeSubs": [your prediction],
-  "awaySubs": [your prediction],
-  "subTiming": [your prediction],
-  "keyFactors": [your analysis factors],
-  "analysis": [your detailed match analysis],
-  "bettingRecommendation": [your recommendation],
-  "riskLevel": [your assessment]
+  "homeWinProbability": [number],
+  "drawProbability": [number],
+  "awayWinProbability": [number],
+  "likelyScore": "[home]-[away]",
+  "halftimeResult": "[home]-[away]",
+  "overUnder": "Over/Under [number] goals"
 }`;
 
         const response = await fetch('https://api.x.ai/v1/chat/completions', {
@@ -113,7 +79,7 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
                 messages: [
                     {
                         role: 'system',
-                        content: 'You are a football analyst. Provide simple, clear predictions. Always respond with valid JSON.'
+                        content: 'You are a football analyst. Provide predictions in valid JSON format only.'
                     },
                     {
                         role: 'user',
@@ -121,6 +87,7 @@ Provide detailed predictions in JSON format with your own analysis (do not use e
                     }
                 ],
                 temperature: 0.3,
+                max_tokens: 800,
                 stream: false
             })
         });

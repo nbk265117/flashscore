@@ -661,12 +661,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26280.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23209.png",
       "league": "AFC U20 Asian Cup - Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 7,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1341052,
@@ -680,11 +680,11 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5686.png",
       "league": "Super League",
       "homeGoals": 4,
-      "awayGoals": 0,
+      "awayGoals": 1,
       "homeScore": 1,
       "awayScore": 0,
-      "status": "2H",
-      "elapsed": 88
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358365,
@@ -701,7 +701,7 @@
       "awayGoals": 3,
       "homeScore": 1,
       "awayScore": 1,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -719,7 +719,7 @@
       "awayGoals": 2,
       "homeScore": 1,
       "awayScore": 2,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -733,11 +733,11 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21012.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/18805.png",
       "league": "1. Division",
-      "homeGoals": 5,
+      "homeGoals": 6,
       "awayGoals": 0,
       "homeScore": 2,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -755,8 +755,8 @@
       "awayGoals": 0,
       "homeScore": 2,
       "awayScore": 0,
-      "status": "2H",
-      "elapsed": 88
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1400426,
@@ -773,7 +773,7 @@
       "awayGoals": 0,
       "homeScore": 2,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -788,10 +788,10 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4235.png",
       "league": "Liga 1",
       "homeGoals": 0,
-      "awayGoals": 0,
+      "awayGoals": 1,
       "homeScore": 0,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -806,10 +806,10 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/11132.png",
       "league": "Liga 1",
       "homeGoals": 1,
-      "awayGoals": 0,
+      "awayGoals": 1,
       "homeScore": 1,
       "awayScore": 0,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -827,7 +827,7 @@
       "awayGoals": 6,
       "homeScore": 0,
       "awayScore": 3,
-      "status": "2H",
+      "status": "FT",
       "elapsed": 90
     },
     {
@@ -899,8 +899,8 @@
       "awayGoals": 1,
       "homeScore": 2,
       "awayScore": 1,
-      "status": "2H",
-      "elapsed": 71
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1391423,
@@ -917,8 +917,8 @@
       "awayGoals": 0,
       "homeScore": 1,
       "awayScore": 0,
-      "status": "2H",
-      "elapsed": 65
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424274,
@@ -932,11 +932,11 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19087.png",
       "league": "AFC U20 Asian Cup - Women",
       "homeGoals": 0,
-      "awayGoals": 0,
+      "awayGoals": 1,
       "homeScore": 0,
       "awayScore": 0,
-      "status": "2H",
-      "elapsed": 66
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424295,
@@ -950,11 +950,11 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26269.png",
       "league": "AFC U20 Asian Cup - Women",
       "homeGoals": 0,
-      "awayGoals": 5,
+      "awayGoals": 7,
       "homeScore": 0,
       "awayScore": 5,
-      "status": "2H",
-      "elapsed": 62
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1426555,
@@ -968,11 +968,11 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26284.png",
       "league": "AFC U20 Asian Cup - Women",
       "homeGoals": 0,
-      "awayGoals": 3,
+      "awayGoals": 6,
       "homeScore": 0,
       "awayScore": 3,
-      "status": "2H",
-      "elapsed": 64
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424275,
@@ -986,11 +986,11 @@
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19086.png",
       "league": "AFC U20 Asian Cup - Women",
       "homeGoals": 0,
-      "awayGoals": 8,
+      "awayGoals": 16,
       "homeScore": 0,
       "awayScore": 7,
-      "status": "2H",
-      "elapsed": 49
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1374911,
@@ -1003,12 +1003,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12979.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/13008.png",
       "league": "Carioca U20",
-      "homeGoals": 1,
+      "homeGoals": 2,
       "awayGoals": 1,
       "homeScore": 1,
       "awayScore": 1,
-      "status": "1H",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1404107,
@@ -1021,12 +1021,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2523.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2526.png",
       "league": "Super League",
-      "homeGoals": 1,
+      "homeGoals": 3,
       "awayGoals": 0,
       "homeScore": 1,
       "awayScore": 0,
-      "status": "HT",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420185,
@@ -1039,12 +1039,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/8023.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/13159.png",
       "league": "Ýokary Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358363,
@@ -1057,12 +1057,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/17151.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7996.png",
       "league": "Youth Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358364,
@@ -1075,12 +1075,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7910.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7985.png",
       "league": "Youth Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358367,
@@ -1093,12 +1093,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7951.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16594.png",
       "league": "Youth Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1368085,
@@ -1111,12 +1111,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4559.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16610.png",
       "league": "1. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1368088,
@@ -1129,12 +1129,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21009.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4565.png",
       "league": "1. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 5,
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1378543,
@@ -1147,12 +1147,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/23433.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3392.png",
       "league": "1. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1392316,
@@ -1165,12 +1165,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16381.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4225.png",
       "league": "Super League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1418185,
@@ -1183,30 +1183,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16279.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/20033.png",
       "league": "Liga II",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
-    },
-    {
-      "id": 1418747,
-      "date": "2025-08-08T14:00:00+00:00",
-      "venue": "Al Salam Stadium",
-      "city": "al-Qāhirah (Cairo)",
-      "country": "Egypt",
-      "homeTeam": "Wadi Degla",
-      "awayTeam": "Pyramids FC",
-      "homeTeamLogo": "https://media.api-sports.io/football/teams/1046.png",
-      "awayTeamLogo": "https://media.api-sports.io/football/teams/1036.png",
-      "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1419213,
@@ -1219,12 +1201,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1532.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1531.png",
       "league": "African Nations Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424276,
@@ -1237,12 +1219,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26291.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19076.png",
       "league": "AFC U20 Asian Cup - Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429778,
@@ -1255,12 +1237,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/553.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2936.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1342774,
@@ -1273,12 +1255,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1164.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2077.png",
       "league": "Veikkausliiga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1356941,
@@ -1291,12 +1273,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7798.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/751.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1378544,
@@ -1309,12 +1291,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3390.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/11249.png",
       "league": "1. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1383692,
@@ -1327,12 +1309,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3865.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3864.png",
       "league": "1 Lyga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1384449,
@@ -1345,12 +1327,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/8619.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7291.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1391424,
@@ -1363,12 +1345,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3632.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/572.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 5,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1392315,
@@ -1381,12 +1363,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4221.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4211.png",
       "league": "Super League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1394756,
@@ -1399,12 +1381,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4134.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/10546.png",
       "league": "2. liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1401152,
@@ -1417,12 +1399,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21306.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5376.png",
       "league": "Liga 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1401153,
@@ -1435,12 +1417,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26152.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14894.png",
       "league": "Liga 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1401154,
@@ -1453,12 +1435,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/5372.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5384.png",
       "league": "Liga 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1401397,
@@ -1471,12 +1453,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14011.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14009.png",
       "league": "Liga 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1411084,
@@ -1489,12 +1471,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/19728.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19713.png",
       "league": "III Liga - Group 4",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1413045,
@@ -1507,12 +1489,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12240.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12236.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1414207,
@@ -1525,12 +1507,30 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4539.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4534.png",
       "league": "League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
+    },
+    {
+      "id": 1418747,
+      "date": "2025-08-08T15:00:00+00:00",
+      "venue": "Al Salam Stadium",
+      "city": "al-Qāhirah (Cairo)",
+      "country": "Egypt",
+      "homeTeam": "Wadi Degla",
+      "awayTeam": "Pyramids FC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1046.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1036.png",
+      "league": "Premier League",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1423262,
@@ -1543,12 +1543,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/609.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2265.png",
       "league": "First League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424351,
@@ -1561,12 +1561,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14382.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16747.png",
       "league": "1 Lyga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429780,
@@ -1579,12 +1579,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/170.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/801.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1354789,
@@ -1597,12 +1597,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18503.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6075.png",
       "league": "Kakkonen - Lohko A",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1354879,
@@ -1615,12 +1615,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2245.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9177.png",
       "league": "Kakkonen - Lohko B",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 5,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1354970,
@@ -1633,12 +1633,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9191.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6073.png",
       "league": "Kakkonen - Lohko C",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1384444,
@@ -1651,12 +1651,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3736.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3730.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1388073,
@@ -1669,12 +1669,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6718.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4361.png",
       "league": "2. SNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1394758,
@@ -1687,12 +1687,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14942.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/10544.png",
       "league": "2. liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1395067,
@@ -1705,12 +1705,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12329.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/24621.png",
       "league": "Prva Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420568,
@@ -1723,12 +1723,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/19436.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3734.png",
       "league": "4. liga - Divizie D",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424296,
@@ -1741,12 +1741,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26271.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23207.png",
       "league": "AFC U20 Asian Cup - Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 8,
+      "homeScore": 0,
+      "awayScore": 4,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429779,
@@ -1759,12 +1759,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/512.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/506.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1341585,
@@ -1777,12 +1777,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/11075.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21698.png",
       "league": "Damallsvenskan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1354880,
@@ -1795,12 +1795,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/13517.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2244.png",
       "league": "Kakkonen - Lohko B",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358361,
@@ -1813,12 +1813,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21615.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7941.png",
       "league": "Youth Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358362,
@@ -1831,11 +1831,11 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9227.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9231.png",
       "league": "Youth Championship",
-      "homeGoals": null,
-      "awayGoals": null,
+      "homeGoals": 0,
+      "awayGoals": 0,
       "homeScore": null,
       "awayScore": null,
-      "status": "NS",
+      "status": "ABD",
       "elapsed": null
     },
     {
@@ -1849,12 +1849,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18837.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4152.png",
       "league": "1. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 8,
+      "awayGoals": 1,
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1379367,
@@ -1867,12 +1867,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/400.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/406.png",
       "league": "Superliga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1380414,
@@ -1885,12 +1885,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/346.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4248.png",
       "league": "Ekstraklasa",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1381464,
@@ -1903,12 +1903,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3874.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3860.png",
       "league": "A Lyga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1381550,
@@ -1921,12 +1921,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6953.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6947.png",
       "league": "I Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1384443,
@@ -1939,12 +1939,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4257.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3733.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1384445,
@@ -1957,12 +1957,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3722.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3731.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1384448,
@@ -1975,12 +1975,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3725.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8618.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1384450,
@@ -1993,12 +1993,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3726.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8621.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1388031,
@@ -2011,12 +2011,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1427.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1426.png",
       "league": "First League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1391633,
@@ -2029,12 +2029,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1405.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2860.png",
       "league": "2. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1391635,
@@ -2047,12 +2047,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1027.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8259.png",
       "league": "2. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1391637,
@@ -2065,12 +2065,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1395.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1401.png",
       "league": "2. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1391638,
@@ -2083,12 +2083,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1399.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/22213.png",
       "league": "2. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1395833,
@@ -2101,12 +2101,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3489.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12900.png",
       "league": "II Liga - East",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1398705,
@@ -2119,12 +2119,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4945.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4957.png",
       "league": "Regionalliga - West",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1402774,
@@ -2137,12 +2137,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3718.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3735.png",
       "league": "FNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409001,
@@ -2155,12 +2155,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12796.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/20870.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1410476,
@@ -2173,12 +2173,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16257.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19693.png",
       "league": "III Liga - Group 2",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1410482,
@@ -2191,12 +2191,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/13843.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26181.png",
       "league": "III Liga - Group 2",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1410775,
@@ -2209,12 +2209,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9132.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14145.png",
       "league": "III Liga - Group 3",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417680,
@@ -2227,12 +2227,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21619.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16875.png",
       "league": "4. liga - Divizie F",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417735,
@@ -2245,12 +2245,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7368.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7297.png",
       "league": "3. liga - MSFL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1418180,
@@ -2263,12 +2263,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7466.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2580.png",
       "league": "Liga II",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420345,
@@ -2281,12 +2281,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/24197.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26228.png",
       "league": "4. liga - Divizie A",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420346,
@@ -2299,12 +2299,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/19432.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19639.png",
       "league": "4. liga - Divizie A",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 5,
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420867,
@@ -2317,12 +2317,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7330.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8620.png",
       "league": "3. liga - CFL A",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420868,
@@ -2335,12 +2335,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7307.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/15132.png",
       "league": "3. liga - CFL A",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 5,
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424352,
@@ -2353,12 +2353,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14384.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/18878.png",
       "league": "1 Lyga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1392314,
@@ -2371,12 +2371,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4210.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4222.png",
       "league": "Super League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1343747,
@@ -2389,12 +2389,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12573.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23660.png",
       "league": "Division 2 - Norra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344467,
@@ -2407,12 +2407,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6657.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12657.png",
       "league": "Division 2 - Västra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1388628,
@@ -2425,30 +2425,30 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/171.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/181.png",
       "league": "2. Bundesliga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1388629,
       "date": "2025-08-08T16:30:00+00:00",
       "venue": "LVM-Preußenstadion",
-      "city": "Münster",
+      "city": "Munster",
       "country": "Germany",
       "homeTeam": "Preußen Münster",
       "awayTeam": "SC Paderborn 07",
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1313.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/185.png",
       "league": "2. Bundesliga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1406089,
@@ -2461,12 +2461,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12822.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26166.png",
       "league": "Oberliga - Baden-Württemberg",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408080,
@@ -2479,12 +2479,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9347.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1625.png",
       "league": "Regionalliga - Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408381,
@@ -2497,12 +2497,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4262.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12780.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408382,
@@ -2515,17 +2515,17 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9323.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9331.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409002,
       "date": "2025-08-08T16:30:00+00:00",
-      "venue": "Isaraustadion Kunstrasen",
+      "venue": "Isaraustadion",
       "city": "Geretsried",
       "country": "Germany",
       "homeTeam": "TuS Geretsried",
@@ -2533,12 +2533,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26068.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9329.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409460,
@@ -2551,12 +2551,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12898.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19761.png",
       "league": "Oberliga - Bayern Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409465,
@@ -2569,12 +2569,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26067.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19226.png",
       "league": "Oberliga - Bayern Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409466,
@@ -2587,12 +2587,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12737.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12762.png",
       "league": "Oberliga - Bayern Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422296,
@@ -2605,12 +2605,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14044.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12859.png",
       "league": "3. liga - West",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424354,
@@ -2623,12 +2623,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18170.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9352.png",
       "league": "Oberliga - Nordost-Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344108,
@@ -2641,12 +2641,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12615.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12617.png",
       "league": "Division 2 - Östra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344109,
@@ -2659,12 +2659,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12660.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6701.png",
       "league": "Division 2 - Östra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 2,
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1335772,
@@ -2677,12 +2677,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/701.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4186.png",
       "league": "Meistaradeildin",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 7,
+      "awayGoals": 0,
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1341586,
@@ -2695,12 +2695,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/15630.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16001.png",
       "league": "Damallsvenskan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 7,
+      "awayGoals": 0,
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1341587,
@@ -2713,12 +2713,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16004.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16008.png",
       "league": "Damallsvenskan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1341588,
@@ -2731,12 +2731,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/11080.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/11084.png",
       "league": "Damallsvenskan",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1343166,
@@ -2749,12 +2749,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12578.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/765.png",
       "league": "Ettan - Norra",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1343748,
@@ -2767,12 +2767,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6670.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12570.png",
       "league": "Division 2 - Norra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344105,
@@ -2785,12 +2785,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/25573.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12614.png",
       "league": "Division 2 - Östra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344272,
@@ -2803,12 +2803,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6665.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12584.png",
       "league": "Division 2 - Norra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344273,
@@ -2821,12 +2821,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18427.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/22932.png",
       "league": "Division 2 - Norra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344468,
@@ -2839,12 +2839,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/25575.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21359.png",
       "league": "Division 2 - Västra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1379958,
@@ -2857,12 +2857,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/408.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6009.png",
       "league": "1. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1393074,
@@ -2875,12 +2875,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2060.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2062.png",
       "league": "2. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1393075,
@@ -2893,12 +2893,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2065.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8645.png",
       "league": "2. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1393076,
@@ -2911,12 +2911,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6021.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2066.png",
       "league": "2. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1394068,
@@ -2929,12 +2929,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1635.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1320.png",
       "league": "3. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397737,
@@ -2947,12 +2947,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1402.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4979.png",
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397738,
@@ -2965,12 +2965,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/11225.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21390.png",
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397739,
@@ -2983,12 +2983,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/8332.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4959.png",
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397741,
@@ -3001,12 +3001,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4972.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21534.png",
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397742,
@@ -3019,12 +3019,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4940.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4942.png",
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 5,
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397743,
@@ -3037,12 +3037,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4996.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4946.png",
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 3,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1398710,
@@ -3055,12 +3055,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4994.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8260.png",
       "league": "Regionalliga - West",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1400055,
@@ -3073,12 +3073,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6813.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6786.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1407471,
@@ -3091,12 +3091,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9349.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1325.png",
       "league": "Regionalliga - Nordost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1407472,
@@ -3109,12 +3109,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9353.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12756.png",
       "league": "Regionalliga - Nordost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408383,
@@ -3127,12 +3127,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9326.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/784.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408384,
@@ -3145,12 +3145,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9330.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9328.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408385,
@@ -3163,12 +3163,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4674.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12849.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408388,
@@ -3181,12 +3181,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9324.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1314.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408678,
@@ -3199,12 +3199,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1628.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9361.png",
       "league": "Regionalliga - SudWest",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408998,
@@ -3217,12 +3217,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12724.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19234.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409000,
@@ -3235,12 +3235,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14717.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9335.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409003,
@@ -3253,12 +3253,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12805.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12751.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409461,
@@ -3271,12 +3271,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21383.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12792.png",
       "league": "Oberliga - Bayern Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409462,
@@ -3289,12 +3289,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12727.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19228.png",
       "league": "Oberliga - Bayern Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409467,
@@ -3307,12 +3307,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12798.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19759.png",
       "league": "Oberliga - Bayern Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1409722,
@@ -3325,12 +3325,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12827.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9371.png",
       "league": "Regionalliga - West",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1410125,
@@ -3343,12 +3343,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3553.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14074.png",
       "league": "2. liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1413156,
@@ -3361,12 +3361,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1644.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16094.png",
       "league": "Oberliga - Bremen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417690,
@@ -3379,12 +3379,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7306.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21985.png",
       "league": "4. liga - Divizie B",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417739,
@@ -3397,12 +3397,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7300.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7369.png",
       "league": "3. liga - MSFL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417886,
@@ -3415,48 +3415,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4955.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4954.png",
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
-    },
-    {
-      "id": 1418746,
-      "date": "2025-08-08T17:00:00+00:00",
-      "venue": "Suez Canal Stadium",
-      "city": "Ismailia",
-      "country": "Egypt",
-      "homeTeam": "Ceramica Cleopatra",
-      "awayTeam": "Zamalek SC",
-      "homeTeamLogo": "https://media.api-sports.io/football/teams/14651.png",
-      "awayTeamLogo": "https://media.api-sports.io/football/teams/1040.png",
-      "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
-    },
-    {
-      "id": 1418748,
-      "date": "2025-08-08T17:00:00+00:00",
-      "venue": "New Suez Stadium",
-      "city": "as-Suways (Suez)",
-      "country": "Egypt",
-      "homeTeam": "AL Masry",
-      "awayTeam": "Al Ittihad",
-      "homeTeamLogo": "https://media.api-sports.io/football/teams/1031.png",
-      "awayTeamLogo": "https://media.api-sports.io/football/teams/1572.png",
-      "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1419214,
@@ -3469,12 +3433,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1509.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1519.png",
       "league": "African Nations Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424277,
@@ -3487,17 +3451,17 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/26294.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23205.png",
       "league": "AFC U20 Asian Cup - Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1424355,
       "date": "2025-08-08T17:00:00+00:00",
-      "venue": null,
+      "venue": "Hans-Walter-Wild-Stadion",
       "city": null,
       "country": "Germany",
       "homeTeam": "Bayreuth",
@@ -3505,12 +3469,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9325.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9336.png",
       "league": "Regionalliga - Bayern",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429781,
@@ -3523,12 +3487,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3396.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3399.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429782,
@@ -3541,12 +3505,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/539.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5254.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429783,
@@ -3577,12 +3541,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/22422.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/10513.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1343749,
@@ -3595,12 +3559,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12577.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6713.png",
       "league": "Division 2 - Norra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1410184,
@@ -3613,12 +3577,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16238.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/16236.png",
       "league": "III Liga - Group 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1343924,
@@ -3631,12 +3595,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/11670.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2162.png",
       "league": "Division 2 - Södra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344274,
@@ -3649,12 +3613,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14510.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/11663.png",
       "league": "Division 2 - Norra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1344471,
@@ -3667,12 +3631,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18424.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12608.png",
       "league": "Division 2 - Västra Götaland",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1381834,
@@ -3685,12 +3649,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2179.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6654.png",
       "league": "Challenge League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1406653,
@@ -3703,12 +3667,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12730.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26168.png",
       "league": "Oberliga - Rheinland-Pfalz / Saar",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1406693,
@@ -3721,12 +3685,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18384.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12820.png",
       "league": "Oberliga - Nordost-Nord",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408997,
@@ -3739,12 +3703,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/19220.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12807.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1408999,
@@ -3757,12 +3721,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14793.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12832.png",
       "league": "Oberliga - Bayern Süd",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1411923,
@@ -3775,12 +3739,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12839.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14826.png",
       "league": "Oberliga - Westfalen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 6,
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "2H",
+      "elapsed": 90
     },
     {
       "id": 1412697,
@@ -3793,12 +3757,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/13941.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14635.png",
       "league": "Oberliga - Niedersachsen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1412698,
@@ -3811,12 +3775,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9345.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21951.png",
       "league": "Oberliga - Niedersachsen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1412699,
@@ -3829,12 +3793,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/24467.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/14787.png",
       "league": "Oberliga - Niedersachsen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417887,
@@ -3847,12 +3811,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4965.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8372.png",
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417888,
@@ -3865,12 +3829,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1397.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8365.png",
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417889,
@@ -3883,12 +3847,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/25119.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4951.png",
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417890,
@@ -3901,12 +3865,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4961.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/8288.png",
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417891,
@@ -3919,12 +3883,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16999.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4952.png",
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422802,
@@ -3937,12 +3901,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/88.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/9930.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422803,
@@ -3955,12 +3919,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/107.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/105.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422804,
@@ -3973,12 +3937,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3069.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/115.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422805,
@@ -3991,12 +3955,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/103.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/89.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422806,
@@ -4009,12 +3973,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/9238.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/431.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422807,
@@ -4027,12 +3991,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3221.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3179.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422808,
@@ -4045,12 +4009,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3229.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3131.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1422809,
@@ -4063,12 +4027,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1302.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1300.png",
       "league": "National 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1423951,
@@ -4085,7 +4049,7 @@
       "awayGoals": null,
       "homeScore": null,
       "awayScore": null,
-      "status": "NS",
+      "status": "PST",
       "elapsed": null
     },
     {
@@ -4099,12 +4063,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/797.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/723.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1414208,
@@ -4117,12 +4081,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4531.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4535.png",
       "league": "League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 90
     },
     {
       "id": 1410185,
@@ -4135,12 +4099,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3497.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/26179.png",
       "league": "III Liga - Group 1",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 90
     },
     {
       "id": 1332888,
@@ -4153,12 +4117,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/14856.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/22857.png",
       "league": "Úrvalsdeild Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 79
     },
     {
       "id": 1333022,
@@ -4171,12 +4135,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/267.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2116.png",
       "league": "1. Deild",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 79
     },
     {
       "id": 1343926,
@@ -4189,12 +4153,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/20835.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/25571.png",
       "league": "Division 2 - Södra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 78
     },
     {
       "id": 1346498,
@@ -4207,12 +4171,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16745.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6662.png",
       "league": "Division 2 - Södra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 80
     },
     {
       "id": 1353792,
@@ -4225,12 +4189,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/18697.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/18702.png",
       "league": "Reserve League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 78
     },
     {
       "id": 1375403,
@@ -4243,12 +4207,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16471.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23733.png",
       "league": "Cearense U20",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 76
     },
     {
       "id": 1375404,
@@ -4261,12 +4225,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/23727.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/20764.png",
       "league": "Cearense U20",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "2H",
+      "elapsed": 70
     },
     {
       "id": 1379368,
@@ -4279,12 +4243,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2070.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/396.png",
       "league": "Superliga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 77
     },
     {
       "id": 1380186,
@@ -4297,12 +4261,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2410.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2392.png",
       "league": "NB I",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 80
     },
     {
       "id": 1380867,
@@ -4315,12 +4279,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/205.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/410.png",
       "league": "Eredivisie",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 76
     },
     {
       "id": 1381914,
@@ -4333,12 +4297,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/199.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/204.png",
       "league": "Eerste Divisie",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 74
     },
     {
       "id": 1381915,
@@ -4351,12 +4315,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/421.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/425.png",
       "league": "Eerste Divisie",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 75
     },
     {
       "id": 1381916,
@@ -4369,12 +4333,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/409.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/420.png",
       "league": "Eerste Divisie",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 79
     },
     {
       "id": 1381917,
@@ -4387,12 +4351,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/422.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/428.png",
       "league": "Eerste Divisie",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 76
     },
     {
       "id": 1381918,
@@ -4405,12 +4369,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/423.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/412.png",
       "league": "Eerste Divisie",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 78
     },
     {
       "id": 1388072,
@@ -4423,12 +4387,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4376.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/20198.png",
       "league": "2. SNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 81
     },
     {
       "id": 1392547,
@@ -4441,12 +4405,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/10244.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/263.png",
       "league": "Challenger Pro League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 78
     },
     {
       "id": 1392548,
@@ -4459,12 +4423,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6221.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/19685.png",
       "league": "Challenger Pro League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "2H",
+      "elapsed": 78
     },
     {
       "id": 1402828,
@@ -4477,12 +4441,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/49.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/168.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 80
     },
     {
       "id": 1412700,
@@ -4495,12 +4459,48 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/12782.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1645.png",
       "league": "Oberliga - Niedersachsen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 79
+    },
+    {
+      "id": 1418746,
+      "date": "2025-08-08T18:00:00+00:00",
+      "venue": "Suez Canal Stadium",
+      "city": "Ismailia",
+      "country": "Egypt",
+      "homeTeam": "Ceramica Cleopatra",
+      "awayTeam": "Zamalek SC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/14651.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1040.png",
+      "league": "Premier League",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 72
+    },
+    {
+      "id": 1418748,
+      "date": "2025-08-08T18:00:00+00:00",
+      "venue": "New Suez Stadium",
+      "city": "as-Suways (Suez)",
+      "country": "Egypt",
+      "homeTeam": "AL Masry",
+      "awayTeam": "Al Ittihad",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1031.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1572.png",
+      "league": "Premier League",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 72
     },
     {
       "id": 1421235,
@@ -4513,12 +4513,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/91.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/505.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 73
     },
     {
       "id": 1423266,
@@ -4531,12 +4531,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/574.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/693.png",
       "league": "First League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 74
     },
     {
       "id": 1424864,
@@ -4549,12 +4549,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1189.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23155.png",
       "league": "Division Intermedia",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 79
     },
     {
       "id": 1427378,
@@ -4603,12 +4603,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6614.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/12704.png",
       "league": "1. Liga Classic - Group 3",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 82
     },
     {
       "id": 1381835,
@@ -4621,12 +4621,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2185.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6653.png",
       "league": "Challenge League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 60
     },
     {
       "id": 1388033,
@@ -4639,12 +4639,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/1424.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/859.png",
       "league": "First League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 64
     },
     {
       "id": 1380412,
@@ -4657,12 +4657,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/340.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3487.png",
       "league": "Ekstraklasa",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 49
     },
     {
       "id": 1381551,
@@ -4675,12 +4675,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/337.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/335.png",
       "league": "I Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 50
     },
     {
       "id": 1385596,
@@ -4693,12 +4693,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2425.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2422.png",
       "league": "Primera B Metropolitana",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1385789,
@@ -4711,12 +4711,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2604.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/635.png",
       "league": "Liga I",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1391636,
@@ -4729,12 +4729,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4990.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5000.png",
       "league": "2. Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 48
     },
     {
       "id": 1394436,
@@ -4747,12 +4747,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3573.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/645.png",
       "league": "Süper Lig",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1395347,
@@ -4765,12 +4765,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2188.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2196.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 47
     },
     {
       "id": 1395348,
@@ -4783,12 +4783,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/5610.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/11310.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 47
     },
     {
       "id": 1395350,
@@ -4801,12 +4801,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2192.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7601.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 47
     },
     {
       "id": 1395358,
@@ -4819,12 +4819,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6451.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6459.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 46
     },
     {
       "id": 1398324,
@@ -4837,12 +4837,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3577.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3597.png",
       "league": "1. Lig",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1429786,
@@ -4855,12 +4855,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/55.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/163.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 50
     },
     {
       "id": 1429787,
@@ -4873,12 +4873,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/10140.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/22142.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "2H",
+      "elapsed": 48
     },
     {
       "id": 1429788,
@@ -4891,12 +4891,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/34.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/540.png",
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 50
     },
     {
       "id": 1324462,
@@ -4909,12 +4909,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3847.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3849.png",
       "league": "First Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1324463,
@@ -4927,12 +4927,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/584.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3846.png",
       "league": "First Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1324464,
@@ -4945,12 +4945,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/11328.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3841.png",
       "league": "First Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1324465,
@@ -4963,12 +4963,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3844.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3855.png",
       "league": "First Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1340651,
@@ -4981,12 +4981,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/670.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/653.png",
       "league": "Premier Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1340652,
@@ -4999,12 +4999,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/3850.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3845.png",
       "league": "Premier Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1361530,
@@ -5017,12 +5017,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/16840.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23629.png",
       "league": "Premiership Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 45
     },
     {
       "id": 1361531,
@@ -5053,12 +5053,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/23630.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/23261.png",
       "league": "Premiership Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 45
     },
     {
       "id": 1382442,
@@ -5071,12 +5071,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/735.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/6215.png",
       "league": "Jupiler Pro League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 45
     },
     {
       "id": 1382873,
@@ -5089,12 +5089,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/902.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/258.png",
       "league": "Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1395349,
@@ -5107,12 +5107,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2202.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2190.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1395352,
@@ -5143,12 +5143,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/5620.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/358.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 45
     },
     {
       "id": 1401020,
@@ -5161,12 +5161,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/355.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/361.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1401021,
@@ -5179,12 +5179,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/352.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5614.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1401023,
@@ -5197,12 +5197,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2194.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2191.png",
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1405046,
@@ -5215,12 +5215,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/6771.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7436.png",
       "league": "Football League - Lowland League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1424402,
@@ -5233,12 +5233,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/7207.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/7216.png",
       "league": "Non League Premier - Isthmian",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "HT",
+      "elapsed": 45
     },
     {
       "id": 1335908,
@@ -5251,12 +5251,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4181.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4185.png",
       "league": "1. Deild",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 36
     },
     {
       "id": 1339156,
@@ -5269,12 +5269,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2318.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2319.png",
       "league": "Primera División",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 36
     },
     {
       "id": 1361529,
@@ -5287,12 +5287,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/21486.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/21488.png",
       "league": "Premiership Women",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 34
     },
     {
       "id": 1383924,
@@ -5305,12 +5305,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/620.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5730.png",
       "league": "HNL",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 36
     },
     {
       "id": 1385332,
@@ -5323,12 +5323,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/5345.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5353.png",
       "league": "Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 34
     },
     {
       "id": 1386551,
@@ -5341,12 +5341,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/54.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/57.png",
       "league": "Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 36
     },
     {
       "id": 1395353,
@@ -5359,12 +5359,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/5615.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/5624.png",
       "league": "FAW Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 36
     },
     {
       "id": 1396853,
@@ -5377,12 +5377,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2140.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/1187.png",
       "league": "Division Profesional - Clausura",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "1H",
+      "elapsed": 37
     },
     {
       "id": 1405500,
@@ -5395,12 +5395,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/17762.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/3707.png",
       "league": "Primera División",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 39
     },
     {
       "id": 1424077,
@@ -5413,12 +5413,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/246.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/4778.png",
       "league": "Liga 3",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 36
     },
     {
       "id": 1333023,
@@ -5431,12 +5431,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2113.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/269.png",
       "league": "1. Deild",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 21
     },
     {
       "id": 1333024,
@@ -5449,12 +5449,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2123.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2115.png",
       "league": "1. Deild",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "1H",
+      "elapsed": 21
     },
     {
       "id": 1333025,
@@ -5467,12 +5467,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/277.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/2114.png",
       "league": "1. Deild",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "1H",
+      "elapsed": 20
     },
     {
       "id": 1333026,
@@ -5485,12 +5485,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/2122.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/273.png",
       "league": "1. Deild",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "1H",
+      "elapsed": 18
     },
     {
       "id": 1396240,
@@ -5503,12 +5503,12 @@
       "homeTeamLogo": "https://media.api-sports.io/football/teams/4716.png",
       "awayTeamLogo": "https://media.api-sports.io/football/teams/228.png",
       "league": "Primeira Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 20
     },
     {
       "id": 1405749,
@@ -5853,6 +5853,6 @@
       "elapsed": null
     }
   ],
-  "fetchedAt": "2025-08-08T13:52:59.197Z",
+  "fetchedAt": "2025-08-08T19:36:36.974Z",
   "description": "Raw match data from API-Sports (no analysis)"
 }

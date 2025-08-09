@@ -328,6 +328,31 @@
             animation: pulse 1.5s infinite;
         }
 
+        /* Copy prompt button styles */
+        .copy-prompt-btn {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(40, 167, 69, 0.3);
+        }
+
+        .copy-prompt-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(40, 167, 69, 0.5);
+            background: linear-gradient(135deg, #20c997 0%, #28a745 100%);
+        }
+
+        .copy-prompt-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(40, 167, 69, 0.4);
+        }
+
         @keyframes pulse {
             0% { opacity: 1; }
             50% { opacity: 0.7; }
@@ -533,7 +558,75 @@
             margin-left: auto;
         }
 
+        .random-controls {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
 
+        .random-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+        }
+
+        .random-group label {
+            font-weight: 600;
+            color: #495057;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        .random-group input {
+            width: 80px;
+            padding: 6px 8px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        .random-btn {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);
+        }
+
+        .random-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+            background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+        }
+
+        .reset-btn {
+            background: linear-gradient(135deg, #6c757d 0%, #5a6268 100%);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(108, 117, 125, 0.3);
+        }
+
+        .reset-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(108, 117, 125, 0.4);
+            background: linear-gradient(135deg, #5a6268 0%, #6c757d 100%);
+        }
 
         .expand-btn, .collapse-btn {
             background: #6c757d;
@@ -1120,6 +1213,15 @@
                 <button id="expandAllBtn" class="expand-btn">⬆️ Expand All</button>
                 <button id="collapseAllBtn" class="collapse-btn">⬇️ Collapse All</button>
             </div>
+            
+            <div class="random-controls">
+                <div class="random-group">
+                    <label for="randomCount">Random Matches:</label>
+                    <input type="number" id="randomCount" placeholder="Enter number (e.g., 6)" min="1" max="50" />
+                    <button id="generateRandomBtn" class="random-btn">🎲 Generate Random</button>
+                    <button id="resetRandomBtn" class="reset-btn">🔄 Reset</button>
+                </div>
+            </div>
 
         </div>
         
@@ -1200,7 +1302,9 @@
         
         // Helper function to handle numeric values that might be 0
         function displayValue(value) {
-            if (value === undefined || value === null) return 'N/A';
+            if (value === undefined || value === null) return '-';
+            // If the value is 0, return '-'
+            if (value === 0) return '-';
             // If the value already contains a percentage sign, return it as is
             if (typeof value === 'string' && value.includes('%')) return value;
             // Otherwise, return the numeric value
@@ -1210,7 +1314,7 @@
         // Helper function to display percentage values
         function displayPercentage(value) {
             const displayVal = displayValue(value);
-            if (displayVal === 'N/A') return 'N/A';
+            if (displayVal === '-') return '-';
             if (typeof displayVal === 'string' && displayVal.includes('%')) return displayVal;
             return displayVal + '%';
         }
@@ -1290,6 +1394,9 @@
                                 <div class="venue">🏟️ ${analysis.venue?.name || 'Unknown Stadium'} - ${analysis.venue?.city || 'Unknown City'}, ${analysis.venue?.country || 'Unknown Country'}</div>
                             </div>
                             <div style="display: flex; align-items: center; justify-content: flex-end; gap: 15px; margin-top: 10px;">
+                                <button class="copy-prompt-btn" onclick="event.stopPropagation(); copyPrompt(${index})" id="copy-prompt-btn-${index}" title="Copy Grok prompt for this match">
+                                    📋 Copy Prompt
+                                </button>
                                 <button class="predict-btn" onclick="event.stopPropagation(); predictMatch(${index})" id="predict-btn-${index}">
                                     🤖 Predict
                                 </button>
@@ -1324,15 +1431,15 @@
                                 <div class="score-grid">
                                     <div class="score-item">
                                         <div class="score-label">Halftime Score:</div>
-                                        <div class="score-value halftime-score">${analysis.predictions?.halftimeResult === 'N/A' || !analysis.predictions?.halftimeResult ? 'Click Predict to analyze' : analysis.predictions.halftimeResult}</div>
+                                        <div class="score-value halftime-score">${analysis.predictions?.halftimeResult === 'N/A' || !analysis.predictions?.halftimeResult ? '-' : analysis.predictions.halftimeResult}</div>
                                     </div>
                                     <div class="score-item">
                                         <div class="score-label">Final Score:</div>
-                                        <div class="score-value final-score">${analysis.predictions?.likelyScore === 'N/A' || !analysis.predictions?.likelyScore ? 'Click Predict to analyze' : analysis.predictions.likelyScore}</div>
+                                        <div class="score-value final-score">${analysis.predictions?.likelyScore === 'N/A' || !analysis.predictions?.likelyScore ? '-' : analysis.predictions.likelyScore}</div>
                                     </div>
                                     <div class="score-item">
                                         <div class="score-label">Over/Under:</div>
-                                        <div class="score-value over-under">${analysis.predictions?.overUnder === 'N/A' || !analysis.predictions?.overUnder ? 'Click Predict to analyze' : analysis.predictions.overUnder}</div>
+                                        <div class="score-value over-under">${analysis.predictions?.overUnder === 'N/A' || !analysis.predictions?.overUnder ? '-' : analysis.predictions.overUnder}</div>
                                     </div>
                                 </div>
                             </div>
@@ -1612,6 +1719,52 @@
             }
         }
 
+        // Copy prompt for a specific match
+        async function copyPrompt(index) {
+            const copyBtn = document.getElementById(`copy-prompt-btn-${index}`);
+            
+            try {
+                // Get match data
+                const match = filteredData[index];
+                
+                // Create the Grok prompt
+                const prompt = `Analyze this match: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}).
+
+Please analyze both teams and predict:  
+1. Likely score  
+2. Half-time result  
+3. Over/under 2.5 goals  
+4. Who is more likely to win and why?  
+5. Last 5 matches or Current injuries or key players`;
+
+                // Copy to clipboard
+                await navigator.clipboard.writeText(prompt);
+                
+                // Show success feedback
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '✅ Copied!';
+                copyBtn.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
+                
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
+                }, 2000);
+                
+            } catch (error) {
+                console.error('Error copying prompt:', error);
+                
+                // Show error feedback
+                const originalText = copyBtn.textContent;
+                copyBtn.textContent = '❌ Failed';
+                copyBtn.style.background = 'linear-gradient(135deg, #dc3545 0%, #c82333 100%)';
+                
+                setTimeout(() => {
+                    copyBtn.textContent = originalText;
+                    copyBtn.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
+                }, 2000);
+            }
+        }
+
         // Expand all cards
         function expandAllCards() {
             const cards = document.querySelectorAll('.card-content');
@@ -1642,6 +1795,85 @@
 
 
 
+        // Random match functionality
+        let originalFilteredData = null;
+        let isRandomMode = false;
+
+        function generateRandomMatches() {
+            const count = parseInt(document.getElementById('randomCount').value);
+            
+            if (!count || count < 1 || count > 50) {
+                alert('Please enter a valid number between 1 and 50');
+                return;
+            }
+
+            if (!filteredData || filteredData.length === 0) {
+                alert('No matches available to randomize');
+                return;
+            }
+
+            // Store original data if not already stored
+            if (!isRandomMode) {
+                originalFilteredData = [...filteredData];
+                isRandomMode = true;
+            }
+
+            // Generate random indices
+            const randomIndices = [];
+            const availableIndices = Array.from({ length: filteredData.length }, (_, i) => i);
+            
+            for (let i = 0; i < Math.min(count, availableIndices.length); i++) {
+                const randomIndex = Math.floor(Math.random() * availableIndices.length);
+                randomIndices.push(availableIndices[randomIndex]);
+                availableIndices.splice(randomIndex, 1);
+            }
+
+            // Create new filtered data with random matches
+            const randomMatches = randomIndices.map(index => filteredData[index]);
+            filteredData = randomMatches;
+
+            // Update display
+            displayAnalyses();
+            updateStats();
+
+            // Show success message
+            const generateBtn = document.getElementById('generateRandomBtn');
+            const originalText = generateBtn.textContent;
+            generateBtn.textContent = `✅ ${count} Random Matches`;
+            generateBtn.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
+            
+            setTimeout(() => {
+                generateBtn.textContent = originalText;
+                generateBtn.style.background = 'linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%)';
+            }, 2000);
+        }
+
+        function resetRandomMatches() {
+            if (originalFilteredData && isRandomMode) {
+                filteredData = [...originalFilteredData];
+                isRandomMode = false;
+                originalFilteredData = null;
+                
+                // Update display
+                displayAnalyses();
+                updateStats();
+
+                // Clear input
+                document.getElementById('randomCount').value = '';
+
+                // Show success message
+                const resetBtn = document.getElementById('resetRandomBtn');
+                const originalText = resetBtn.textContent;
+                resetBtn.textContent = '✅ Reset Complete';
+                resetBtn.style.background = 'linear-gradient(135deg, #28a745 0%, #20c997 100%)';
+                
+                setTimeout(() => {
+                    resetBtn.textContent = originalText;
+                    resetBtn.style.background = 'linear-gradient(135deg, #6c757d 0%, #5a6268 100%)';
+                }, 2000);
+            }
+        }
+
         // Event listeners
         document.getElementById('timeFilter').addEventListener('change', filterAnalyses);
         document.getElementById('riskFilter').addEventListener('change', filterAnalyses);
@@ -1651,6 +1883,10 @@
             document.getElementById('searchInput').value = '';
             filterAnalyses();
         });
+
+        // Random match buttons
+        document.getElementById('generateRandomBtn').addEventListener('click', generateRandomMatches);
+        document.getElementById('resetRandomBtn').addEventListener('click', resetRandomMatches);
 
         // Expand/Collapse all buttons
         document.getElementById('expandAllBtn').addEventListener('click', expandAllCards);
