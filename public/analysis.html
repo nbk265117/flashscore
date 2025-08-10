@@ -1863,7 +1863,7 @@
             try {
                 // Add cache-busting parameter
                 const timestamp = new Date().getTime();
-                const response = await fetch(`/data/analysis.json?t=${timestamp}`);
+                const response = await fetch(`/api/analysis?t=${timestamp}`);
                 if (!response.ok) {
                     throw new Error('Failed to load analysis data');
                 }
@@ -1902,11 +1902,11 @@
             }
 
             grid.innerHTML = filteredData.map((analysis, index) => {
-                const riskClass = `risk-${(analysis.analysis?.riskLevel || 'unknown').toLowerCase()}`;
+                const riskClass = `risk-${(analysis.riskLevel || 'unknown').toLowerCase()}`;
                 const predictedClass = analysis.isPredicted ? 'predicted' : '';
-                const confidence = analysis.analysis?.confidence || 'MEDIUM';
-                const keyFactors = analysis.analysis?.keyFactors || [];
-                const analysisText = analysis.analysis?.analysis || '';
+                const confidence = analysis.confidence || 'MEDIUM';
+                const keyFactors = analysis.keyFactors || [];
+                const analysisText = analysis.reasoning || '';
                 
                 return `
                     <div class="analysis-card ${predictedClass}" data-match-index="${index}">
@@ -2078,38 +2078,46 @@
                         ` : ''}
                         
                         <div class="probabilities">
-                            <h4>🏆 Overall Match Prediction</h4>
+                            <h4>🏆 Bayesian Match Prediction</h4>
                             <div class="probability-items-container">
                                 <div class="probability-item home-win">
-                                    <div class="probability-value">${displayPercentage(analysis.probabilities?.homeWin)}</div>
+                                    <div class="probability-value">${displayPercentage(analysis.homeWinProbability)}</div>
                                     <div class="probability-label">Home Win</div>
                                 </div>
                                 <div class="probability-item draw">
-                                    <div class="probability-value">${displayPercentage(analysis.probabilities?.draw)}</div>
+                                    <div class="probability-value">${displayPercentage(analysis.drawProbability)}</div>
                                     <div class="probability-label">Draw</div>
                                 </div>
                                 <div class="probability-item away-win">
-                                    <div class="probability-value">${displayPercentage(analysis.probabilities?.awayWin)}</div>
+                                    <div class="probability-value">${displayPercentage(analysis.awayWinProbability)}</div>
                                     <div class="probability-label">Away Win</div>
                                 </div>
+                            </div>
+                            <div class="bayesian-info">
+                                <div class="confidence-badge ${confidence.toLowerCase()}">🎯 Confidence: ${confidence}</div>
+                                <div class="risk-badge ${riskClass}">⚠️ Risk: ${analysis.riskLevel}</div>
                             </div>
                         </div>
                         
                         <div class="score-predictions">
                             <div class="score-section">
-                                <h4>⚽ Score Predictions</h4>
+                                <h4>⚽ Bayesian Score Predictions</h4>
                                 <div class="score-grid">
                                     <div class="score-item">
                                         <div class="score-label">Halftime Score:</div>
-                                        <div class="score-value halftime-score">${analysis.predictions?.halftimeResult === 'N/A' || !analysis.predictions?.halftimeResult ? '-' : analysis.predictions.halftimeResult}</div>
+                                        <div class="score-value halftime-score">${analysis.halftimeResult || '-'}</div>
                                     </div>
                                     <div class="score-item">
                                         <div class="score-label">Final Score:</div>
-                                        <div class="score-value final-score">${analysis.predictions?.likelyScore === 'N/A' || !analysis.predictions?.likelyScore ? '-' : analysis.predictions.likelyScore}</div>
+                                        <div class="score-value final-score">${analysis.likelyScore || '-'}</div>
                                     </div>
                                     <div class="score-item">
                                         <div class="score-label">Over/Under:</div>
-                                        <div class="score-value over-under">${analysis.predictions?.overUnder === 'N/A' || !analysis.predictions?.overUnder ? '-' : analysis.predictions.overUnder}</div>
+                                        <div class="score-value over-under">${analysis.overUnder || '-'}</div>
+                                    </div>
+                                    <div class="score-item">
+                                        <div class="score-label">Winner:</div>
+                                        <div class="score-value winner">${analysis.winner || '-'}</div>
                                     </div>
                                 </div>
                             </div>
@@ -2154,9 +2162,9 @@
                 const timeDiff = matchTime - now;
                 return timeDiff > 0 && timeDiff <= 6 * 60 * 60 * 1000;
             }).length;
-            const lowRisk = filteredData.filter(a => (a.analysis?.riskLevel || 'unknown').toLowerCase() === 'low').length;
-            const mediumRisk = filteredData.filter(a => (a.analysis?.riskLevel || 'unknown').toLowerCase() === 'medium').length;
-            const highRisk = filteredData.filter(a => (a.analysis?.riskLevel || 'unknown').toLowerCase() === 'high').length;
+            const lowRisk = filteredData.filter(a => (a.riskLevel || 'unknown').toLowerCase() === 'low').length;
+            const mediumRisk = filteredData.filter(a => (a.riskLevel || 'unknown').toLowerCase() === 'medium').length;
+            const highRisk = filteredData.filter(a => (a.riskLevel || 'unknown').toLowerCase() === 'high').length;
 
             document.getElementById('totalMatches').textContent = `Total: ${total}`;
             document.getElementById('upcomingMatches').textContent = `Upcoming: ${upcoming}`;
@@ -2749,8 +2757,10 @@ In short, first-half result please.`;
             }, 1000);
         });
 
-        // Load analysis on page load
-        loadAnalysis();
+        // Load analysis on page load with cache busting
+        setTimeout(() => {
+            loadAnalysis();
+        }, 100);
 
         // Function to validate and preload team logos
         function validateLogo(url) {

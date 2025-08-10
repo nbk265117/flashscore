@@ -9,6 +9,8 @@
     "fetch:matches": "node scripts/fetch-matches-by-date.js",
     "fetch:only": "node scripts/fetch-only.js",
     "predict:match": "node scripts/predict-match.js",
+    "bayesian:predict": "node scripts/enhanced-bayesian-prediction.js",
+    "bayesian:integrate": "node scripts/integrate-bayesian-predictions.js",
     "deploy": "npm run build && netlify deploy --prod",
     "build": "echo 'No build step required'",
     "test": "echo 'No tests specified'"
