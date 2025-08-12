@@ -1939,8 +1939,8 @@
                                 ${confidence !== 'MEDIUM' ? `<div class="confidence-indicator ${confidence.toLowerCase()}">🎯 Confidence: ${confidence}</div>` : ''}
                             </div>
                             <div style="display: flex; align-items: center; justify-content: flex-end; gap: 15px; margin-top: 10px;">
-                                <button class="copy-prompt-btn" onclick="event.stopPropagation(); copyPrompt(${index})" id="copy-prompt-btn-${index}" title="Copy Grok prompt for this match">
-                                    📋 Copy Prompt
+                                <button class="copy-prompt-btn" onclick="event.stopPropagation(); copyPrompt(${index})" id="copy-prompt-btn-${index}" title="Copy Bayesian analysis prompt for this match">
+                                    🧠 Copy Bayesian Prompt
                                 </button>
                                 <button class="predict-btn" onclick="event.stopPropagation(); predictMatch(${index})" id="predict-btn-${index}">
                                     🤖 Predict
@@ -2493,54 +2493,79 @@
                 // Get match data
                 const match = filteredData[index];
                 
-                // Create the enhanced Grok prompt
-                const prompt = `You are an expert football betting analyst with a focus on real match-day accuracy.
+                // Create the Bayesian analysis prompt
+                const prompt = `You are an expert football analyst using Bayesian statistical modeling for match predictions.
 
-ANALYZE THIS MATCH: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}) — Match date: ${new Date(match.matchTime).toLocaleDateString()}.
+ANALYZE THIS MATCH USING BAYESIAN METHODOLOGY: ${match.homeTeam} vs ${match.awayTeam} in ${match.league} (${match.country}) — Match date: ${new Date(match.matchTime).toLocaleDateString()}.
 
-USE THE FOLLOWING APPROACH:
+BAYESIAN ANALYSIS FRAMEWORK:
 
-1. **BASE ANALYSIS**: 
-   - Compare current season form, last 5 matches performance
-   - Head-to-head history (last 3 years only)
-   - League table position and recent momentum
-   - Home/away form patterns for both teams
+1. **PRIOR BELIEFS (Base Assumptions)**:
+   - Home advantage: 15% baseline advantage for home team
+   - Draw probability: 25% base probability
+   - Goal expectation: 2.5 average goals per match
+   - League strength multipliers (Premier League: 1.2, La Liga: 1.15, MLS: 0.8, etc.)
 
-2. **MATCH-DAY CONTEXT**:
-   - Official confirmed line-ups if available
-   - Key injuries/suspensions and their impact
-   - Rest days between matches
-   - Travel distance and fatigue factors
-   - Weather conditions (if relevant)
-   - Motivation factors (title race, relegation battle, cup preparation)
+2. **TEAM STRENGTH CALCULATION**:
+   - Analyze last 5 matches form (W/D/L)
+   - Apply Bayesian smoothing: (wins + α) / (total_matches + α + β) where α=2, β=2
+   - Weighted strength: (win_rate × 1.0) + (draw_rate × 0.5) + (loss_rate × 0.0)
+   - Normalize strength between 0.1 and 0.9
 
-3. **ODDS & MARKET TRENDS**:
-   - Consider betting odds movement if available
-   - Market signals and public sentiment
-   - Bookmaker confidence levels
+3. **HEAD-TO-HEAD ADVANTAGE**:
+   - Historical matches between these teams
+   - Bayesian advantage: (home_wins + 1) / (total_matches + 3) - (away_wins + 1) / (total_matches + 3)
+   - Weight: 30% of total prediction
 
-4. **STATISTICAL INDICATORS**:
-   - Goals scored/conceded averages (home/away)
-   - Both Teams To Score (BTTS) percentage
-   - Over/Under 2.5 goals percentage
-   - First-half goal frequency for both teams
-   - Clean sheet records and defensive strength
-   - Set-piece efficiency and conversion rates
+4. **GOAL EXPECTATIONS (Poisson Distribution)**:
+   - Base goals × team_strength × league_strength × home_advantage
+   - Use Poisson distribution for realistic goal modeling
+   - Generate multiple score combinations and select best match with probabilities
 
-5. **PREDICTION OUTPUT**: Provide two predictions:
-   - **SAFE PICK**: Most likely outcome based on stats & current form (lower risk)
-   - **VALUE PICK**: Riskier but with potential high return (higher risk)
+5. **WIN PROBABILITY CALCULATION**:
+   - Home Win: (home_strength + home_advantage + h2h_advantage + league_adjustment) / total
+   - Away Win: (away_strength - h2h_advantage + league_adjustment) / total
+   - Draw: base_draw_probability / total
+   - Normalize to ensure probabilities sum to 100%
 
-ANALYSIS GUIDELINES:
-- Base predictions on statistical evidence and match-day context, not gut feeling
-- Consider current form more heavily than historical data
-- Factor in home advantage and team motivation
-- Account for official line-ups and key absences
-- Be conservative with high-scoring predictions unless strong evidence suggests otherwise
-- Consider defensive records and playing styles
-- Distinguish between "safe" and "value" betting opportunities
+6. **CONFIDENCE ASSESSMENT**:
+   - Probability spread: max_probability - min_probability
+   - Data quality: based on available information completeness
+   - Confidence levels: HIGH (>30% spread + >80% quality), MEDIUM, LOW
 
-In short, first-half result please.`;
+7. **RISK LEVEL ASSIGNMENT**:
+   - LOW: Home win > 55% (clear favorite)
+   - MEDIUM: Home win 35-55% (competitive)
+   - HIGH: Home win < 35% (upset potential)
+
+ANALYSIS REQUIREMENTS:
+
+**MATCH DATA TO ANALYZE**:
+- ${match.homeTeam} recent form and performance metrics
+- ${match.awayTeam} recent form and performance metrics
+- Head-to-head history between these teams
+- League strength and competition level
+- Home/away performance patterns
+- Key player availability and team news
+
+**BAYESIAN PREDICTION OUTPUT**:
+Provide a comprehensive Bayesian analysis including:
+1. **Team Strengths**: Calculated using Bayesian smoothing
+2. **Head-to-Head Advantage**: Historical performance analysis
+3. **Win Probabilities**: Home Win %, Draw %, Away Win %
+4. **Score Prediction**: Expected final score using Poisson distribution
+5. **Confidence Level**: HIGH/MEDIUM/LOW based on data quality and probability spread
+6. **Risk Assessment**: LOW/MEDIUM/HIGH based on probability distribution
+7. **Key Factors**: Home strength, away strength, H2H advantage, data quality, league strength
+
+**REASONING REQUIREMENTS**:
+- Explain the Bayesian methodology used
+- Detail how prior beliefs were updated with evidence
+- Show confidence level justification
+- Provide risk assessment reasoning
+- Include expected score and winner prediction
+
+Use Bayesian inference to update your predictions as new evidence becomes available. Base all conclusions on statistical evidence and the Bayesian framework, not intuition.`;
 
                 // Copy to clipboard
                 await navigator.clipboard.writeText(prompt);
