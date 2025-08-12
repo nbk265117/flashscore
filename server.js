@@ -185,6 +185,113 @@ Provide predictions in JSON format ONLY:
     }
 });
 
+// API route for fetching data by date
+app.post('/api/fetch-data', async (req, res) => {
+    try {
+        const { date } = req.query;
+        
+        if (!date) {
+            return res.status(400).json({ error: 'Date parameter is required' });
+        }
+
+        // Validate date format (YYYY-MM-DD)
+        const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
+        if (!dateRegex.test(date)) {
+            return res.status(400).json({ error: 'Invalid date format. Use YYYY-MM-DD' });
+        }
+
+        console.log(`🔄 Fetching data for date: ${date}`);
+
+        // Execute the fetch script for the specified date
+        const { exec } = require('child_process');
+        const util = require('util');
+        const execAsync = util.promisify(exec);
+
+        try {
+            // Run the fetch script with the specified date
+            const { stdout, stderr } = await execAsync(`node scripts/fetch-only.js ${date}`);
+            
+            if (stderr) {
+                console.error('Fetch script stderr:', stderr);
+            }
+
+            console.log('Fetch script output:', stdout);
+
+            // Check for API restrictions first
+            if (stdout.includes('Free plans do not have access to this date')) {
+                return res.status(400).json({
+                    error: 'API restriction: Free plans do not have access to this date. Available dates: 2025-08-11 to 2025-08-13'
+                });
+            }
+
+            // Check if the fetch was successful by looking for success indicators
+            if (stdout.includes('✅ Fetch completed successfully') || stdout.includes('Total matches:')) {
+                // Extract match count from output
+                const matchCountMatch = stdout.match(/Total matches: (\d+)/);
+                const matchCount = matchCountMatch ? parseInt(matchCountMatch[1]) : 0;
+
+                // Run the analysis script to process the new data
+                try {
+                    console.log('🔄 Running analysis script...');
+                    const { stdout: analysisStdout, stderr: analysisStderr } = await execAsync('node scripts/enhanced-bayesian-prediction.js');
+                    
+                    if (analysisStderr) {
+                        console.error('Analysis script stderr:', analysisStderr);
+                    }
+
+                    console.log('Analysis script output:', analysisStdout);
+
+                    // Run the integration script
+                    console.log('🔄 Running integration script...');
+                    const { stdout: integrationStdout, stderr: integrationStderr } = await execAsync('node scripts/integrate-bayesian-predictions.js');
+                    
+                    if (integrationStderr) {
+                        console.error('Integration script stderr:', integrationStderr);
+                    }
+
+                    console.log('Integration script output:', integrationStdout);
+
+                    res.json({
+                        success: true,
+                        message: `Successfully fetched and analyzed data for ${date}`,
+                        matchCount: matchCount,
+                        date: date
+                    });
+
+                } catch (analysisError) {
+                    console.error('Analysis script error:', analysisError);
+                    res.json({
+                        success: true,
+                        message: `Data fetched for ${date}, but analysis failed`,
+                        matchCount: matchCount,
+                        date: date,
+                        warning: 'Analysis step failed'
+                    });
+                }
+
+            } else {
+                throw new Error('Fetch script did not complete successfully');
+            }
+
+        } catch (execError) {
+            console.error('Exec error:', execError);
+            
+            // Check if the error is due to API restrictions
+            if (execError.message.includes('Free plans do not have access to this date')) {
+                return res.status(400).json({
+                    error: 'API restriction: Free plans do not have access to this date. Available dates: 2025-08-11 to 2025-08-13'
+                });
+            }
+            
+            throw new Error(`Failed to execute fetch script: ${execError.message}`);
+        }
+
+    } catch (error) {
+        console.error('Fetch data error:', error);
+        res.status(500).json({ error: error.message });
+    }
+});
+
 // Health check route
 app.get('/health', (req, res) => {
     res.json({ status: 'OK', message: 'Server is running' });

@@ -862,6 +862,91 @@
             margin-left: auto;
         }
 
+        .fetch-date-controls {
+            display: flex;
+            gap: 10px;
+            margin-left: auto;
+        }
+
+        .fetch-date-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 6px;
+            border: 1px solid #e9ecef;
+        }
+
+        .fetch-date-group label {
+            font-weight: 600;
+            color: #495057;
+            white-space: nowrap;
+            font-size: 14px;
+        }
+
+        .fetch-date-group input {
+            padding: 6px 8px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .fetch-btn {
+            background: linear-gradient(135deg, #17a2b8 0%, #138496 100%);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(23, 162, 184, 0.3);
+        }
+
+        .fetch-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(23, 162, 184, 0.4);
+            background: linear-gradient(135deg, #138496 0%, #17a2b8 100%);
+        }
+
+        .fetch-btn:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        .fetch-status {
+            font-size: 12px;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 4px;
+            display: none;
+        }
+
+        .fetch-status.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+
+        .fetch-status.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+
+        .fetch-status.loading {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeaa7;
+            display: block;
+        }
+
         .random-group {
             display: flex;
             align-items: center;
@@ -1748,6 +1833,14 @@
             <button id="analyzeBtn" class="analyze-btn admin-only">
                 🔄 Refresh Analysis
             </button>
+            <div class="fetch-date-controls">
+                <div class="fetch-date-group">
+                    <label for="fetchDateInput">Fetch Data for Date:</label>
+                    <input type="date" id="fetchDateInput" placeholder="YYYY-MM-DD" />
+                    <button id="fetchDataBtn" class="fetch-btn">📅 Fetch Data</button>
+                    <div id="fetchStatus" class="fetch-status"></div>
+                </div>
+            </div>
             <div class="expand-controls">
                 <button id="expandAllBtn" class="expand-btn">⬆️ Expand All</button>
                 <button id="collapseAllBtn" class="collapse-btn">⬇️ Collapse All</button>
@@ -1889,6 +1982,11 @@
                 document.getElementById('analysisGrid').innerHTML = 
                     '<div class="error">Failed to load analysis data. Please try again later.</div>';
             }
+        }
+
+        // Load analysis data (alias for loadAnalysis)
+        async function loadAnalysisData() {
+            return await loadAnalysis();
         }
 
         // Display enhanced analysis with confidence and key factors
@@ -2731,6 +2829,76 @@ Use Bayesian inference to update your predictions as new evidence becomes availa
             }
         }
 
+        // Fetch data by date functionality
+        async function fetchDataByDate() {
+            const dateInput = document.getElementById('fetchDateInput');
+            const fetchBtn = document.getElementById('fetchDataBtn');
+            const fetchStatus = document.getElementById('fetchStatus');
+            
+            const selectedDate = dateInput.value;
+            
+            if (!selectedDate) {
+                showFetchStatus('Please select a date', 'error');
+                return;
+            }
+
+            // Format date for API (YYYY-MM-DD)
+            const formattedDate = selectedDate.replace(/-/g, '-');
+            
+            try {
+                // Show loading state
+                fetchBtn.disabled = true;
+                fetchBtn.textContent = '⏳ Fetching...';
+                showFetchStatus('Fetching data...', 'loading');
+
+                // Make API call to fetch data
+                const response = await fetch(`/api/fetch-data?date=${formattedDate}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (!response.ok) {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || 'Failed to fetch data');
+                }
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    showFetchStatus(`✅ Successfully fetched ${result.matchCount || 0} matches for ${formattedDate}`, 'success');
+                    
+                    // Reload the analysis data
+                    await loadAnalysisData();
+                    
+                    // Clear the date input
+                    dateInput.value = '';
+                    
+                    // Show success message
+                    setTimeout(() => {
+                        showFetchStatus('', '');
+                    }, 5000);
+                } else {
+                    throw new Error(result.error || 'Failed to fetch data');
+                }
+                
+            } catch (error) {
+                console.error('Error fetching data:', error);
+                showFetchStatus(`❌ Error: ${error.message}`, 'error');
+            } finally {
+                // Reset button state
+                fetchBtn.disabled = false;
+                fetchBtn.textContent = '📅 Fetch Data';
+            }
+        }
+
+        function showFetchStatus(message, type) {
+            const fetchStatus = document.getElementById('fetchStatus');
+            fetchStatus.textContent = message;
+            fetchStatus.className = `fetch-status ${type}`;
+        }
+
         // Event listeners
         document.getElementById('timeFilter').addEventListener('change', filterAnalyses);
         document.getElementById('riskFilter').addEventListener('change', filterAnalyses);
@@ -2744,6 +2912,9 @@ Use Bayesian inference to update your predictions as new evidence becomes availa
         // Random match buttons
         document.getElementById('generateRandomBtn').addEventListener('click', generateRandomMatches);
         document.getElementById('resetRandomBtn').addEventListener('click', resetRandomMatches);
+
+        // Fetch by date functionality
+        document.getElementById('fetchDataBtn').addEventListener('click', fetchDataByDate);
 
         // Expand/Collapse all buttons
         document.getElementById('expandAllBtn').addEventListener('click', expandAllCards);
