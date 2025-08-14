@@ -397,8 +397,12 @@
 
         <div class="stats-bar">
             <div class="stat-card">
-                <div class="stat-number" id="totalMatches">-</div>
-                <div class="stat-label">Total Matches</div>
+                <div class="stat-number" id="filteredMatches">-</div>
+                <div class="stat-label">Important Matches</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalAvailable">367</div>
+                <div class="stat-label">Total Available</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number" id="highConfidence">-</div>
@@ -467,11 +471,11 @@
 
         function displayPredictions(data) {
             // Update header message
-            const totalMatches = data.totalMatches || data.predictions.length || 0;
-            document.getElementById('headerMessage').textContent = `Today we have ${totalMatches} prediction matches`;
+            const filteredMatches = data.totalMatches || data.predictions.length || 0;
+            document.getElementById('headerMessage').textContent = `Today we have ${filteredMatches} important prediction matches (filtered from 367 total matches)`;
             
             // Update stats
-            document.getElementById('totalMatches').textContent = totalMatches;
+            document.getElementById('filteredMatches').textContent = filteredMatches;
             
             const highConfidence = data.predictions.filter(p => p.prediction.confidence === 'HIGH').length;
             const mediumConfidence = data.predictions.filter(p => p.prediction.confidence === 'MEDIUM').length;
