@@ -475,12 +475,12 @@
       "homeTeamId": 16594,
       "awayTeamId": 17150,
       "league": "Youth Championship",
-      "homeGoals": 0,
+      "homeGoals": 1,
       "awayGoals": 0,
       "homeScore": 0,
       "awayScore": 0,
-      "status": "HT",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1368092,
@@ -495,12 +495,12 @@
       "homeTeamId": 4546,
       "awayTeamId": 4566,
       "league": "1. Division",
-      "homeGoals": 0,
-      "awayGoals": 0,
+      "homeGoals": 2,
+      "awayGoals": 2,
       "homeScore": 0,
       "awayScore": 0,
-      "status": "HT",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1368093,
@@ -515,12 +515,12 @@
       "homeTeamId": 4551,
       "awayTeamId": 21009,
       "league": "1. Division",
-      "homeGoals": 0,
-      "awayGoals": 2,
+      "homeGoals": 1,
+      "awayGoals": 5,
       "homeScore": 0,
       "awayScore": 2,
-      "status": "HT",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1368096,
@@ -536,11 +536,11 @@
       "awayTeamId": 4559,
       "league": "1. Division",
       "homeGoals": 0,
-      "awayGoals": 1,
+      "awayGoals": 2,
       "homeScore": 0,
       "awayScore": 1,
-      "status": "HT",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1430799,
@@ -555,12 +555,12 @@
       "homeTeamId": 5592,
       "awayTeamId": 19007,
       "league": "Premier League",
-      "homeGoals": 2,
+      "homeGoals": 6,
       "awayGoals": 2,
       "homeScore": 2,
       "awayScore": 2,
-      "status": "HT",
-      "elapsed": 45
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1358616,
@@ -575,12 +575,12 @@
       "homeTeamId": 8012,
       "awayTeamId": 12264,
       "league": "Vysshaya Liga",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1368095,
@@ -595,12 +595,12 @@
       "homeTeamId": 18805,
       "awayTeamId": 4545,
       "league": "1. Division",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1413055,
@@ -615,52 +615,12 @@
       "homeTeamId": 25765,
       "awayTeamId": 12240,
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
-    },
-    {
-      "id": 1418770,
-      "date": "2025-08-14T14:00:00+00:00",
-      "venue": "Cairo International Stadium",
-      "city": "al-Qāhirah (Cairo)",
-      "country": "Egypt",
-      "homeTeam": "Masr",
-      "awayTeam": "Ceramica Cleopatra",
-      "homeTeamLogo": "https://media.api-sports.io/football/teams/7520.png",
-      "awayTeamLogo": "https://media.api-sports.io/football/teams/14651.png",
-      "homeTeamId": 7520,
-      "awayTeamId": 14651,
-      "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
-    },
-    {
-      "id": 1418771,
-      "date": "2025-08-14T14:00:00+00:00",
-      "venue": "Alexandria Stadium",
-      "city": "Al-Iskandarîah (Alexandria)",
-      "country": "Egypt",
-      "homeTeam": "Al Ittihad",
-      "awayTeam": "Future FC",
-      "homeTeamLogo": "https://media.api-sports.io/football/teams/1572.png",
-      "awayTeamLogo": "https://media.api-sports.io/football/teams/16431.png",
-      "homeTeamId": 1572,
-      "awayTeamId": 16431,
-      "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1419225,
@@ -675,12 +635,12 @@
       "homeTeamId": 31,
       "awayTeamId": 1507,
       "league": "African Nations Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421188,
@@ -695,12 +655,12 @@
       "homeTeamId": 562,
       "awayTeamId": 1014,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1413056,
@@ -715,12 +675,12 @@
       "homeTeamId": 25764,
       "awayTeamId": 18731,
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 4,
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1431045,
@@ -735,12 +695,12 @@
       "homeTeamId": 22000,
       "awayTeamId": 6852,
       "league": "Cupa României",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1414211,
@@ -755,12 +715,12 @@
       "homeTeamId": 17469,
       "awayTeamId": 4529,
       "league": "League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1414212,
@@ -775,12 +735,52 @@
       "homeTeamId": 4530,
       "awayTeamId": 4533,
       "league": "League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
+    },
+    {
+      "id": 1418770,
+      "date": "2025-08-14T15:00:00+00:00",
+      "venue": "Cairo International Stadium",
+      "city": "al-Qāhirah (Cairo)",
+      "country": "Egypt",
+      "homeTeam": "Masr",
+      "awayTeam": "Ceramica Cleopatra",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/7520.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/14651.png",
+      "homeTeamId": 7520,
+      "awayTeamId": 14651,
+      "league": "Premier League",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
+    },
+    {
+      "id": 1418771,
+      "date": "2025-08-14T15:00:00+00:00",
+      "venue": "Alexandria Stadium",
+      "city": "Al-Iskandarîah (Alexandria)",
+      "country": "Egypt",
+      "homeTeam": "Al Ittihad",
+      "awayTeam": "Future FC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1572.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/16431.png",
+      "homeTeamId": 1572,
+      "awayTeamId": 16431,
+      "league": "Premier League",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421228,
@@ -795,12 +795,12 @@
       "homeTeamId": 1165,
       "awayTeamId": 4160,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1393729,
@@ -815,12 +815,12 @@
       "homeTeamId": 2897,
       "awayTeamId": 2898,
       "league": "Stars League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429921,
@@ -835,12 +835,12 @@
       "homeTeamId": 512,
       "awayTeamId": 22312,
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421197,
@@ -855,18 +855,18 @@
       "homeTeamId": 3683,
       "awayTeamId": 628,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421207,
       "date": "2025-08-14T16:00:00+00:00",
       "venue": "Bank Respublika Arena",
-      "city": "Masazyr (Masazir)",
+      "city": "Absheron",
       "country": "World",
       "homeTeam": "Sabah FA",
       "awayTeam": "Levski Sofia",
@@ -875,12 +875,12 @@
       "homeTeamId": 13976,
       "awayTeamId": 646,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1423465,
@@ -895,12 +895,12 @@
       "homeTeamId": 397,
       "awayTeamId": 2149,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429920,
@@ -915,12 +915,12 @@
       "homeTeamId": 492,
       "awayTeamId": 553,
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1402737,
@@ -935,12 +935,12 @@
       "homeTeamId": 2011,
       "awayTeamId": 779,
       "league": "Cup",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1419571,
@@ -955,12 +955,12 @@
       "homeTeamId": 2273,
       "awayTeamId": 684,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "AET",
+      "elapsed": 120
     },
     {
       "id": 1397745,
@@ -975,12 +975,12 @@
       "homeTeamId": 21390,
       "awayTeamId": 19193,
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1397749,
@@ -995,12 +995,12 @@
       "homeTeamId": 21534,
       "awayTeamId": 4940,
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1413128,
@@ -1015,12 +1015,12 @@
       "homeTeamId": 1025,
       "awayTeamId": 619,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "AET",
+      "elapsed": 120
     },
     {
       "id": 1413171,
@@ -1035,12 +1035,12 @@
       "homeTeamId": 16095,
       "awayTeamId": 24523,
       "league": "Oberliga - Bremen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1417894,
@@ -1055,32 +1055,12 @@
       "homeTeamId": 4941,
       "awayTeamId": 25119,
       "league": "Regionalliga - Ost",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
-    },
-    {
-      "id": 1418773,
-      "date": "2025-08-14T17:00:00+00:00",
-      "venue": "30 June Air Defence Stadium",
-      "city": "al-Qāhirah (Cairo)",
-      "country": "Egypt",
-      "homeTeam": "Pyramids FC",
-      "awayTeam": "Ismaily SC",
-      "homeTeamLogo": "https://media.api-sports.io/football/teams/1036.png",
-      "awayTeamLogo": "https://media.api-sports.io/football/teams/1030.png",
-      "homeTeamId": 1036,
-      "awayTeamId": 1030,
-      "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1419226,
@@ -1095,12 +1075,12 @@
       "homeTeamId": 1529,
       "awayTeamId": 1508,
       "league": "African Nations Championship",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1420866,
@@ -1115,12 +1095,12 @@
       "homeTeamId": 4996,
       "awayTeamId": 4972,
       "league": "Regionalliga - Mitte",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421185,
@@ -1135,12 +1115,12 @@
       "homeTeamId": 2390,
       "awayTeamId": 6496,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421198,
@@ -1155,12 +1135,12 @@
       "homeTeamId": 568,
       "awayTeamId": 554,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421201,
@@ -1175,12 +1155,12 @@
       "homeTeamId": 2402,
       "awayTeamId": 377,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421202,
@@ -1195,12 +1175,12 @@
       "homeTeamId": 3402,
       "awayTeamId": 11238,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421204,
@@ -1215,12 +1195,12 @@
       "homeTeamId": 363,
       "awayTeamId": 331,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421224,
@@ -1235,12 +1215,12 @@
       "homeTeamId": 3684,
       "awayTeamId": 667,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "PEN",
+      "elapsed": 120
     },
     {
       "id": 1421225,
@@ -1255,12 +1235,12 @@
       "homeTeamId": 319,
       "awayTeamId": 367,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1343932,
@@ -1275,12 +1255,12 @@
       "homeTeamId": 2162,
       "awayTeamId": 6691,
       "league": "Division 2 - Södra Svealand",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1393730,
@@ -1295,12 +1275,12 @@
       "homeTeamId": 2916,
       "awayTeamId": 2896,
       "league": "Stars League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1411931,
@@ -1315,12 +1295,12 @@
       "homeTeamId": 14753,
       "awayTeamId": 1629,
       "league": "Oberliga - Westfalen",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421186,
@@ -1335,12 +1315,12 @@
       "homeTeamId": 660,
       "awayTeamId": 201,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421187,
@@ -1355,12 +1335,12 @@
       "homeTeamId": 407,
       "awayTeamId": 278,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421192,
@@ -1375,12 +1355,12 @@
       "homeTeamId": 1430,
       "awayTeamId": 3872,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421196,
@@ -1395,12 +1375,12 @@
       "homeTeamId": 657,
       "awayTeamId": 10124,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421229,
@@ -1415,12 +1395,12 @@
       "homeTeamId": 276,
       "awayTeamId": 588,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429919,
@@ -1455,12 +1435,12 @@
       "homeTeamId": 9601,
       "awayTeamId": 9597,
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1414213,
@@ -1475,12 +1455,12 @@
       "homeTeamId": 4535,
       "awayTeamId": 4532,
       "league": "League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1353795,
@@ -1495,12 +1475,12 @@
       "homeTeamId": 18688,
       "awayTeamId": 18677,
       "league": "Reserve League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1353796,
@@ -1515,12 +1495,12 @@
       "homeTeamId": 18694,
       "awayTeamId": 18700,
       "league": "Reserve League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1353803,
@@ -1535,12 +1515,12 @@
       "homeTeamId": 18702,
       "awayTeamId": 18689,
       "league": "Reserve League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1353808,
@@ -1555,12 +1535,32 @@
       "homeTeamId": 18696,
       "awayTeamId": 22937,
       "league": "Reserve League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
+    },
+    {
+      "id": 1418773,
+      "date": "2025-08-14T18:00:00+00:00",
+      "venue": "30 June Air Defence Stadium",
+      "city": "al-Qāhirah (Cairo)",
+      "country": "Egypt",
+      "homeTeam": "Pyramids FC",
+      "awayTeam": "Ismaily SC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1036.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1030.png",
+      "homeTeamId": 1036,
+      "awayTeamId": 1030,
+      "league": "Premier League",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421181,
@@ -1575,12 +1575,12 @@
       "homeTeamId": 4360,
       "awayTeamId": 606,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 4,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421182,
@@ -1595,12 +1595,12 @@
       "homeTeamId": 4195,
       "awayTeamId": 3491,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421184,
@@ -1615,12 +1615,12 @@
       "homeTeamId": 549,
       "awayTeamId": 3843,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421189,
@@ -1635,18 +1635,18 @@
       "homeTeamId": 387,
       "awayTeamId": 701,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "ET",
+      "elapsed": 106
     },
     {
       "id": 1421203,
       "date": "2025-08-14T18:00:00+00:00",
       "venue": "OPAP Arena",
-      "city": "Athína (Athens)",
+      "city": "Larnaca",
       "country": "World",
       "homeTeam": "AEK Athens FC",
       "awayTeam": "Aris",
@@ -1655,18 +1655,18 @@
       "homeTeamId": 575,
       "awayTeamId": 3408,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "ET",
+      "elapsed": 102
     },
     {
       "id": 1421221,
       "date": "2025-08-14T18:00:00+00:00",
       "venue": "Stadiumi Fadil Vokrri",
-      "city": "Prishtinë (Pristina)",
+      "city": "Prishtinë",
       "country": "World",
       "homeTeam": "Drita",
       "awayTeam": "FCSB",
@@ -1675,12 +1675,12 @@
       "homeTeamId": 14281,
       "awayTeamId": 559,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421226,
@@ -1695,12 +1695,12 @@
       "homeTeamId": 604,
       "awayTeamId": 4626,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1421227,
@@ -1715,12 +1715,12 @@
       "homeTeamId": 550,
       "awayTeamId": 617,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "ET",
+      "elapsed": 104
     },
     {
       "id": 1421230,
@@ -1735,12 +1735,12 @@
       "homeTeamId": 207,
       "awayTeamId": 2184,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1434165,
@@ -1786,7 +1786,7 @@
       "id": 1421183,
       "date": "2025-08-14T18:15:00+00:00",
       "venue": "Chorten Arena",
-      "city": "Białystok",
+      "city": "Bialystok",
       "country": "World",
       "homeTeam": "Jagiellonia",
       "awayTeam": "Silkeborg",
@@ -1795,12 +1795,12 @@
       "homeTeamId": 336,
       "awayTeamId": 2073,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1429923,
@@ -1815,12 +1815,12 @@
       "homeTeamId": 20279,
       "awayTeamId": 9382,
       "league": "Friendlies Clubs",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90
     },
     {
       "id": 1418772,
@@ -1835,12 +1835,12 @@
       "homeTeamId": 1039,
       "awayTeamId": 1031,
       "league": "Premier League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 83
     },
     {
       "id": 1421199,
@@ -1855,12 +1855,12 @@
       "homeTeamId": 1120,
       "awayTeamId": 632,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 83
     },
     {
       "id": 1421223,
@@ -1875,12 +1875,12 @@
       "homeTeamId": 217,
       "awayTeamId": 2246,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 81
     },
     {
       "id": 1429924,
@@ -1915,12 +1915,12 @@
       "homeTeamId": 1386,
       "awayTeamId": 781,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 69
     },
     {
       "id": 1421205,
@@ -1935,12 +1935,12 @@
       "homeTeamId": 3326,
       "awayTeamId": 608,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 67
     },
     {
       "id": 1423751,
@@ -1955,12 +1955,12 @@
       "homeTeamId": 583,
       "awayTeamId": 580,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 70
     },
     {
       "id": 1421190,
@@ -1975,12 +1975,12 @@
       "homeTeamId": 652,
       "awayTeamId": 12733,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 55
     },
     {
       "id": 1421191,
@@ -1995,12 +1995,12 @@
       "homeTeamId": 227,
       "awayTeamId": 5354,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 54
     },
     {
       "id": 1421193,
@@ -2015,12 +2015,12 @@
       "homeTeamId": 601,
       "awayTeamId": 3713,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 56
     },
     {
       "id": 1421194,
@@ -2035,12 +2035,12 @@
       "homeTeamId": 5308,
       "awayTeamId": 691,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 55
     },
     {
       "id": 1421200,
@@ -2055,12 +2055,12 @@
       "homeTeamId": 249,
       "awayTeamId": 573,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "2H",
+      "elapsed": 53
     },
     {
       "id": 1421206,
@@ -2075,12 +2075,12 @@
       "homeTeamId": 3327,
       "awayTeamId": 677,
       "league": "UEFA Europa Conference League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "2H",
+      "elapsed": 54
     },
     {
       "id": 1421231,
@@ -2095,12 +2095,12 @@
       "homeTeamId": 339,
       "awayTeamId": 614,
       "league": "UEFA Europa League",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 54
     },
     {
       "id": 1433499,
@@ -2115,12 +2115,12 @@
       "homeTeamId": 23155,
       "awayTeamId": 18311,
       "league": "Division Intermedia",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "2H",
+      "elapsed": 56
     },
     {
       "id": 1420203,
@@ -2135,12 +2135,12 @@
       "homeTeamId": 15729,
       "awayTeamId": 15722,
       "league": "Liga Femenina",
-      "homeGoals": null,
-      "awayGoals": null,
-      "homeScore": null,
-      "awayScore": null,
-      "status": "NS",
-      "elapsed": null
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 13
     },
     {
       "id": 1403892,
@@ -2303,6 +2303,6 @@
       "elapsed": null
     }
   ],
-  "fetchedAt": "2025-08-14T12:56:24.749Z",
+  "fetchedAt": "2025-08-14T20:13:44.341Z",
   "description": "Raw match data from API-Sports (no analysis)"
 }

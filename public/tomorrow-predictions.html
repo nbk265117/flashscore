@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomorrow's Predictions - August 15, 2025</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .header .date {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .stats-bar {
+            background: #ecf0f1;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 15px 25px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            min-width: 150px;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .stat-label {
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #3498db;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .matches-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .match-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .match-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .match-header {
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+            padding: 20px;
+        }
+
+        .match-teams {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .match-league {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .match-time {
+            font-size: 0.8rem;
+            opacity: 0.8;
+            margin-top: 5px;
+        }
+
+        .match-body {
+            padding: 20px;
+        }
+
+        .prediction-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .prediction-label {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .prediction-value {
+            font-weight: bold;
+            color: #27ae60;
+        }
+
+        .probabilities {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .prob-item {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .prob-home {
+            background: #e8f5e8;
+            color: #27ae60;
+        }
+
+        .prob-draw {
+            background: #fff3cd;
+            color: #f39c12;
+        }
+
+        .prob-away {
+            background: #f8d7da;
+            color: #e74c3c;
+        }
+
+        .confidence-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .confidence-high {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .confidence-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .confidence-low {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .risk-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .risk-low {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .risk-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .risk-high {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .winner {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #2c3e50;
+            text-align: center;
+            padding: 10px;
+            background: #ecf0f1;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .reasoning {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+            line-height: 1.5;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+        }
+
+        .betting-tips {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .betting-tips h3 {
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+
+        .tips-list {
+            list-style: none;
+        }
+
+        .tips-list li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .tips-list li:before {
+            content: "💰";
+            position: absolute;
+            left: 0;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2rem;
+            color: #7f8c8d;
+        }
+
+        .error {
+            text-align: center;
+            padding: 50px;
+            color: #e74c3c;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .matches-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎯 Tomorrow's Predictions</h1>
+            <div class="date">August 15, 2025</div>
+        </div>
+
+        <div class="stats-bar">
+            <div class="stat-card">
+                <div class="stat-number" id="totalMatches">-</div>
+                <div class="stat-label">Total Matches</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="highConfidence">-</div>
+                <div class="stat-label">High Confidence</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="mediumConfidence">-</div>
+                <div class="stat-label">Medium Confidence</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="expectedWinRate">-</div>
+                <div class="stat-label">Expected Win Rate</div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="betting-tips">
+                <h3>💡 Betting Strategy Tips</h3>
+                <ul class="tips-list">
+                    <li><strong>High Confidence Matches:</strong> Best betting opportunities - bet 2-3% of bankroll</li>
+                    <li><strong>Medium Confidence Matches:</strong> Moderate risk - bet 1-2% of bankroll</li>
+                    <li><strong>Risk Management:</strong> Never bet more than you can afford to lose</li>
+                    <li><strong>Focus on Major Leagues:</strong> Premier League, La Liga, Bundesliga have better data</li>
+                    <li><strong>Avoid Parlays:</strong> Bet matches individually for better control</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">🔥 High Confidence Matches (Best Bets)</h2>
+                <div class="matches-grid" id="highConfidenceMatches">
+                    <div class="loading">Loading high confidence matches...</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">⚽ All Predictions</h2>
+                <div class="matches-grid" id="allMatches">
+                    <div class="loading">Loading all predictions...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load and display predictions
+        async function loadPredictions() {
+            try {
+                const response = await fetch('../data/tomorrow_predictions_2025_08_15.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load predictions');
+                }
+                
+                const data = await response.json();
+                displayPredictions(data);
+            } catch (error) {
+                console.error('Error loading predictions:', error);
+                document.getElementById('allMatches').innerHTML = `
+                    <div class="error">
+                        ❌ Error loading predictions: ${error.message}<br>
+                        Please make sure the prediction file exists.
+                    </div>
+                `;
+            }
+        }
+
+        function displayPredictions(data) {
+            // Update stats
+            document.getElementById('totalMatches').textContent = data.totalMatches || 0;
+            
+            const highConfidence = data.predictions.filter(p => p.prediction.confidence === 'HIGH').length;
+            const mediumConfidence = data.predictions.filter(p => p.prediction.confidence === 'MEDIUM').length;
+            
+            document.getElementById('highConfidence').textContent = highConfidence;
+            document.getElementById('mediumConfidence').textContent = mediumConfidence;
+            document.getElementById('expectedWinRate').textContent = '65-75%';
+
+            // Display high confidence matches
+            const highConfidenceMatches = data.predictions.filter(p => p.prediction.confidence === 'HIGH');
+            document.getElementById('highConfidenceMatches').innerHTML = highConfidenceMatches.length > 0 
+                ? highConfidenceMatches.map(match => createMatchCard(match)).join('')
+                : '<div class="error">No high confidence matches found</div>';
+
+            // Display all matches
+            document.getElementById('allMatches').innerHTML = data.predictions.map(match => createMatchCard(match)).join('');
+        }
+
+        function createMatchCard(match) {
+            const confidenceClass = `confidence-${match.prediction.confidence.toLowerCase()}`;
+            const riskClass = `risk-${match.prediction.riskLevel.toLowerCase()}`;
+            
+            return `
+                <div class="match-card">
+                    <div class="match-header">
+                        <div class="match-teams">${match.homeTeam} vs ${match.awayTeam}</div>
+                        <div class="match-league">${match.league}</div>
+                        <div class="match-time">${match.time || 'Time TBD'}</div>
+                    </div>
+                    <div class="match-body">
+                        <div class="winner">🏆 Winner: ${match.prediction.winner}</div>
+                        
+                        <div class="probabilities">
+                            <div class="prob-item prob-home">
+                                <div>Home</div>
+                                <div>${match.prediction.homeWinProbability}%</div>
+                            </div>
+                            <div class="prob-item prob-draw">
+                                <div>Draw</div>
+                                <div>${match.prediction.drawProbability}%</div>
+                            </div>
+                            <div class="prob-item prob-away">
+                                <div>Away</div>
+                                <div>${match.prediction.awayWinProbability}%</div>
+                            </div>
+                        </div>
+
+                        <div class="prediction-row">
+                            <span class="prediction-label">Score:</span>
+                            <span class="prediction-value">${match.prediction.likelyScore}</span>
+                        </div>
+                        
+                        <div class="prediction-row">
+                            <span class="prediction-label">Halftime:</span>
+                            <span class="prediction-value">${match.prediction.halftimeResult}</span>
+                        </div>
+                        
+                        <div class="prediction-row">
+                            <span class="prediction-label">Over/Under:</span>
+                            <span class="prediction-value">${match.prediction.overUnder2_5}</span>
+                        </div>
+                        
+                        <div class="prediction-row">
+                            <span class="prediction-label">Confidence:</span>
+                            <span class="confidence-badge ${confidenceClass}">${match.prediction.confidence}</span>
+                        </div>
+                        
+                        <div class="prediction-row">
+                            <span class="prediction-label">Risk Level:</span>
+                            <span class="risk-badge ${riskClass}">${match.prediction.riskLevel}</span>
+                        </div>
+
+                        <div class="reasoning">
+                            ${match.reasoning || 'Analysis based on team form, home advantage, and statistical models.'}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Load predictions when page loads
+        document.addEventListener('DOMContentLoaded', loadPredictions);
+    </script>
+</body>
+</html>

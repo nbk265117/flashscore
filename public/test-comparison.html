@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Comparison Data</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>Test Comparison Data Loading</h1>
+    <div id="status">Testing...</div>
+    <div id="data"></div>
+
+    <script>
+        async function testComparisonData() {
+            const statusDiv = document.getElementById('status');
+            const dataDiv = document.getElementById('data');
+            
+            try {
+                statusDiv.innerHTML = '<span class="info">Loading comparison data...</span>';
+                
+                const response = await fetch('/data/comparison_2025_08_14.json?t=' + Date.now());
+                console.log('Response status:', response.status);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('Data loaded:', data);
+                
+                statusDiv.innerHTML = '<span class="success">✅ Data loaded successfully!</span>';
+                dataDiv.innerHTML = `
+                    <h3>Comparison Data Summary:</h3>
+                    <ul>
+                        <li>Date: ${data.date}</li>
+                        <li>Total Matches: ${data.totalMatches}</li>
+                        <li>Completed Matches: ${data.completedMatches}</li>
+                        <li>Winner Accuracy: ${data.accuracy.winner}%</li>
+                        <li>Score Accuracy: ${data.accuracy.score}%</li>
+                        <li>Over/Under Accuracy: ${data.accuracy.overUnder}%</li>
+                        <li>Predictions Count: ${data.predictions.length}</li>
+                    </ul>
+                `;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                statusDiv.innerHTML = '<span class="error">❌ Error: ' + error.message + '</span>';
+                dataDiv.innerHTML = '<p>Check the browser console for more details.</p>';
+            }
+        }
+        
+        // Test when page loads
+        document.addEventListener('DOMContentLoaded', testComparisonData);
+    </script>
+</body>
+</html>

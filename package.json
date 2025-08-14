@@ -11,6 +11,9 @@
     "predict:match": "node scripts/predict-match.js",
     "bayesian:predict": "node scripts/enhanced-bayesian-prediction.js",
     "bayesian:integrate": "node scripts/integrate-bayesian-predictions.js",
+    "improved:predict": "node scripts/improved-prediction-system.js",
+    "improved:apply": "node scripts/apply-improved-predictions.js",
+    "fix:winrate": "node scripts/apply-improved-predictions.js",
     "deploy": "npm run build && netlify deploy --prod",
     "build": "echo 'No build step required'",
     "test": "echo 'No tests specified'"

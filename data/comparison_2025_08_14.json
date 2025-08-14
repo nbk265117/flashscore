@@ -1,0 +1,2507 @@
+{
+  "date": "2025-08-14",
+  "totalMatches": 115,
+  "completedMatches": 82,
+  "predictions": [
+    {
+      "matchId": 1411896,
+      "homeTeam": "Sporting San Miguelito",
+      "awayTeam": "Diriangén",
+      "league": "Concacaf Central American Cup",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1412889,
+      "homeTeam": "Real Soacha",
+      "awayTeam": "Deportes Tolima",
+      "league": "Copa Colombia",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1431012,
+      "homeTeam": "US Virgin Islands",
+      "awayTeam": "Turks and Caicos Islands",
+      "league": "Friendlies",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "1-1",
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "status": "PEN"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1377445,
+      "homeTeam": "Flamengo",
+      "awayTeam": "Internacional",
+      "league": "CONMEBOL Libertadores",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1380712,
+      "homeTeam": "Guabirá",
+      "awayTeam": "Independiente Petrolero",
+      "league": "Copa de la División Profesional",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1392405,
+      "homeTeam": "Deportivo Cali",
+      "awayTeam": "Union Magdalena",
+      "league": "Primera A",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1414173,
+      "homeTeam": "Universidad de Chile",
+      "awayTeam": "Independiente",
+      "league": "CONMEBOL Sudamericana",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1414174,
+      "homeTeam": "Alianza Lima",
+      "awayTeam": "Universidad Catolica",
+      "league": "CONMEBOL Sudamericana",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-0",
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1380764,
+      "homeTeam": "Toluca W",
+      "awayTeam": "Guadalajara W",
+      "league": "Liga MX Femenil",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1380765,
+      "homeTeam": "América W",
+      "awayTeam": "Puebla W",
+      "league": "Liga MX Femenil",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-0",
+        "homeGoals": 3,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1411897,
+      "homeTeam": "Alianza",
+      "awayTeam": "Managua",
+      "league": "Concacaf Central American Cup",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1411898,
+      "homeTeam": "Municipal",
+      "awayTeam": "Real Espana",
+      "league": "Concacaf Central American Cup",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1419978,
+      "homeTeam": "Vancouver FC",
+      "awayTeam": "Atlético Ottawa",
+      "league": "Canadian Championship",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1357915,
+      "homeTeam": "Boeun Sangmu",
+      "awayTeam": "Seoul",
+      "league": "WK-League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1416283,
+      "homeTeam": "Rukh Vynnyky U19",
+      "awayTeam": "Obolon' Kyiv U19",
+      "league": "U19 League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "2-3",
+        "homeGoals": 2,
+        "awayGoals": 3,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1430839,
+      "homeTeam": "Southern Samity",
+      "awayTeam": "United",
+      "league": "Calcutta Premier Division",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1430840,
+      "homeTeam": "Sribhumi",
+      "awayTeam": "Mohammedan",
+      "league": "Calcutta Premier Division",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-3",
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1430841,
+      "homeTeam": "Bhawanipore",
+      "awayTeam": "United Kolkata",
+      "league": "Calcutta Premier Division",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1357956,
+      "homeTeam": "Gyeongju",
+      "awayTeam": "Incheon Red Angels",
+      "league": "WK-League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1433463,
+      "homeTeam": "Farense U23",
+      "awayTeam": "Santa Clara U23",
+      "league": "Liga Revelação U23",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-3",
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1358370,
+      "homeTeam": "Dinamo Moskva U19",
+      "awayTeam": "Krylya Sovetov U19",
+      "league": "Youth Championship",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1368092,
+      "homeTeam": "Aktobe Jas",
+      "awayTeam": "Shakhter Karagandy",
+      "league": "1. Division",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "2-2",
+        "homeGoals": 2,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1368093,
+      "homeTeam": "Ekibastuz",
+      "awayTeam": "AKAS",
+      "league": "1. Division",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-5",
+        "homeGoals": 1,
+        "awayGoals": 5,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1368096,
+      "homeTeam": "SD Family",
+      "awayTeam": "Taraz",
+      "league": "1. Division",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1430799,
+      "homeTeam": "Thimphu City",
+      "awayTeam": "Ugyen Academy",
+      "league": "Premier League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "6-2",
+        "homeGoals": 6,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1358616,
+      "homeTeam": "Istiqlol",
+      "awayTeam": "Istaravshan",
+      "league": "Vysshaya Liga",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "6-0",
+        "homeGoals": 6,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1368095,
+      "homeTeam": "Khan Tengri",
+      "awayTeam": "Akademiya Ontustik",
+      "league": "1. Division",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1413055,
+      "homeTeam": "Bars",
+      "awayTeam": "Neftchi",
+      "league": "Premier League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1419225,
+      "homeTeam": "Morocco",
+      "awayTeam": "Zambia",
+      "league": "African Nations Championship",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421188,
+      "homeTeam": "FC Astana",
+      "awayTeam": "Lausanne",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1413056,
+      "homeTeam": "Asiagoal",
+      "awayTeam": "Talant",
+      "league": "Premier League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "3-4",
+        "homeGoals": 3,
+        "awayGoals": 4,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1431045,
+      "homeTeam": "FC Bacau",
+      "awayTeam": "Ceahlăul Piatra Neamţ",
+      "league": "Cupa României",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1414211,
+      "homeTeam": "Sama Al Sarhan",
+      "awayTeam": "Al Ahli",
+      "league": "League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1414212,
+      "homeTeam": "Al Buqa'a",
+      "awayTeam": "Al Jazeera",
+      "league": "League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "0-0",
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1418770,
+      "homeTeam": "Masr",
+      "awayTeam": "Ceramica Cleopatra",
+      "league": "Premier League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "0-0",
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1418771,
+      "homeTeam": "Al Ittihad",
+      "awayTeam": "Future FC",
+      "league": "Premier League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-2",
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421228,
+      "homeTeam": "KuPS",
+      "awayTeam": "Rīgas FS",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1393729,
+      "homeTeam": "Al-Rayyan SC",
+      "awayTeam": "Al-Sailiya",
+      "league": "Stars League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1429921,
+      "homeTeam": "Frosinone",
+      "awayTeam": "L'Aquila",
+      "league": "Friendlies Clubs",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "0-0",
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421197,
+      "homeTeam": "Ararat-Armenia",
+      "awayTeam": "Sparta Praha",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-2",
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421207,
+      "homeTeam": "Sabah FA",
+      "awayTeam": "Levski Sofia",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1423465,
+      "homeTeam": "FC Midtjylland",
+      "awayTeam": "Fredrikstad",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-0",
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1429920,
+      "homeTeam": "Napoli",
+      "awayTeam": "Olympiakos Piraeus",
+      "league": "Friendlies Clubs",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1402737,
+      "homeTeam": "Nizhny Novgorod",
+      "awayTeam": "FC Rostov",
+      "league": "Cup",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1419571,
+      "homeTeam": "FC Levadia Tallinn",
+      "awayTeam": "FC Differdange 03",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-3",
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "status": "AET"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1397745,
+      "homeTeam": "Velden",
+      "awayTeam": "Wohnbau Dietach",
+      "league": "Regionalliga - Mitte",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-2",
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1397749,
+      "homeTeam": "Wallern / Marienkirchen",
+      "awayTeam": "Gleisdorf 09",
+      "league": "Regionalliga - Mitte",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "5-2",
+        "homeGoals": 5,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1413128,
+      "homeTeam": "Wolfsberger AC",
+      "awayTeam": "PAOK",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "AET"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1413171,
+      "homeTeam": "Union Bremen",
+      "awayTeam": "Eiche Horn",
+      "league": "Oberliga - Bremen",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-2",
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1417894,
+      "homeTeam": "Gloggnitz",
+      "awayTeam": "Krems / Rehberg",
+      "league": "Regionalliga - Ost",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1419226,
+      "homeTeam": "Angola",
+      "awayTeam": "Congo DR",
+      "league": "African Nations Championship",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1420866,
+      "homeTeam": "Weiz",
+      "awayTeam": "Deutschlandsberger SC",
+      "league": "Regionalliga - Mitte",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "2-2",
+        "homeGoals": 2,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421185,
+      "homeTeam": "Paks",
+      "awayTeam": "Polessya",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421198,
+      "homeTeam": "Sheriff Tiraspol",
+      "awayTeam": "Anderlecht",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "1-1",
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421201,
+      "homeTeam": "Gyori ETO FC",
+      "awayTeam": "AIK Stockholm",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-0",
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421202,
+      "homeTeam": "Omonia Nicosia",
+      "awayTeam": "Araz",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "5-0",
+        "homeGoals": 5,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421204,
+      "homeTeam": "Hammarby FF",
+      "awayTeam": "Rosenborg",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421224,
+      "homeTeam": "FC Noah",
+      "awayTeam": "Lincoln Red Imps FC",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "0-0",
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "status": "PEN"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421225,
+      "homeTeam": "Brann",
+      "awayTeam": "BK Hacken",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1343932,
+      "homeTeam": "Atvidabergs FF",
+      "awayTeam": "Nyköping",
+      "league": "Division 2 - Södra Svealand",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1393730,
+      "homeTeam": "Al Shamal",
+      "awayTeam": "Al Ahli Doha",
+      "league": "Stars League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-0",
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1411931,
+      "homeTeam": "Preußen Münster II",
+      "awayTeam": "SG Wattenscheid 09",
+      "league": "Oberliga - Westfalen",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "0-0",
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421186,
+      "homeTeam": "FC Vaduz",
+      "awayTeam": "AZ Alkmaar",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421187,
+      "homeTeam": "Brondby",
+      "awayTeam": "Vikingur Reykjavik",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "4-0",
+        "homeGoals": 4,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421192,
+      "homeTeam": "Arda Kardzhali",
+      "awayTeam": "Kauno Žalgiris",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-0",
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421196,
+      "homeTeam": "Beitar Jerusalem",
+      "awayTeam": "Riga",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421229,
+      "homeTeam": "Breidablik",
+      "awayTeam": "Zrinjski",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-2",
+        "homeGoals": 1,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1429922,
+      "homeTeam": "Sanluqueño",
+      "awayTeam": "Algeciras",
+      "league": "Friendlies Clubs",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "0-0",
+        "homeGoals": 0,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1414213,
+      "homeTeam": "Al Salt",
+      "awayTeam": "Al Hussein",
+      "league": "League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "1-1",
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1353795,
+      "homeTeam": "Huracán Res.",
+      "awayTeam": "Argentinos Juniors Res.",
+      "league": "Reserve League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "1-1",
+        "homeGoals": 1,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1353796,
+      "homeTeam": "Racing Club Res.",
+      "awayTeam": "Tigre Res.",
+      "league": "Reserve League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-0",
+        "homeGoals": 2,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1353803,
+      "homeTeam": "Vélez Sársfield Res.",
+      "awayTeam": "Independiente Res.",
+      "league": "Reserve League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-1",
+        "homeGoals": 0,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1353808,
+      "homeTeam": "Rosario Central Res.",
+      "awayTeam": "Deportivo Riestra Res.",
+      "league": "Reserve League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "LOW",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1418773,
+      "homeTeam": "Pyramids FC",
+      "awayTeam": "Ismaily SC",
+      "league": "Premier League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "1-0",
+        "homeGoals": 1,
+        "awayGoals": 0,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421181,
+      "homeTeam": "Celje",
+      "awayTeam": "FC Lugano",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "2-4",
+        "homeGoals": 2,
+        "awayGoals": 4,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421182,
+      "homeTeam": "Maccabi Haifa",
+      "awayTeam": "Raków Częstochowa",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421184,
+      "homeTeam": "Besiktas",
+      "awayTeam": "St Patrick's Athl.",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-2",
+        "homeGoals": 3,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421221,
+      "homeTeam": "Drita",
+      "awayTeam": "FCSB",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "1-3",
+        "homeGoals": 1,
+        "awayGoals": 3,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1421226,
+      "homeTeam": "Maccabi Tel Aviv",
+      "awayTeam": "Hamrun Spartans",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "3-1",
+        "homeGoals": 3,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421230,
+      "homeTeam": "Utrecht",
+      "awayTeam": "Servette FC",
+      "league": "UEFA Europa League",
+      "prediction": {
+        "winner": "home",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "home",
+        "score": "2-1",
+        "homeGoals": 2,
+        "awayGoals": 1,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    },
+    {
+      "matchId": 1421183,
+      "homeTeam": "Jagiellonia",
+      "awayTeam": "Silkeborg",
+      "league": "UEFA Europa Conference League",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "draw",
+        "score": "2-2",
+        "homeGoals": 2,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": false,
+        "score": 0,
+        "overUnder": false,
+        "overall": 0
+      }
+    },
+    {
+      "matchId": 1429923,
+      "homeTeam": "Atlético Pueblonuevo",
+      "awayTeam": "Badajoz",
+      "league": "Friendlies Clubs",
+      "prediction": {
+        "winner": "away",
+        "score": "N/A",
+        "overUnder": "N/A",
+        "halftime": "N/A",
+        "homeWinProb": 0,
+        "drawProb": 0,
+        "awayWinProb": 0,
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "actual": {
+        "winner": "away",
+        "score": "0-2",
+        "homeGoals": 0,
+        "awayGoals": 2,
+        "status": "FT"
+      },
+      "accuracy": {
+        "winner": true,
+        "score": 0,
+        "overUnder": false,
+        "overall": 33
+      }
+    }
+  ],
+  "accuracy": {
+    "winner": 43,
+    "score": 0,
+    "overUnder": 0,
+    "halftime": 0
+  },
+  "confidenceAnalysis": {
+    "high": {
+      "total": 24,
+      "correct": 9,
+      "accuracy": 38
+    },
+    "medium": {
+      "total": 49,
+      "correct": 21,
+      "accuracy": 43
+    },
+    "low": {
+      "total": 9,
+      "correct": 5,
+      "accuracy": 56
+    }
+  },
+  "riskAnalysis": {
+    "low": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0
+    },
+    "medium": {
+      "total": 82,
+      "correct": 35,
+      "accuracy": 43
+    },
+    "high": {
+      "total": 0,
+      "correct": 0,
+      "accuracy": 0
+    }
+  }
+}

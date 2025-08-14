@@ -27,6 +27,11 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'analysis.html'));
 });
 
+// Comparison route
+app.get('/comparison.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'comparison.html'));
+});
+
 // API route for analysis data
 app.get('/api/analysis', (req, res) => {
     res.sendFile(path.join(__dirname, 'data', 'analysis.json'));
