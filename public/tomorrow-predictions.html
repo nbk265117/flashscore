@@ -58,6 +58,16 @@
             opacity: 0.9;
         }
 
+        .header-message {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 500;
+        }
+
         .stats-bar {
             background: #ecf0f1;
             padding: 20px;
@@ -382,6 +392,7 @@
             <div class="logo">⚽</div>
             <h1>🎯 Tomorrow's Predictions</h1>
             <div class="date">August 15, 2025</div>
+            <div class="header-message" id="headerMessage">Loading predictions...</div>
         </div>
 
         <div class="stats-bar">
@@ -444,6 +455,7 @@
                 displayPredictions(data);
             } catch (error) {
                 console.error('Error loading predictions:', error);
+                document.getElementById('headerMessage').textContent = 'Error loading predictions';
                 document.getElementById('allMatches').innerHTML = `
                     <div class="error">
                         ❌ Error loading predictions: ${error.message}<br>
@@ -454,8 +466,12 @@
         }
 
         function displayPredictions(data) {
+            // Update header message
+            const totalMatches = data.totalMatches || data.predictions.length || 0;
+            document.getElementById('headerMessage').textContent = `Today we have ${totalMatches} prediction matches`;
+            
             // Update stats
-            document.getElementById('totalMatches').textContent = data.totalMatches || 0;
+            document.getElementById('totalMatches').textContent = totalMatches;
             
             const highConfidence = data.predictions.filter(p => p.prediction.confidence === 'HIGH').length;
             const mediumConfidence = data.predictions.filter(p => p.prediction.confidence === 'MEDIUM').length;
