@@ -133,21 +133,76 @@
         }
 
         .match-teams {
-            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .team-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex: 1;
+        }
+
+        .team-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-logo img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .team-name {
+            font-size: 1.1rem;
             font-weight: bold;
-            margin-bottom: 5px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .vs {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0 15px;
+            color: #f39c12;
         }
 
         .match-league {
-            font-size: 0.9rem;
+            font-size: 1rem;
             opacity: 0.9;
+            margin-bottom: 5px;
+            text-align: center;
         }
 
         .match-time {
-            font-size: 0.9rem;
+            font-size: 1rem;
             opacity: 0.9;
             margin-top: 5px;
             font-weight: bold;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 5px 10px;
+            border-radius: 15px;
+            display: inline-block;
+        }
+
+        .match-venue {
+            font-size: 0.8rem;
+            opacity: 0.8;
+            margin-top: 3px;
+            text-align: center;
         }
 
         .match-body {
@@ -411,14 +466,14 @@
 
             // Sort matches by time (putting TBD matches at the end)
             const sortedPredictions = data.predictions.sort((a, b) => {
-                const timeA = a.time || 'TBD';
-                const timeB = b.time || 'TBD';
+                const timeA = a.date || 'TBD';
+                const timeB = b.date || 'TBD';
                 
                 if (timeA === 'TBD' && timeB !== 'TBD') return 1;
                 if (timeA !== 'TBD' && timeB === 'TBD') return -1;
                 if (timeA === 'TBD' && timeB === 'TBD') return 0;
                 
-                return timeA.localeCompare(timeB);
+                return new Date(timeA) - new Date(timeB);
             });
 
             // Display high confidence matches
@@ -435,12 +490,45 @@
             const confidenceClass = `confidence-${match.prediction.confidence.toLowerCase()}`;
             const riskClass = `risk-${match.prediction.riskLevel.toLowerCase()}`;
             
+            // Format the match time
+            let formattedTime = 'Time TBD';
+            if (match.date) {
+                const matchDate = new Date(match.date);
+                formattedTime = matchDate.toLocaleString('en-US', {
+                    weekday: 'short',
+                    month: 'short',
+                    day: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    timeZoneName: 'short'
+                });
+            }
+            
+            // Handle team logos with fallback
+            const homeLogo = match.homeTeamLogo || 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzNDk4ZGIiLz4KPHN2ZyB4PSIxMCIgeT0iMTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzEzLjEgMiAxNCAyLjkgMTQgNFY2SDIyVjE4QzIyIDE5LjEgMjEuMSAyMCAyMCAyMEg0QzIuOSAyMCAyIDE5LjEgMiAxOFY2SDEwVjRDMTAgMi45IDEwLjkgMiAxMiAyWk0xMiA0SDEyVjZIMTRWNEgxMlpNMTIgNkgxMFY4SDEyVjZaTTEyIDhIMTRWMTBIMTJWOE0xMiAxMEgxMFYxMkgxMlYxMFpNMTIgMTJIMTRWMTJIMTJWMTRaTTEyIDE0SDEwVjE2SDEyVjE0Wk0xMiAxNkgxNFYxNkgxMlYxOFpNMTIgMThIMTBWMjBIMTJWMThaTTEyIDIwSDE0VjIwSDEyVjIyWk0xMiAyMkgxMFYyNEgxMlYyMlpNMTIgMjRIMTRWMjRIMTJWMjZaIi8+Cjwvc3ZnPgo8L3N2Zz4K';
+            const awayLogo = match.awayTeamLogo || 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzNDk4ZGIiLz4KPHN2ZyB4PSIxMCIgeT0iMTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzEzLjEgMiAxNCAyLjkgMTQgNFY2SDIyVjE4QzIyIDE5LjEgMjEuMSAyMCAyMCAyMEg0QzIuOSAyMCAyIDE5LjEgMiAxOFY2SDEwVjRDMTAgMi45IDEwLjkgMiAxMiAyWk0xMiA0SDEyVjZIMTRWNEgxMlpNMTIgNkgxMFY4SDEyVjZaTTEyIDhIMTRWMTBIMTJWOE0xMiAxMEgxMFYxMkgxMlYxMFpNMTIgMTJIMTRWMTJIMTJWMTRaTTEyIDE0SDEwVjE2SDEyVjE0Wk0xMiAxNkgxNFYxNkgxMlYxOFpNMTIgMThIMTBWMjBIMTJWMThaTTEyIDIwSDE0VjIwSDEyVjIyWk0xMiAyMkgxMFYyNEgxMlYyMlpNMTIgMjRIMTRWMjRIMTJWMjZaIi8+Cjwvc3ZnPgo8L3N2Zz4K';
+            
             return `
                 <div class="match-card">
                     <div class="match-header">
-                        <div class="match-teams">${match.homeTeam} vs ${match.awayTeam}</div>
+                        <div class="match-teams">
+                            <div class="team-info">
+                                <div class="team-logo">
+                                    <img src="${homeLogo}" alt="${match.homeTeam}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzNDk4ZGIiLz4KPHN2ZyB4PSIxMCIgeT0iMTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzEzLjEgMiAxNCAyLjkgMTQgNFY2SDIyVjE4QzIyIDE5LjEgMjEuMSAyMCAyMCAyMEg0QzIuOSAyMCAyIDE5LjEgMiAxOFY2SDEwVjRDMTAgMi45IDEwLjkgMiAxMiAyWk0xMiA0SDEyVjZIMTRWNEgxMlpNMTIgNkgxMFY4SDEyVjZaTTEyIDhIMTRWMTBIMTJWOE0xMiAxMEgxMFYxMkgxMlYxMFpNMTIgMTJIMTRWMTJIMTJWMTRaTTEyIDE0SDEwVjE2SDEyVjE0Wk0xMiAxNkgxNFYxNkgxMlYxOFpNMTIgMThIMTBWMjBIMTJWMThaTTEyIDIwSDE0VjIwSDEyVjIyWk0xMiAyMkgxMFYyNEgxMlYyMlpNMTIgMjRIMTRWMjRIMTJWMjZaIi8+Cjwvc3ZnPgo8L3N2Zz4K';">
+                                </div>
+                                <div class="team-name">${match.homeTeam}</div>
+                            </div>
+                            <div class="vs">vs</div>
+                            <div class="team-info">
+                                <div class="team-name">${match.awayTeam}</div>
+                                <div class="team-logo">
+                                    <img src="${awayLogo}" alt="${match.awayTeam}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzNDk4ZGIiLz4KPHN2ZyB4PSIxMCIgeT0iMTAiIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJ3aGl0ZSI+CjxwYXRoIGQ9Ik0xMiAyQzEzLjEgMiAxNCAyLjkgMTQgNFY2SDIyVjE4QzIyIDE5LjEgMjEuMSAyMCAyMCAyMEg0QzIuOSAyMCAyIDE5LjEgMiAxOFY2SDEwVjRDMTAgMi45IDEwLjkgMiAxMiAyWk0xMiA0SDEyVjZIMTRWNEgxMlpNMTIgNkgxMFY4SDEyVjZaTTEyIDhIMTRWMTBIMTJWOE0xMiAxMEgxMFYxMkgxMlYxMFpNMTIgMTJIMTRWMTJIMTJWMTRaTTEyIDE0SDEwVjE2SDEyVjE0Wk0xMiAxNkgxNFYxNkgxMlYxOFpNMTIgMThIMTBWMjBIMTJWMThaTTEyIDIwSDE0VjIwSDEyVjIyWk0xMiAyMkgxMFYyNEgxMlYyMlpNMTIgMjRIMTRWMjRIMTJWMjZaIi8+Cjwvc3ZnPgo8L3N2Zz4K';">
+                                </div>
+                            </div>
+                        </div>
                         <div class="match-league">${match.league}</div>
-                        <div class="match-time">${match.time || 'Time TBD'}</div>
+                        <div class="match-time">${formattedTime}</div>
+                        <div class="match-venue">${match.venue || 'Venue TBD'}</div>
                     </div>
                     <div class="match-body">
                         <div class="winner">🏆 Winner: ${match.prediction.winner}</div>
