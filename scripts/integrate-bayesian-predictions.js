@@ -33,7 +33,7 @@ class BayesianIntegration {
    */
   async loadMatchesData() {
     try {
-      const matchesPath = path.join(__dirname, '..', 'data', 'matches_2025_08_10.json');
+      const matchesPath = path.join(__dirname, '..', 'data', 'matches_2025_08_14.json');
       const data = await fsPromises.readFile(matchesPath, 'utf8');
       return JSON.parse(data);
     } catch (error) {
