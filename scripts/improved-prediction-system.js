@@ -439,7 +439,7 @@ class ImprovedPredictor {
     const homeWins = homeData.form.filter(f => f === 'W').length;
     const awayWins = awayData.form.filter(f => f === 'W').length;
     
-    let reasoning = `Based on statistical analysis, ${homeTeam} (${homeWins}/5 recent wins) faces ${awayTeam} (${awayWins}/5 recent wins) in ${league}. `;
+    let reasoning = `${homeTeam} (${homeWins}/5 recent wins) vs ${awayTeam} (${awayWins}/5 recent wins) in ${league}. `;
     
     if (probabilities.homeWinProbability > 50) {
       reasoning += `${homeTeam} is favored with ${probabilities.homeWinProbability}% win probability due to strong home form (${homeForm}) and home advantage. `;
