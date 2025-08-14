@@ -34,6 +34,19 @@
             text-align: center;
         }
 
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
         .header h1 {
             font-size: 2.5rem;
             margin-bottom: 10px;
@@ -131,9 +144,10 @@
         }
 
         .match-time {
-            font-size: 0.8rem;
-            opacity: 0.8;
+            font-size: 0.9rem;
+            opacity: 0.9;
             margin-top: 5px;
+            font-weight: bold;
         }
 
         .match-body {
@@ -248,16 +262,6 @@
             margin-bottom: 15px;
         }
 
-        .reasoning {
-            font-size: 0.9rem;
-            color: #7f8c8d;
-            line-height: 1.5;
-            padding: 15px;
-            background: #f8f9fa;
-            border-radius: 8px;
-            border-left: 4px solid #3498db;
-        }
-
         .betting-tips {
             background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
             color: white;
@@ -320,6 +324,7 @@
 <body>
     <div class="container">
         <div class="header">
+            <div class="logo">⚽</div>
             <h1>🎯 Tomorrow's Predictions</h1>
             <div class="date">August 15, 2025</div>
         </div>
@@ -363,7 +368,7 @@
             </div>
 
             <div class="section">
-                <h2 class="section-title">⚽ All Predictions</h2>
+                <h2 class="section-title">⚽ All Predictions (Ordered by Time)</h2>
                 <div class="matches-grid" id="allMatches">
                     <div class="loading">Loading all predictions...</div>
                 </div>
@@ -404,14 +409,26 @@
             document.getElementById('mediumConfidence').textContent = mediumConfidence;
             document.getElementById('expectedWinRate').textContent = '65-75%';
 
+            // Sort matches by time (putting TBD matches at the end)
+            const sortedPredictions = data.predictions.sort((a, b) => {
+                const timeA = a.time || 'TBD';
+                const timeB = b.time || 'TBD';
+                
+                if (timeA === 'TBD' && timeB !== 'TBD') return 1;
+                if (timeA !== 'TBD' && timeB === 'TBD') return -1;
+                if (timeA === 'TBD' && timeB === 'TBD') return 0;
+                
+                return timeA.localeCompare(timeB);
+            });
+
             // Display high confidence matches
-            const highConfidenceMatches = data.predictions.filter(p => p.prediction.confidence === 'HIGH');
+            const highConfidenceMatches = sortedPredictions.filter(p => p.prediction.confidence === 'HIGH');
             document.getElementById('highConfidenceMatches').innerHTML = highConfidenceMatches.length > 0 
                 ? highConfidenceMatches.map(match => createMatchCard(match)).join('')
                 : '<div class="error">No high confidence matches found</div>';
 
             // Display all matches
-            document.getElementById('allMatches').innerHTML = data.predictions.map(match => createMatchCard(match)).join('');
+            document.getElementById('allMatches').innerHTML = sortedPredictions.map(match => createMatchCard(match)).join('');
         }
 
         function createMatchCard(match) {
@@ -466,10 +483,6 @@
                         <div class="prediction-row">
                             <span class="prediction-label">Risk Level:</span>
                             <span class="risk-badge ${riskClass}">${match.prediction.riskLevel}</span>
-                        </div>
-
-                        <div class="reasoning">
-                            ${match.reasoning || 'Analysis based on team form, home advantage, and statistical models.'}
                         </div>
                     </div>
                 </div>
