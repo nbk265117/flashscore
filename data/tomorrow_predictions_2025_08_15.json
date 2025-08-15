@@ -22,9 +22,9 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 23,
-        "awayWinProbability": 33,
+        "homeWinProbability": 43,
+        "drawProbability": 21,
+        "awayWinProbability": 37,
         "likelyScore": "2-1",
         "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
@@ -42,7 +42,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Deportivo Pasto (0/5 recent wins) vs Envigado (0/5 recent wins) in Primera A. This is a closely contested match with 23% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Deportivo Pasto (0/5 recent wins) vs Envigado (0/5 recent wins) in Primera A. This is a closely contested match with 21% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -71,11 +71,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
-        "drawProbability": 18,
+        "homeWinProbability": 42,
+        "drawProbability": 23,
         "awayWinProbability": 35,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Bihor Oradea",
         "confidence": "MEDIUM",
@@ -91,7 +91,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Bihor Oradea (0/5 recent wins) vs Dumbrăviţa (0/5 recent wins) in Liga II. This is a closely contested match with 18% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Bihor Oradea (0/5 recent wins) vs Dumbrăviţa (0/5 recent wins) in Liga II. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -120,11 +120,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 42,
-        "drawProbability": 23,
-        "awayWinProbability": 35,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 45,
+        "drawProbability": 19,
+        "awayWinProbability": 36,
+        "likelyScore": "4-3",
+        "halftimeResult": "2-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Hellenic Athletic",
         "confidence": "MEDIUM",
@@ -140,7 +140,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Hellenic Athletic (0/5 recent wins) vs Darwin Olympic (0/5 recent wins) in Northern Territory Premier League. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Hellenic Athletic (0/5 recent wins) vs Darwin Olympic (0/5 recent wins) in Northern Territory Premier League. This is a closely contested match with 19% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -169,11 +169,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 41,
-        "drawProbability": 22,
+        "homeWinProbability": 44,
+        "drawProbability": 19,
         "awayWinProbability": 37,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Redcliffe Dolphins",
         "confidence": "MEDIUM",
@@ -189,7 +189,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Redcliffe Dolphins (0/5 recent wins) vs North Pine (0/5 recent wins) in Brisbane Premier League. This is a closely contested match with 22% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Redcliffe Dolphins (0/5 recent wins) vs North Pine (0/5 recent wins) in Brisbane Premier League. This is a closely contested match with 19% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -218,11 +218,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 16,
-        "awayWinProbability": 40,
+        "homeWinProbability": 45,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
         "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Port Darwin",
         "confidence": "MEDIUM",
@@ -238,7 +238,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Port Darwin (0/5 recent wins) vs Garuda (0/5 recent wins) in Northern Territory Premier League. This is a closely contested match with 16% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Port Darwin (0/5 recent wins) vs Garuda (0/5 recent wins) in Northern Territory Premier League. This is a closely contested match with 21% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -267,11 +267,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 23,
-        "awayWinProbability": 32,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "homeWinProbability": 43,
+        "drawProbability": 21,
+        "awayWinProbability": 36,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Van",
         "confidence": "MEDIUM",
@@ -287,7 +287,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Van (0/5 recent wins) vs FC Urartu (0/5 recent wins) in Premier League. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Van (0/5 recent wins) vs FC Urartu (0/5 recent wins) in Premier League. This is a closely contested match with 21% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -316,11 +316,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
+        "homeWinProbability": 44,
         "drawProbability": 19,
-        "awayWinProbability": 34,
+        "awayWinProbability": 37,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "AVS",
         "confidence": "MEDIUM",
@@ -365,14 +365,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 48,
-        "drawProbability": 15,
-        "awayWinProbability": 38,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 44,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Kara-Balta",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -385,7 +385,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Kara-Balta (0/5 recent wins) vs OshMU Aldier (0/5 recent wins) in Premier League. This is a closely contested match with 15% draw probability. Expected score: 3-2. Confidence level: HIGH.",
+      "reasoning": "Kara-Balta (0/5 recent wins) vs OshMU Aldier (0/5 recent wins) in Premier League. This is a closely contested match with 21% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -414,14 +414,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 49,
-        "drawProbability": 17,
+        "homeWinProbability": 43,
+        "drawProbability": 23,
         "awayWinProbability": 34,
-        "likelyScore": "4-3",
+        "likelyScore": "3-2",
         "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Ozgon",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -434,7 +434,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Ozgon (0/5 recent wins) vs Alga (0/5 recent wins) in Premier League. This is a closely contested match with 17% draw probability. Expected score: 4-3. Confidence level: HIGH.",
+      "reasoning": "Ozgon (0/5 recent wins) vs Alga (0/5 recent wins) in Premier League. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -463,14 +463,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 48,
-        "drawProbability": 16,
-        "awayWinProbability": 37,
+        "homeWinProbability": 44,
+        "drawProbability": 20,
+        "awayWinProbability": 36,
         "likelyScore": "2-1",
         "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Bishkek City",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -483,7 +483,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Bishkek City (0/5 recent wins) vs Abdish-Ata (0/5 recent wins) in Premier League. This is a closely contested match with 16% draw probability. Expected score: 2-1. Confidence level: HIGH.",
+      "reasoning": "Bishkek City (0/5 recent wins) vs Abdish-Ata (0/5 recent wins) in Premier League. This is a closely contested match with 20% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -512,11 +512,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 37,
+        "homeWinProbability": 36,
         "drawProbability": 18,
-        "awayWinProbability": 44,
+        "awayWinProbability": 46,
         "likelyScore": "2-3",
-        "halftimeResult": "0-1",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Arsenal",
         "confidence": "MEDIUM",
@@ -561,14 +561,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
-        "drawProbability": 16,
-        "awayWinProbability": 37,
+        "homeWinProbability": 43,
+        "drawProbability": 18,
+        "awayWinProbability": 39,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Ruh Lviv",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -581,7 +581,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Ruh Lviv (0/5 recent wins) vs Obolon'-Brovar (0/5 recent wins) in Premier League. This is a closely contested match with 16% draw probability. Expected score: 3-2. Confidence level: HIGH.",
+      "reasoning": "Ruh Lviv (0/5 recent wins) vs Obolon'-Brovar (0/5 recent wins) in Premier League. This is a closely contested match with 18% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -611,10 +611,10 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 46,
-        "drawProbability": 20,
-        "awayWinProbability": 34,
+        "drawProbability": 19,
+        "awayWinProbability": 35,
         "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Petrojet",
         "confidence": "MEDIUM",
@@ -630,7 +630,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Petrojet (0/5 recent wins) vs Kahraba Ismailia (0/5 recent wins) in Premier League. This is a closely contested match with 20% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Petrojet (0/5 recent wins) vs Kahraba Ismailia (0/5 recent wins) in Premier League. This is a closely contested match with 19% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -659,11 +659,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 22,
-        "awayWinProbability": 34,
+        "homeWinProbability": 43,
+        "drawProbability": 24,
+        "awayWinProbability": 33,
         "likelyScore": "2-1",
-        "halftimeResult": "0-0",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Aresimi",
         "confidence": "MEDIUM",
@@ -679,7 +679,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Aresimi (0/5 recent wins) vs Struga (0/5 recent wins) in First League. This is a closely contested match with 22% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Aresimi (0/5 recent wins) vs Struga (0/5 recent wins) in First League. This is a closely contested match with 24% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -709,10 +709,10 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 44,
-        "drawProbability": 21,
-        "awayWinProbability": 35,
+        "drawProbability": 19,
+        "awayWinProbability": 37,
         "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Tikveš",
         "confidence": "MEDIUM",
@@ -728,7 +728,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Tikveš (0/5 recent wins) vs Vardar Skopje (0/5 recent wins) in First League. This is a closely contested match with 21% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Tikveš (0/5 recent wins) vs Vardar Skopje (0/5 recent wins) in First League. This is a closely contested match with 19% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -757,14 +757,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 49,
-        "drawProbability": 18,
-        "awayWinProbability": 33,
-        "likelyScore": "2-1",
-        "halftimeResult": "0-0",
+        "homeWinProbability": 42,
+        "drawProbability": 23,
+        "awayWinProbability": 35,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "AS Marsa",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -777,7 +777,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "AS Marsa (0/5 recent wins) vs US Ben Guerdane (0/5 recent wins) in Ligue 1. This is a closely contested match with 18% draw probability. Expected score: 2-1. Confidence level: HIGH.",
+      "reasoning": "AS Marsa (0/5 recent wins) vs US Ben Guerdane (0/5 recent wins) in Ligue 1. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -806,14 +806,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 42,
-        "drawProbability": 19,
-        "awayWinProbability": 39,
-        "likelyScore": "4-3",
-        "halftimeResult": "1-1",
+        "homeWinProbability": 48,
+        "drawProbability": 15,
+        "awayWinProbability": 37,
+        "likelyScore": "2-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "AS Soliman",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -826,7 +826,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "AS Soliman (0/5 recent wins) vs ES Metlaoui (0/5 recent wins) in Ligue 1. This is a closely contested match with 19% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "AS Soliman (0/5 recent wins) vs ES Metlaoui (0/5 recent wins) in Ligue 1. This is a closely contested match with 15% draw probability. Expected score: 2-1. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -855,11 +855,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
+        "homeWinProbability": 46,
         "drawProbability": 19,
-        "awayWinProbability": 37,
-        "likelyScore": "5-4",
-        "halftimeResult": "2-1",
+        "awayWinProbability": 35,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "ES Tunis",
         "confidence": "MEDIUM",
@@ -875,7 +875,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "ES Tunis (0/5 recent wins) vs US Monastirienne (0/5 recent wins) in Ligue 1. This is a closely contested match with 19% draw probability. Expected score: 5-4. Confidence level: MEDIUM.",
+      "reasoning": "ES Tunis (0/5 recent wins) vs US Monastirienne (0/5 recent wins) in Ligue 1. This is a closely contested match with 19% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -904,10 +904,10 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 42,
+        "homeWinProbability": 43,
         "drawProbability": 23,
         "awayWinProbability": 35,
-        "likelyScore": "4-3",
+        "likelyScore": "5-4",
         "halftimeResult": "2-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Olympique Béja",
@@ -924,7 +924,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Olympique Béja (0/5 recent wins) vs AS Gabes (0/5 recent wins) in Ligue 1. This is a closely contested match with 23% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Olympique Béja (0/5 recent wins) vs AS Gabes (0/5 recent wins) in Ligue 1. This is a closely contested match with 23% draw probability. Expected score: 5-4. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -954,9 +954,9 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 44,
-        "drawProbability": 22,
-        "awayWinProbability": 34,
-        "likelyScore": "3-2",
+        "drawProbability": 23,
+        "awayWinProbability": 33,
+        "likelyScore": "2-1",
         "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "FC Nordsjaelland",
@@ -973,7 +973,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "FC Nordsjaelland (0/5 recent wins) vs FC Copenhagen (0/5 recent wins) in Superliga. This is a closely contested match with 22% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "FC Nordsjaelland (0/5 recent wins) vs FC Copenhagen (0/5 recent wins) in Superliga. This is a closely contested match with 23% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1002,11 +1002,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
+        "homeWinProbability": 42,
         "drawProbability": 23,
-        "awayWinProbability": 33,
+        "awayWinProbability": 35,
         "likelyScore": "2-1",
-        "halftimeResult": "1-0",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Zaglebie Lubin",
         "confidence": "MEDIUM",
@@ -1051,11 +1051,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 22,
-        "awayWinProbability": 34,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "homeWinProbability": 48,
+        "drawProbability": 20,
+        "awayWinProbability": 32,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Unirea Slobozia",
         "confidence": "MEDIUM",
@@ -1071,7 +1071,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Unirea Slobozia (0/5 recent wins) vs Metaloglobus (0/5 recent wins) in Liga I. This is a closely contested match with 22% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Unirea Slobozia (0/5 recent wins) vs Metaloglobus (0/5 recent wins) in Liga I. This is a closely contested match with 20% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1100,14 +1100,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 49,
-        "drawProbability": 15,
-        "awayWinProbability": 36,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "4-3",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "CSKA 1948",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1120,7 +1120,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "CSKA 1948 (0/5 recent wins) vs Montana (0/5 recent wins) in First League. This is a closely contested match with 15% draw probability. Expected score: 3-2. Confidence level: HIGH.",
+      "reasoning": "CSKA 1948 (0/5 recent wins) vs Montana (0/5 recent wins) in First League. This is a closely contested match with 22% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1198,14 +1198,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
-        "drawProbability": 17,
-        "awayWinProbability": 37,
-        "likelyScore": "5-4",
-        "halftimeResult": "2-1",
+        "homeWinProbability": 49,
+        "drawProbability": 16,
+        "awayWinProbability": 35,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Slavia Mozyr",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1218,7 +1218,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Slavia Mozyr (0/5 recent wins) vs FC Gomel (0/5 recent wins) in Premier League. This is a closely contested match with 17% draw probability. Expected score: 5-4. Confidence level: MEDIUM.",
+      "reasoning": "Slavia Mozyr (0/5 recent wins) vs FC Gomel (0/5 recent wins) in Premier League. This is a closely contested match with 16% draw probability. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1247,11 +1247,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 46,
-        "drawProbability": 17,
-        "awayWinProbability": 37,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "4-3",
+        "halftimeResult": "2-1",
         "overUnder2_5": "Over 2.5",
         "winner": "FC Fredericia",
         "confidence": "MEDIUM",
@@ -1267,7 +1267,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "FC Fredericia (0/5 recent wins) vs Sonderjyske (0/5 recent wins) in Superliga. This is a closely contested match with 17% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "FC Fredericia (0/5 recent wins) vs Sonderjyske (0/5 recent wins) in Superliga. This is a closely contested match with 22% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1296,14 +1296,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 41,
-        "drawProbability": 24,
-        "awayWinProbability": 34,
-        "likelyScore": "2-1",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 47,
+        "drawProbability": 16,
+        "awayWinProbability": 38,
+        "likelyScore": "4-3",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Telstar",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1316,7 +1316,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Telstar (0/5 recent wins) vs PEC Zwolle (0/5 recent wins) in Eredivisie. This is a closely contested match with 24% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Telstar (0/5 recent wins) vs PEC Zwolle (0/5 recent wins) in Eredivisie. This is a closely contested match with 16% draw probability. Expected score: 4-3. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1345,11 +1345,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 17,
-        "awayWinProbability": 38,
-        "likelyScore": "2-1",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Waasland-beveren",
         "confidence": "MEDIUM",
@@ -1365,7 +1365,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Waasland-beveren (0/5 recent wins) vs KRC Genk II (0/5 recent wins) in Challenger Pro League. This is a closely contested match with 17% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Waasland-beveren (0/5 recent wins) vs KRC Genk II (0/5 recent wins) in Challenger Pro League. This is a closely contested match with 22% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1394,14 +1394,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 43,
-        "drawProbability": 23,
-        "awayWinProbability": 34,
-        "likelyScore": "2-1",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 49,
+        "drawProbability": 16,
+        "awayWinProbability": 35,
+        "likelyScore": "5-4",
+        "halftimeResult": "2-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Haras El Hodood",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1414,7 +1414,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Haras El Hodood (0/5 recent wins) vs National Bank of Egypt (0/5 recent wins) in Premier League. This is a closely contested match with 23% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Haras El Hodood (0/5 recent wins) vs National Bank of Egypt (0/5 recent wins) in Premier League. This is a closely contested match with 16% draw probability. Expected score: 5-4. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1443,11 +1443,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
-        "drawProbability": 18,
-        "awayWinProbability": 35,
+        "homeWinProbability": 43,
+        "drawProbability": 21,
+        "awayWinProbability": 36,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Al Ahly",
         "confidence": "MEDIUM",
@@ -1463,7 +1463,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Al Ahly (0/5 recent wins) vs Pharco (0/5 recent wins) in Premier League. This is a closely contested match with 18% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Al Ahly (0/5 recent wins) vs Pharco (0/5 recent wins) in Premier League. This is a closely contested match with 21% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1493,10 +1493,10 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 59,
-        "drawProbability": 12,
-        "awayWinProbability": 28,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "drawProbability": 15,
+        "awayWinProbability": 26,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Arsenal U21",
         "confidence": "HIGH",
@@ -1512,7 +1512,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Arsenal U21 (4/5 recent wins) vs Fulham U21 (0/5 recent wins) in Premier League 2 Division One. Arsenal U21 is favored with 59% win probability due to strong home form (W-W-W-D-W) and home advantage. Expected score: 4-3. Confidence level: HIGH.",
+      "reasoning": "Arsenal U21 (4/5 recent wins) vs Fulham U21 (0/5 recent wins) in Premier League 2 Division One. Arsenal U21 is favored with 59% win probability due to strong home form (W-W-W-D-W) and home advantage. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: W-W-W-D-W",
         "Away Team Form: D-D-D-D-D",
@@ -1541,14 +1541,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 43,
-        "drawProbability": 24,
-        "awayWinProbability": 33,
-        "likelyScore": "2-1",
-        "halftimeResult": "0-0",
+        "homeWinProbability": 49,
+        "drawProbability": 15,
+        "awayWinProbability": 37,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Aston Villa U21",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1561,7 +1561,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Aston Villa U21 (0/5 recent wins) vs Leeds United U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 24% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Aston Villa U21 (0/5 recent wins) vs Leeds United U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 15% draw probability. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1590,10 +1590,10 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 19,
-        "awayWinProbability": 37,
-        "likelyScore": "4-3",
+        "homeWinProbability": 43,
+        "drawProbability": 24,
+        "awayWinProbability": 33,
+        "likelyScore": "3-2",
         "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Birmingham City U21",
@@ -1610,7 +1610,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Birmingham City U21 (0/5 recent wins) vs Stoke City U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 19% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Birmingham City U21 (0/5 recent wins) vs Stoke City U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 24% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1640,10 +1640,10 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 44,
-        "drawProbability": 17,
-        "awayWinProbability": 39,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "2-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Ipswich Town U21",
         "confidence": "MEDIUM",
@@ -1659,7 +1659,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Ipswich Town U21 (0/5 recent wins) vs Derby County U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 17% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Ipswich Town U21 (0/5 recent wins) vs Derby County U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 21% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1688,14 +1688,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 22,
-        "awayWinProbability": 33,
+        "homeWinProbability": 49,
+        "drawProbability": 17,
+        "awayWinProbability": 34,
         "likelyScore": "3-2",
         "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Norwich City U21",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1708,7 +1708,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Norwich City U21 (0/5 recent wins) vs Reading U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 22% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Norwich City U21 (0/5 recent wins) vs Reading U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 17% draw probability. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1737,11 +1737,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 20,
-        "awayWinProbability": 36,
+        "homeWinProbability": 43,
+        "drawProbability": 21,
+        "awayWinProbability": 37,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Ujpest",
         "confidence": "MEDIUM",
@@ -1757,7 +1757,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Ujpest (0/5 recent wins) vs Kisvarda FC (0/5 recent wins) in NB I. This is a closely contested match with 20% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Ujpest (0/5 recent wins) vs Kisvarda FC (0/5 recent wins) in NB I. This is a closely contested match with 21% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1786,14 +1786,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
-        "drawProbability": 16,
-        "awayWinProbability": 37,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "homeWinProbability": 46,
+        "drawProbability": 23,
+        "awayWinProbability": 31,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Radomlje",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1806,7 +1806,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Radomlje (0/5 recent wins) vs Primorje (0/5 recent wins) in 1. SNL. This is a closely contested match with 16% draw probability. Expected score: 4-3. Confidence level: HIGH.",
+      "reasoning": "Radomlje (0/5 recent wins) vs Primorje (0/5 recent wins) in 1. SNL. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1835,11 +1835,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 22,
-        "awayWinProbability": 32,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "homeWinProbability": 44,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Lokomotiv Plovdiv",
         "confidence": "MEDIUM",
@@ -1855,7 +1855,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Lokomotiv Plovdiv (0/5 recent wins) vs Slavia Sofia (0/5 recent wins) in First League. This is a closely contested match with 22% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Lokomotiv Plovdiv (0/5 recent wins) vs Slavia Sofia (0/5 recent wins) in First League. This is a closely contested match with 21% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1884,14 +1884,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 48,
-        "drawProbability": 16,
-        "awayWinProbability": 36,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "homeWinProbability": 43,
+        "drawProbability": 20,
+        "awayWinProbability": 37,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Aldosivi",
-        "confidence": "HIGH",
+        "confidence": "MEDIUM",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -1904,7 +1904,7 @@
         "dataQuality": 85,
         "leagueStrength": 0.85
       },
-      "reasoning": "Aldosivi (0/5 recent wins) vs Belgrano Cordoba (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 16% draw probability. Expected score: 4-3. Confidence level: HIGH.",
+      "reasoning": "Aldosivi (0/5 recent wins) vs Belgrano Cordoba (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 20% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -1982,14 +1982,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 18,
-        "awayWinProbability": 38,
-        "likelyScore": "4-3",
-        "halftimeResult": "1-1",
+        "homeWinProbability": 48,
+        "drawProbability": 17,
+        "awayWinProbability": 35,
+        "likelyScore": "5-4",
+        "halftimeResult": "2-2",
         "overUnder2_5": "Over 2.5",
         "winner": "Dinamo Bucuresti",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -2002,7 +2002,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Dinamo Bucuresti (0/5 recent wins) vs Uta Arad (0/5 recent wins) in Liga I. This is a closely contested match with 18% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Dinamo Bucuresti (0/5 recent wins) vs Uta Arad (0/5 recent wins) in Liga I. This is a closely contested match with 17% draw probability. Expected score: 5-4. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2031,14 +2031,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 46,
-        "drawProbability": 17,
+        "homeWinProbability": 47,
+        "drawProbability": 15,
         "awayWinProbability": 37,
         "likelyScore": "3-2",
         "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Galatasaray",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -2051,7 +2051,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Galatasaray (0/5 recent wins) vs Fatih Karagümrük (0/5 recent wins) in Süper Lig. This is a closely contested match with 17% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Galatasaray (0/5 recent wins) vs Fatih Karagümrük (0/5 recent wins) in Süper Lig. This is a closely contested match with 15% draw probability. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2081,10 +2081,10 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 44,
-        "drawProbability": 23,
-        "awayWinProbability": 33,
+        "drawProbability": 17,
+        "awayWinProbability": 39,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Cwmbran Celtic",
         "confidence": "MEDIUM",
@@ -2100,7 +2100,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Cwmbran Celtic (0/5 recent wins) vs Afan Lido (0/5 recent wins) in FAW Championship. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Cwmbran Celtic (0/5 recent wins) vs Afan Lido (0/5 recent wins) in FAW Championship. This is a closely contested match with 17% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2130,10 +2130,10 @@
       "elapsed": null,
       "prediction": {
         "homeWinProbability": 46,
-        "drawProbability": 17,
-        "awayWinProbability": 38,
+        "drawProbability": 20,
+        "awayWinProbability": 34,
         "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Arminia Bielefeld",
         "confidence": "MEDIUM",
@@ -2149,7 +2149,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Arminia Bielefeld (0/5 recent wins) vs Werder Bremen (0/5 recent wins) in DFB Pokal. This is a closely contested match with 17% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Arminia Bielefeld (0/5 recent wins) vs Werder Bremen (0/5 recent wins) in DFB Pokal. This is a closely contested match with 20% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2178,11 +2178,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 46,
-        "drawProbability": 19,
-        "awayWinProbability": 34,
-        "likelyScore": "2-1",
-        "halftimeResult": "0-0",
+        "homeWinProbability": 42,
+        "drawProbability": 20,
+        "awayWinProbability": 38,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "OH Leuven",
         "confidence": "MEDIUM",
@@ -2198,7 +2198,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "OH Leuven (0/5 recent wins) vs Genk (0/5 recent wins) in Jupiler Pro League. This is a closely contested match with 19% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "OH Leuven (0/5 recent wins) vs Genk (0/5 recent wins) in Jupiler Pro League. This is a closely contested match with 20% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2227,11 +2227,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
+        "homeWinProbability": 45,
         "drawProbability": 18,
-        "awayWinProbability": 35,
-        "likelyScore": "2-1",
-        "halftimeResult": "1-0",
+        "awayWinProbability": 37,
+        "likelyScore": "4-3",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Rennes",
         "confidence": "MEDIUM",
@@ -2247,7 +2247,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Rennes (0/5 recent wins) vs Marseille (0/5 recent wins) in Ligue 1. This is a closely contested match with 18% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Rennes (0/5 recent wins) vs Marseille (0/5 recent wins) in Ligue 1. This is a closely contested match with 18% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2276,14 +2276,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 20,
-        "awayWinProbability": 36,
-        "likelyScore": "2-1",
+        "homeWinProbability": 49,
+        "drawProbability": 18,
+        "awayWinProbability": 34,
+        "likelyScore": "3-2",
         "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Briton Ferry",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -2296,7 +2296,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Briton Ferry (0/5 recent wins) vs Cardiff MET (0/5 recent wins) in Premier League. This is a closely contested match with 20% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Briton Ferry (0/5 recent wins) vs Cardiff MET (0/5 recent wins) in Premier League. This is a closely contested match with 18% draw probability. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2325,11 +2325,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 21,
-        "awayWinProbability": 34,
-        "likelyScore": "4-3",
-        "halftimeResult": "1-1",
+        "homeWinProbability": 44,
+        "drawProbability": 19,
+        "awayWinProbability": 37,
+        "likelyScore": "2-1",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "GAP Connah S Quay FC",
         "confidence": "MEDIUM",
@@ -2345,7 +2345,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "GAP Connah S Quay FC (0/5 recent wins) vs Bala Town (0/5 recent wins) in Premier League. This is a closely contested match with 21% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "GAP Connah S Quay FC (0/5 recent wins) vs Bala Town (0/5 recent wins) in Premier League. This is a closely contested match with 19% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2374,14 +2374,14 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 46,
-        "drawProbability": 18,
-        "awayWinProbability": 36,
-        "likelyScore": "2-1",
-        "halftimeResult": "0-0",
+        "homeWinProbability": 47,
+        "drawProbability": 16,
+        "awayWinProbability": 37,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Celtic",
-        "confidence": "MEDIUM",
+        "confidence": "HIGH",
         "riskLevel": "MEDIUM"
       },
       "analysis": {
@@ -2394,7 +2394,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Celtic (0/5 recent wins) vs Falkirk (0/5 recent wins) in League Cup. This is a closely contested match with 18% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "reasoning": "Celtic (0/5 recent wins) vs Falkirk (0/5 recent wins) in League Cup. This is a closely contested match with 16% draw probability. Expected score: 3-2. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2423,9 +2423,9 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 58,
-        "drawProbability": 11,
-        "awayWinProbability": 30,
+        "homeWinProbability": 54,
+        "drawProbability": 18,
+        "awayWinProbability": 28,
         "likelyScore": "4-3",
         "halftimeResult": "2-1",
         "overUnder2_5": "Over 2.5",
@@ -2443,7 +2443,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.2
       },
-      "reasoning": "Liverpool (3/5 recent wins) vs Bournemouth (0/5 recent wins) in Premier League. Liverpool is favored with 58% win probability due to strong home form (W-D-W-W-L) and home advantage. Expected score: 4-3. Confidence level: HIGH.",
+      "reasoning": "Liverpool (3/5 recent wins) vs Bournemouth (0/5 recent wins) in Premier League. Liverpool is favored with 54% win probability due to strong home form (W-D-W-W-L) and home advantage. Expected score: 4-3. Confidence level: HIGH.",
       "keyFactors": [
         "Home Team Form: W-D-W-W-L",
         "Away Team Form: D-D-D-D-D",
@@ -2472,11 +2472,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 46,
-        "drawProbability": 18,
-        "awayWinProbability": 36,
-        "likelyScore": "4-3",
-        "halftimeResult": "2-1",
+        "homeWinProbability": 47,
+        "drawProbability": 20,
+        "awayWinProbability": 33,
+        "likelyScore": "3-2",
+        "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Villarreal",
         "confidence": "MEDIUM",
@@ -2492,7 +2492,7 @@
         "dataQuality": 85,
         "leagueStrength": 1.15
       },
-      "reasoning": "Villarreal (0/5 recent wins) vs Oviedo (0/5 recent wins) in La Liga. This is a closely contested match with 18% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
+      "reasoning": "Villarreal (0/5 recent wins) vs Oviedo (0/5 recent wins) in La Liga. This is a closely contested match with 20% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2521,11 +2521,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 22,
-        "awayWinProbability": 33,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-1",
+        "homeWinProbability": 44,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Alianza Petrolera",
         "confidence": "MEDIUM",
@@ -2541,7 +2541,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Alianza Petrolera (0/5 recent wins) vs Once Caldas (0/5 recent wins) in Primera A. This is a closely contested match with 22% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Alianza Petrolera (0/5 recent wins) vs Once Caldas (0/5 recent wins) in Primera A. This is a closely contested match with 21% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2570,11 +2570,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 44,
-        "drawProbability": 21,
-        "awayWinProbability": 36,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 46,
+        "drawProbability": 16,
+        "awayWinProbability": 38,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Instituto Cordoba",
         "confidence": "MEDIUM",
@@ -2590,7 +2590,7 @@
         "dataQuality": 85,
         "leagueStrength": 0.85
       },
-      "reasoning": "Instituto Cordoba (0/5 recent wins) vs Union Santa Fe (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 21% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Instituto Cordoba (0/5 recent wins) vs Union Santa Fe (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 16% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2619,11 +2619,11 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 45,
-        "drawProbability": 23,
-        "awayWinProbability": 32,
-        "likelyScore": "3-2",
-        "halftimeResult": "1-0",
+        "homeWinProbability": 47,
+        "drawProbability": 18,
+        "awayWinProbability": 35,
+        "likelyScore": "4-3",
+        "halftimeResult": "2-1",
         "overUnder2_5": "Over 2.5",
         "winner": "Amazonas",
         "confidence": "MEDIUM",
@@ -2639,7 +2639,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Amazonas (0/5 recent wins) vs America Mineiro (0/5 recent wins) in Serie B. This is a closely contested match with 23% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Amazonas (0/5 recent wins) vs America Mineiro (0/5 recent wins) in Serie B. This is a closely contested match with 18% draw probability. Expected score: 4-3. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",
@@ -2668,10 +2668,10 @@
       "status": "NS",
       "elapsed": null,
       "prediction": {
-        "homeWinProbability": 47,
-        "drawProbability": 17,
-        "awayWinProbability": 36,
-        "likelyScore": "3-2",
+        "homeWinProbability": 45,
+        "drawProbability": 22,
+        "awayWinProbability": 33,
+        "likelyScore": "2-1",
         "halftimeResult": "1-0",
         "overUnder2_5": "Over 2.5",
         "winner": "Boston River",
@@ -2688,7 +2688,7 @@
         "dataQuality": 85,
         "leagueStrength": 1
       },
-      "reasoning": "Boston River (0/5 recent wins) vs Penarol (0/5 recent wins) in Primera División - Clausura. This is a closely contested match with 17% draw probability. Expected score: 3-2. Confidence level: MEDIUM.",
+      "reasoning": "Boston River (0/5 recent wins) vs Penarol (0/5 recent wins) in Primera División - Clausura. This is a closely contested match with 22% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
       "keyFactors": [
         "Home Team Form: D-D-D-D-D",
         "Away Team Form: D-D-D-D-D",

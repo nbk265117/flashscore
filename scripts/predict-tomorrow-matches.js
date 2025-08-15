@@ -17,9 +17,9 @@ class TomorrowPredictor {
   /**
    * Load tomorrow's matches
    */
-  async loadTomorrowMatches() {
+  async loadTomorrowMatches(targetDate = '2025-08-16') {
     try {
-      const dataPath = path.join(__dirname, '..', 'data', 'matches_2025_08_15.json');
+      const dataPath = path.join(__dirname, '..', 'data', `matches_${targetDate.replace(/-/g, '_')}.json`);
       const data = await fsPromises.readFile(dataPath, 'utf8');
       return JSON.parse(data);
     } catch (error) {
@@ -163,9 +163,9 @@ class TomorrowPredictor {
    */
   async savePredictions(predictions) {
     try {
-      const outputPath = path.join(__dirname, '..', 'data', 'tomorrow_predictions_2025_08_15.json');
-      const data = {
-        date: '2025-08-15',
+      const outputPath = path.join(__dirname, '..', 'data', 'tomorrow_predictions_2025_08_16.json');
+              const data = {
+          date: '2025-08-16',
         totalMatches: predictions.length,
         predictions: predictions
       };
