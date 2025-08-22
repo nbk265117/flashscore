@@ -775,7 +775,7 @@
         // Load and display predictions
         async function loadPredictions() {
             try {
-                const response = await fetch('../data/tomorrow_predictions_2025_08_23.json');
+                const response = await fetch('/data/tomorrow_predictions_2025_08_23.json');
                 if (!response.ok) {
                     throw new Error('Failed to load predictions');
                 }
