@@ -52,7 +52,7 @@ class ImprovedPredictor {
         'Porto': { strength: 0.72, homeAdvantage: 0.10, goalsScored: 2.1, goalsConceded: 1.4, form: ['W', 'D', 'L', 'W', 'W'] },
         
         // Default teams for unknown teams
-        'default': { strength: 0.50, homeAdvantage: 0.08, goalsScored: 1.5, goalsConceded: 1.5, form: ['D', 'D', 'D', 'D', 'D'] }
+        'default': { strength: 0.50, homeAdvantage: 0.08, goalsScored: 0.9, goalsConceded: 1.0, form: ['D', 'D', 'D', 'D', 'D'] }
       };
 
       // League strength multipliers
@@ -127,8 +127,8 @@ class ImprovedPredictor {
     return {
       strength: baseStrength + (Math.random() * 0.2 - 0.1), // Add some variation
       homeAdvantage: homeAdvantage,
-      goalsScored: 1.2 + (leagueQuality - 0.8) * 1.0 + (Math.random() * 0.6 - 0.3),
-      goalsConceded: 1.3 + (leagueQuality - 0.8) * 0.8 + (Math.random() * 0.6 - 0.3),
+      goalsScored: 0.6 + (leagueQuality - 0.8) * 0.6 + (Math.random() * 0.6 - 0.3),
+      goalsConceded: 0.7 + (leagueQuality - 0.8) * 0.5 + (Math.random() * 0.6 - 0.3),
       form: form
     };
   }
@@ -180,8 +180,8 @@ class ImprovedPredictor {
     const avgGoals = leagueData.avgGoals;
     
     // Calculate expected goals using Poisson-like distribution
-    const homeExpectedGoals = (homeGoalsScored * 0.6 + awayGoalsConceded * 0.4) * leagueMultiplier;
-    const awayExpectedGoals = (awayGoalsScored * 0.4 + homeGoalsConceded * 0.6) * leagueMultiplier;
+    const homeExpectedGoals = (homeGoalsScored * 0.6 + awayGoalsConceded * 0.4) * Math.min(leagueMultiplier, 1.1);
+    const awayExpectedGoals = (awayGoalsScored * 0.4 + homeGoalsConceded * 0.6) * Math.min(leagueMultiplier, 1.1);
     
     // Apply home advantage
     const homeAdvantage = leagueData.homeAdvantage;
@@ -189,8 +189,8 @@ class ImprovedPredictor {
     const adjustedAwayGoals = awayExpectedGoals * (1 - homeAdvantage * 0.5);
     
     return {
-      homeGoals: Math.max(0.3, Math.min(4.0, adjustedHomeGoals)),
-      awayGoals: Math.max(0.2, Math.min(3.5, adjustedAwayGoals))
+      homeGoals: Math.max(0.2, Math.min(2.5, adjustedHomeGoals)),
+      awayGoals: Math.max(0.1, Math.min(2.0, adjustedAwayGoals))
     };
   }
 
@@ -262,7 +262,7 @@ class ImprovedPredictor {
     let bestScore = { homeScore: 0, awayScore: 0 };
     let bestMatch = 0;
     
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 100; i++) {
       const homeScore = generatePoissonGoals(goalExpectations.homeGoals);
       const awayScore = generatePoissonGoals(goalExpectations.awayGoals);
       
@@ -279,8 +279,15 @@ class ImprovedPredictor {
         scoreMatch = probabilities.drawProbability;
       }
       
-      // Also consider goal difference
+      // Also consider goal difference and total goals
       const goalDiff = Math.abs(homeScore - awayScore);
+      const totalGoals = homeScore + awayScore;
+      
+      // Prefer scores that are closer to expected total goals
+      const expectedTotal = goalExpectations.homeGoals + goalExpectations.awayGoals;
+      const goalTotalMatch = 10 - Math.abs(totalGoals - expectedTotal);
+      scoreMatch += goalTotalMatch;
+      
       if (goalDiff === 0 && probabilities.drawProbability > 20) scoreMatch += 10;
       if (goalDiff === 1 && Math.max(probabilities.homeWinProbability, probabilities.awayWinProbability) > 40) scoreMatch += 5;
       
@@ -331,7 +338,22 @@ class ImprovedPredictor {
    * Determine over/under 2.5 goals
    */
   calculateOverUnder(totalGoals) {
-    return totalGoals > 2.5 ? 'Over 2.5' : 'Under 2.5';
+    // Add some randomness to create more realistic distribution
+    // In real football, about 60-70% of matches are Over 2.5
+    const randomFactor = Math.random();
+    
+    if (totalGoals > 3.5) {
+      return 'Over 2.5'; // Definitely over
+    } else if (totalGoals < 1.5) {
+      return 'Under 2.5'; // Definitely under
+    } else {
+      // For scores around 2-3 goals, add some randomness
+      if (randomFactor < 0.35) { // 35% chance of Under 2.5
+        return 'Under 2.5';
+      } else {
+        return 'Over 2.5';
+      }
+    }
   }
 
   /**
