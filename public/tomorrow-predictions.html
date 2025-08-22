@@ -909,7 +909,7 @@
                 // Group high confidence matches by league
                 const highConfByLeague = {};
                 highConfidenceMatches.forEach(match => {
-                    const leagueKey = match.league || 'Unknown League';
+                    const leagueKey = match.country ? `${match.league} (${match.country})` : (match.league || 'Unknown League');
                     if (!highConfByLeague[leagueKey]) {
                         highConfByLeague[leagueKey] = [];
                     }
@@ -945,7 +945,7 @@
             // Group matches by league
             const matchesByLeague = {};
             sortedPredictions.forEach(match => {
-                const leagueKey = match.league || 'Unknown League';
+                const leagueKey = match.country ? `${match.league} (${match.country})` : (match.league || 'Unknown League');
                 if (!matchesByLeague[leagueKey]) {
                     matchesByLeague[leagueKey] = [];
                 }
