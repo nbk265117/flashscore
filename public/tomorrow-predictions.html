@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomorrow's Predictions - August 16, 2025</title>
+            <title>Tomorrow's Predictions - August 23, 2025</title>
     <style>
         * {
             margin: 0;
@@ -384,6 +384,281 @@
                 font-size: 2rem;
             }
         }
+
+        /* Betting Slip Popup Styles */
+        .betting-slip-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: none;
+            z-index: 1000;
+        }
+
+        .betting-slip-popup {
+            background: white;
+            max-width: 450px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        .betting-slip-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .betting-slip-title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .close-popup {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #666;
+            padding: 5px;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.3s;
+        }
+
+        .close-popup:hover {
+            background: #f0f0f0;
+        }
+
+        .betting-details {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .betting-slip-footer {
+            padding: 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .footer-separator {
+            height: 1px;
+            background: #dee2e6;
+            margin: 0 -20px 20px -20px;
+        }
+
+        .betting-slip-footer .stake-input,
+        .betting-slip-footer .odds-input {
+            margin-bottom: 15px;
+        }
+
+        .betting-slip-footer .calculate-btn {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .betting-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .betting-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .betting-label {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .betting-value {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .betting-status {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .match-details {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+
+        .match-header-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .football-icon {
+            width: 20px;
+            height: 20px;
+            background: #666;
+            border-radius: 50%;
+            margin-right: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 0.7rem;
+        }
+
+        .match-date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .live-badge {
+            background: #dc3545;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-left: auto;
+        }
+
+        .teams-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .team-info {
+            display: flex;
+            align-items: center;
+            flex: 1;
+        }
+
+        .team-logo-small {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+
+        .team-name-small {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 0.9rem;
+        }
+
+        .vs-text {
+            color: #666;
+            font-weight: bold;
+            margin: 0 15px;
+        }
+
+        .bet-type {
+            background: #e9ecef;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 10px;
+        }
+
+        .bet-odds {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .stake-input, .odds-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .stake-input:focus, .odds-input:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .calculate-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 15px;
+            transition: background 0.3s;
+        }
+
+        .calculate-btn:hover {
+            background: #0056b3;
+        }
+
+        .potential-winnings {
+            background: #d4edda;
+            color: #155724;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .place-bet-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            width: 100%;
+            transition: background 0.3s;
+        }
+
+        .place-bet-btn:hover {
+            background: #1e7e34;
+        }
+
+        .match-card {
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .match-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
     </style>
 </head>
 <body>
@@ -391,7 +666,7 @@
         <div class="header">
             <div class="logo">⚽</div>
             <h1>🎯 Tomorrow's Predictions</h1>
-            <div class="date">August 16, 2025</div>
+            <div class="date">August 23, 2025</div>
             <div class="header-message" id="headerMessage">Loading predictions...</div>
         </div>
 
@@ -401,7 +676,7 @@
                 <div class="stat-label">Important Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number" id="totalAvailable">367</div>
+                <div class="stat-number" id="totalAvailable">-</div>
                 <div class="stat-label">Total Available</div>
             </div>
             <div class="stat-card">
@@ -446,11 +721,61 @@
         </div>
     </div>
 
+    <!-- Betting Slip Popup -->
+    <div class="betting-slip-overlay" id="bettingSlipOverlay">
+        <div class="betting-slip-popup">
+            <div class="betting-details">
+                <div class="betting-row">
+                    <span class="betting-label">Cotes:</span>
+                    <span class="betting-value" id="bettingOdds">1.55</span>
+                </div>
+                <div class="betting-row">
+                    <span class="betting-label">Mise:</span>
+                    <span class="betting-value" id="bettingStake">150 000 د.م.</span>
+                </div>
+                <div class="betting-row">
+                    <span class="betting-label">Gains potentiels:</span>
+                    <span class="betting-value" id="potentialWinnings">232 500 د.م.</span>
+                </div>
+                <div class="betting-row">
+                    <span class="betting-label">Statut:</span>
+                    <span class="betting-status">Accepté</span>
+                </div>
+            </div>
+
+            <div class="match-details">
+                <div class="match-header-row">
+                    <div class="football-icon">⚽</div>
+                    <div class="match-date" id="matchDate">22 août 2025 (20:00)</div>
+                    <div class="live-badge">En direct</div>
+                </div>
+                
+                <div class="teams-row">
+                    <div class="team-info">
+                        <img class="team-logo-small" id="homeTeamLogo" src="" alt="Home Team">
+                        <div class="team-name-small" id="homeTeamName">Home Team</div>
+                    </div>
+                    <div class="vs-text">VS</div>
+                    <div class="team-info">
+                        <div class="team-name-small" id="awayTeamName">Away Team</div>
+                        <img class="team-logo-small" id="awayTeamLogo" src="" alt="Away Team">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="betting-slip-footer">
+                <div class="footer-separator"></div>
+                <input type="number" class="stake-input" id="stakeInput" placeholder="Enter stake amount" value="150000">
+                <input type="number" class="odds-input" id="oddsInput" placeholder="Enter odds" value="1.55" step="0.01" min="1.01">
+                <button class="calculate-btn" onclick="calculateWinnings()">Calculate Winnings</button>
+            </div>
+        </div>
+    </div>
     <script>
         // Load and display predictions
         async function loadPredictions() {
             try {
-                const response = await fetch('../data/tomorrow_predictions_2025_08_16.json');
+                const response = await fetch('../data/tomorrow_predictions_2025_08_23.json');
                 if (!response.ok) {
                     throw new Error('Failed to load predictions');
                 }
@@ -471,11 +796,13 @@
 
         function displayPredictions(data) {
             // Update header message
-            const filteredMatches = data.totalMatches || data.predictions.length || 0;
-            document.getElementById('headerMessage').textContent = `Today we have ${filteredMatches} important prediction matches (filtered from 367 total matches)`;
+            const filteredMatches = data.predictions.length || 0;
+            const totalMatches = data.totalMatches || 1440;
+            document.getElementById('headerMessage').textContent = `Today we have ${filteredMatches} important prediction matches (filtered from ${totalMatches} total matches)`;
             
             // Update stats
             document.getElementById('filteredMatches').textContent = filteredMatches;
+            document.getElementById('totalAvailable').textContent = totalMatches;
             
             const highConfidence = data.predictions.filter(p => p.prediction.confidence === 'HIGH').length;
             const mediumConfidence = data.predictions.filter(p => p.prediction.confidence === 'MEDIUM').length;
@@ -509,6 +836,16 @@
         function createMatchCard(match) {
             const confidenceClass = `confidence-${match.prediction.confidence.toLowerCase()}`;
             const riskClass = `risk-${match.prediction.riskLevel.toLowerCase()}`;
+            
+            // Generate odds based on confidence and prediction
+            const odds = generateOdds(match.prediction);
+            
+            // Add click handler to open betting slip
+            const matchId = `match-${match.id || Math.random().toString(36).substr(2, 9)}`;
+            
+            // Store match data for popup
+            window.matchData = window.matchData || {};
+            window.matchData[matchId] = { ...match, odds: odds };
             
             // Format the match time
             let formattedTime = 'Time TBD';
@@ -583,7 +920,7 @@
                         </div>
                         
                         <div class="prediction-row">
-                            <span class="prediction-label">Over/Under:</span>
+                            <span class="prediction-label">Winner:</span>
                             <span class="prediction-value">${match.prediction.overUnder2_5}</span>
                         </div>
                         
@@ -603,6 +940,111 @@
 
         // Load predictions when page loads
         document.addEventListener('DOMContentLoaded', loadPredictions);
+
+        // Generate odds based on prediction confidence and probabilities
+        function generateOdds(prediction) {
+            const confidence = prediction.confidence;
+            const homeProb = prediction.homeWinProbability / 100;
+            const awayProb = prediction.awayWinProbability / 100;
+            const drawProb = prediction.drawProbability / 100;
+            
+            let baseOdds = 1.0;
+            
+            if (confidence === 'HIGH') {
+                baseOdds = 1.3 + (Math.random() * 0.4); // 1.3 - 1.7
+            } else if (confidence === 'MEDIUM') {
+                baseOdds = 1.5 + (Math.random() * 0.5); // 1.5 - 2.0
+            } else {
+                baseOdds = 1.8 + (Math.random() * 0.7); // 1.8 - 2.5
+            }
+            
+            return parseFloat(baseOdds.toFixed(2));
+        }
+
+        // Open betting slip popup
+        function openBettingSlip(matchId) {
+            const match = window.matchData[matchId];
+            if (!match) return;
+
+            // Format match date
+            let formattedDate = 'Date TBD';
+            if (match.date) {
+                const matchDate = new Date(match.date);
+                formattedDate = matchDate.toLocaleDateString('fr-FR', {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric'
+                }) + ' (' + matchDate.toLocaleTimeString('fr-FR', {
+                    hour: '2-digit',
+                    minute: '2-digit'
+                }) + ')';
+            }
+
+            // Update popup content
+            document.getElementById('matchDate').textContent = formattedDate;
+            document.getElementById('homeTeamName').textContent = match.homeTeam;
+            document.getElementById('awayTeamName').textContent = match.awayTeam;
+            document.getElementById('homeTeamLogo').src = match.homeTeamLogo || 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzNDk4ZGIiLz4KPC9zdmc+';
+            document.getElementById('awayTeamLogo').src = match.awayTeamLogo || 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiMzNDk4ZGIiLz4KPC9zdmc+';
+            
+            // Set bet type based on prediction
+            
+            // Set odds
+            const odds = match.odds || 1.55;
+            document.getElementById('oddsInput').value = odds.toFixed(2);
+            document.getElementById('bettingOdds').textContent = odds.toFixed(2);
+            
+            // Calculate initial winnings
+            const stake = 150000;
+            const winnings = stake * odds;
+            document.getElementById('bettingStake').textContent = `${stake.toLocaleString()} د.م.`;
+            document.getElementById('potentialWinnings').textContent = `${winnings.toLocaleString()} د.م.`;
+            
+            // Show popup
+            document.getElementById('bettingSlipOverlay').style.display = 'flex';
+        }
+
+        // Close betting slip popup
+        function closeBettingSlip() {
+            document.getElementById('bettingSlipOverlay').style.display = 'none';
+        }
+
+        // Calculate winnings based on stake and odds
+        function calculateWinnings() {
+            const stake = parseFloat(document.getElementById('stakeInput').value) || 0;
+            const odds = parseFloat(document.getElementById('oddsInput').value) || 1.55;
+            const winnings = stake * odds;
+            
+            // Update betting display values
+            document.getElementById('bettingOdds').textContent = odds.toFixed(2);
+            document.getElementById('bettingStake').textContent = `${stake.toLocaleString()} د.م.`;
+            document.getElementById('potentialWinnings').textContent = `${winnings.toLocaleString()} د.م.`;
+        }
+
+
+        // Close popup when clicking outside
+        document.getElementById('bettingSlipOverlay').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeBettingSlip();
+            }
+        });
+
+        // Close popup with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeBettingSlip();
+            }
+        });
+
+        // Add event listeners for real-time updates
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add event listeners when popup is opened
+            document.addEventListener('input', function(e) {
+                if (e.target.id === 'stakeInput' || e.target.id === 'oddsInput') {
+                    calculateWinnings();
+                }
+            });
+        });
     </script>
 </body>
 </html>

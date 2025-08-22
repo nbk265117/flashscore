@@ -17,7 +17,7 @@ class TomorrowPredictor {
   /**
    * Load tomorrow's matches
    */
-  async loadTomorrowMatches(targetDate = '2025-08-16') {
+  async loadTomorrowMatches(targetDate = '2025-08-22') {
     try {
       const dataPath = path.join(__dirname, '..', 'data', `matches_${targetDate.replace(/-/g, '_')}.json`);
       const data = await fsPromises.readFile(dataPath, 'utf8');
@@ -84,12 +84,12 @@ class TomorrowPredictor {
   /**
    * Predict matches
    */
-  async predictImportantMatches() {
+  async predictImportantMatches(targetDate = '2025-08-23') {
     try {
       console.log('🎯 Predicting Tomorrow\'s Important Matches');
       console.log('='.repeat(80));
       
-      const matchesData = await this.loadTomorrowMatches();
+      const matchesData = await this.loadTomorrowMatches(targetDate);
       if (!matchesData || !matchesData.matches) {
         throw new Error('No matches data found');
       }
@@ -145,7 +145,7 @@ class TomorrowPredictor {
       }
       
       // Save predictions
-      await this.savePredictions(predictions);
+      await this.savePredictions(predictions, targetDate, matchesData.matches.length);
       
       // Display summary
       this.displaySummary(predictions);
@@ -161,12 +161,13 @@ class TomorrowPredictor {
   /**
    * Save predictions to file
    */
-  async savePredictions(predictions) {
+  async savePredictions(predictions, targetDate = '2025-08-23', totalOriginalMatches = 1440) {
     try {
-      const outputPath = path.join(__dirname, '..', 'data', 'tomorrow_predictions_2025_08_16.json');
-              const data = {
-          date: '2025-08-16',
-        totalMatches: predictions.length,
+      const dateStr = targetDate.replace(/-/g, '_');
+      const outputPath = path.join(__dirname, '..', 'data', `tomorrow_predictions_${dateStr}.json`);
+      const data = {
+        date: targetDate,
+        totalMatches: totalOriginalMatches,
         predictions: predictions
       };
       
@@ -253,8 +254,11 @@ class TomorrowPredictor {
  */
 async function main() {
   try {
+    const targetDate = process.argv[2] || '2025-08-23';
+    console.log(`📅 Processing predictions for date: ${targetDate}`);
+    
     const predictor = new TomorrowPredictor();
-    await predictor.predictImportantMatches();
+    await predictor.predictImportantMatches(targetDate);
     
   } catch (error) {
     console.error('❌ Error:', error.message);
