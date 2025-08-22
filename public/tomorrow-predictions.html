@@ -123,12 +123,88 @@
             gap: 20px;
         }
 
+        .league-group {
+            margin-bottom: 30px;
+            grid-column: 1 / -1;
+        }
+
+        .league-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px 10px 0 0;
+            margin-bottom: 0;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .league-header:hover {
+            background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+        }
+
+        .league-header-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .toggle-icon {
+            font-size: 1.2rem;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+        }
+
+        .league-matches.collapsed {
+            display: none;
+        }
+
+        .league-matches.expanded {
+            display: flex;
+        }
+
+        .league-name {
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .league-match-count {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .league-matches {
+            background: #f8f9fa;
+            border-radius: 0 0 10px 10px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        .league-matches.expanded {
+            display: flex;
+        }
+
+        .league-matches .match-card {
+            flex: 0 0 350px;
+            max-width: 350px;
+        }
+
         .match-card {
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 0;
         }
 
         .match-card:hover {
@@ -706,14 +782,14 @@
             </div>
 
             <div class="section">
-                <h2 class="section-title">🔥 High Confidence Matches (Best Bets)</h2>
+                <h2 class="section-title" id="highConfidenceTitle">🔥 High Confidence Matches (Best Bets)</h2>
                 <div class="matches-grid" id="highConfidenceMatches">
                     <div class="loading">Loading high confidence matches...</div>
                 </div>
             </div>
 
             <div class="section">
-                <h2 class="section-title">⚽ All Predictions (Ordered by Time)</h2>
+                <h2 class="section-title" id="allPredictionsTitle">⚽ All Predictions (Ordered by Time)</h2>
                 <div class="matches-grid" id="allMatches">
                     <div class="loading">Loading all predictions...</div>
                 </div>
@@ -823,14 +899,105 @@
                 return new Date(timeA) - new Date(timeB);
             });
 
-            // Display high confidence matches
+            // Display high confidence matches grouped by league
             const highConfidenceMatches = sortedPredictions.filter(p => p.prediction.confidence === 'HIGH');
-            document.getElementById('highConfidenceMatches').innerHTML = highConfidenceMatches.length > 0 
-                ? highConfidenceMatches.map(match => createMatchCard(match)).join('')
-                : '<div class="error">No high confidence matches found</div>';
+            
+            // Update high confidence section title with count
+            document.getElementById('highConfidenceTitle').textContent = `🔥 High Confidence Matches (Best Bets) - ${highConfidenceMatches.length} matches`;
+            
+            if (highConfidenceMatches.length > 0) {
+                // Group high confidence matches by league
+                const highConfByLeague = {};
+                highConfidenceMatches.forEach(match => {
+                    const leagueKey = match.league || 'Unknown League';
+                    if (!highConfByLeague[leagueKey]) {
+                        highConfByLeague[leagueKey] = [];
+                    }
+                    highConfByLeague[leagueKey].push(match);
+                });
 
-            // Display all matches
-            document.getElementById('allMatches').innerHTML = sortedPredictions.map(match => createMatchCard(match)).join('');
+                let highConfHTML = '';
+                Object.keys(highConfByLeague).sort().forEach(league => {
+                    const matches = highConfByLeague[league];
+                    const matchCount = matches.length;
+                    
+                    highConfHTML += `
+                        <div class="league-group">
+                            <div class="league-header" onclick="toggleLeagueGroup(this)">
+                                <h3 class="league-name">${league}</h3>
+                                <div class="league-header-right">
+                                    <span class="league-match-count">${matchCount} match${matchCount !== 1 ? 'es' : ''}</span>
+                                    <span class="toggle-icon">▼</span>
+                                </div>
+                            </div>
+                            <div class="league-matches collapsed">
+                                ${matches.map(match => createMatchCard(match)).join('')}
+                            </div>
+                        </div>
+                    `;
+                });
+                
+                document.getElementById('highConfidenceMatches').innerHTML = highConfHTML;
+            } else {
+                document.getElementById('highConfidenceMatches').innerHTML = '<div class="error">No high confidence matches found</div>';
+            }
+
+            // Group matches by league
+            const matchesByLeague = {};
+            sortedPredictions.forEach(match => {
+                const leagueKey = match.league || 'Unknown League';
+                if (!matchesByLeague[leagueKey]) {
+                    matchesByLeague[leagueKey] = [];
+                }
+                matchesByLeague[leagueKey].push(match);
+            });
+
+            // Update all predictions section title with count
+            document.getElementById('allPredictionsTitle').textContent = `⚽ All Predictions (Ordered by Time) - ${sortedPredictions.length} matches`;
+            
+            // Display matches grouped by league
+            let allMatchesHTML = '';
+            Object.keys(matchesByLeague).sort().forEach(league => {
+                const matches = matchesByLeague[league];
+                const matchCount = matches.length;
+                
+                allMatchesHTML += `
+                    <div class="league-group">
+                        <div class="league-header" onclick="toggleLeagueGroup(this)">
+                            <h3 class="league-name">${league}</h3>
+                            <div class="league-header-right">
+                                <span class="league-match-count">${matchCount} match${matchCount !== 1 ? 'es' : ''}</span>
+                                <span class="toggle-icon">▼</span>
+                            </div>
+                        </div>
+                        <div class="league-matches collapsed">
+                            ${matches.map(match => createMatchCard(match)).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            document.getElementById('allMatches').innerHTML = allMatchesHTML;
+        }
+
+        function toggleLeagueGroup(headerElement) {
+            const leagueGroup = headerElement.parentElement;
+            const leagueMatches = leagueGroup.querySelector('.league-matches');
+            const toggleIcon = headerElement.querySelector('.toggle-icon');
+            
+            if (leagueMatches.classList.contains('collapsed')) {
+                // Expand
+                leagueMatches.classList.remove('collapsed');
+                leagueMatches.classList.add('expanded');
+                toggleIcon.textContent = '▲';
+                toggleIcon.style.transform = 'rotate(0deg)';
+            } else {
+                // Collapse
+                leagueMatches.classList.remove('expanded');
+                leagueMatches.classList.add('collapsed');
+                toggleIcon.textContent = '▼';
+                toggleIcon.style.transform = 'rotate(0deg)';
+            }
         }
 
         function createMatchCard(match) {
@@ -869,6 +1036,9 @@
             // Create full league name with country
             const fullLeagueName = match.country ? `${match.league} (${match.country})` : match.league;
             
+            // Remove the league display from individual cards since they're now grouped
+            const leagueDisplay = '';
+            
             return `
                 <div class="match-card">
                     <div class="match-header">
@@ -887,7 +1057,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="match-league">${fullLeagueName}</div>
+                        ${leagueDisplay}
                         <div class="match-time">${formattedTime}</div>
                         <div class="match-venue">${match.venue || 'Venue TBD'}</div>
                     </div>
