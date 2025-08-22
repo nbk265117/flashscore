@@ -52,7 +52,7 @@ class ImprovedPredictor {
         'Porto': { strength: 0.72, homeAdvantage: 0.10, goalsScored: 2.1, goalsConceded: 1.4, form: ['W', 'D', 'L', 'W', 'W'] },
         
         // Default teams for unknown teams
-        'default': { strength: 0.50, homeAdvantage: 0.08, goalsScored: 0.9, goalsConceded: 1.0, form: ['D', 'D', 'D', 'D', 'D'] }
+        'default': { strength: 0.50, homeAdvantage: 0.08, goalsScored: 0.6, goalsConceded: 0.7, form: ['D', 'D', 'D', 'D', 'D'] }
       };
 
       // League strength multipliers
@@ -189,8 +189,8 @@ class ImprovedPredictor {
     const adjustedAwayGoals = awayExpectedGoals * (1 - homeAdvantage * 0.5);
     
     return {
-      homeGoals: Math.max(0.2, Math.min(2.5, adjustedHomeGoals)),
-      awayGoals: Math.max(0.1, Math.min(2.0, adjustedAwayGoals))
+      homeGoals: Math.max(0.1, Math.min(2.0, adjustedHomeGoals)),
+      awayGoals: Math.max(0.1, Math.min(1.8, adjustedAwayGoals))
     };
   }
 
@@ -242,58 +242,65 @@ class ImprovedPredictor {
    * Generate realistic score prediction that matches probabilities
    */
   generateScorePrediction(homeTeam, awayTeam, league, probabilities) {
-    const goalExpectations = this.calculateGoalExpectations(homeTeam, awayTeam, league);
+    // Define realistic common football scores
+    const commonScores = [
+      { home: 0, away: 0 }, // 0-0
+      { home: 1, away: 0 }, // 1-0
+      { home: 0, away: 1 }, // 0-1
+      { home: 1, away: 1 }, // 1-1
+      { home: 2, away: 0 }, // 2-0
+      { home: 0, away: 2 }, // 0-2
+      { home: 2, away: 1 }, // 2-1
+      { home: 1, away: 2 }, // 1-2
+      { home: 2, away: 2 }, // 2-2
+      { home: 3, away: 0 }, // 3-0
+      { home: 0, away: 3 }, // 0-3
+      { home: 3, away: 1 }, // 3-1
+      { home: 1, away: 3 }, // 1-3
+      { home: 3, away: 2 }, // 3-2
+      { home: 2, away: 3 }, // 2-3
+      { home: 4, away: 0 }, // 4-0
+      { home: 0, away: 4 }, // 0-4
+      { home: 4, away: 1 }, // 4-1
+      { home: 1, away: 4 }, // 1-4
+    ];
     
-    // Use Poisson distribution for realistic goal generation
-    const generatePoissonGoals = (lambda) => {
-      const L = Math.exp(-lambda);
-      let p = 1.0;
-      let k = 0;
-      
-      do {
-        k++;
-        p *= Math.random();
-      } while (p > L);
-      
-      return k;
-    };
-    
-    // Generate multiple scores and pick the one that best matches our probabilities
-    let bestScore = { homeScore: 0, awayScore: 0 };
+    let bestScore = { homeScore: 1, awayScore: 1 };
     let bestMatch = 0;
     
-    for (let i = 0; i < 100; i++) {
-      const homeScore = generatePoissonGoals(goalExpectations.homeGoals);
-      const awayScore = generatePoissonGoals(goalExpectations.awayGoals);
+    for (const score of commonScores) {
+      let scoreMatch = 0;
       
       // Calculate how well this score matches our win probabilities
-      let scoreMatch = 0;
-      if (homeScore > awayScore) {
+      if (score.home > score.away) {
         // Home win
         scoreMatch = probabilities.homeWinProbability;
-      } else if (awayScore > homeScore) {
+      } else if (score.away > score.home) {
         // Away win
         scoreMatch = probabilities.awayWinProbability;
       } else {
         // Draw
-        scoreMatch = probabilities.drawProbability;
+        scoreMatch = probabilities.drawProbability * 2; // Favor draws for equal scores
       }
       
-      // Also consider goal difference and total goals
-      const goalDiff = Math.abs(homeScore - awayScore);
-      const totalGoals = homeScore + awayScore;
+      // Add variety based on total goals to create realistic distribution
+      const totalGoals = score.home + score.away;
       
-      // Prefer scores that are closer to expected total goals
-      const expectedTotal = goalExpectations.homeGoals + goalExpectations.awayGoals;
-      const goalTotalMatch = 10 - Math.abs(totalGoals - expectedTotal);
-      scoreMatch += goalTotalMatch;
+      // Create realistic football score distribution
+      if (totalGoals === 0) scoreMatch += 25; // 0-0 is common
+      if (totalGoals === 1) scoreMatch += 30; // 1-0, 0-1 very common
+      if (totalGoals === 2) scoreMatch += 35; // 1-1, 2-0, 0-2 very common
+      if (totalGoals === 3) scoreMatch += 25; // 2-1, 1-2 common
+      if (totalGoals === 4) scoreMatch += 15; // 2-2, 3-1, 1-3 less common
+      if (totalGoals === 5) scoreMatch += 10; // 3-2, 2-3 less common
+      if (totalGoals >= 6) scoreMatch += 5; // High scoring matches rare
       
-      if (goalDiff === 0 && probabilities.drawProbability > 20) scoreMatch += 10;
-      if (goalDiff === 1 && Math.max(probabilities.homeWinProbability, probabilities.awayWinProbability) > 40) scoreMatch += 5;
+      // Add some randomness to create variety across matches
+      scoreMatch += Math.random() * 20;
       
       if (scoreMatch > bestMatch) {
         bestMatch = scoreMatch;
-        bestScore = { homeScore, awayScore };
+        bestScore = { homeScore: score.home, awayScore: score.away };
       }
     }
     
@@ -338,21 +345,11 @@ class ImprovedPredictor {
    * Determine over/under 2.5 goals
    */
   calculateOverUnder(totalGoals) {
-    // Add some randomness to create more realistic distribution
-    // In real football, about 60-70% of matches are Over 2.5
-    const randomFactor = Math.random();
-    
-    if (totalGoals > 3.5) {
-      return 'Over 2.5'; // Definitely over
-    } else if (totalGoals < 1.5) {
-      return 'Under 2.5'; // Definitely under
+    // Simple logic: if total goals > 2.5, it's Over 2.5
+    if (totalGoals > 2.5) {
+      return 'Over 2.5';
     } else {
-      // For scores around 2-3 goals, add some randomness
-      if (randomFactor < 0.35) { // 35% chance of Under 2.5
-        return 'Under 2.5';
-      } else {
-        return 'Over 2.5';
-      }
+      return 'Under 2.5';
     }
   }
 
