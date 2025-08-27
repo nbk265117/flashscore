@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Tomorrow's Predictions - August 23, 2025</title>
+            <title>Tomorrow's Predictions - August 28, 2025</title>
     <style>
         * {
             margin: 0;
@@ -741,7 +741,7 @@
         <div class="header">
             <div class="logo">⚽</div>
             <h1>🎯 Tomorrow's Predictions</h1>
-            <div class="date">August 23, 2025</div>
+                            <div class="date">August 28, 2025</div>
             <div class="header-message" id="headerMessage">Loading predictions...</div>
         </div>
 
@@ -850,12 +850,51 @@
         // Load and display predictions
         async function loadPredictions() {
             try {
-                const response = await fetch('/data/tomorrow_predictions_2025_08_23.json');
-                if (!response.ok) {
-                    throw new Error('Failed to load predictions');
+                // Try to load the most recent prediction file
+                const possibleDates = [
+                    '2025_08_28', // Latest (August 28, 2025)
+                    '2025_08_27', // Previous
+                    '2025_08_25', // Earlier
+                    '2025_08_23', // Earlier
+                    '2025_08_22'  // Earlier
+                ];
+                
+                let data = null;
+                let loadedDate = null;
+                
+                for (const date of possibleDates) {
+                    try {
+                        const response = await fetch(`/data/tomorrow_predictions_${date}.json`);
+                        if (response.ok) {
+                            data = await response.json();
+                            loadedDate = date;
+                            console.log(`✅ Loaded predictions for ${date}`);
+                            break;
+                        }
+                    } catch (e) {
+                        console.log(`❌ Failed to load ${date}: ${e.message}`);
+                    }
                 }
                 
-                const data = await response.json();
+                if (!data) {
+                    throw new Error('No prediction files found');
+                }
+                
+                // Update the page title and date to reflect the loaded data
+                if (loadedDate) {
+                    const dateParts = loadedDate.split('_');
+                    const year = dateParts[0];
+                    const month = dateParts[1];
+                    const day = dateParts[2];
+                    const formattedDate = `August ${parseInt(day)}, ${year}`;
+                    
+                    document.title = `Tomorrow's Predictions - ${formattedDate}`;
+                    const dateElement = document.querySelector('.date');
+                    if (dateElement) {
+                        dateElement.textContent = formattedDate;
+                    }
+                }
+                
                 displayPredictions(data);
             } catch (error) {
                 console.error('Error loading predictions:', error);

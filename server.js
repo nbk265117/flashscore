@@ -32,6 +32,11 @@ app.get('/comparison.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'comparison.html'));
 });
 
+// Brazilian matches route
+app.get('/brazilian-matches.html', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'brazilian-matches.html'));
+});
+
 // API route for analysis data
 app.get('/api/analysis', (req, res) => {
     res.sendFile(path.join(__dirname, 'data', 'analysis.json'));
