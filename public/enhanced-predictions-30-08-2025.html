@@ -284,11 +284,29 @@
             color: white;
         }
 
+        .match-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
         .league-name {
             color: #666;
             font-size: 1rem;
             font-weight: 500;
-            margin-bottom: 1.5rem;
+        }
+
+        .match-time {
+            color: #667eea;
+            font-size: 1rem;
+            font-weight: 600;
+            background: rgba(102, 126, 234, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
         }
 
         .prediction-details {
@@ -452,6 +470,17 @@
                     </select>
                 </div>
                 <div class="filter-group">
+                    <label>Time Filter</label>
+                    <select id="timeFilter">
+                        <option value="all">All Times</option>
+                        <option value="today">Today Only</option>
+                        <option value="upcoming">Upcoming (Next 24h)</option>
+                        <option value="morning">Morning (00:00-12:00)</option>
+                        <option value="afternoon">Afternoon (12:00-18:00)</option>
+                        <option value="evening">Evening (18:00-24:00)</option>
+                    </select>
+                </div>
+                <div class="filter-group">
                     <label>Search Teams</label>
                     <input type="text" id="searchFilter" placeholder="Enter team name...">
                 </div>
@@ -507,6 +536,7 @@
         function applyFilters() {
             const confidenceFilter = document.getElementById('confidenceFilter').value;
             const leagueFilter = document.getElementById('leagueFilter').value;
+            const timeFilter = document.getElementById('timeFilter').value;
             const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
 
             filteredPredictions = allPredictions.filter(match => {
@@ -516,7 +546,27 @@
                     match.homeTeam.toLowerCase().includes(searchFilter) || 
                     match.awayTeam.toLowerCase().includes(searchFilter);
 
-                return confidenceMatch && leagueMatch && searchMatch;
+                // Time filtering
+                const matchDate = new Date(match.date);
+                const now = new Date();
+                const matchHour = matchDate.getHours();
+                const isToday = matchDate.toDateString() === now.toDateString();
+                const isUpcoming = matchDate > now && (matchDate - now) <= 24 * 60 * 60 * 1000;
+
+                let timeMatch = true;
+                if (timeFilter === 'today') {
+                    timeMatch = isToday;
+                } else if (timeFilter === 'upcoming') {
+                    timeMatch = isUpcoming;
+                } else if (timeFilter === 'morning') {
+                    timeMatch = matchHour >= 0 && matchHour < 12;
+                } else if (timeFilter === 'afternoon') {
+                    timeMatch = matchHour >= 12 && matchHour < 18;
+                } else if (timeFilter === 'evening') {
+                    timeMatch = matchHour >= 18 && matchHour < 24;
+                }
+
+                return confidenceMatch && leagueMatch && searchMatch && timeMatch;
             });
 
             displayPredictions();
@@ -526,6 +576,7 @@
         function resetFilters() {
             document.getElementById('confidenceFilter').value = 'all';
             document.getElementById('leagueFilter').value = 'all';
+            document.getElementById('timeFilter').value = 'all';
             document.getElementById('searchFilter').value = '';
             filteredPredictions = [...allPredictions];
             displayPredictions();
@@ -537,24 +588,79 @@
             const mediumConfidence = filteredPredictions.filter(m => m.enhancedData.confidence === 'MEDIUM').length;
             const avgHomeWin = Math.round(filteredPredictions.reduce((sum, m) => sum + m.probabilities.homeWin, 0) / filteredPredictions.length);
             
+            // Calculate time-based stats
+            const now = new Date();
+            const upcomingMatches = filteredPredictions.filter(m => new Date(m.date) > now).length;
+            const todayMatches = filteredPredictions.filter(m => {
+                const matchDate = new Date(m.date);
+                return matchDate.toDateString() === now.toDateString();
+            }).length;
+            
             document.querySelector('.stats-grid').innerHTML = `
                 <div class="stat-card">
                     <div class="stat-number">${filteredPredictions.length}</div>
                     <div class="stat-label">Filtered Matches</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">${highConfidence}</div>
-                    <div class="stat-label">High Confidence</div>
+                    <div class="stat-number">${upcomingMatches}</div>
+                    <div class="stat-label">Upcoming</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">${mediumConfidence}</div>
-                    <div class="stat-label">Medium Confidence</div>
+                    <div class="stat-number">${highConfidence}</div>
+                    <div class="stat-label">High Confidence</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">${avgHomeWin}%</div>
                     <div class="stat-label">Avg Home Win</div>
                 </div>
             `;
+        }
+
+        function formatMatchTime(dateString) {
+            const date = new Date(dateString);
+            const now = new Date();
+            const timeDiff = date - now;
+            
+            // Format time
+            const timeOptions = { 
+                hour: '2-digit', 
+                minute: '2-digit',
+                hour12: false 
+            };
+            const timeStr = date.toLocaleTimeString('en-GB', timeOptions);
+            
+            // Format date
+            const dateOptions = { 
+                weekday: 'short', 
+                month: 'short', 
+                day: 'numeric' 
+            };
+            const dateStr = date.toLocaleDateString('en-GB', dateOptions);
+            
+            // Calculate time until match
+            if (timeDiff > 0) {
+                const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+                const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                
+                if (hours > 24) {
+                    const days = Math.floor(hours / 24);
+                    return `${timeStr} (in ${days} day${days > 1 ? 's' : ''})`;
+                } else if (hours > 0) {
+                    return `${timeStr} (in ${hours}h ${minutes}m)`;
+                } else {
+                    return `${timeStr} (in ${minutes}m)`;
+                }
+            } else {
+                return `${timeStr} (Started)`;
+            }
+        }
+
+        function sortMatchesByTime(matches) {
+            return matches.sort((a, b) => {
+                const timeA = new Date(a.date);
+                const timeB = new Date(b.date);
+                return timeA - timeB;
+            });
         }
 
         function displayPredictions() {
@@ -565,8 +671,13 @@
                 return;
             }
 
-            const predictionsHTML = filteredPredictions.slice(0, 50).map(match => {
+            // Sort matches by time
+            const sortedMatches = sortMatchesByTime(filteredPredictions);
+            const matchesToShow = sortedMatches.slice(0, 50);
+
+            const predictionsHTML = matchesToShow.map(match => {
                 const confidenceClass = match.enhancedData.confidence === 'HIGH' ? 'confidence-high' : 'confidence-medium';
+                const matchTime = formatMatchTime(match.date);
                 
                 return `
                     <div class="prediction-card">
@@ -574,7 +685,10 @@
                             <div class="teams">${match.homeTeam} vs ${match.awayTeam}</div>
                             <span class="confidence-badge ${confidenceClass}">${match.enhancedData.confidence}</span>
                         </div>
-                        <div class="league-name">🏆 ${match.league}</div>
+                        <div class="match-info">
+                            <div class="league-name">🏆 ${match.league}</div>
+                            <div class="match-time">🕐 ${matchTime}</div>
+                        </div>
                         <div class="prediction-details">
                             <div class="detail-item">
                                 <div class="detail-label">Predicted Winner</div>
