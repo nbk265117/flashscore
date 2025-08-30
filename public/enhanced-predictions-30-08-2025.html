@@ -381,6 +381,18 @@
             color: #1e293b;
         }
 
+        .over-under-value {
+            font-weight: 700;
+        }
+
+        .over-under-value.over {
+            color: #10b981;
+        }
+
+        .over-under-value.under {
+            color: #f59e0b;
+        }
+
         .loading {
             text-align: center;
             padding: 4rem 2rem;
@@ -534,6 +546,14 @@
                     </select>
                 </div>
                 <div class="filter-group">
+                    <label>Over/Under 2.5</label>
+                    <select id="overUnderFilter">
+                        <option value="all">All Predictions</option>
+                        <option value="Over 2.5">Over 2.5 Goals</option>
+                        <option value="Under 2.5">Under 2.5 Goals</option>
+                    </select>
+                </div>
+                <div class="filter-group">
                     <label>Country</label>
                     <select id="countryFilter">
                         <option value="all">All Countries</option>
@@ -635,6 +655,7 @@
 
         function applyFilters() {
             const confidenceFilter = document.getElementById('confidenceFilter').value;
+            const overUnderFilter = document.getElementById('overUnderFilter').value;
             const countryFilter = document.getElementById('countryFilter').value;
             const leagueFilter = document.getElementById('leagueFilter').value;
             const timeFilter = document.getElementById('timeFilter').value;
@@ -642,6 +663,7 @@
 
             filteredPredictions = allPredictions.filter(match => {
                 const confidenceMatch = confidenceFilter === 'all' || match.enhancedData.confidence === confidenceFilter;
+                const overUnderMatch = overUnderFilter === 'all' || match.predictions.overUnder === overUnderFilter;
                 const countryMatch = countryFilter === 'all' || match.country === countryFilter;
                 const leagueMatch = leagueFilter === 'all' || match.league === leagueFilter;
                 const searchMatch = searchFilter === '' || 
@@ -670,7 +692,7 @@
                     timeMatch = matchHour >= 18 && matchHour < 24 && matchDate > today;
                 }
 
-                return confidenceMatch && countryMatch && leagueMatch && searchMatch && timeMatch;
+                return confidenceMatch && overUnderMatch && countryMatch && leagueMatch && searchMatch && timeMatch;
             });
 
             displayPredictions();
@@ -679,6 +701,7 @@
 
         function resetFilters() {
             document.getElementById('confidenceFilter').value = 'all';
+            document.getElementById('overUnderFilter').value = 'all';
             document.getElementById('countryFilter').value = 'all';
             document.getElementById('leagueFilter').value = 'all';
             document.getElementById('timeFilter').value = 'all';
@@ -801,6 +824,10 @@
                                     <div class="detail-item">
                                         <div class="detail-label">Likely Score</div>
                                         <div class="detail-value">${match.predictions.likelyScore}</div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-label">Over/Under 2.5</div>
+                                        <div class="detail-value over-under-value ${match.predictions.overUnder.includes('Over') ? 'over' : 'under'}">${match.predictions.overUnder}</div>
                                     </div>
                                     <div class="detail-item">
                                         <div class="detail-label">Home Win</div>
