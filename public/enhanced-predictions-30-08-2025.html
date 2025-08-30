@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Predictions - 30/08/2025 | Flashinio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .predictions-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .prediction-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #667eea;
+        }
+        
+        .prediction-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .teams {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .confidence-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        
+        .confidence-high {
+            background: #10b981;
+            color: white;
+        }
+        
+        .confidence-medium {
+            background: #f59e0b;
+            color: white;
+        }
+        
+        .prediction-details {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .detail-item {
+            background: #f8fafc;
+            padding: 0.75rem;
+            border-radius: 5px;
+        }
+        
+        .detail-label {
+            font-size: 0.8rem;
+            color: #666;
+            margin-bottom: 0.25rem;
+        }
+        
+        .detail-value {
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+        
+        .error {
+            background: #fee2e2;
+            color: #dc2626;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+        
+        .filters {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .filter-group {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+        
+        .filter-group label {
+            font-weight: bold;
+            min-width: 120px;
+        }
+        
+        .filter-group select, .filter-group input {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex: 1;
+        }
+        
+        .btn {
+            background: #667eea;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .btn:hover {
+            background: #5a67d8;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-section">
+        <div class="container">
+            <h1>🎯 Enhanced Predictions</h1>
+            <h2>30/08/2025 - ImprovedPredictor v2.0</h2>
+            <p>1,528 matches with advanced prediction algorithms</p>
+        </div>
+    </div>
+
+    <div class="predictions-container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">1,528</div>
+                <div class="stat-label">Total Matches</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">258</div>
+                <div class="stat-label">High Confidence</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">1,270</div>
+                <div class="stat-label">Medium Confidence</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">45%</div>
+                <div class="stat-label">Avg Home Win</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <h3>🔍 Filter Predictions</h3>
+            <div class="filter-group">
+                <label>Confidence:</label>
+                <select id="confidenceFilter">
+                    <option value="all">All Confidence Levels</option>
+                    <option value="HIGH">High Confidence Only</option>
+                    <option value="MEDIUM">Medium Confidence Only</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>League:</label>
+                <select id="leagueFilter">
+                    <option value="all">All Leagues</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Search:</label>
+                <input type="text" id="searchFilter" placeholder="Search teams...">
+            </div>
+            <button class="btn" onclick="applyFilters()">Apply Filters</button>
+            <button class="btn" onclick="resetFilters()">Reset</button>
+        </div>
+
+        <div id="predictionsList">
+            <div class="loading">Loading enhanced predictions...</div>
+        </div>
+    </div>
+
+    <script>
+        let allPredictions = [];
+        let filteredPredictions = [];
+
+        async function loadPredictions() {
+            try {
+                const response = await fetch('data/enhanced_matches_2025_08_30.json');
+                const data = await response.json();
+                allPredictions = data.matches.filter(match => match.enhancedData);
+                filteredPredictions = [...allPredictions];
+                
+                populateLeagueFilter();
+                displayPredictions();
+                updateStats();
+            } catch (error) {
+                document.getElementById('predictionsList').innerHTML = 
+                    '<div class="error">Error loading predictions: ' + error.message + '</div>';
+            }
+        }
+
+        function populateLeagueFilter() {
+            const leagues = [...new Set(allPredictions.map(match => match.league))].sort();
+            const leagueFilter = document.getElementById('leagueFilter');
+            
+            leagues.forEach(league => {
+                const option = document.createElement('option');
+                option.value = league;
+                option.textContent = league;
+                leagueFilter.appendChild(option);
+            });
+        }
+
+        function applyFilters() {
+            const confidenceFilter = document.getElementById('confidenceFilter').value;
+            const leagueFilter = document.getElementById('leagueFilter').value;
+            const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
+
+            filteredPredictions = allPredictions.filter(match => {
+                const confidenceMatch = confidenceFilter === 'all' || match.enhancedData.confidence === confidenceFilter;
+                const leagueMatch = leagueFilter === 'all' || match.league === leagueFilter;
+                const searchMatch = searchFilter === '' || 
+                    match.homeTeam.toLowerCase().includes(searchFilter) || 
+                    match.awayTeam.toLowerCase().includes(searchFilter);
+
+                return confidenceMatch && leagueMatch && searchMatch;
+            });
+
+            displayPredictions();
+            updateStats();
+        }
+
+        function resetFilters() {
+            document.getElementById('confidenceFilter').value = 'all';
+            document.getElementById('leagueFilter').value = 'all';
+            document.getElementById('searchFilter').value = '';
+            filteredPredictions = [...allPredictions];
+            displayPredictions();
+            updateStats();
+        }
+
+        function updateStats() {
+            const highConfidence = filteredPredictions.filter(m => m.enhancedData.confidence === 'HIGH').length;
+            const mediumConfidence = filteredPredictions.filter(m => m.enhancedData.confidence === 'MEDIUM').length;
+            
+            document.querySelector('.stats-grid').innerHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${filteredPredictions.length}</div>
+                    <div class="stat-label">Filtered Matches</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${highConfidence}</div>
+                    <div class="stat-label">High Confidence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${mediumConfidence}</div>
+                    <div class="stat-label">Medium Confidence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${Math.round(filteredPredictions.reduce((sum, m) => sum + m.probabilities.homeWin, 0) / filteredPredictions.length)}%</div>
+                    <div class="stat-label">Avg Home Win</div>
+                </div>
+            `;
+        }
+
+        function displayPredictions() {
+            const container = document.getElementById('predictionsList');
+            
+            if (filteredPredictions.length === 0) {
+                container.innerHTML = '<div class="loading">No predictions match the current filters.</div>';
+                return;
+            }
+
+            const predictionsHTML = filteredPredictions.slice(0, 50).map(match => {
+                const confidenceClass = match.enhancedData.confidence === 'HIGH' ? 'confidence-high' : 'confidence-medium';
+                
+                return `
+                    <div class="prediction-card">
+                        <div class="prediction-header">
+                            <div class="teams">${match.homeTeam} vs ${match.awayTeam}</div>
+                            <span class="confidence-badge ${confidenceClass}">${match.enhancedData.confidence}</span>
+                        </div>
+                        <div style="color: #666; margin-bottom: 1rem;">${match.league}</div>
+                        <div class="prediction-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Predicted Winner</div>
+                                <div class="detail-value">${match.enhancedData.winner}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Likely Score</div>
+                                <div class="detail-value">${match.predictions.likelyScore}</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Home Win</div>
+                                <div class="detail-value">${match.probabilities.homeWin}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Draw</div>
+                                <div class="detail-value">${match.probabilities.draw}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Away Win</div>
+                                <div class="detail-value">${match.probabilities.awayWin}%</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Risk Level</div>
+                                <div class="detail-value">${match.analysis.riskLevel}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = predictionsHTML;
+        }
+
+        // Load predictions when page loads
+        document.addEventListener('DOMContentLoaded', loadPredictions);
+    </script>
+</body>
+</html>
