@@ -353,6 +353,22 @@
             border: 1px solid rgba(239, 68, 68, 0.2);
         }
 
+        .results-info {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .results-count {
+            color: #667eea;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
         .no-results {
             text-align: center;
             padding: 4rem 2rem;
@@ -436,7 +452,7 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-number">1,528</div>
-                <div class="stat-label">Total Matches</div>
+                <div class="stat-label">All Matches</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number">258</div>
@@ -492,6 +508,9 @@
         </div>
 
         <div class="predictions-container">
+            <div class="results-info">
+                <div id="resultsCount" class="results-count">Loading...</div>
+            </div>
             <div id="predictionsList">
                 <div class="loading">
                     <div class="loading-spinner"></div>
@@ -665,15 +684,20 @@
 
         function displayPredictions() {
             const container = document.getElementById('predictionsList');
+            const resultsCount = document.getElementById('resultsCount');
             
             if (filteredPredictions.length === 0) {
+                resultsCount.textContent = 'No matches found';
                 container.innerHTML = '<div class="no-results">🔍 No predictions match the current filters.</div>';
                 return;
             }
 
             // Sort matches by time
             const sortedMatches = sortMatchesByTime(filteredPredictions);
-            const matchesToShow = sortedMatches.slice(0, 50);
+            const matchesToShow = sortedMatches; // Show all matches
+
+            // Update results count
+            resultsCount.textContent = `Showing ${matchesToShow.length} matches (sorted by time)`;
 
             const predictionsHTML = matchesToShow.map(match => {
                 const confidenceClass = match.enhancedData.confidence === 'HIGH' ? 'confidence-high' : 'confidence-medium';
