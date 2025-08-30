@@ -11,6 +11,7 @@ mkdir -p public/data
 cp data/processed_matches.json public/data/ 2>/dev/null || echo "⚠️  processed_matches.json not found"
 cp data/analysis.json public/data/ 2>/dev/null || echo "⚠️  analysis.json not found"
 cp data/comparison.json public/data/ 2>/dev/null || echo "⚠️  comparison.json not found"
+cp data/enhanced_matches_2025_08_30.json public/data/ 2>/dev/null || echo "⚠️  enhanced_matches_2025_08_30.json not found"
 
 # Check if files were copied successfully
 echo "✅ Checking copied files..."
@@ -30,6 +31,12 @@ if [ -f "public/data/comparison.json" ]; then
     echo "✅ comparison.json copied successfully"
 else
     echo "❌ comparison.json not found in data directory"
+fi
+
+if [ -f "public/data/enhanced_matches_2025_08_30.json" ]; then
+    echo "✅ enhanced_matches_2025_08_30.json copied successfully"
+else
+    echo "❌ enhanced_matches_2025_08_30.json not found in data directory"
 fi
 
 echo "🎉 Deployment preparation completed!"

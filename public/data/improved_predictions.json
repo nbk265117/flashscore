@@ -1,0 +1,1927 @@
+{
+  "timestamp": "2025-08-28T15:02:28.591Z",
+  "totalMatches": 149,
+  "filteredMatches": 20,
+  "predictions": [
+    {
+      "id": 1415798,
+      "date": "2025-08-28T15:30:00+00:00",
+      "venue": "Complexe Sportif Abdessalem Kazouz",
+      "city": "Zarzis",
+      "country": "Tunisia",
+      "homeTeam": "ES Zarzis",
+      "awayTeam": "US Ben Guerdane",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/989.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/986.png",
+      "homeTeamId": 989,
+      "awayTeamId": 986,
+      "league": "Ligue 1",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 22,
+        "awayWinProbability": 4,
+        "drawProbability": 74,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "ES Zarzis",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.4444444444444444,
+          "awayAdvantage": 0.1111111111111111,
+          "matches": 9
+        }
+      },
+      "reasoning": "ES Zarzis vs US Ben Guerdane in Ligue 1. Based on real statistics: ES Zarzis has 3W-4D-3L (30% win rate) vs US Ben Guerdane with 3W-4D-3L (30% win rate). This is a closely contested match with 74% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.19,
+      "confidenceScore": 0.885,
+      "overallScore": 0.8624999999999999
+    },
+    {
+      "id": 1393741,
+      "date": "2025-08-28T15:30:00+00:00",
+      "venue": "Ahmad bin Ali Stadium",
+      "city": "Al Rayyan (Al-Rayyan)",
+      "country": "Qatar",
+      "homeTeam": "Al-Rayyan SC",
+      "awayTeam": "Al-Duhail SC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2897.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2904.png",
+      "homeTeamId": 2897,
+      "awayTeamId": 2904,
+      "league": "Stars League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 23,
+        "awayWinProbability": 6,
+        "drawProbability": 71,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Al-Rayyan SC",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.47058823529411764,
+          "awayAdvantage": 0.17647058823529413,
+          "matches": 34
+        }
+      },
+      "reasoning": "Al-Rayyan SC vs Al-Duhail SC in Stars League. Based on real statistics: Al-Rayyan SC has 3W-4D-3L (30% win rate) vs Al-Duhail SC with 3W-4D-3L (30% win rate). This is a closely contested match with 71% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.185,
+      "confidenceScore": 0.8775,
+      "overallScore": 0.8587499999999999
+    },
+    {
+      "id": 1447175,
+      "date": "2025-08-28T18:30:00+00:00",
+      "venue": "Estadio Juan José Vázquez",
+      "city": "San Estanislao",
+      "country": "Paraguay",
+      "homeTeam": "Deportivo Santani",
+      "awayTeam": "Sportivo Carapeguá",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1189.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/20786.png",
+      "homeTeamId": 1189,
+      "awayTeamId": 20786,
+      "league": "Division Intermedia",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 33,
+        "awayWinProbability": 6,
+        "drawProbability": 62,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Deportivo Santani",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.6666666666666666,
+          "awayAdvantage": 0.16666666666666666,
+          "matches": 6
+        }
+      },
+      "reasoning": "Deportivo Santani vs Sportivo Carapeguá in Division Intermedia. Based on real statistics: Deportivo Santani has 3W-4D-3L (30% win rate) vs Sportivo Carapeguá with 3W-4D-3L (30% win rate). This is a closely contested match with 62% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.135,
+      "confidenceScore": 0.855,
+      "overallScore": 0.8579999999999999
+    },
+    {
+      "id": 1393438,
+      "date": "2025-08-28T19:00:00+00:00",
+      "venue": "Tony Bezzina Stadium",
+      "city": "Paola",
+      "country": "Malta",
+      "homeTeam": "Sliema Wanderers",
+      "awayTeam": "Tarxien Rainbows",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/4628.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/4629.png",
+      "homeTeamId": 4628,
+      "awayTeamId": 4629,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "PST",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 19,
+        "awayWinProbability": 8,
+        "drawProbability": 73,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Sliema Wanderers",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.375,
+          "awayAdvantage": 0.25,
+          "matches": 16
+        }
+      },
+      "reasoning": "Sliema Wanderers vs Tarxien Rainbows in Premier League. Based on real statistics: Sliema Wanderers has 3W-4D-3L (30% win rate) vs Tarxien Rainbows with 3W-4D-3L (30% win rate). This is a closely contested match with 73% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.20500000000000002,
+      "confidenceScore": 0.8825000000000001,
+      "overallScore": 0.85625
+    },
+    {
+      "id": 1351949,
+      "date": "2025-08-28T15:00:00+00:00",
+      "venue": "Astana Arena",
+      "city": "Astana",
+      "country": "Kazakhstan",
+      "homeTeam": "FC Astana",
+      "awayTeam": "Kaisar",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/562.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/4562.png",
+      "homeTeamId": 562,
+      "awayTeamId": 4562,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 22,
+        "awayWinProbability": 9,
+        "drawProbability": 69,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "FC Astana",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.4375,
+          "awayAdvantage": 0.28125,
+          "matches": 32
+        }
+      },
+      "reasoning": "FC Astana vs Kaisar in Premier League. Based on real statistics: FC Astana has 3W-4D-3L (30% win rate) vs Kaisar with 3W-4D-3L (30% win rate). This is a closely contested match with 69% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.19,
+      "confidenceScore": 0.8725,
+      "overallScore": 0.85375
+    },
+    {
+      "id": 1415804,
+      "date": "2025-08-28T15:30:00+00:00",
+      "venue": "Stade Olympique de Sousse",
+      "city": "Sousse (Sūsah)",
+      "country": "Tunisia",
+      "homeTeam": "ES Sahel",
+      "awayTeam": "AS Gabes",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/990.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/987.png",
+      "homeTeamId": 990,
+      "awayTeamId": 987,
+      "league": "Ligue 1",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 25,
+        "awayWinProbability": 11,
+        "drawProbability": 64,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "ES Sahel",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.5,
+          "awayAdvantage": 0.3333333333333333,
+          "matches": 12
+        }
+      },
+      "reasoning": "ES Sahel vs AS Gabes in Ligue 1. Based on real statistics: ES Sahel has 3W-4D-3L (30% win rate) vs AS Gabes with 3W-4D-3L (30% win rate). This is a closely contested match with 64% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.175,
+      "confidenceScore": 0.86,
+      "overallScore": 0.8494999999999999
+    },
+    {
+      "id": 1423891,
+      "date": "2025-08-28T15:00:00+00:00",
+      "venue": "Estádio Municipal da Lourinhã",
+      "city": "Lourinhã",
+      "country": "Portugal",
+      "homeTeam": "Torreense U23",
+      "awayTeam": "Estoril U23",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/21720.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/15463.png",
+      "homeTeamId": 21720,
+      "awayTeamId": 15463,
+      "league": "Liga Revelação U23",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 19,
+        "awayWinProbability": 12,
+        "drawProbability": 69,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Torreense U23",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.375,
+          "awayAdvantage": 0.375,
+          "matches": 8
+        }
+      },
+      "reasoning": "Torreense U23 vs Estoril U23 in Liga Revelação U23. Based on real statistics: Torreense U23 has 3W-4D-3L (30% win rate) vs Estoril U23 with 3W-4D-3L (30% win rate). This is a closely contested match with 69% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.20500000000000002,
+      "confidenceScore": 0.8725,
+      "overallScore": 0.84925
+    },
+    {
+      "id": 1415802,
+      "date": "2025-08-28T15:30:00+00:00",
+      "venue": "Stade olympique Hammadi-Agrebi",
+      "city": "Radès",
+      "country": "Tunisia",
+      "homeTeam": "ES Tunis",
+      "awayTeam": "AS Soliman",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/980.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/6253.png",
+      "homeTeamId": 980,
+      "awayTeamId": 6253,
+      "league": "Ligue 1",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 14,
+        "awayWinProbability": 14,
+        "drawProbability": 72,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "AS Soliman",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.2857142857142857,
+          "awayAdvantage": 0.42857142857142855,
+          "matches": 7
+        }
+      },
+      "reasoning": "ES Tunis vs AS Soliman in Ligue 1. Based on real statistics: ES Tunis has 3W-4D-3L (30% win rate) vs AS Soliman with 3W-4D-3L (30% win rate). This is a closely contested match with 72% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.22999999999999998,
+      "confidenceScore": 0.88,
+      "overallScore": 0.847
+    },
+    {
+      "id": 1335926,
+      "date": "2025-08-28T19:00:00+00:00",
+      "venue": "við Løkin",
+      "city": "Runavík, Eysturoy",
+      "country": "Faroe-Islands",
+      "homeTeam": "NSÍ II",
+      "awayTeam": "Skála",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/4181.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/4191.png",
+      "homeTeamId": 4181,
+      "awayTeamId": 4191,
+      "league": "1. Deild",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 21,
+        "awayWinProbability": 17,
+        "drawProbability": 63,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "NSÍ II",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.4166666666666667,
+          "awayAdvantage": 0.5,
+          "matches": 12
+        }
+      },
+      "reasoning": "NSÍ II vs Skála in 1. Deild. Based on real statistics: NSÍ II has 3W-4D-3L (30% win rate) vs Skála with 3W-4D-3L (30% win rate). This is a closely contested match with 63% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.195,
+      "confidenceScore": 0.8575,
+      "overallScore": 0.8417499999999999
+    },
+    {
+      "id": 1415803,
+      "date": "2025-08-28T15:30:00+00:00",
+      "venue": "Stade Taïeb Mhiri",
+      "city": "Sfax (Safāqis)",
+      "country": "Tunisia",
+      "homeTeam": "CS Sfaxien",
+      "awayTeam": "Jeunesse Sportive Omrane",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/983.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/18284.png",
+      "homeTeamId": 983,
+      "awayTeamId": 18284,
+      "league": "Ligue 1",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 12,
+        "awayWinProbability": 33,
+        "drawProbability": 55,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Jeunesse Sportive Omrane",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.25,
+          "awayAdvantage": 1,
+          "matches": 4
+        }
+      },
+      "reasoning": "CS Sfaxien vs Jeunesse Sportive Omrane in Ligue 1. Based on real statistics: CS Sfaxien has 3W-4D-3L (30% win rate) vs Jeunesse Sportive Omrane with 3W-4D-3L (30% win rate). This is a closely contested match with 55% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.29,
+      "confidenceScore": 0.7875000000000001,
+      "overallScore": 0.76425
+    },
+    {
+      "id": 1447013,
+      "date": "2025-08-28T18:00:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Brazil",
+      "homeTeam": "Confianca PB",
+      "awayTeam": "Spartax",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/22361.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/22366.png",
+      "homeTeamId": 22361,
+      "awayTeamId": 22366,
+      "league": "Paraibano 2",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 22,
+        "drawProbability": 29,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Confianca PB",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 0.6666666666666666,
+          "matches": 3
+        }
+      },
+      "reasoning": "Confianca PB vs Spartax in Paraibano 2. Based on real statistics: Confianca PB has 3W-4D-3L (30% win rate) vs Spartax with 3W-4D-3L (30% win rate). This is a closely contested match with 29% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.15000000000000002,
+      "confidenceScore": 0.725,
+      "overallScore": 0.7625
+    },
+    {
+      "id": 1438827,
+      "date": "2025-08-28T18:45:00+00:00",
+      "venue": "Windsor Park",
+      "city": "Belfast",
+      "country": "World",
+      "homeTeam": "Linfield",
+      "awayTeam": "Shelbourne",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/583.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/3854.png",
+      "homeTeamId": 583,
+      "awayTeamId": 3854,
+      "league": "UEFA Europa Conference League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 25,
+        "awayWinProbability": 33,
+        "drawProbability": 42,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Shelbourne",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.5,
+          "awayAdvantage": 1,
+          "matches": 4
+        }
+      },
+      "reasoning": "Linfield vs Shelbourne in UEFA Europa Conference League. Based on real statistics: Linfield has 3W-4D-3L (30% win rate) vs Shelbourne with 3W-4D-3L (30% win rate). This is a closely contested match with 42% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.22499999999999998,
+      "confidenceScore": 0.7550000000000001,
+      "overallScore": 0.7610000000000001
+    },
+    {
+      "id": 1436782,
+      "date": "2025-08-28T18:30:00+00:00",
+      "venue": "Arena Naţională",
+      "city": "Bucureşti",
+      "country": "World",
+      "homeTeam": "FCSB",
+      "awayTeam": "Aberdeen",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/559.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/252.png",
+      "homeTeamId": 559,
+      "awayTeamId": 252,
+      "league": "UEFA Europa League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 33,
+        "drawProbability": 18,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "FCSB",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 1,
+          "matches": 2
+        }
+      },
+      "reasoning": "FCSB vs Aberdeen in UEFA Europa League. Based on real statistics: FCSB has 3W-4D-3L (30% win rate) vs Aberdeen with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.2,
+      "confidenceScore": 0.6749999999999999,
+      "overallScore": 0.7124999999999999
+    },
+    {
+      "id": 1437236,
+      "date": "2025-08-28T19:00:00+00:00",
+      "venue": "Estádio Municipal de Braga",
+      "city": "Braga",
+      "country": "World",
+      "homeTeam": "SC Braga",
+      "awayTeam": "Lincoln Red Imps FC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/217.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/667.png",
+      "homeTeamId": 217,
+      "awayTeamId": 667,
+      "league": "UEFA Europa League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 17,
+        "drawProbability": 34,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "SC Braga",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 0.5,
+          "matches": 2
+        }
+      },
+      "reasoning": "SC Braga vs Lincoln Red Imps FC in UEFA Europa League. Based on real statistics: SC Braga has 3W-4D-3L (30% win rate) vs Lincoln Red Imps FC with 3W-4D-3L (30% win rate). This is a closely contested match with 34% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.2,
+      "confidenceScore": 0.6749999999999999,
+      "overallScore": 0.7124999999999999
+    },
+    {
+      "id": 1448208,
+      "date": "2025-08-28T18:00:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Bolivia",
+      "homeTeam": "Club Universitario",
+      "awayTeam": "3 de Febrero",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/3875.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1188.png",
+      "homeTeamId": 3875,
+      "awayTeamId": 1188,
+      "league": "Nacional B",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 33,
+        "drawProbability": 18,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Club Universitario",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 1,
+          "matches": 1
+        }
+      },
+      "reasoning": "Club Universitario vs 3 de Febrero in Nacional B. Based on real statistics: Club Universitario has 3W-4D-3L (30% win rate) vs 3 de Febrero with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.25,
+      "confidenceScore": 0.625,
+      "overallScore": 0.6625
+    },
+    {
+      "id": 1434740,
+      "date": "2025-08-28T15:00:00+00:00",
+      "venue": "Banants-3",
+      "city": "Yerevan",
+      "country": "Armenia",
+      "homeTeam": "Banants II",
+      "awayTeam": "Hayq",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/3690.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/26197.png",
+      "homeTeamId": 3690,
+      "awayTeamId": 26197,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 33,
+        "drawProbability": 18,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Banants II",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 1,
+          "matches": 1
+        }
+      },
+      "reasoning": "Banants II vs Hayq in First League. Based on real statistics: Banants II has 3W-4D-3L (30% win rate) vs Hayq with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.25,
+      "confidenceScore": 0.625,
+      "overallScore": 0.6625
+    },
+    {
+      "id": 1433477,
+      "date": "2025-08-28T19:00:00+00:00",
+      "venue": "Estadio Martín Torres",
+      "city": "Asunción",
+      "country": "Paraguay",
+      "homeTeam": "Benjamín Aceval",
+      "awayTeam": "Club Guarani",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/17183.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1174.png",
+      "homeTeamId": 17183,
+      "awayTeamId": 1174,
+      "league": "Copa Paraguay",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 33,
+        "drawProbability": 18,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Benjamín Aceval",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 1,
+          "matches": 1
+        }
+      },
+      "reasoning": "Benjamín Aceval vs Club Guarani in Copa Paraguay. Based on real statistics: Benjamín Aceval has 3W-4D-3L (30% win rate) vs Club Guarani with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.25,
+      "confidenceScore": 0.625,
+      "overallScore": 0.6625
+    },
+    {
+      "id": 1440281,
+      "date": "2025-08-28T14:00:00+00:00",
+      "venue": "Complexul Sportiv Corvinul 1921 Hunedoara",
+      "city": "Hunedoara",
+      "country": "Romania",
+      "homeTeam": "Corvinul Hunedoara",
+      "awayTeam": "Farul Constanta",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/20034.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2596.png",
+      "homeTeamId": 20034,
+      "awayTeamId": 2596,
+      "league": "Cupa României",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 50,
+        "awayWinProbability": 33,
+        "drawProbability": 18,
+        "expectedScore": "1-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Corvinul Hunedoara",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 1,
+          "awayAdvantage": 1,
+          "matches": 1
+        }
+      },
+      "reasoning": "Corvinul Hunedoara vs Farul Constanta in Cupa României. Based on real statistics: Corvinul Hunedoara has 3W-4D-3L (30% win rate) vs Farul Constanta with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.25,
+      "confidenceScore": 0.625,
+      "overallScore": 0.6625
+    },
+    {
+      "id": 1438826,
+      "date": "2025-08-28T18:45:00+00:00",
+      "venue": "Arena Kombëtare",
+      "city": "Tiranë (Tirana)",
+      "country": "World",
+      "homeTeam": "Dinamo Tirana",
+      "awayTeam": "Jagiellonia",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/3326.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/336.png",
+      "homeTeamId": 3326,
+      "awayTeamId": 336,
+      "league": "UEFA Europa Conference League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 25,
+        "awayWinProbability": 33,
+        "drawProbability": 42,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "Jagiellonia",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.5,
+          "awayAdvantage": 1,
+          "matches": 2
+        }
+      },
+      "reasoning": "Dinamo Tirana vs Jagiellonia in UEFA Europa Conference League. Based on real statistics: Dinamo Tirana has 3W-4D-3L (30% win rate) vs Jagiellonia with 3W-4D-3L (30% win rate). This is a closely contested match with 42% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.32499999999999996,
+      "confidenceScore": 0.655,
+      "overallScore": 0.661
+    },
+    {
+      "id": 1437233,
+      "date": "2025-08-28T15:00:00+00:00",
+      "venue": "Väre Areena",
+      "city": "Kuopio",
+      "country": "World",
+      "homeTeam": "KuPS",
+      "awayTeam": "FC Midtjylland",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1165.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/397.png",
+      "homeTeamId": 1165,
+      "awayTeamId": 397,
+      "league": "UEFA Europa League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 25,
+        "awayWinProbability": 33,
+        "drawProbability": 42,
+        "expectedScore": "0-0",
+        "halftimeScore": "0-0",
+        "overUnder": "Under 2.5",
+        "winner": "FC Midtjylland",
+        "confidence": "HIGH",
+        "risk": "LOW"
+      },
+      "analysis": {
+        "homeStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "awayStats": {
+          "matchesPlayed": 10,
+          "wins": 3,
+          "draws": 4,
+          "losses": 3,
+          "goalsFor": 12,
+          "goalsAgainst": 11,
+          "cleanSheets": 2,
+          "failedToScore": 3,
+          "form": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "homeAdvantage": 0.1,
+          "attackStrength": 0.5,
+          "defenseStrength": 0.5
+        },
+        "homeForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "awayForm": {
+          "wins": 1,
+          "draws": 2,
+          "losses": 2,
+          "points": 5,
+          "form": "DLDWL"
+        },
+        "headToHead": {
+          "homeAdvantage": 0.5,
+          "awayAdvantage": 1,
+          "matches": 2
+        }
+      },
+      "reasoning": "KuPS vs FC Midtjylland in UEFA Europa League. Based on real statistics: KuPS has 3W-4D-3L (30% win rate) vs FC Midtjylland with 3W-4D-3L (30% win rate). This is a closely contested match with 42% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH.",
+      "riskScore": 0.32499999999999996,
+      "confidenceScore": 0.655,
+      "overallScore": 0.661
+    }
+  ]
+}

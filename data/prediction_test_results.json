@@ -1,0 +1,1013 @@
+{
+  "timestamp": "2025-08-28T15:00:12.386Z",
+  "totalTests": 10,
+  "results": [
+    {
+      "match": {
+        "id": 1326899,
+        "date": "2025-08-28T00:00:00+00:00",
+        "venue": "Breese Stevens Field",
+        "city": "Madison, Wisconsin",
+        "country": "USA",
+        "homeTeam": "Forward Madison",
+        "awayTeam": "Texoma",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/9025.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/25487.png",
+        "homeTeamId": 9025,
+        "awayTeamId": 25487,
+        "league": "USL League One",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 33,
+          "awayWinProbability": 33,
+          "drawProbability": 34,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Texoma",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.6666666666666666,
+            "awayAdvantage": 1,
+            "matches": 3
+          }
+        },
+        "reasoning": "Forward Madison vs Texoma in USL League One. Based on real statistics: Forward Madison has 3W-4D-3L (30% win rate) vs Texoma with 3W-4D-3L (30% win rate). This is a closely contested match with 34% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.23500000000000001,
+      "confidenceScore": 0.685,
+      "timestamp": "2025-08-28T15:00:00.237Z"
+    },
+    {
+      "match": {
+        "id": 1438836,
+        "date": "2025-08-28T00:00:00+00:00",
+        "venue": "Estadio Polideportivo Moca",
+        "city": "Moca",
+        "country": "World",
+        "homeTeam": "Moca",
+        "awayTeam": "Mount Pleasant Academy",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/16617.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/3442.png",
+        "homeTeamId": 16617,
+        "awayTeamId": 3442,
+        "league": "CONCACAF Caribbean Club Championship",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 50,
+          "awayWinProbability": 33,
+          "drawProbability": 18,
+          "expectedScore": "1-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Moca",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 1,
+            "awayAdvantage": 1,
+            "matches": 1
+          }
+        },
+        "reasoning": "Moca vs Mount Pleasant Academy in CONCACAF Caribbean Club Championship. Based on real statistics: Moca has 3W-4D-3L (30% win rate) vs Mount Pleasant Academy with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.25,
+      "confidenceScore": 0.625,
+      "timestamp": "2025-08-28T15:00:01.221Z"
+    },
+    {
+      "match": {
+        "id": 1440182,
+        "date": "2025-08-28T00:00:00+00:00",
+        "venue": "Estadio Olímpico de la UCV",
+        "city": "Caracas",
+        "country": "Venezuela",
+        "homeTeam": "Real Esppor Club",
+        "awayTeam": "Caracas FC",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/2813.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/2808.png",
+        "homeTeamId": 2813,
+        "awayTeamId": 2808,
+        "league": "Copa Venezuela",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 22,
+          "awayWinProbability": 13,
+          "drawProbability": 65,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Real Esppor Club",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.45,
+            "awayAdvantage": 0.4,
+            "matches": 40
+          }
+        },
+        "reasoning": "Real Esppor Club vs Caracas FC in Copa Venezuela. Based on real statistics: Real Esppor Club has 3W-4D-3L (30% win rate) vs Caracas FC with 3W-4D-3L (30% win rate). This is a closely contested match with 65% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.19,
+      "confidenceScore": 0.8625,
+      "timestamp": "2025-08-28T15:00:02.377Z"
+    },
+    {
+      "match": {
+        "id": 1447024,
+        "date": "2025-08-28T00:00:00+00:00",
+        "venue": null,
+        "city": null,
+        "country": "Bolivia",
+        "homeTeam": "Bolívar",
+        "awayTeam": "The Strongest",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/3702.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/3711.png",
+        "homeTeamId": 3702,
+        "awayTeamId": 3711,
+        "league": "Copa de la División Profesional",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 22,
+          "awayWinProbability": 10,
+          "drawProbability": 68,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Bolívar",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.4444444444444444,
+            "awayAdvantage": 0.2962962962962963,
+            "matches": 27
+          }
+        },
+        "reasoning": "Bolívar vs The Strongest in Copa de la División Profesional. Based on real statistics: Bolívar has 3W-4D-3L (30% win rate) vs The Strongest with 3W-4D-3L (30% win rate). This is a closely contested match with 68% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.19,
+      "confidenceScore": 0.87,
+      "timestamp": "2025-08-28T15:00:05.186Z"
+    },
+    {
+      "match": {
+        "id": 1448215,
+        "date": "2025-08-28T00:00:00+00:00",
+        "venue": null,
+        "city": null,
+        "country": "World",
+        "homeTeam": "Plaza Amador",
+        "awayTeam": "Alianza",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/2883.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/4299.png",
+        "homeTeamId": 2883,
+        "awayTeamId": 4299,
+        "league": "Concacaf Central American Cup",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 50,
+          "awayWinProbability": 33,
+          "drawProbability": 18,
+          "expectedScore": "1-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Plaza Amador",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 1,
+            "awayAdvantage": 1,
+            "matches": 1
+          }
+        },
+        "reasoning": "Plaza Amador vs Alianza in Concacaf Central American Cup. Based on real statistics: Plaza Amador has 3W-4D-3L (30% win rate) vs Alianza with 3W-4D-3L (30% win rate). This is a closely contested match with 18% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.25,
+      "confidenceScore": 0.625,
+      "timestamp": "2025-08-28T15:00:06.226Z"
+    },
+    {
+      "match": {
+        "id": 1448216,
+        "date": "2025-08-28T00:00:00+00:00",
+        "venue": null,
+        "city": null,
+        "country": "World",
+        "homeTeam": "LD Alajuelense",
+        "awayTeam": "Antigua GFC",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/822.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/3656.png",
+        "homeTeamId": 822,
+        "awayTeamId": 3656,
+        "league": "Concacaf Central American Cup",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 33,
+          "awayWinProbability": 33,
+          "drawProbability": 34,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Antigua GFC",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.6666666666666666,
+            "awayAdvantage": 1,
+            "matches": 3
+          }
+        },
+        "reasoning": "LD Alajuelense vs Antigua GFC in Concacaf Central American Cup. Based on real statistics: LD Alajuelense has 3W-4D-3L (30% win rate) vs Antigua GFC with 3W-4D-3L (30% win rate). This is a closely contested match with 34% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.23500000000000001,
+      "confidenceScore": 0.685,
+      "timestamp": "2025-08-28T15:00:07.854Z"
+    },
+    {
+      "match": {
+        "id": 1331336,
+        "date": "2025-08-28T00:10:00+00:00",
+        "venue": "Estadio Nuevo Francisco Urbano",
+        "city": "Morón, Provincia de Buenos Aires",
+        "country": "Argentina",
+        "homeTeam": "Deportivo Moron",
+        "awayTeam": "Gimnasia M.",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/469.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/1066.png",
+        "homeTeamId": 469,
+        "awayTeamId": 1066,
+        "league": "Primera Nacional",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 22,
+          "awayWinProbability": 4,
+          "drawProbability": 74,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Deportivo Moron",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.4444444444444444,
+            "awayAdvantage": 0.1111111111111111,
+            "matches": 9
+          }
+        },
+        "reasoning": "Deportivo Moron vs Gimnasia M. in Primera Nacional. Based on real statistics: Deportivo Moron has 3W-4D-3L (30% win rate) vs Gimnasia M. with 3W-4D-3L (30% win rate). This is a closely contested match with 74% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.19,
+      "confidenceScore": 0.885,
+      "timestamp": "2025-08-28T15:00:08.833Z"
+    },
+    {
+      "match": {
+        "id": 1362691,
+        "date": "2025-08-28T00:30:00+00:00",
+        "venue": "Tricar Field",
+        "city": "London, Ontario",
+        "country": "Canada",
+        "homeTeam": "FC London",
+        "awayTeam": "Woodbridge Strikers",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/19102.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/19114.png",
+        "homeTeamId": 19102,
+        "awayTeamId": 19114,
+        "league": "League 1 Ontario",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 37,
+          "awayWinProbability": 8,
+          "drawProbability": 55,
+          "expectedScore": "1-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "FC London",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.75,
+            "awayAdvantage": 0.25,
+            "matches": 4
+          }
+        },
+        "reasoning": "FC London vs Woodbridge Strikers in League 1 Ontario. Based on real statistics: FC London has 3W-4D-3L (30% win rate) vs Woodbridge Strikers with 3W-4D-3L (30% win rate). This is a closely contested match with 55% draw probability. Expected score: 1-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.165,
+      "confidenceScore": 0.7875000000000001,
+      "timestamp": "2025-08-28T15:00:10.266Z"
+    },
+    {
+      "match": {
+        "id": 1403895,
+        "date": "2025-08-28T00:30:00+00:00",
+        "venue": "Estadio Reales Tamarindos",
+        "city": "Portoviejo",
+        "country": "Ecuador",
+        "homeTeam": "LDU Portoviejo",
+        "awayTeam": "Macara",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/1988.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/1155.png",
+        "homeTeamId": 1988,
+        "awayTeamId": 1155,
+        "league": "Copa Ecuador",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 13,
+          "awayWinProbability": 11,
+          "drawProbability": 76,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "LDU Portoviejo",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.26666666666666666,
+            "awayAdvantage": 0.3333333333333333,
+            "matches": 15
+          }
+        },
+        "reasoning": "LDU Portoviejo vs Macara in Copa Ecuador. Based on real statistics: LDU Portoviejo has 3W-4D-3L (30% win rate) vs Macara with 3W-4D-3L (30% win rate). This is a closely contested match with 76% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.235,
+      "confidenceScore": 0.89,
+      "timestamp": "2025-08-28T15:00:11.288Z"
+    },
+    {
+      "match": {
+        "id": 1414244,
+        "date": "2025-08-28T00:30:00+00:00",
+        "venue": "Estadio Nacional de Fútbol",
+        "city": "Managua",
+        "country": "Nicaragua",
+        "homeTeam": "Walter Ferretti",
+        "awayTeam": "Diriangén",
+        "homeTeamLogo": "https://media.api-sports.io/football/teams/4648.png",
+        "awayTeamLogo": "https://media.api-sports.io/football/teams/4641.png",
+        "homeTeamId": 4648,
+        "awayTeamId": 4641,
+        "league": "Primera Division",
+        "homeGoals": null,
+        "awayGoals": null,
+        "homeScore": null,
+        "awayScore": null,
+        "status": "NS",
+        "elapsed": null
+      },
+      "prediction": {
+        "prediction": {
+          "homeWinProbability": 25,
+          "awayWinProbability": 10,
+          "drawProbability": 65,
+          "expectedScore": "0-0",
+          "halftimeScore": "0-0",
+          "overUnder": "Under 2.5",
+          "winner": "Walter Ferretti",
+          "confidence": "HIGH",
+          "risk": "LOW"
+        },
+        "analysis": {
+          "homeStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "awayStats": {
+            "matchesPlayed": 10,
+            "wins": 3,
+            "draws": 4,
+            "losses": 3,
+            "goalsFor": 12,
+            "goalsAgainst": 11,
+            "cleanSheets": 2,
+            "failedToScore": 3,
+            "form": {
+              "wins": 1,
+              "draws": 2,
+              "losses": 2,
+              "points": 5,
+              "form": "DLDWL"
+            },
+            "homeAdvantage": 0.1,
+            "attackStrength": 0.5,
+            "defenseStrength": 0.5
+          },
+          "homeForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "awayForm": {
+            "wins": 1,
+            "draws": 2,
+            "losses": 2,
+            "points": 5,
+            "form": "DLDWL"
+          },
+          "headToHead": {
+            "homeAdvantage": 0.5098039215686274,
+            "awayAdvantage": 0.29411764705882354,
+            "matches": 51
+          }
+        },
+        "reasoning": "Walter Ferretti vs Diriangén in Primera Division. Based on real statistics: Walter Ferretti has 3W-4D-3L (30% win rate) vs Diriangén with 3W-4D-3L (30% win rate). This is a closely contested match with 65% draw probability. Expected score: 0-0. Halftime: 0-0. Over/Under: Under 2.5. Confidence: HIGH."
+      },
+      "riskScore": 0.175,
+      "confidenceScore": 0.8625,
+      "timestamp": "2025-08-28T15:00:12.384Z"
+    }
+  ],
+  "summary": {
+    "avgConfidence": 0.7777499999999999,
+    "avgRisk": 0.21149999999999997,
+    "highConfidenceCount": 6,
+    "lowRiskCount": 10,
+    "recommendedCount": 6
+  }
+}

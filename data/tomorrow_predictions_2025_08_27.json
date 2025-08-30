@@ -1,0 +1,3240 @@
+{
+  "date": "2025-08-27",
+  "totalMatches": 358,
+  "predictions": [
+    {
+      "id": 1380782,
+      "date": "2025-08-27T01:00:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Mexico",
+      "homeTeam": "Pachuca W",
+      "awayTeam": "Atlas W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/14881.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/14873.png",
+      "homeTeamId": 14881,
+      "awayTeamId": 14873,
+      "league": "Liga MX Femenil",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 19,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Pachuca W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Pachuca W (0/5 recent wins) vs Atlas W (0/5 recent wins) in Liga MX Femenil. This is a closely contested match with 19% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1380783,
+      "date": "2025-08-27T01:07:00+00:00",
+      "venue": "Estadio AKRON",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "homeTeam": "Guadalajara W",
+      "awayTeam": "Monterrey W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/14876.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/14879.png",
+      "homeTeamId": 14876,
+      "awayTeamId": 14879,
+      "league": "Liga MX Femenil",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 22,
+        "awayWinProbability": 35,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Guadalajara W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Guadalajara W (0/5 recent wins) vs Monterrey W (0/5 recent wins) in Liga MX Femenil. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1423476,
+      "date": "2025-08-27T08:00:00+00:00",
+      "venue": "Stadiumi Loro Boriçi",
+      "city": "Shkodër",
+      "country": "World",
+      "homeTeam": "Ferencváros",
+      "awayTeam": "Racing W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10888.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/15536.png",
+      "homeTeamId": 10888,
+      "awayTeamId": 15536,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 22,
+        "awayWinProbability": 35,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Ferencváros",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Ferencváros (0/5 recent wins) vs Racing W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405478,
+      "date": "2025-08-27T09:00:00+00:00",
+      "venue": "ŠC NK Slatina",
+      "city": "Radenci",
+      "country": "World",
+      "homeTeam": "BIIK Kazygurt",
+      "awayTeam": "GKS Katowice W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10880.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21584.png",
+      "homeTeamId": 10880,
+      "awayTeamId": 21584,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 20,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "BIIK Kazygurt",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "BIIK Kazygurt (0/5 recent wins) vs GKS Katowice W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 20% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1430843,
+      "date": "2025-08-27T09:00:00+00:00",
+      "venue": "Šiaulių m. savivaldybes stadionas",
+      "city": "Šiauliai",
+      "country": "World",
+      "homeTeam": "Vorskla Poltava W",
+      "awayTeam": "Lanchkhuti",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/22339.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/15493.png",
+      "homeTeamId": 22339,
+      "awayTeamId": 15493,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 20,
+        "awayWinProbability": 35,
+        "likelyScore": "3-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Vorskla Poltava W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Vorskla Poltava W (0/5 recent wins) vs Lanchkhuti (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 20% draw probability. Expected score: 3-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405474,
+      "date": "2025-08-27T10:00:00+00:00",
+      "venue": "3Arena",
+      "city": "Stockholm",
+      "country": "World",
+      "homeTeam": "Manchester United W",
+      "awayTeam": "PSV/Eindhoven W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/4898.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1895.png",
+      "homeTeamId": 4898,
+      "awayTeamId": 1895,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 51,
+        "drawProbability": 19,
+        "awayWinProbability": 30,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Manchester United W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 82,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 1.6280000000000001,
+          "awayGoals": 1.026
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Manchester United W (3/5 recent wins) vs PSV/Eindhoven W (0/5 recent wins) in UEFA Champions League Women. Manchester United W is favored with 51% win probability due to strong home form (W-L-W-D-W) and home advantage. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: W-L-W-D-W",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 1.6 vs 1.0"
+      ]
+    },
+    {
+      "id": 1423475,
+      "date": "2025-08-27T10:00:00+00:00",
+      "venue": "Bolt Arena",
+      "city": "Helsinki",
+      "country": "World",
+      "homeTeam": "Slavia Praha W",
+      "awayTeam": "Fomget Gençlik",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10923.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21582.png",
+      "homeTeamId": 10923,
+      "awayTeamId": 21582,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 41,
+        "drawProbability": 23,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Slavia Praha W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Slavia Praha W (0/5 recent wins) vs Fomget Gençlik (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1322195,
+      "date": "2025-08-27T10:30:00+00:00",
+      "venue": "Cornubia Park",
+      "city": "Brisbane",
+      "country": "Australia",
+      "homeTeam": "Logan Lightning",
+      "awayTeam": "Rochedale Rovers",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11180.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/11182.png",
+      "homeTeamId": 11180,
+      "awayTeamId": 11182,
+      "league": "Queensland Premier League",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 16,
+        "awayWinProbability": 38,
+        "likelyScore": "2-1",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Logan Lightning",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Logan Lightning (0/5 recent wins) vs Rochedale Rovers (0/5 recent wins) in Queensland Premier League. This is a closely contested match with 16% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1423477,
+      "date": "2025-08-27T11:00:00+00:00",
+      "venue": "Sportpark Schreurserve",
+      "city": "Enschede",
+      "country": "World",
+      "homeTeam": "Breidablik W",
+      "awayTeam": "Athlone WFC W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10914.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21484.png",
+      "homeTeamId": 10914,
+      "awayTeamId": 21484,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 17,
+        "awayWinProbability": 38,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Breidablik W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Breidablik W (0/5 recent wins) vs Athlone WFC W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1423478,
+      "date": "2025-08-27T11:00:00+00:00",
+      "venue": "King Power at Den Dreef Stadion",
+      "city": "Heverlee",
+      "country": "World",
+      "homeTeam": "Rosengård W",
+      "awayTeam": "Ljuboten W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11075.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/19836.png",
+      "homeTeamId": 11075,
+      "awayTeamId": 19836,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 14,
+        "awayWinProbability": 38,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Rosengård W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Rosengård W (0/5 recent wins) vs Ljuboten W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 14% draw probability. Expected score: 1-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405477,
+      "date": "2025-08-27T13:00:00+00:00",
+      "venue": "Stadion Ďolíček",
+      "city": "Praha",
+      "country": "World",
+      "homeTeam": "Roma W",
+      "awayTeam": "Aktobe W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1892.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/26159.png",
+      "homeTeamId": 1892,
+      "awayTeamId": 26159,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 16,
+        "awayWinProbability": 39,
+        "likelyScore": "0-2",
+        "halftimeResult": "0-1",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Roma W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Roma W (0/5 recent wins) vs Aktobe W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 16% draw probability. Expected score: 0-2. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405476,
+      "date": "2025-08-27T14:00:00+00:00",
+      "venue": "KONAMI Youth Development Centre in Memory of Giacinto Facchetti",
+      "city": "Milano",
+      "country": "World",
+      "homeTeam": "Brann W",
+      "awayTeam": "Inter Milano W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/18380.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/7533.png",
+      "homeTeamId": 18380,
+      "awayTeamId": 7533,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 38,
+        "drawProbability": 17,
+        "awayWinProbability": 45,
+        "likelyScore": "0-2",
+        "halftimeResult": "0-1",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Inter Milano W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 84,
+        "goalExpectations": {
+          "homeGoals": 0.8360000000000001,
+          "awayGoals": 1.387
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Brann W (0/5 recent wins) vs Inter Milano W (4/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 17% draw probability. Expected score: 0-2. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: W-W-W-D-W",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.8 vs 1.4"
+      ]
+    },
+    {
+      "id": 1405479,
+      "date": "2025-08-27T14:00:00+00:00",
+      "venue": "Stadio Stelios Kyriakides",
+      "city": "Paphos",
+      "country": "World",
+      "homeTeam": "Apollon Limassol W",
+      "awayTeam": "Young Boys W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10911.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/17367.png",
+      "homeTeamId": 10911,
+      "awayTeamId": 17367,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 21,
+        "awayWinProbability": 33,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Apollon Limassol W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Apollon Limassol W (0/5 recent wins) vs Young Boys W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405471,
+      "date": "2025-08-27T15:00:00+00:00",
+      "venue": "Šiaulių m. savivaldybes stadionas",
+      "city": "Šiauliai",
+      "country": "World",
+      "homeTeam": "Gintra-Universitetas",
+      "awayTeam": "Farul Constanţa W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10891.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/22192.png",
+      "homeTeamId": 10891,
+      "awayTeamId": 22192,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 18,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Gintra-Universitetas",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Gintra-Universitetas (0/5 recent wins) vs Farul Constanţa W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 18% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414260,
+      "date": "2025-08-27T15:00:00+00:00",
+      "venue": "epet ARENA",
+      "city": "Praha",
+      "country": "World",
+      "homeTeam": "Sparta Praha W",
+      "awayTeam": "Nordsjælland",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10925.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/13983.png",
+      "homeTeamId": 10925,
+      "awayTeamId": 13983,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 4,
+      "awayGoals": 4,
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "PEN",
+      "elapsed": 120,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 16,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Sparta Praha W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Sparta Praha W (0/5 recent wins) vs Nordsjælland (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 16% draw probability. Expected score: 1-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414330,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Pénzügyőr SE Sporttelep",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "Pénzügyőr",
+      "awayTeam": "Érdi VSE",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5131.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5153.png",
+      "homeTeamId": 5131,
+      "awayTeamId": 5153,
+      "league": "NB III - Southwest",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 18,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Pénzügyőr",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Pénzügyőr (0/5 recent wins) vs Érdi VSE (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 18% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414331,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Szekszárdi Városi Stadion",
+      "city": "Szekszárd",
+      "country": "Hungary",
+      "homeTeam": "Szekszárd",
+      "awayTeam": "Nagykanizsai ULE",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5138.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5123.png",
+      "homeTeamId": 5138,
+      "awayTeamId": 5123,
+      "league": "NB III - Southwest",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 18,
+        "awayWinProbability": 37,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Szekszárd",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Szekszárd (0/5 recent wins) vs Nagykanizsai ULE (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 18% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414332,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "FTC Utánpótlás Centrum",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "Ferencváros II",
+      "awayTeam": "Dombóvári",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11861.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21887.png",
+      "homeTeamId": 11861,
+      "awayTeamId": 21887,
+      "league": "NB III - Southwest",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 21,
+        "awayWinProbability": 33,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Ferencváros II",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Ferencváros II (0/5 recent wins) vs Dombóvári (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414333,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Sándor Károly Labdarúgó Akadémia",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "MTK Budapest II",
+      "awayTeam": "Paksi SE II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/17064.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/11856.png",
+      "homeTeamId": 17064,
+      "awayTeamId": 11856,
+      "league": "NB III - Southwest",
+      "homeGoals": 3,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 20,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "MTK Budapest II",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "MTK Budapest II (0/5 recent wins) vs Paksi SE II (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 20% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414334,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Rákóczi Stadion",
+      "city": "Kaposvár",
+      "country": "Hungary",
+      "homeTeam": "Kaposvar",
+      "awayTeam": "Siofok",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2407.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2413.png",
+      "homeTeamId": 2407,
+      "awayTeamId": 2413,
+      "league": "NB III - Southwest",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 17,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Kaposvar",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Kaposvar (0/5 recent wins) vs Siofok (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 17% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414553,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "id. Christián László Városi Sporttelep",
+      "city": "Gyula",
+      "country": "Hungary",
+      "homeTeam": "Gyulai Termál",
+      "awayTeam": "Szegedi VSE",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11729.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/7561.png",
+      "homeTeamId": 11729,
+      "awayTeamId": 7561,
+      "league": "NB III - Southeast",
+      "homeGoals": 5,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 19,
+        "awayWinProbability": 35,
+        "likelyScore": "3-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Gyulai Termál",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Gyulai Termál (0/5 recent wins) vs Szegedi VSE (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 19% draw probability. Expected score: 3-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414554,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Molnár Lajos Sporttelep Kunszentmárton",
+      "city": "Kunszentmárton",
+      "country": "Hungary",
+      "homeTeam": "Tiszaföldvár",
+      "awayTeam": "Csep-Gól",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/15199.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21885.png",
+      "homeTeamId": 15199,
+      "awayTeamId": 21885,
+      "league": "NB III - Southeast",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 17,
+        "awayWinProbability": 39,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Tiszaföldvár",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Tiszaföldvár (0/5 recent wins) vs Csep-Gól (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414555,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Honvéd MFA Utánpótlás Központ",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "Honvéd II",
+      "awayTeam": "Martfűi LSE",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11853.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21856.png",
+      "homeTeamId": 11853,
+      "awayTeamId": 21856,
+      "league": "NB III - Southeast",
+      "homeGoals": 5,
+      "awayGoals": 0,
+      "homeScore": 4,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 19,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Honvéd II",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Honvéd II (0/5 recent wins) vs Martfűi LSE (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 19% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414556,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "BKV Előre Stadion",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "BKV Előre",
+      "awayTeam": "Dunaharaszti MTK",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5070.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5085.png",
+      "homeTeamId": 5070,
+      "awayTeamId": 5085,
+      "league": "NB III - Southeast",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 16,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "BKV Előre",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "BKV Előre (0/5 recent wins) vs Dunaharaszti MTK (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 16% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414557,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Kórház utcai stadion",
+      "city": "Békéscsaba",
+      "country": "Hungary",
+      "homeTeam": "Békéscsaba II",
+      "awayTeam": "Monori Se",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/17173.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2411.png",
+      "homeTeamId": 17173,
+      "awayTeamId": 2411,
+      "league": "NB III - Southeast",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 16,
+        "awayWinProbability": 39,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Békéscsaba II",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Békéscsaba II (0/5 recent wins) vs Monori Se (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 16% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414558,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Hévízi úti Stadion",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "III. Kerületi TUE",
+      "awayTeam": "Dabas",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5102.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5083.png",
+      "homeTeamId": 5102,
+      "awayTeamId": 5083,
+      "league": "NB III - Southeast",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 23,
+        "awayWinProbability": 34,
+        "likelyScore": "0-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "III. Kerületi TUE",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "III. Kerületi TUE (0/5 recent wins) vs Dabas (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 23% draw probability. Expected score: 0-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414559,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "ESMTK Stadion",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "ESMTK",
+      "awayTeam": "Vasas II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5087.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/19462.png",
+      "homeTeamId": 5087,
+      "awayTeamId": 19462,
+      "league": "NB III - Southeast",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 20,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "ESMTK",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "ESMTK (0/5 recent wins) vs Vasas II (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 20% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414560,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Hódmezővásárhelyi Városi Stadion",
+      "city": "Hódmezővásárhely",
+      "country": "Hungary",
+      "homeTeam": "Hódmezővásárhely",
+      "awayTeam": "Szeged-Csanád II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5101.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21857.png",
+      "homeTeamId": 5101,
+      "awayTeamId": 21857,
+      "league": "NB III - Southeast",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 23,
+        "awayWinProbability": 31,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Hódmezővásárhely",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Hódmezővásárhely (0/5 recent wins) vs Szeged-Csanád II (0/5 recent wins) in NB III - Southeast. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414769,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "ETO Park",
+      "city": "Győr",
+      "country": "Hungary",
+      "homeTeam": "Gyori ETO II",
+      "awayTeam": "Zsámbéki SK",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11851.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/15201.png",
+      "homeTeamId": 11851,
+      "awayTeamId": 15201,
+      "league": "NB III - Northwest",
+      "homeGoals": 1,
+      "awayGoals": 4,
+      "homeScore": 1,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 19,
+        "awayWinProbability": 33,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Gyori ETO II",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Gyori ETO II (0/5 recent wins) vs Zsámbéki SK (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 19% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414770,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Bicskei Sportpálya",
+      "city": "Bicske",
+      "country": "Hungary",
+      "homeTeam": "Bicskei",
+      "awayTeam": "Veszprém",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/7536.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/7569.png",
+      "homeTeamId": 7536,
+      "awayTeamId": 7569,
+      "league": "NB III - Northwest",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 18,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Bicskei",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Bicskei (0/5 recent wins) vs Veszprém (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 18% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414771,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Wittmann Antal park",
+      "city": "Mosonmagyaróvár",
+      "country": "Hungary",
+      "homeTeam": "MTE 1904",
+      "awayTeam": "SC Sopron",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2412.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/7557.png",
+      "homeTeamId": 2412,
+      "awayTeamId": 7557,
+      "league": "NB III - Northwest",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 3,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "MTE 1904",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "MTE 1904 (0/5 recent wins) vs SC Sopron (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414772,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Balatonfüredi Városi Sportpálya",
+      "city": "Balatonfüred",
+      "country": "Hungary",
+      "homeTeam": "Balatonfüredi",
+      "awayTeam": "Budaörs",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5073.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/10162.png",
+      "homeTeamId": 5073,
+      "awayTeamId": 10162,
+      "league": "NB III - Northwest",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 23,
+        "awayWinProbability": 34,
+        "likelyScore": "0-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Balatonfüredi",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Balatonfüredi (0/5 recent wins) vs Budaörs (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 23% draw probability. Expected score: 0-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414773,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Grosics Gyula Stadion",
+      "city": "Tatabánya",
+      "country": "Hungary",
+      "homeTeam": "Tatabánya",
+      "awayTeam": "Újpest II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5145.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/11860.png",
+      "homeTeamId": 5145,
+      "awayTeamId": 11860,
+      "league": "NB III - Northwest",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 21,
+        "awayWinProbability": 33,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Tatabánya",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Tatabánya (0/5 recent wins) vs Újpest II (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414774,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Buzánszky Jenő Stadion",
+      "city": "Dorog",
+      "country": "Hungary",
+      "homeTeam": "Dorogi FC",
+      "awayTeam": "Pápai Perutz",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2401.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5129.png",
+      "homeTeamId": 2401,
+      "awayTeamId": 5129,
+      "league": "NB III - Northwest",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 16,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Dorogi FC",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Dorogi FC (0/5 recent wins) vs Pápai Perutz (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 16% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414775,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "MOLAJ Sporttelep",
+      "city": "Komárom",
+      "country": "Hungary",
+      "homeTeam": "Komárom",
+      "awayTeam": "Puskás II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5113.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/13155.png",
+      "homeTeamId": 5113,
+      "awayTeamId": 13155,
+      "league": "NB III - Northwest",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 18,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Komárom",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Komárom (0/5 recent wins) vs Puskás II (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 18% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414989,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Lipcsey Elemér Sporttelep",
+      "city": "Tiszafüred",
+      "country": "Hungary",
+      "homeTeam": "Tiszafuredi VSE",
+      "awayTeam": "Tarpa",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5147.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/15198.png",
+      "homeTeamId": 5147,
+      "awayTeamId": 15198,
+      "league": "NB III - Northeast",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 20,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Tiszafuredi VSE",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Tiszafuredi VSE (0/5 recent wins) vs Tarpa (0/5 recent wins) in NB III - Northeast. This is a closely contested match with 20% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414990,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Debreceni Egyetemi AC Stadion",
+      "city": "Debrecen",
+      "country": "Hungary",
+      "homeTeam": "DEAC",
+      "awayTeam": "Putnok VSE",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5082.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5128.png",
+      "homeTeamId": 5082,
+      "awayTeamId": 5128,
+      "league": "NB III - Northeast",
+      "homeGoals": 0,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 41,
+        "drawProbability": 23,
+        "awayWinProbability": 36,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "DEAC",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "DEAC (0/5 recent wins) vs Putnok VSE (0/5 recent wins) in NB III - Northeast. This is a closely contested match with 23% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414991,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Füzesabonyi Sporttelep",
+      "city": "Füzesabony",
+      "country": "Hungary",
+      "homeTeam": "Füzesabony",
+      "awayTeam": "Kisvárda II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/24493.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/14122.png",
+      "homeTeamId": 24493,
+      "awayTeamId": 14122,
+      "league": "NB III - Northeast",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 23,
+        "awayWinProbability": 34,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Füzesabony",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Füzesabony (0/5 recent wins) vs Kisvárda II (0/5 recent wins) in NB III - Northeast. This is a closely contested match with 23% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414992,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Szentmarjay Tibor Városi Stadion",
+      "city": "Eger",
+      "country": "Hungary",
+      "homeTeam": "Eger",
+      "awayTeam": "Nyiregyhaza II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5089.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/24538.png",
+      "homeTeamId": 5089,
+      "awayTeamId": 24538,
+      "league": "NB III - Northeast",
+      "homeGoals": 3,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 17,
+        "awayWinProbability": 38,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Eger",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Eger (0/5 recent wins) vs Nyiregyhaza II (0/5 recent wins) in NB III - Northeast. This is a closely contested match with 17% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414993,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Szűcs Lajos Sportcentrum",
+      "city": "Gödöllő",
+      "country": "Hungary",
+      "homeTeam": "Gödöllő",
+      "awayTeam": "Diósgyőr II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11701.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/13154.png",
+      "homeTeamId": 11701,
+      "awayTeamId": 13154,
+      "league": "NB III - Northeast",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Gödöllő",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Gödöllő (0/5 recent wins) vs Diósgyőr II (0/5 recent wins) in NB III - Northeast. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414994,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Cigánd Városi Stadion",
+      "city": "Cigánd",
+      "country": "Hungary",
+      "homeTeam": "Cigand SE",
+      "awayTeam": "Tiszaújváros",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2419.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5149.png",
+      "homeTeamId": 2419,
+      "awayTeamId": 5149,
+      "league": "NB III - Northeast",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 18,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Cigand SE",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Cigand SE (0/5 recent wins) vs Tiszaújváros (0/5 recent wins) in NB III - Northeast. This is a closely contested match with 18% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1415799,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Stade Boujemâa Lekmiti",
+      "city": "Béja",
+      "country": "Tunisia",
+      "homeTeam": "Olympique Béja",
+      "awayTeam": "JS Kairouanaise",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10625.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/993.png",
+      "homeTeamId": 10625,
+      "awayTeamId": 993,
+      "league": "Ligue 1",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 18,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Olympique Béja",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.6976,
+          "awayGoals": 0.6302999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Olympique Béja (0/5 recent wins) vs JS Kairouanaise (0/5 recent wins) in Ligue 1. This is a closely contested match with 18% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 9%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1415800,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Stade Abdelaziz Chtioui",
+      "city": "La Marsa",
+      "country": "Tunisia",
+      "homeTeam": "AS Marsa",
+      "awayTeam": "US Monastirienne",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10368.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/992.png",
+      "homeTeamId": 10368,
+      "awayTeamId": 992,
+      "league": "Ligue 1",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "AS Marsa",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.6976,
+          "awayGoals": 0.6302999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "AS Marsa (0/5 recent wins) vs US Monastirienne (0/5 recent wins) in Ligue 1. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 9%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1415801,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Stade du 15 Octobre",
+      "city": "Bizerte (Banzart)",
+      "country": "Tunisia",
+      "homeTeam": "CA Bizertin",
+      "awayTeam": "Club Africain",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/981.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/988.png",
+      "homeTeamId": 981,
+      "awayTeamId": 988,
+      "league": "Ligue 1",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "ABD",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 22,
+        "awayWinProbability": 33,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "CA Bizertin",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.6976,
+          "awayGoals": 0.6302999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "CA Bizertin (0/5 recent wins) vs Club Africain (0/5 recent wins) in Ligue 1. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 9%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1415805,
+      "date": "2025-08-27T15:30:00+00:00",
+      "venue": "Stade Hédi-Enneifer",
+      "city": "Le Bardo",
+      "country": "Tunisia",
+      "homeTeam": "Stade Tunisien",
+      "awayTeam": "ES Metlaoui",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/991.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/984.png",
+      "homeTeamId": 991,
+      "awayTeamId": 984,
+      "league": "Ligue 1",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 41,
+        "drawProbability": 23,
+        "awayWinProbability": 36,
+        "likelyScore": "0-2",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Stade Tunisien",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.6976,
+          "awayGoals": 0.6302999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Stade Tunisien (0/5 recent wins) vs ES Metlaoui (0/5 recent wins) in Ligue 1. This is a closely contested match with 23% draw probability. Expected score: 0-2. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 9%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405481,
+      "date": "2025-08-27T16:00:00+00:00",
+      "venue": "Bolt Arena",
+      "city": "Helsinki",
+      "country": "World",
+      "homeTeam": "Vålerenga W",
+      "awayTeam": "HJK",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/15535.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/13990.png",
+      "homeTeamId": 15535,
+      "awayTeamId": 13990,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 16,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Vålerenga W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Vålerenga W (0/5 recent wins) vs HJK (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 16% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414335,
+      "date": "2025-08-27T16:00:00+00:00",
+      "venue": "Dunaújvárosi Stadion",
+      "city": "Dunaújváros",
+      "country": "Hungary",
+      "homeTeam": "Dunaújváros-Pálhalma",
+      "awayTeam": "PTE-PEAC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5086.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5127.png",
+      "homeTeamId": 5086,
+      "awayTeamId": 5127,
+      "league": "NB III - Southwest",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 18,
+        "awayWinProbability": 36,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Dunaújváros-Pálhalma",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Dunaújváros-Pálhalma (0/5 recent wins) vs PTE-PEAC (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 18% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414336,
+      "date": "2025-08-27T16:00:00+00:00",
+      "venue": "PMFC Stadion",
+      "city": "Pécs",
+      "country": "Hungary",
+      "homeTeam": "Pécsi MFC",
+      "awayTeam": "Iváncsa",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5130.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5104.png",
+      "homeTeamId": 5130,
+      "awayTeamId": 5104,
+      "league": "NB III - Southwest",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 19,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Pécsi MFC",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Pécsi MFC (0/5 recent wins) vs Iváncsa (0/5 recent wins) in NB III - Southwest. This is a closely contested match with 19% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1423474,
+      "date": "2025-08-27T16:00:00+00:00",
+      "venue": "Mestni Štadion Fazanerija",
+      "city": "Murska Sobota",
+      "country": "World",
+      "homeTeam": "ŽNK Mura",
+      "awayTeam": "Spartak Myjava W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/21583.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/15982.png",
+      "homeTeamId": 21583,
+      "awayTeamId": 15982,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 3,
+      "awayGoals": 2,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 42,
+        "drawProbability": 22,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "ŽNK Mura",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "ŽNK Mura (0/5 recent wins) vs Spartak Myjava W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 22% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1437231,
+      "date": "2025-08-27T16:30:00+00:00",
+      "venue": "AEK Arena - George Karapatakis",
+      "city": "Larnaca",
+      "country": "World",
+      "homeTeam": "AEK Larnaca",
+      "awayTeam": "Brann",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/614.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/319.png",
+      "homeTeamId": 614,
+      "awayTeamId": 319,
+      "league": "UEFA Europa League",
+      "homeGoals": 0,
+      "awayGoals": 4,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "AEK Larnaca",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "AEK Larnaca (0/5 recent wins) vs Brann (0/5 recent wins) in UEFA Europa League. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1435553,
+      "date": "2025-08-27T16:45:00+00:00",
+      "venue": "Tofiq Bəhramov adına Respublika stadionu",
+      "city": "Baku",
+      "country": "World",
+      "homeTeam": "Qarabag",
+      "awayTeam": "Ferencvarosi TC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/556.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/651.png",
+      "homeTeamId": 556,
+      "awayTeamId": 651,
+      "league": "UEFA Champions League",
+      "homeGoals": 2,
+      "awayGoals": 3,
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 17,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Qarabag",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Qarabag (0/5 recent wins) vs Ferencvarosi TC (0/5 recent wins) in UEFA Champions League. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405472,
+      "date": "2025-08-27T17:00:00+00:00",
+      "venue": "Sportpark Schreurserve",
+      "city": "Enschede",
+      "country": "World",
+      "homeTeam": "Twente W",
+      "awayTeam": "Crvena zvezda",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1899.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/24206.png",
+      "homeTeamId": 1899,
+      "awayTeamId": 24206,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 19,
+        "awayWinProbability": 33,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Twente W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Twente W (0/5 recent wins) vs Crvena zvezda (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 19% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405475,
+      "date": "2025-08-27T17:00:00+00:00",
+      "venue": "Stadiumi Loro Boriçi",
+      "city": "Shkodër",
+      "country": "World",
+      "homeTeam": "Vllaznia",
+      "awayTeam": "Dinamo-BGU W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10906.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/16839.png",
+      "homeTeamId": 10906,
+      "awayTeamId": 16839,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 18,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Vllaznia",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Vllaznia (0/5 recent wins) vs Dinamo-BGU W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 18% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405480,
+      "date": "2025-08-27T17:00:00+00:00",
+      "venue": "Generali Arena",
+      "city": "Wien",
+      "country": "World",
+      "homeTeam": "Glasgow City W",
+      "awayTeam": "Austria Wien W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10892.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/17575.png",
+      "homeTeamId": 10892,
+      "awayTeamId": 17575,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 0,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 49,
+        "drawProbability": 16,
+        "awayWinProbability": 35,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Glasgow City W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Glasgow City W (0/5 recent wins) vs Austria Wien W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 16% draw probability. Expected score: 1-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1414776,
+      "date": "2025-08-27T17:00:00+00:00",
+      "venue": "Alcufer Stadion",
+      "city": "Győr",
+      "country": "Hungary",
+      "homeTeam": "Gyirmot SE",
+      "awayTeam": "Haladás VSE",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2398.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/17285.png",
+      "homeTeamId": 2398,
+      "awayTeamId": 17285,
+      "league": "NB III - Northwest",
+      "homeGoals": 4,
+      "awayGoals": 1,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 20,
+        "awayWinProbability": 33,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Gyirmot SE",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Gyirmot SE (0/5 recent wins) vs Haladás VSE (0/5 recent wins) in NB III - Northwest. This is a closely contested match with 20% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1429368,
+      "date": "2025-08-27T17:00:00+00:00",
+      "venue": "3Arena",
+      "city": "Stockholm",
+      "country": "World",
+      "homeTeam": "Hammarby",
+      "awayTeam": "Metalist 1925 W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/15630.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/26298.png",
+      "homeTeamId": 15630,
+      "awayTeamId": 26298,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 5,
+      "awayGoals": 4,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 22,
+        "awayWinProbability": 33,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Hammarby",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Hammarby (0/5 recent wins) vs Metalist 1925 W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 22% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405482,
+      "date": "2025-08-27T18:00:00+00:00",
+      "venue": "King Power at Den Dreef Stadion",
+      "city": "Heverlee",
+      "country": "World",
+      "homeTeam": "SFK 2000",
+      "awayTeam": "OH Leuven W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10902.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1790.png",
+      "homeTeamId": 10902,
+      "awayTeamId": 1790,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 1,
+      "awayGoals": 2,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "AET",
+      "elapsed": 120,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 23,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "SFK 2000",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "SFK 2000 (0/5 recent wins) vs OH Leuven W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1448214,
+      "date": "2025-08-27T18:00:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "World",
+      "homeTeam": "Fulham U21",
+      "awayTeam": "Valencia II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/7194.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/9594.png",
+      "homeTeamId": 7194,
+      "awayTeamId": 9594,
+      "league": "Premier League International Cup",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 19,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Fulham U21",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Fulham U21 (0/5 recent wins) vs Valencia II (0/5 recent wins) in Premier League International Cup. This is a closely contested match with 19% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405470,
+      "date": "2025-08-27T18:30:00+00:00",
+      "venue": "KONAMI Youth Development Centre in Memory of Giacinto Facchetti",
+      "city": "Milano",
+      "country": "World",
+      "homeTeam": "Valur W",
+      "awayTeam": "Sporting Braga",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/14851.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/10905.png",
+      "homeTeamId": 14851,
+      "awayTeamId": 10905,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 1,
+      "awayGoals": 3,
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 49,
+        "drawProbability": 17,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Valur W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Valur W (0/5 recent wins) vs Sporting Braga (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1405473,
+      "date": "2025-08-27T18:30:00+00:00",
+      "venue": "Stadio Stelios Kyriakides",
+      "city": "Paphos",
+      "country": "World",
+      "homeTeam": "Fortuna Hjørring",
+      "awayTeam": "Hibernian W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/10890.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/10917.png",
+      "homeTeamId": 10890,
+      "awayTeamId": 10917,
+      "league": "UEFA Champions League Women",
+      "homeGoals": 2,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 17,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Fortuna Hjørring",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Fortuna Hjørring (0/5 recent wins) vs Hibernian W (0/5 recent wins) in UEFA Champions League Women. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1390871,
+      "date": "2025-08-27T19:00:00+00:00",
+      "venue": "Estadio Abanca-Balaídos",
+      "city": "Vigo",
+      "country": "Spain",
+      "homeTeam": "Celta Vigo",
+      "awayTeam": "Real Betis",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/538.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/543.png",
+      "homeTeamId": 538,
+      "awayTeamId": 543,
+      "league": "La Liga",
+      "homeGoals": 1,
+      "awayGoals": 1,
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 20,
+        "awayWinProbability": 37,
+        "likelyScore": "2-1",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Celta Vigo",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.78144,
+          "awayGoals": 0.68607
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.15
+      },
+      "reasoning": "Celta Vigo (0/5 recent wins) vs Real Betis (0/5 recent wins) in La Liga. This is a closely contested match with 20% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.15",
+        "Home Advantage: 11%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1435554,
+      "date": "2025-08-27T19:00:00+00:00",
+      "venue": "Parken",
+      "city": "København",
+      "country": "World",
+      "homeTeam": "FC Copenhagen",
+      "awayTeam": "FC Basel 1893",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/400.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/551.png",
+      "homeTeamId": 400,
+      "awayTeamId": 551,
+      "league": "UEFA Champions League",
+      "homeGoals": 2,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 42,
+        "drawProbability": 24,
+        "awayWinProbability": 34,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "FC Copenhagen",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "FC Copenhagen (0/5 recent wins) vs FC Basel 1893 (0/5 recent wins) in UEFA Champions League. This is a closely contested match with 24% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1435555,
+      "date": "2025-08-27T19:00:00+00:00",
+      "venue": "Jan Breydelstadion",
+      "city": "Brugge",
+      "country": "World",
+      "homeTeam": "Club Brugge KV",
+      "awayTeam": "Rangers",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/569.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/257.png",
+      "homeTeamId": 569,
+      "awayTeamId": 257,
+      "league": "UEFA Champions League",
+      "homeGoals": 6,
+      "awayGoals": 0,
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 21,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Club Brugge KV",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Club Brugge KV (0/5 recent wins) vs Rangers (0/5 recent wins) in UEFA Champions League. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1435556,
+      "date": "2025-08-27T19:00:00+00:00",
+      "venue": "Estádio do Sport Lisboa e Benfica",
+      "city": "Lisbon",
+      "country": "World",
+      "homeTeam": "Benfica",
+      "awayTeam": "Fenerbahce",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/211.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/611.png",
+      "homeTeamId": 211,
+      "awayTeamId": 611,
+      "league": "UEFA Champions League",
+      "homeGoals": 1,
+      "awayGoals": 0,
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 21,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Benfica",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Benfica (0/5 recent wins) vs Fenerbahce (0/5 recent wins) in UEFA Champions League. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1447018,
+      "date": "2025-08-27T23:30:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Uruguay",
+      "homeTeam": "Paso de la Arena",
+      "awayTeam": "Boston River",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/19344.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2361.png",
+      "homeTeamId": 19344,
+      "awayTeamId": 2361,
+      "league": "Copa Uruguay",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 23,
+        "awayWinProbability": 31,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Paso de la Arena",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Paso de la Arena (0/5 recent wins) vs Boston River (0/5 recent wins) in Copa Uruguay. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1447019,
+      "date": "2025-08-27T23:30:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Uruguay",
+      "homeTeam": "Río Negro",
+      "awayTeam": "Penarol",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/19349.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2348.png",
+      "homeTeamId": 19349,
+      "awayTeamId": 2348,
+      "league": "Copa Uruguay",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 17,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Río Negro",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Río Negro (0/5 recent wins) vs Penarol (0/5 recent wins) in Copa Uruguay. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    }
+  ]
+}

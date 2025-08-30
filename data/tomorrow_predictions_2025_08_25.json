@@ -1,0 +1,2260 @@
+{
+  "date": "2025-08-25",
+  "totalMatches": 315,
+  "predictions": [
+    {
+      "id": 1379533,
+      "date": "2025-08-25T01:05:00+00:00",
+      "venue": "Estadio Jalisco",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "homeTeam": "Atlas",
+      "awayTeam": "Club America",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2283.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2287.png",
+      "homeTeamId": 2283,
+      "awayTeamId": 2287,
+      "league": "Liga MX",
+      "homeGoals": 2,
+      "awayGoals": 4,
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 18,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Atlas",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Atlas (0/5 recent wins) vs Club America (0/5 recent wins) in Liga MX. This is a closely contested match with 18% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1392425,
+      "date": "2025-08-25T01:30:00+00:00",
+      "venue": "Estadio Américo Montanini",
+      "city": "Bucaramanga",
+      "country": "Colombia",
+      "homeTeam": "Bucaramanga",
+      "awayTeam": "Rionegro Aguilas",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1131.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1144.png",
+      "homeTeamId": 1131,
+      "awayTeamId": 1144,
+      "league": "Primera A",
+      "homeGoals": 4,
+      "awayGoals": 0,
+      "homeScore": 2,
+      "awayScore": 0,
+      "status": "FT",
+      "elapsed": 90,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Bucaramanga",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Bucaramanga (0/5 recent wins) vs Rionegro Aguilas (0/5 recent wins) in Primera A. This is a closely contested match with 22% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1446712,
+      "date": "2025-08-25T08:45:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "World",
+      "homeTeam": "Etihad Club W",
+      "awayTeam": "Lion City W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/24888.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/24890.png",
+      "homeTeamId": 24888,
+      "awayTeamId": 24890,
+      "league": "AFC Women's Champions League",
+      "homeGoals": 0,
+      "awayGoals": 0,
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "1H",
+      "elapsed": 6,
+      "prediction": {
+        "homeWinProbability": 49,
+        "drawProbability": 15,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Etihad Club W",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Etihad Club W (0/5 recent wins) vs Lion City W (0/5 recent wins) in AFC Women's Champions League. This is a closely contested match with 15% draw probability. Expected score: 1-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1446716,
+      "date": "2025-08-25T09:00:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "World",
+      "homeTeam": "Kaohsiung W",
+      "awayTeam": "RTC W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/26439.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/24892.png",
+      "homeTeamId": 26439,
+      "awayTeamId": 24892,
+      "league": "AFC Women's Champions League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 42,
+        "drawProbability": 24,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Kaohsiung W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Kaohsiung W (0/5 recent wins) vs RTC W (0/5 recent wins) in AFC Women's Champions League. This is a closely contested match with 24% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1433903,
+      "date": "2025-08-25T11:00:00+00:00",
+      "venue": "AFC Bournemouth Performance Centre",
+      "city": "Bournemouth, Dorset",
+      "country": "England",
+      "homeTeam": "AFC Bournemouth U21",
+      "awayTeam": "Peterborough United U21",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/20000.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/20018.png",
+      "homeTeamId": 20000,
+      "awayTeamId": 20018,
+      "league": "Professional Development League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 20,
+        "awayWinProbability": 34,
+        "likelyScore": "2-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "AFC Bournemouth U21",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "AFC Bournemouth U21 (0/5 recent wins) vs Peterborough United U21 (0/5 recent wins) in Professional Development League. This is a closely contested match with 20% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1421796,
+      "date": "2025-08-25T11:30:00+00:00",
+      "venue": "Town Square at Our Tampines Hub",
+      "city": "Singapore",
+      "country": "Singapore",
+      "homeTeam": "Home United",
+      "awayTeam": "Hougang United",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/4204.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/4205.png",
+      "homeTeamId": 4204,
+      "awayTeamId": 4205,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 19,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Home United",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Home United (0/5 recent wins) vs Hougang United (0/5 recent wins) in Premier League. This is a closely contested match with 19% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1434735,
+      "date": "2025-08-25T12:30:00+00:00",
+      "venue": "Armaviri Hakob Tonoyani Stadium",
+      "city": "Armavir",
+      "country": "Armenia",
+      "homeTeam": "Sardarapat",
+      "awayTeam": "Noah II",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/26198.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/21879.png",
+      "homeTeamId": 26198,
+      "awayTeamId": 21879,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 17,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Sardarapat",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Sardarapat (0/5 recent wins) vs Noah II (0/5 recent wins) in First League. This is a closely contested match with 17% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1446713,
+      "date": "2025-08-25T12:30:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "World",
+      "homeTeam": "BGC Asian Scholars W",
+      "awayTeam": "Al Nassr W",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/24886.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/24884.png",
+      "homeTeamId": 24886,
+      "awayTeamId": 24884,
+      "league": "AFC Women's Champions League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "BGC Asian Scholars W",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "BGC Asian Scholars W (0/5 recent wins) vs Al Nassr W (0/5 recent wins) in AFC Women's Champions League. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1434327,
+      "date": "2025-08-25T13:00:00+00:00",
+      "venue": "Liverpool’s Academy Ground",
+      "city": "Knowsley, Merseyside",
+      "country": "England",
+      "homeTeam": "Liverpool U21",
+      "awayTeam": "Burnley U21",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/7196.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/20081.png",
+      "homeTeamId": 7196,
+      "awayTeamId": 20081,
+      "league": "Premier League 2 Division One",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 56,
+        "drawProbability": 16,
+        "awayWinProbability": 28,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Liverpool U21",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 88,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 2,
+          "awayGoals": 0.855
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Liverpool U21 (3/5 recent wins) vs Burnley U21 (0/5 recent wins) in Premier League 2 Division One. Liverpool U21 is favored with 56% win probability due to strong home form (W-D-W-W-L) and home advantage. Expected score: 1-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: W-D-W-W-L",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 2.0 vs 0.9"
+      ]
+    },
+    {
+      "id": 1434328,
+      "date": "2025-08-25T13:00:00+00:00",
+      "venue": "ARMCO Arena",
+      "city": "Solihull, West Midlands",
+      "country": "England",
+      "homeTeam": "West Bromwich Albion U21",
+      "awayTeam": "Aston Villa U21",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/11913.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/7190.png",
+      "homeTeamId": 11913,
+      "awayTeamId": 7190,
+      "league": "Premier League 2 Division One",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 49,
+        "drawProbability": 16,
+        "awayWinProbability": 35,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "West Bromwich Albion U21",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "West Bromwich Albion U21 (0/5 recent wins) vs Aston Villa U21 (0/5 recent wins) in Premier League 2 Division One. This is a closely contested match with 16% draw probability. Expected score: 1-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1395399,
+      "date": "2025-08-25T13:30:00+00:00",
+      "venue": "The Avondale Motor Park Arena",
+      "city": "Cwmbran",
+      "country": "Wales",
+      "homeTeam": "Cwmbran Celtic",
+      "awayTeam": "Newport City",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2190.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/20364.png",
+      "homeTeamId": 2190,
+      "awayTeamId": 20364,
+      "league": "FAW Championship",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 23,
+        "awayWinProbability": 33,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Cwmbran Celtic",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Cwmbran Celtic (0/5 recent wins) vs Newport City (0/5 recent wins) in FAW Championship. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1401037,
+      "date": "2025-08-25T13:30:00+00:00",
+      "venue": "The Renewable Centre Stadium",
+      "city": "Briton Ferry",
+      "country": "Wales",
+      "homeTeam": "Briton Ferry",
+      "awayTeam": "Haverfordwest County AFC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2201.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2194.png",
+      "homeTeamId": 2201,
+      "awayTeamId": 2194,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 22,
+        "awayWinProbability": 32,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Briton Ferry",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Briton Ferry (0/5 recent wins) vs Haverfordwest County AFC (0/5 recent wins) in Premier League. This is a closely contested match with 22% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1401038,
+      "date": "2025-08-25T13:30:00+00:00",
+      "venue": "Cyncoed Campus Artificial Pitch",
+      "city": "Cardiff (Caerdydd)",
+      "country": "Wales",
+      "homeTeam": "Cardiff MET",
+      "awayTeam": "Barry Town",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/353.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/361.png",
+      "homeTeamId": 353,
+      "awayTeamId": 361,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 23,
+        "awayWinProbability": 32,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Cardiff MET",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Cardiff MET (0/5 recent wins) vs Barry Town (0/5 recent wins) in Premier League. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1401039,
+      "date": "2025-08-25T13:30:00+00:00",
+      "venue": "Go Goodwins Stadium",
+      "city": "Llandudno, Conwy County Borough",
+      "country": "Wales",
+      "homeTeam": "Caernarfon Town",
+      "awayTeam": "Bala Town",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/356.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/352.png",
+      "homeTeamId": 356,
+      "awayTeamId": 352,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 21,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Caernarfon Town",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Caernarfon Town (0/5 recent wins) vs Bala Town (0/5 recent wins) in Premier League. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1401040,
+      "date": "2025-08-25T13:30:00+00:00",
+      "venue": "Blue Turtle Arena",
+      "city": "Colwyn Bay (Bae Colwyn), Conwy",
+      "country": "Wales",
+      "homeTeam": "Colwyn Bay",
+      "awayTeam": "The New Saints",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/5611.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/354.png",
+      "homeTeamId": 5611,
+      "awayTeamId": 354,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 22,
+        "awayWinProbability": 35,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Colwyn Bay",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Colwyn Bay (0/5 recent wins) vs The New Saints (0/5 recent wins) in Premier League. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1401041,
+      "date": "2025-08-25T13:30:00+00:00",
+      "venue": "DragonBet Stadium",
+      "city": "Bridgend, Bridgend County Borough",
+      "country": "Wales",
+      "homeTeam": "Penybont",
+      "awayTeam": "llanelli AFC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2191.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/355.png",
+      "homeTeamId": 2191,
+      "awayTeamId": 355,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 17,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Penybont",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Penybont (0/5 recent wins) vs llanelli AFC (0/5 recent wins) in Premier League. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1414193,
+      "date": "2025-08-25T14:00:00+00:00",
+      "venue": "Ekaterinburg Arena",
+      "city": "Ekaterinburg",
+      "country": "Russia",
+      "homeTeam": "Ural",
+      "awayTeam": "Volga Ulyanovsk",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1084.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/6834.png",
+      "homeTeamId": 1084,
+      "awayTeamId": 6834,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 20,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Ural",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Ural (0/5 recent wins) vs Volga Ulyanovsk (0/5 recent wins) in First League. This is a closely contested match with 20% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1418792,
+      "date": "2025-08-25T15:00:00+00:00",
+      "venue": "El Mahalla Stadium",
+      "city": "El-Mahalla El-Kubra",
+      "country": "Egypt",
+      "homeTeam": "Ghazl El Mehalla",
+      "awayTeam": "Al Ahly",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/13819.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1577.png",
+      "homeTeamId": 13819,
+      "awayTeamId": 1577,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 23,
+        "awayWinProbability": 32,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Ghazl El Mehalla",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Ghazl El Mehalla (0/5 recent wins) vs Al Ahly (0/5 recent wins) in Premier League. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1418793,
+      "date": "2025-08-25T15:00:00+00:00",
+      "venue": "Cairo International Stadium",
+      "city": "al-Qāhirah (Cairo)",
+      "country": "Egypt",
+      "homeTeam": "Masr",
+      "awayTeam": "Wadi Degla",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/7520.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1046.png",
+      "homeTeamId": 7520,
+      "awayTeamId": 1046,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 19,
+        "awayWinProbability": 34,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Masr",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Masr (0/5 recent wins) vs Wadi Degla (0/5 recent wins) in Premier League. This is a closely contested match with 19% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1423273,
+      "date": "2025-08-25T15:00:00+00:00",
+      "venue": "Stadion FK Bashkimi",
+      "city": "Kumanovo",
+      "country": "Macedonia",
+      "homeTeam": "Bashkimi Kumanovo",
+      "awayTeam": "Tikveš",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/22153.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/4348.png",
+      "homeTeamId": 22153,
+      "awayTeamId": 4348,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 17,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Bashkimi Kumanovo",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Bashkimi Kumanovo (0/5 recent wins) vs Tikveš (0/5 recent wins) in First League. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1423274,
+      "date": "2025-08-25T15:00:00+00:00",
+      "venue": "Gradski Stadion",
+      "city": "Bitola",
+      "country": "Macedonia",
+      "homeTeam": "Pelister",
+      "awayTeam": "Shkupi 1927",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/693.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2265.png",
+      "homeTeamId": 693,
+      "awayTeamId": 2265,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 22,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Pelister",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Pelister (0/5 recent wins) vs Shkupi 1927 (0/5 recent wins) in First League. This is a closely contested match with 22% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1442544,
+      "date": "2025-08-25T15:30:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Ivory-Coast",
+      "homeTeam": "SOA",
+      "awayTeam": "ES Agboville",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/4520.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/26340.png",
+      "homeTeamId": 4520,
+      "awayTeamId": 26340,
+      "league": "Ligue 1",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 22,
+        "awayWinProbability": 34,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "SOA",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.6976,
+          "awayGoals": 0.6302999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "SOA (0/5 recent wins) vs ES Agboville (0/5 recent wins) in Ligue 1. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 9%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1385809,
+      "date": "2025-08-25T16:00:00+00:00",
+      "venue": "Stadionul Municipal",
+      "city": "Sibiu",
+      "country": "Romania",
+      "homeTeam": "AFC Hermannstadt",
+      "awayTeam": "Farul Constanta",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2579.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2596.png",
+      "homeTeamId": 2579,
+      "awayTeamId": 2596,
+      "league": "Liga I",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 19,
+        "awayWinProbability": 38,
+        "likelyScore": "0-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "AFC Hermannstadt",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "AFC Hermannstadt (0/5 recent wins) vs Farul Constanta (0/5 recent wins) in Liga I. This is a closely contested match with 19% draw probability. Expected score: 0-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1388051,
+      "date": "2025-08-25T16:00:00+00:00",
+      "venue": "Stadion Aleksandar Shalamanov",
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "homeTeam": "Slavia Sofia",
+      "awayTeam": "Arda Kardzhali",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/854.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1430.png",
+      "homeTeamId": 854,
+      "awayTeamId": 1430,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 42,
+        "drawProbability": 22,
+        "awayWinProbability": 36,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Slavia Sofia",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Slavia Sofia (0/5 recent wins) vs Arda Kardzhali (0/5 recent wins) in First League. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1394451,
+      "date": "2025-08-25T16:00:00+00:00",
+      "venue": "Siltaş Yapı Pendik Stadyumu",
+      "city": "İstanbul",
+      "country": "Turkey",
+      "homeTeam": "Eyüpspor",
+      "awayTeam": "Alanyaspor",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/3588.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/996.png",
+      "homeTeamId": 3588,
+      "awayTeamId": 996,
+      "league": "Süper Lig",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 16,
+        "awayWinProbability": 40,
+        "likelyScore": "0-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Eyüpspor",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Eyüpspor (0/5 recent wins) vs Alanyaspor (0/5 recent wins) in Süper Lig. This is a closely contested match with 16% draw probability. Expected score: 0-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1423755,
+      "date": "2025-08-25T16:15:00+00:00",
+      "venue": "Essity Stadium",
+      "city": "Y Fflint / Flint, Flintshire",
+      "country": "Wales",
+      "homeTeam": "GAP Connah S Quay FC",
+      "awayTeam": "Flint Town United",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/357.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/5614.png",
+      "homeTeamId": 357,
+      "awayTeamId": 5614,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 20,
+        "awayWinProbability": 37,
+        "likelyScore": "3-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "GAP Connah S Quay FC",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "GAP Connah S Quay FC (0/5 recent wins) vs Flint Town United (0/5 recent wins) in Premier League. This is a closely contested match with 20% draw probability. Expected score: 3-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1377873,
+      "date": "2025-08-25T16:30:00+00:00",
+      "venue": "Bluenergy Stadium",
+      "city": "Udine",
+      "country": "Italy",
+      "homeTeam": "Udinese",
+      "awayTeam": "Verona",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/494.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/504.png",
+      "homeTeamId": 494,
+      "awayTeamId": 504,
+      "league": "Serie A",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 21,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Udinese",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7392,
+          "awayGoals": 0.6583499999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.05
+      },
+      "reasoning": "Udinese (0/5 recent wins) vs Verona (0/5 recent wins) in Serie A. This is a closely contested match with 21% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.05",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.7"
+      ]
+    },
+    {
+      "id": 1414194,
+      "date": "2025-08-25T16:30:00+00:00",
+      "venue": "Volgograd Arena",
+      "city": "Volgograd",
+      "country": "Russia",
+      "homeTeam": "Rotor Volgograd",
+      "awayTeam": "Torpedo Moskva",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/2010.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/3985.png",
+      "homeTeamId": 2010,
+      "awayTeamId": 3985,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 45,
+        "drawProbability": 20,
+        "awayWinProbability": 35,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Rotor Volgograd",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Rotor Volgograd (0/5 recent wins) vs Torpedo Moskva (0/5 recent wins) in First League. This is a closely contested match with 20% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1379384,
+      "date": "2025-08-25T17:00:00+00:00",
+      "venue": "Right to Dream Park",
+      "city": "Farum",
+      "country": "Denmark",
+      "homeTeam": "FC Nordsjaelland",
+      "awayTeam": "Viborg",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/398.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2070.png",
+      "homeTeamId": 398,
+      "awayTeamId": 2070,
+      "league": "Superliga",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 18,
+        "awayWinProbability": 36,
+        "likelyScore": "2-1",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "FC Nordsjaelland",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "FC Nordsjaelland (0/5 recent wins) vs Viborg (0/5 recent wins) in Superliga. This is a closely contested match with 18% draw probability. Expected score: 2-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1380437,
+      "date": "2025-08-25T17:00:00+00:00",
+      "venue": "Orlen Stadion",
+      "city": "Płock",
+      "country": "Poland",
+      "homeTeam": "Wisla Plock",
+      "awayTeam": "Zaglebie Lubin",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/341.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/345.png",
+      "homeTeamId": 341,
+      "awayTeamId": 345,
+      "league": "Ekstraklasa",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 17,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Wisla Plock",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Wisla Plock (0/5 recent wins) vs Zaglebie Lubin (0/5 recent wins) in Ekstraklasa. This is a closely contested match with 17% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1390829,
+      "date": "2025-08-25T17:30:00+00:00",
+      "venue": "Estadio de San Mamés",
+      "city": "Bilbao",
+      "country": "Spain",
+      "homeTeam": "Athletic Club",
+      "awayTeam": "Rayo Vallecano",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/531.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/728.png",
+      "homeTeamId": 531,
+      "awayTeamId": 728,
+      "league": "La Liga",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 22,
+        "awayWinProbability": 35,
+        "likelyScore": "3-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Athletic Club",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.78144,
+          "awayGoals": 0.68607
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.15
+      },
+      "reasoning": "Athletic Club (0/5 recent wins) vs Rayo Vallecano (0/5 recent wins) in La Liga. This is a closely contested match with 22% draw probability. Expected score: 3-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.15",
+        "Home Advantage: 11%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1374145,
+      "date": "2025-08-25T18:00:00+00:00",
+      "venue": "Estadio Guillermo Laza",
+      "city": "Capital Federal, Ciudad de Buenos Aires",
+      "country": "Argentina",
+      "homeTeam": "Deportivo Riestra",
+      "awayTeam": "Sarmiento Junin",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/476.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/474.png",
+      "homeTeamId": 476,
+      "awayTeamId": 474,
+      "league": "Liga Profesional Argentina",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 17,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Deportivo Riestra",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.5875199999999999,
+          "awayGoals": 0.5385599999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 0.85
+      },
+      "reasoning": "Deportivo Riestra (0/5 recent wins) vs Sarmiento Junin (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 17% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 0.85",
+        "Home Advantage: 8%",
+        "Expected Goals: 0.6 vs 0.5"
+      ]
+    },
+    {
+      "id": 1393852,
+      "date": "2025-08-25T18:00:00+00:00",
+      "venue": "Illovszky Rudolf Stadion",
+      "city": "Budapest",
+      "country": "Hungary",
+      "homeTeam": "Vasas",
+      "awayTeam": "Tiszakecske FC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/675.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/2415.png",
+      "homeTeamId": 675,
+      "awayTeamId": 2415,
+      "league": "NB II",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 17,
+        "awayWinProbability": 37,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Vasas",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Vasas (0/5 recent wins) vs Tiszakecske FC (0/5 recent wins) in NB II. This is a closely contested match with 17% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1418794,
+      "date": "2025-08-25T18:00:00+00:00",
+      "venue": "Petrosport Stadium",
+      "city": "al-Qāhirah (Cairo)",
+      "country": "Egypt",
+      "homeTeam": "Petrojet",
+      "awayTeam": "El Mokawloon",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1041.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1575.png",
+      "homeTeamId": 1041,
+      "awayTeamId": 1575,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 15,
+        "awayWinProbability": 36,
+        "likelyScore": "3-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Over 2.5",
+        "winner": "Petrojet",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Petrojet (0/5 recent wins) vs El Mokawloon (0/5 recent wins) in Premier League. This is a closely contested match with 15% draw probability. Expected score: 3-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1418795,
+      "date": "2025-08-25T18:00:00+00:00",
+      "venue": "30 June Air Defence Stadium",
+      "city": "al-Qāhirah (Cairo)",
+      "country": "Egypt",
+      "homeTeam": "Pyramids FC",
+      "awayTeam": "Future FC",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1036.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/16431.png",
+      "homeTeamId": 1036,
+      "awayTeamId": 16431,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 48,
+        "drawProbability": 15,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Pyramids FC",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Pyramids FC (0/5 recent wins) vs Future FC (0/5 recent wins) in Premier League. This is a closely contested match with 15% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1388044,
+      "date": "2025-08-25T18:15:00+00:00",
+      "venue": "Stadion Beroe",
+      "city": "Stara Zagora",
+      "country": "Bulgaria",
+      "homeTeam": "Beroe",
+      "awayTeam": "Ludogorets",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/857.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/566.png",
+      "homeTeamId": 857,
+      "awayTeamId": 566,
+      "league": "First League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 41,
+        "drawProbability": 22,
+        "awayWinProbability": 37,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Beroe",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Beroe (0/5 recent wins) vs Ludogorets (0/5 recent wins) in First League. This is a closely contested match with 22% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1377868,
+      "date": "2025-08-25T18:45:00+00:00",
+      "venue": "Stadio Giuseppe Meazza",
+      "city": "Milano",
+      "country": "Italy",
+      "homeTeam": "Inter",
+      "awayTeam": "Torino",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/505.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/503.png",
+      "homeTeamId": 505,
+      "awayTeamId": 503,
+      "league": "Serie A",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 56,
+        "drawProbability": 17,
+        "awayWinProbability": 27,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Inter",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 95,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 2,
+          "awayGoals": 0.8379
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.05
+      },
+      "reasoning": "Inter (4/5 recent wins) vs Torino (0/5 recent wins) in Serie A. Inter is favored with 56% win probability due to strong home form (W-W-W-D-W) and home advantage. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: W-W-W-D-W",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.05",
+        "Home Advantage: 10%",
+        "Expected Goals: 2.0 vs 0.8"
+      ]
+    },
+    {
+      "id": 1378987,
+      "date": "2025-08-25T19:00:00+00:00",
+      "venue": "St. James' Park",
+      "city": "Newcastle upon Tyne",
+      "country": "England",
+      "homeTeam": "Newcastle",
+      "awayTeam": "Liverpool",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/34.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/40.png",
+      "homeTeamId": 34,
+      "awayTeamId": 40,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 37,
+        "drawProbability": 12,
+        "awayWinProbability": 50,
+        "likelyScore": "0-2",
+        "halftimeResult": "0-1",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Liverpool",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 78,
+        "goalExpectations": {
+          "homeGoals": 0.9856000000000003,
+          "awayGoals": 1.50964
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Newcastle (0/5 recent wins) vs Liverpool (3/5 recent wins) in Premier League. This is a closely contested match with 12% draw probability. Expected score: 0-2. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: W-D-W-W-L",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 1.0 vs 1.5"
+      ]
+    },
+    {
+      "id": 1396259,
+      "date": "2025-08-25T19:15:00+00:00",
+      "venue": "Estádio José Gomes",
+      "city": "Amadora",
+      "country": "Portugal",
+      "homeTeam": "Estrela",
+      "awayTeam": "Alverca",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/15130.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/4724.png",
+      "homeTeamId": 15130,
+      "awayTeamId": 4724,
+      "league": "Primeira Liga",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 22,
+        "awayWinProbability": 32,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Estrela",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Estrela (0/5 recent wins) vs Alverca (0/5 recent wins) in Primeira Liga. This is a closely contested match with 22% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    },
+    {
+      "id": 1390837,
+      "date": "2025-08-25T19:30:00+00:00",
+      "venue": "Estadio Ramón Sánchez Pizjuán",
+      "city": "Sevilla",
+      "country": "Spain",
+      "homeTeam": "Sevilla",
+      "awayTeam": "Getafe",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/536.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/546.png",
+      "homeTeamId": 536,
+      "awayTeamId": 546,
+      "league": "La Liga",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 49,
+        "drawProbability": 16,
+        "awayWinProbability": 34,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Sevilla",
+        "confidence": "HIGH",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.78144,
+          "awayGoals": 0.68607
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.15
+      },
+      "reasoning": "Sevilla (0/5 recent wins) vs Getafe (0/5 recent wins) in La Liga. This is a closely contested match with 16% draw probability. Expected score: 2-0. Confidence level: HIGH.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.15",
+        "Home Advantage: 11%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1374149,
+      "date": "2025-08-25T20:00:00+00:00",
+      "venue": "Estadio Feliciano Gambarte",
+      "city": "Godoy Cruz, Provincia de Mendoza",
+      "country": "Argentina",
+      "homeTeam": "Godoy Cruz",
+      "awayTeam": "Velez Sarsfield",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/439.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/438.png",
+      "homeTeamId": 439,
+      "awayTeamId": 438,
+      "league": "Liga Profesional Argentina",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 47,
+        "drawProbability": 18,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Godoy Cruz",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.5875199999999999,
+          "awayGoals": 0.5385599999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 0.85
+      },
+      "reasoning": "Godoy Cruz (0/5 recent wins) vs Velez Sarsfield (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 18% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 0.85",
+        "Home Advantage: 8%",
+        "Expected Goals: 0.6 vs 0.5"
+      ]
+    },
+    {
+      "id": 1351245,
+      "date": "2025-08-25T22:00:00+00:00",
+      "venue": "Allianz Parque",
+      "city": "São Paulo, São Paulo",
+      "country": "Brazil",
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Sport Recife",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/121.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/123.png",
+      "homeTeamId": 121,
+      "awayTeamId": 123,
+      "league": "Serie A",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 44,
+        "drawProbability": 20,
+        "awayWinProbability": 36,
+        "likelyScore": "1-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Palmeiras",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7392,
+          "awayGoals": 0.6583499999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.05
+      },
+      "reasoning": "Palmeiras (0/5 recent wins) vs Sport Recife (0/5 recent wins) in Serie A. This is a closely contested match with 20% draw probability. Expected score: 1-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.05",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.7"
+      ]
+    },
+    {
+      "id": 1374139,
+      "date": "2025-08-25T22:00:00+00:00",
+      "venue": "Estadio Julio César Villagra",
+      "city": "Ciudad de Córdoba, Provincia de Córdoba",
+      "country": "Argentina",
+      "homeTeam": "Belgrano Cordoba",
+      "awayTeam": "Central Cordoba de Santiago",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/440.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1065.png",
+      "homeTeamId": 440,
+      "awayTeamId": 1065,
+      "league": "Liga Profesional Argentina",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 40,
+        "drawProbability": 24,
+        "awayWinProbability": 36,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Belgrano Cordoba",
+        "confidence": "MEDIUM",
+        "riskLevel": "HIGH"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.5875199999999999,
+          "awayGoals": 0.5385599999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 0.85
+      },
+      "reasoning": "Belgrano Cordoba (0/5 recent wins) vs Central Cordoba de Santiago (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 24% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 0.85",
+        "Home Advantage: 8%",
+        "Expected Goals: 0.6 vs 0.5"
+      ]
+    },
+    {
+      "id": 1444631,
+      "date": "2025-08-25T22:00:00+00:00",
+      "venue": null,
+      "city": null,
+      "country": "Jamaica",
+      "homeTeam": "Dunbeholden",
+      "awayTeam": "Portmore United",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/3438.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/3443.png",
+      "homeTeamId": 3438,
+      "awayTeamId": 3443,
+      "league": "Premier League",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 20,
+        "awayWinProbability": 33,
+        "likelyScore": "1-1",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Dunbeholden",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.7884800000000001,
+          "awayGoals": 0.6824399999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1.2
+      },
+      "reasoning": "Dunbeholden (0/5 recent wins) vs Portmore United (0/5 recent wins) in Premier League. This is a closely contested match with 20% draw probability. Expected score: 1-1. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1.2",
+        "Home Advantage: 12%",
+        "Expected Goals: 0.8 vs 0.7"
+      ]
+    },
+    {
+      "id": 1374140,
+      "date": "2025-08-25T22:15:00+00:00",
+      "venue": "Estadio Jorge Luis Hirschi",
+      "city": "La Plata, Provincia de Buenos Aires",
+      "country": "Argentina",
+      "homeTeam": "Estudiantes L.P.",
+      "awayTeam": "Aldosivi",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/450.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/463.png",
+      "homeTeamId": 450,
+      "awayTeamId": 463,
+      "league": "Liga Profesional Argentina",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 46,
+        "drawProbability": 23,
+        "awayWinProbability": 31,
+        "likelyScore": "2-0",
+        "halftimeResult": "0-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Estudiantes L.P.",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.5875199999999999,
+          "awayGoals": 0.5385599999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 0.85
+      },
+      "reasoning": "Estudiantes L.P. (0/5 recent wins) vs Aldosivi (0/5 recent wins) in Liga Profesional Argentina. This is a closely contested match with 23% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 0.85",
+        "Home Advantage: 8%",
+        "Expected Goals: 0.6 vs 0.5"
+      ]
+    },
+    {
+      "id": 1392416,
+      "date": "2025-08-25T23:00:00+00:00",
+      "venue": "Estadio de La Independencia",
+      "city": "Tunja",
+      "country": "Colombia",
+      "homeTeam": "Chico",
+      "awayTeam": "Deportivo Cali",
+      "homeTeamLogo": "https://media.api-sports.io/football/teams/1132.png",
+      "awayTeamLogo": "https://media.api-sports.io/football/teams/1127.png",
+      "homeTeamId": 1132,
+      "awayTeamId": 1127,
+      "league": "Primera A",
+      "homeGoals": null,
+      "awayGoals": null,
+      "homeScore": null,
+      "awayScore": null,
+      "status": "NS",
+      "elapsed": null,
+      "prediction": {
+        "homeWinProbability": 43,
+        "drawProbability": 22,
+        "awayWinProbability": 35,
+        "likelyScore": "2-0",
+        "halftimeResult": "1-0",
+        "overUnder2_5": "Under 2.5",
+        "winner": "Chico",
+        "confidence": "MEDIUM",
+        "riskLevel": "MEDIUM"
+      },
+      "analysis": {
+        "homeStrength": 58,
+        "awayStrength": 50,
+        "goalExpectations": {
+          "homeGoals": 0.704,
+          "awayGoals": 0.6269999999999999
+        },
+        "dataQuality": 85,
+        "leagueStrength": 1
+      },
+      "reasoning": "Chico (0/5 recent wins) vs Deportivo Cali (0/5 recent wins) in Primera A. This is a closely contested match with 22% draw probability. Expected score: 2-0. Confidence level: MEDIUM.",
+      "keyFactors": [
+        "Home Team Form: D-D-D-D-D",
+        "Away Team Form: D-D-D-D-D",
+        "League Strength: 1",
+        "Home Advantage: 10%",
+        "Expected Goals: 0.7 vs 0.6"
+      ]
+    }
+  ]
+}

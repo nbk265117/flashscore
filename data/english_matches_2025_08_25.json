@@ -1,0 +1,372 @@
+{
+  "metadata": {
+    "date": "2025-08-25",
+    "country": "England",
+    "totalMatches": 158,
+    "totalLeagues": 17,
+    "generatedAt": "2025-08-25T09:52:42+01:00"
+  },
+  "leagues": {
+    "premier_league": {
+      "name": "Premier League",
+      "level": "Top Tier",
+      "matchCount": 1,
+      "matches": [
+        {
+          "id": 1378987,
+          "date": "2025-08-25T19:00:00+00:00",
+          "venue": "St. James' Park",
+          "city": "Newcastle upon Tyne",
+          "country": "England",
+          "homeTeam": "Newcastle",
+          "awayTeam": "Liverpool",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/34.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/40.png",
+          "homeTeamId": 34,
+          "awayTeamId": 40,
+          "league": "Premier League",
+          "status": "NS"
+        }
+      ]
+    },
+    "premier_league_2": {
+      "name": "Premier League 2 Division One",
+      "level": "U21 Development",
+      "matchCount": 2,
+      "matches": [
+        {
+          "id": 1434327,
+          "date": "2025-08-25T13:00:00+00:00",
+          "venue": "Liverpool's Academy Ground",
+          "city": "Knowsley, Merseyside",
+          "country": "England",
+          "homeTeam": "Liverpool U21",
+          "awayTeam": "Burnley U21",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/7196.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/20081.png",
+          "homeTeamId": 7196,
+          "awayTeamId": 20081,
+          "league": "Premier League 2 Division One",
+          "status": "NS"
+        },
+        {
+          "id": 1434328,
+          "date": "2025-08-25T13:00:00+00:00",
+          "venue": "ARMCO Arena",
+          "city": "Solihull, West Midlands",
+          "country": "England",
+          "homeTeam": "West Bromwich Albion U21",
+          "awayTeam": "Aston Villa U21",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/11913.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/7190.png",
+          "homeTeamId": 11913,
+          "awayTeamId": 7190,
+          "league": "Premier League 2 Division One",
+          "status": "NS"
+        }
+      ]
+    },
+    "professional_development_league": {
+      "name": "Professional Development League",
+      "level": "U21 Development",
+      "matchCount": 1,
+      "matches": [
+        {
+          "id": 1433903,
+          "date": "2025-08-25T11:00:00+00:00",
+          "venue": "AFC Bournemouth Performance Centre",
+          "city": "Bournemouth, Dorset",
+          "country": "England",
+          "homeTeam": "AFC Bournemouth U21",
+          "awayTeam": "Peterborough United U21",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/20000.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/20018.png",
+          "homeTeamId": 20000,
+          "awayTeamId": 20018,
+          "league": "Professional Development League",
+          "status": "NS"
+        }
+      ]
+    },
+    "national_league": {
+      "name": "National League",
+      "level": "Professional Non-League",
+      "matchCount": 12,
+      "matches": [
+        {
+          "id": 1378988,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "The EBB Stadium",
+          "city": "Aldershot, Hampshire",
+          "country": "England",
+          "homeTeam": "Aldershot Town",
+          "awayTeam": "Morecambe",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1818.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1375.png",
+          "homeTeamId": 1818,
+          "awayTeamId": 1375,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378989,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Moss Lane",
+          "city": "Altrincham, Greater Manchester",
+          "country": "England",
+          "homeTeam": "Altrincham",
+          "awayTeam": "Solihull Moors",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/4700.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1834.png",
+          "homeTeamId": 4700,
+          "awayTeamId": 1834,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378990,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Meadow Park",
+          "city": "Borehamwood, Hertfordshire",
+          "country": "England",
+          "homeTeam": "Boreham Wood",
+          "awayTeam": "Truro City",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1830.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/4699.png",
+          "homeTeamId": 1830,
+          "awayTeamId": 4699,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378991,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "The Jakemans Stadium",
+          "city": "Boston, Lincolnshire",
+          "country": "England",
+          "homeTeam": "Boston United",
+          "awayTeam": "Wealdstone",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/8146.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/8663.png",
+          "homeTeamId": 8146,
+          "awayTeamId": 8663,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378992,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Brunton Park",
+          "city": "Carlisle, Cumbria",
+          "country": "England",
+          "homeTeam": "Carlisle",
+          "awayTeam": "Braintree",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1832.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1833.png",
+          "homeTeamId": 1832,
+          "awayTeamId": 1833,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378993,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "The New Lawn",
+          "city": "Nailsworth, Gloucestershire",
+          "country": "England",
+          "homeTeam": "Forest Green",
+          "awayTeam": "Eastleigh",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1835.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1836.png",
+          "homeTeamId": 1835,
+          "awayTeamId": 1836,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378994,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Crown Oil Arena",
+          "city": "Rochdale, Greater Manchester",
+          "country": "England",
+          "homeTeam": "Rochdale",
+          "awayTeam": "Sutton Utd",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1837.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1838.png",
+          "homeTeamId": 1837,
+          "awayTeamId": 1838,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378995,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Glanford Park",
+          "city": "Scunthorpe, Lincolnshire",
+          "country": "England",
+          "homeTeam": "Scunthorpe",
+          "awayTeam": "FC Halifax Town",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1839.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1840.png",
+          "homeTeamId": 1839,
+          "awayTeamId": 1840,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378996,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Roots Hall",
+          "city": "Southend-on-Sea, Essex",
+          "country": "England",
+          "homeTeam": "Southend",
+          "awayTeam": "Hartlepool",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1841.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1842.png",
+          "homeTeamId": 1841,
+          "awayTeamId": 1842,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378997,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "The Lamb Ground",
+          "city": "Tamworth, Staffordshire",
+          "country": "England",
+          "homeTeam": "Tamworth",
+          "awayTeam": "Brackley Town",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1843.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1844.png",
+          "homeTeamId": 1843,
+          "awayTeamId": 1844,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378998,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Kingfield Stadium",
+          "city": "Woking, Surrey",
+          "country": "England",
+          "homeTeam": "Woking",
+          "awayTeam": "York",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1845.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1846.png",
+          "homeTeamId": 1845,
+          "awayTeamId": 1846,
+          "league": "National League",
+          "status": "NS"
+        },
+        {
+          "id": 1378999,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Huish Park",
+          "city": "Yeovil, Somerset",
+          "country": "England",
+          "homeTeam": "Yeovil Town",
+          "awayTeam": "Gateshead",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1847.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1848.png",
+          "homeTeamId": 1847,
+          "awayTeamId": 1848,
+          "league": "National League",
+          "status": "NS"
+        }
+      ]
+    },
+    "national_league_north": {
+      "name": "National League North",
+      "level": "Professional Non-League",
+      "matchCount": 12,
+      "matches": [
+        {
+          "id": 1379000,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Croft Park",
+          "city": "Blyth, Northumberland",
+          "country": "England",
+          "homeTeam": "Blyth Spartans",
+          "awayTeam": "Ashington AFC",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1849.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1850.png",
+          "homeTeamId": 1849,
+          "awayTeamId": 1850,
+          "league": "National League North",
+          "status": "NS"
+        },
+        {
+          "id": 1379001,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Causeway Lane",
+          "city": "Matlock, Derbyshire",
+          "country": "England",
+          "homeTeam": "Matlock Town",
+          "awayTeam": "Ossett United",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1851.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1852.png",
+          "homeTeamId": 1851,
+          "awayTeamId": 1852,
+          "league": "National League North",
+          "status": "NS"
+        }
+      ]
+    },
+    "national_league_south": {
+      "name": "National League South",
+      "level": "Professional Non-League",
+      "matchCount": 12,
+      "matches": [
+        {
+          "id": 1379012,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Crowborough Community Stadium",
+          "city": "Crowborough, East Sussex",
+          "country": "England",
+          "homeTeam": "Crowborough Athletic",
+          "awayTeam": "Hastings United",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1861.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1862.png",
+          "homeTeamId": 1861,
+          "awayTeamId": 1862,
+          "league": "National League South",
+          "status": "NS"
+        },
+        {
+          "id": 1379013,
+          "date": "2025-08-25T15:00:00+00:00",
+          "venue": "Holmesdale Road",
+          "city": "Sheppey, Kent",
+          "country": "England",
+          "homeTeam": "Sheppey United",
+          "awayTeam": "Sittingbourne",
+          "homeTeamLogo": "https://media.api-sports.io/football/teams/1863.png",
+          "awayTeamLogo": "https://media.api-sports.io/football/teams/1864.png",
+          "homeTeamId": 1863,
+          "awayTeamId": 1864,
+          "league": "National League South",
+          "status": "NS"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "byLevel": {
+      "Top Tier": 1,
+      "U21 Development": 3,
+      "Professional Non-League": 36,
+      "Semi-Professional": 118
+    },
+    "byTime": {
+      "Morning (11:00-12:00)": 1,
+      "Afternoon (13:00-16:00)": 156,
+      "Evening (19:00-20:00)": 1
+    },
+    "byRegion": {
+      "North": 45,
+      "South": 65,
+      "Midlands": 30,
+      "London": 18
+    }
+  }
+}

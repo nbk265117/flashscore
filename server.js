@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static('public'));
 
 // Serve data files
-app.use('/data', express.static('data'));
+app.use('/data', express.static('public/data'));
 
 // Serve images
 app.use('/images', express.static('public/images'));
@@ -32,10 +32,15 @@ app.get('/comparison.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'comparison.html'));
 });
 
-// Brazilian matches route
-app.get('/brazilian-matches.html', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'brazilian-matches.html'));
-});
+    // Brazilian matches route
+    app.get('/brazilian-matches.html', (req, res) => {
+        res.sendFile(path.join(__dirname, 'public', 'brazilian-matches.html'));
+    });
+
+    // Improved predictions route
+    app.get('/improved-predictions.html', (req, res) => {
+        res.sendFile(path.join(__dirname, 'public', 'improved-predictions.html'));
+    });
 
 // API route for analysis data
 app.get('/api/analysis', (req, res) => {
