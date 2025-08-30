@@ -495,19 +495,19 @@
     <main class="container">
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">1,528</div>
-                <div class="stat-label">All Matches</div>
+                <div class="stat-number" id="totalMatches">-</div>
+                <div class="stat-label">Upcoming Matches</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">258</div>
+                <div class="stat-number" id="highConfidence">-</div>
                 <div class="stat-label">High Confidence</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">1,270</div>
+                <div class="stat-number" id="mediumConfidence">-</div>
                 <div class="stat-label">Medium Confidence</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">45%</div>
+                <div class="stat-number" id="avgHomeWin">-</div>
                 <div class="stat-label">Avg Home Win</div>
             </div>
         </div>
@@ -572,7 +572,14 @@
             try {
                 const response = await fetch('data/enhanced_matches_2025_08_30.json');
                 const data = await response.json();
-                allPredictions = data.matches.filter(match => match.enhancedData);
+                
+                // Filter out matches that have already been played
+                const now = new Date();
+                allPredictions = data.matches.filter(match => {
+                    const matchDate = new Date(match.date);
+                    return match.enhancedData && matchDate > now;
+                });
+                
                 filteredPredictions = [...allPredictions];
                 
                 populateLeagueFilter();
@@ -618,15 +625,15 @@
 
                 let timeMatch = true;
                 if (timeFilter === 'today') {
-                    timeMatch = isToday;
+                    timeMatch = isToday && matchDate > now;
                 } else if (timeFilter === 'upcoming') {
                     timeMatch = isUpcoming;
                 } else if (timeFilter === 'morning') {
-                    timeMatch = matchHour >= 0 && matchHour < 12;
+                    timeMatch = matchHour >= 0 && matchHour < 12 && matchDate > now;
                 } else if (timeFilter === 'afternoon') {
-                    timeMatch = matchHour >= 12 && matchHour < 18;
+                    timeMatch = matchHour >= 12 && matchHour < 18 && matchDate > now;
                 } else if (timeFilter === 'evening') {
-                    timeMatch = matchHour >= 18 && matchHour < 24;
+                    timeMatch = matchHour >= 18 && matchHour < 24 && matchDate > now;
                 }
 
                 return confidenceMatch && leagueMatch && searchMatch && timeMatch;
@@ -651,32 +658,11 @@
             const mediumConfidence = filteredPredictions.filter(m => m.enhancedData.confidence === 'MEDIUM').length;
             const avgHomeWin = Math.round(filteredPredictions.reduce((sum, m) => sum + m.probabilities.homeWin, 0) / filteredPredictions.length);
             
-            // Calculate time-based stats
-            const now = new Date();
-            const upcomingMatches = filteredPredictions.filter(m => new Date(m.date) > now).length;
-            const todayMatches = filteredPredictions.filter(m => {
-                const matchDate = new Date(m.date);
-                return matchDate.toDateString() === now.toDateString();
-            }).length;
-            
-            document.querySelector('.stats-grid').innerHTML = `
-                <div class="stat-card">
-                    <div class="stat-number">${filteredPredictions.length}</div>
-                    <div class="stat-label">Filtered Matches</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${upcomingMatches}</div>
-                    <div class="stat-label">Upcoming</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${highConfidence}</div>
-                    <div class="stat-label">High Confidence</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${avgHomeWin}%</div>
-                    <div class="stat-label">Avg Home Win</div>
-                </div>
-            `;
+            // Update stats in the DOM
+            document.getElementById('totalMatches').textContent = filteredPredictions.length;
+            document.getElementById('highConfidence').textContent = highConfidence;
+            document.getElementById('mediumConfidence').textContent = mediumConfidence;
+            document.getElementById('avgHomeWin').textContent = avgHomeWin + '%';
         }
 
         function formatMatchTime(dateString) {
@@ -684,7 +670,7 @@
             const now = new Date();
             const timeDiff = date - now;
             
-            // Format time
+            // Format time in 24-hour format
             const timeOptions = { 
                 hour: '2-digit', 
                 minute: '2-digit',
