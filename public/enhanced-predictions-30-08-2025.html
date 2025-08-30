@@ -236,17 +236,17 @@
 
         .predictions-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-            gap: 1.5rem;
-            margin-top: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
         }
 
         .prediction-card {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(20px);
-            border-radius: 16px;
-            padding: 2rem;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
             border: 1px solid rgba(255, 255, 255, 0.2);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
@@ -260,32 +260,32 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 0.75rem;
         }
 
         .teams {
             display: flex;
             align-items: center;
-            gap: 1rem;
-            font-size: 1.2rem;
-            font-weight: 700;
+            gap: 0.75rem;
+            font-size: 1rem;
+            font-weight: 600;
             color: #333;
         }
 
         .team {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.4rem;
         }
 
         .team-logo {
-            width: 32px;
-            height: 32px;
+            width: 28px;
+            height: 28px;
             border-radius: 50%;
             object-fit: cover;
-            border: 2px solid #e2e8f0;
+            border: 1px solid #e2e8f0;
             background: #f8fafc;
         }
 
@@ -300,12 +300,12 @@
         }
 
         .confidence-badge {
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.85rem;
+            padding: 0.4rem 0.8rem;
+            border-radius: 16px;
+            font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.3px;
         }
 
         .confidence-high {
@@ -322,51 +322,51 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             flex-wrap: wrap;
-            gap: 1rem;
+            gap: 0.75rem;
         }
 
         .league-name {
             color: #666;
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: 500;
         }
 
         .match-time {
             color: #667eea;
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: 600;
             background: rgba(102, 126, 234, 0.1);
-            padding: 0.5rem 1rem;
-            border-radius: 8px;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
             border: 1px solid rgba(102, 126, 234, 0.2);
         }
 
         .prediction-details {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 0.75rem;
         }
 
         .detail-item {
             background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-            padding: 1.25rem;
-            border-radius: 12px;
+            padding: 0.75rem;
+            border-radius: 8px;
             border: 1px solid #e2e8f0;
         }
 
         .detail-label {
-            font-size: 0.85rem;
+            font-size: 0.75rem;
             color: #64748b;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
             font-weight: 500;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
+            letter-spacing: 0.3px;
         }
 
         .detail-value {
-            font-size: 1.1rem;
+            font-size: 1rem;
             font-weight: 700;
             color: #1e293b;
         }
@@ -488,7 +488,7 @@
         <div class="container">
             <h1>🎯 Enhanced Predictions</h1>
             <h2>30/08/2025 - ImprovedPredictor v2.0</h2>
-            <p>Advanced AI-powered predictions for 1,528 matches with realistic probabilities and confidence scoring</p>
+            <p>Advanced AI-powered predictions for upcoming matches from 14:30 onwards</p>
         </div>
     </section>
 
@@ -532,11 +532,10 @@
                 <div class="filter-group">
                     <label>Time Filter</label>
                     <select id="timeFilter">
-                        <option value="all">All Times</option>
-                        <option value="today">Today Only</option>
+                        <option value="all">All Times (14:30+)</option>
+                        <option value="today">Today Only (14:30+)</option>
                         <option value="upcoming">Upcoming (Next 24h)</option>
-                        <option value="morning">Morning (00:00-12:00)</option>
-                        <option value="afternoon">Afternoon (12:00-18:00)</option>
+                        <option value="afternoon">Afternoon (14:30-18:00)</option>
                         <option value="evening">Evening (18:00-24:00)</option>
                     </select>
                 </div>
@@ -573,11 +572,14 @@
                 const response = await fetch('data/enhanced_matches_2025_08_30.json');
                 const data = await response.json();
                 
-                // Filter out matches that have already been played
+                // Filter out matches that have already been played and matches before 14:30 today
                 const now = new Date();
+                const today = new Date();
+                today.setHours(14, 30, 0, 0); // Set to 14:30 today
+                
                 allPredictions = data.matches.filter(match => {
                     const matchDate = new Date(match.date);
-                    return match.enhancedData && matchDate > now;
+                    return match.enhancedData && matchDate > today;
                 });
                 
                 filteredPredictions = [...allPredictions];
@@ -619,21 +621,23 @@
                 // Time filtering
                 const matchDate = new Date(match.date);
                 const now = new Date();
+                const today = new Date();
+                today.setHours(14, 30, 0, 0); // Set to 14:30 today
                 const matchHour = matchDate.getHours();
                 const isToday = matchDate.toDateString() === now.toDateString();
-                const isUpcoming = matchDate > now && (matchDate - now) <= 24 * 60 * 60 * 1000;
+                const isUpcoming = matchDate > today && (matchDate - today) <= 24 * 60 * 60 * 1000;
 
                 let timeMatch = true;
                 if (timeFilter === 'today') {
-                    timeMatch = isToday && matchDate > now;
+                    timeMatch = isToday && matchDate > today;
                 } else if (timeFilter === 'upcoming') {
                     timeMatch = isUpcoming;
                 } else if (timeFilter === 'morning') {
-                    timeMatch = matchHour >= 0 && matchHour < 12 && matchDate > now;
+                    timeMatch = matchHour >= 0 && matchHour < 12 && matchDate > today;
                 } else if (timeFilter === 'afternoon') {
-                    timeMatch = matchHour >= 12 && matchHour < 18 && matchDate > now;
+                    timeMatch = matchHour >= 14 && matchHour < 18 && matchDate > today;
                 } else if (timeFilter === 'evening') {
-                    timeMatch = matchHour >= 18 && matchHour < 24 && matchDate > now;
+                    timeMatch = matchHour >= 18 && matchHour < 24 && matchDate > today;
                 }
 
                 return confidenceMatch && leagueMatch && searchMatch && timeMatch;
