@@ -333,6 +333,16 @@
             font-weight: 500;
         }
 
+        .country-name {
+            color: #667eea;
+            font-size: 0.8rem;
+            font-weight: 600;
+            background: rgba(102, 126, 234, 0.1);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            margin-left: 0.5rem;
+        }
+
         .match-time {
             color: #667eea;
             font-size: 0.9rem;
@@ -524,6 +534,12 @@
                     </select>
                 </div>
                 <div class="filter-group">
+                    <label>Country</label>
+                    <select id="countryFilter">
+                        <option value="all">All Countries</option>
+                    </select>
+                </div>
+                <div class="filter-group">
                     <label>League</label>
                     <select id="leagueFilter">
                         <option value="all">All Leagues</option>
@@ -584,7 +600,7 @@
                 
                 filteredPredictions = [...allPredictions];
                 
-                populateLeagueFilter();
+                populateFilters();
                 displayPredictions();
                 updateStats();
             } catch (error) {
@@ -593,7 +609,19 @@
             }
         }
 
-        function populateLeagueFilter() {
+        function populateFilters() {
+            // Populate country filter
+            const countries = [...new Set(allPredictions.map(match => match.country).filter(Boolean))].sort();
+            const countryFilter = document.getElementById('countryFilter');
+            
+            countries.forEach(country => {
+                const option = document.createElement('option');
+                option.value = country;
+                option.textContent = country;
+                countryFilter.appendChild(option);
+            });
+
+            // Populate league filter
             const leagues = [...new Set(allPredictions.map(match => match.league))].sort();
             const leagueFilter = document.getElementById('leagueFilter');
             
@@ -607,12 +635,14 @@
 
         function applyFilters() {
             const confidenceFilter = document.getElementById('confidenceFilter').value;
+            const countryFilter = document.getElementById('countryFilter').value;
             const leagueFilter = document.getElementById('leagueFilter').value;
             const timeFilter = document.getElementById('timeFilter').value;
             const searchFilter = document.getElementById('searchFilter').value.toLowerCase();
 
             filteredPredictions = allPredictions.filter(match => {
                 const confidenceMatch = confidenceFilter === 'all' || match.enhancedData.confidence === confidenceFilter;
+                const countryMatch = countryFilter === 'all' || match.country === countryFilter;
                 const leagueMatch = leagueFilter === 'all' || match.league === leagueFilter;
                 const searchMatch = searchFilter === '' || 
                     match.homeTeam.toLowerCase().includes(searchFilter) || 
@@ -640,7 +670,7 @@
                     timeMatch = matchHour >= 18 && matchHour < 24 && matchDate > today;
                 }
 
-                return confidenceMatch && leagueMatch && searchMatch && timeMatch;
+                return confidenceMatch && countryMatch && leagueMatch && searchMatch && timeMatch;
             });
 
             displayPredictions();
@@ -649,6 +679,7 @@
 
         function resetFilters() {
             document.getElementById('confidenceFilter').value = 'all';
+            document.getElementById('countryFilter').value = 'all';
             document.getElementById('leagueFilter').value = 'all';
             document.getElementById('timeFilter').value = 'all';
             document.getElementById('searchFilter').value = '';
@@ -756,7 +787,10 @@
                                     <span class="confidence-badge ${confidenceClass}">${match.enhancedData.confidence}</span>
                                 </div>
                                 <div class="match-info">
-                                    <div class="league-name">🏆 ${match.league}</div>
+                                    <div class="league-name">
+                                        🏆 ${match.league}
+                                        <span class="country-name">${match.country || 'Unknown'}</span>
+                                    </div>
                                     <div class="match-time">🕐 ${matchTime}</div>
                                 </div>
                                 <div class="prediction-details">
